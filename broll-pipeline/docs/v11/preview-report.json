@@ -1,0 +1,39 @@
+{
+  "stage": "preview_pending_user_quality_review",
+  "selected_options": [
+    "A1",
+    "B2",
+    "C2"
+  ],
+  "approval_message": "A1 B2 C2",
+  "duration_seconds": 12,
+  "frames": 360,
+  "fps": 30,
+  "dimensions": [
+    540,
+    960
+  ],
+  "codec": "h264",
+  "preview_sha256": "4f3f38b2950b1b155ebb12c9f4d67acf406c0f410bad0087bbb0e2195bc3b82e",
+  "audio": "silent; no human narration file provided; captions included",
+  "visual_check": {
+    "sample_times_seconds": [
+      1,
+      3.5,
+      4.5,
+      6.5,
+      8.5,
+      10.5
+    ],
+    "source_meal_visible": true,
+    "labels_and_captions_legible": true,
+    "no_nutrition_numbers": true,
+    "scene_changes_seconds": [
+      4,
+      8
+    ]
+  },
+  "user_quality_approved": false,
+  "final_1080_generated": false,
+  "old_engines_modified": false
+}

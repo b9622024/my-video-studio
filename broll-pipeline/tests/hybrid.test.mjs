@@ -14,10 +14,14 @@ test('real reviewed objects can support concepts; mandatory demonstrations canno
  assert.equal(recommendVisuals(s,review.options).status,'user_footage_required');
 });
 test('approval and all downloads are blocked without explicit current user selections',async()=>{
- await assert.rejects(prepareHybridMedia(dir,{fetchImpl:()=>{throw Error('must never call');}}),e=>e.code==='APPROVAL_REQUIRED');
- await assert.rejects(compileHybrid(dir),e=>e.code==='APPROVAL_REQUIRED');
- await assert.rejects(approveChatSelection(dir,{provenance:'recommendation'}),e=>e.code==='EXPLICIT_APPROVAL_REQUIRED');
- await assert.rejects(fs.access(dir+'/approved-assets.json'));assert.deepEqual((await readJSON(dir+'/edit-timeline.json')).clips,[]);
+ const temp=await fs.mkdtemp(path.join(os.tmpdir(),'hybrid-unapproved-'));
+ try{
+  for(const name of ['scene-plan.json','review-options.json','asset-manifest.json'])await fs.copyFile(path.join(dir,name),path.join(temp,name));
+  await assert.rejects(prepareHybridMedia(temp,{fetchImpl:()=>{throw Error('must never call');}}),e=>e.code==='APPROVAL_REQUIRED');
+  await assert.rejects(compileHybrid(temp),e=>e.code==='APPROVAL_REQUIRED');
+  await assert.rejects(approveChatSelection(temp,{provenance:'recommendation'}),e=>e.code==='EXPLICIT_APPROVAL_REQUIRED');
+  await assert.rejects(fs.access(temp+'/approved-assets.json'));
+ }finally{await fs.rm(temp,{recursive:true,force:true});}
 });
 test('real media + explicit TEST-ONLY selection compiles only in isolated project; stale/tamper/final gates reject',async()=>{
  const temp=await fs.mkdtemp(path.join(os.tmpdir(),'hybrid-v11-'));
@@ -25,7 +29,7 @@ test('real media + explicit TEST-ONLY selection compiles only in isolated projec
   for(const name of ['scene-plan.json','review-options.json','asset-manifest.json'])await fs.copyFile(path.join(dir,name),path.join(temp,name));
   const r=await readJSON(temp+'/review-options.json');const req={provenance:'user_explicit',project_id:r.project_id,revision_id:r.revision_id,approval_evidence:{channel:'chat',message:'TEST FIXTURE ONLY; not a user approval of bento assets'},selections:['A1','B1','C1'].map(option_id=>({option_id,scene_id:option_id[0]}))};
   await assert.rejects(approveChatSelection(temp,{...req,revision_id:'old'}));
-  const approved=await approveChatSelection(temp,req);await assert.rejects(compileHybrid(temp),e=>e.code==='MISSING_APPROVED_MEDIA');
+  await writeJSON(temp+'/asset-manifest.json',{project_id:r.project_id,assets:[]});const approved=await approveChatSelection(temp,req);await assert.rejects(compileHybrid(temp),e=>e.code==='MISSING_APPROVED_MEDIA');
   await fs.mkdir(temp+'/media');const assets=[];
   for(const o of approved.selections){const bytes=await fs.readFile(path.join(dir,o.preview.video));const file='media/'+o.asset_id+'.mp4';await fs.writeFile(path.join(temp,file),bytes);assets.push({...o,local_path:file,source_sha256:hash(bytes),actual_duration:o.preview.duration});}
   await writeJSON(temp+'/asset-manifest.json',{schema_version:'1.1',project_id:r.project_id,assets});

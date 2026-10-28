@@ -4,7 +4,7 @@ import json,subprocess,threading
 from http.server import ThreadingHTTPServer,SimpleHTTPRequestHandler
 from functools import partial
 from playwright.sync_api import sync_playwright
-ROOT=Path(__file__).resolve().parents[1];OUT=Path('/workspace/outputs/broll-v11-review');checks=[];media=[]
+ROOT=Path(__file__).resolve().parents[1];approval_file=ROOT/'projects/bento-v11/approved-assets.json';approval_before=approval_file.read_bytes() if approval_file.exists() else None;OUT=Path('/workspace/outputs/broll-v11-review');checks=[];media=[]
 for name in ['A1','A2','B1','C1']:
  m=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_format','-show_streams','-of','json',str(OUT/(name+'.mp4'))]))
  assert abs(float(m['format']['duration'])-4)<.15
@@ -25,6 +25,6 @@ with sync_playwright() as p:
  assert page.evaluate('document.documentElement.scrollWidth<=innerWidth');assert not errors
  browser.close()
 server.shutdown()
-assert not (ROOT/'projects/bento-v11/approved-assets.json').exists()
+assert (approval_file.read_bytes() if approval_file.exists() else None)==approval_before
 report={'status':'PASS','real_candidate_media':media,'file_uri_playback_verified':False,'file_uri_limitation':'managed Chromium policy ERR_BLOCKED_BY_ADMINISTRATOR; not bypassed','local_http_media_playback_verified':True,'html_request_export':'PASS','formal_approval_created':False,'physical_iPhone_Safari_tested':False,'engine':'Chromium 393x852 touch, private local HTTP for QA only; user may reply with IDs directly','rendered_12_second_film':False}
 (ROOT/'docs/v11/review-test.json').write_text(json.dumps(report,ensure_ascii=False,indent=2));print(json.dumps(report,ensure_ascii=False,indent=2))

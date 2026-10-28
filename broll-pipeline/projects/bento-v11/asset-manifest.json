@@ -4,105 +4,6 @@
   "status": "candidates_only",
   "assets": [
     {
-      "option_id": "A1",
-      "scene_id": "A",
-      "number": 1,
-      "mode": "contextual_broll",
-      "match_status": "contextual_match",
-      "title": "餐盤肉與沙拉：外食情境，不代表均衡已驗證。",
-      "asset_id": "pixabay-227128",
-      "candidate_id": "pixabay-227128",
-      "layout": "full_frame",
-      "reason": "餐盤肉與沙拉：外食情境，不代表均衡已驗證。",
-      "not_claimed": "不聲稱裝便當、盛飯或營養量測事件。",
-      "review_status": "pending",
-      "action_verified": false,
-      "visual_check": {
-        "status": "frames_reviewed_contextual",
-        "basis": "V1.0.1實際影格紀錄；改以概念情境需求評估，仍須使用者核准。",
-        "objects_and_state": true,
-        "exact_action_verified": false,
-        "source_review_hash": "c1a95ed09f86e4073082f036ce4562153aec39d18c42b3ef7c5d0b42762c2cd9"
-      },
-      "source_url": "https://pixabay.com/videos/id-227128/",
-      "author": "kurt_BID",
-      "license_url": "https://pixabay.com/service/license-summary/",
-      "license_checked_at": "2026-10-28T15:52:00.484Z",
-      "variants": [
-        {
-          "name": "large",
-          "url": "https://cdn.pixabay.com/video/2024/08/18/227128_large.mp4",
-          "width": 2160,
-          "height": 3840,
-          "size": 11009637,
-          "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_large.jpg"
-        },
-        {
-          "name": "medium",
-          "url": "https://cdn.pixabay.com/video/2024/08/18/227128_medium.mp4",
-          "width": 1440,
-          "height": 2560,
-          "size": 7146718,
-          "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_medium.jpg"
-        },
-        {
-          "name": "small",
-          "url": "https://cdn.pixabay.com/video/2024/08/18/227128_small.mp4",
-          "width": 1080,
-          "height": 1920,
-          "size": 4417723,
-          "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_small.jpg"
-        },
-        {
-          "name": "tiny",
-          "url": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.mp4",
-          "width": 720,
-          "height": 1280,
-          "size": 1649492,
-          "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.jpg"
-        }
-      ],
-      "duration": 6,
-      "width": 2160,
-      "height": 3840,
-      "selected_trim": {
-        "start": 1,
-        "end": 5
-      },
-      "crop_parameters": {
-        "aspect_ratio": "9:16",
-        "object_position_x": 0.5,
-        "object_position_y": 0.5,
-        "verified": false
-      },
-      "preview": {
-        "video": "previews/pixabay-227128.mp4",
-        "poster": "previews/pixabay-227128-frame-2.jpg",
-        "frames": [
-          {
-            "time_seconds": 0.9359999999999999,
-            "path": "previews/pixabay-227128-frame-1.jpg"
-          },
-          {
-            "time_seconds": 3.12,
-            "path": "previews/pixabay-227128-frame-2.jpg"
-          },
-          {
-            "time_seconds": 5.304,
-            "path": "previews/pixabay-227128-frame-3.jpg"
-          }
-        ],
-        "duration": 6.24,
-        "sha256": "c1a95ed09f86e4073082f036ce4562153aec39d18c42b3ef7c5d0b42762c2cd9",
-        "bytes": 318345,
-        "source_variant_url": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.mp4",
-        "source_sha256": "eafe501f6fcaddd720a81597ec9634d416287f4050da55d4ca80615fec418d11",
-        "temporary_review_only": true
-      },
-      "source_sha256": null,
-      "graphic": null
-    },
-    {
       "option_id": "A2",
       "scene_id": "A",
       "number": 2,
@@ -414,6 +315,114 @@
         ],
         "caption": "概念示意，沒有建議克數或固定比例"
       }
+    },
+    {
+      "option_id": "A1",
+      "scene_id": "A",
+      "number": 1,
+      "mode": "contextual_broll",
+      "match_status": "contextual_match",
+      "title": "餐盤肉與沙拉：外食情境，不代表均衡已驗證。",
+      "asset_id": "pixabay-227128",
+      "candidate_id": "pixabay-227128",
+      "layout": "full_frame",
+      "reason": "餐盤肉與沙拉：外食情境，不代表均衡已驗證。",
+      "not_claimed": "不聲稱裝便當、盛飯或營養量測事件。",
+      "review_status": "approved",
+      "action_verified": false,
+      "visual_check": {
+        "status": "frames_reviewed_contextual",
+        "basis": "V1.0.1實際影格紀錄；改以概念情境需求評估，仍須使用者核准。",
+        "objects_and_state": true,
+        "exact_action_verified": false,
+        "source_review_hash": "c1a95ed09f86e4073082f036ce4562153aec39d18c42b3ef7c5d0b42762c2cd9"
+      },
+      "source_url": "https://pixabay.com/videos/id-227128/",
+      "author": "kurt_BID",
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "license_checked_at": "2026-10-28T15:52:00.484Z",
+      "variants": [
+        {
+          "name": "large",
+          "url": "https://cdn.pixabay.com/video/2024/08/18/227128_large.mp4",
+          "width": 2160,
+          "height": 3840,
+          "size": 11009637,
+          "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_large.jpg"
+        },
+        {
+          "name": "medium",
+          "url": "https://cdn.pixabay.com/video/2024/08/18/227128_medium.mp4",
+          "width": 1440,
+          "height": 2560,
+          "size": 7146718,
+          "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_medium.jpg"
+        },
+        {
+          "name": "small",
+          "url": "https://cdn.pixabay.com/video/2024/08/18/227128_small.mp4",
+          "width": 1080,
+          "height": 1920,
+          "size": 4417723,
+          "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_small.jpg"
+        },
+        {
+          "name": "tiny",
+          "url": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.mp4",
+          "width": 720,
+          "height": 1280,
+          "size": 1649492,
+          "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.jpg"
+        }
+      ],
+      "duration": 6,
+      "width": 2160,
+      "height": 3840,
+      "selected_trim": {
+        "start": 1,
+        "end": 5
+      },
+      "crop_parameters": {
+        "aspect_ratio": "9:16",
+        "object_position_x": 0.5,
+        "object_position_y": 0.5,
+        "verified": false
+      },
+      "preview": {
+        "video": "previews/pixabay-227128.mp4",
+        "poster": "previews/pixabay-227128-frame-2.jpg",
+        "frames": [
+          {
+            "time_seconds": 0.9359999999999999,
+            "path": "previews/pixabay-227128-frame-1.jpg"
+          },
+          {
+            "time_seconds": 3.12,
+            "path": "previews/pixabay-227128-frame-2.jpg"
+          },
+          {
+            "time_seconds": 5.304,
+            "path": "previews/pixabay-227128-frame-3.jpg"
+          }
+        ],
+        "duration": 6.24,
+        "sha256": "c1a95ed09f86e4073082f036ce4562153aec39d18c42b3ef7c5d0b42762c2cd9",
+        "bytes": 318345,
+        "source_variant_url": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.mp4",
+        "source_sha256": "eafe501f6fcaddd720a81597ec9634d416287f4050da55d4ca80615fec418d11",
+        "temporary_review_only": true
+      },
+      "source_sha256": "be2a43ecbcf4ddf5cd3dfce81035db0001be589f446239f25f3453205be9409c",
+      "graphic": null,
+      "selection_sha256": "f0a7c14a22b1b5592d8898b39311ca64e4bf1a21b60d502a05f9a8a04680a760",
+      "approved_by": "user",
+      "approved_at": "2026-10-28T17:22:00.780Z",
+      "local_path": "media/pixabay-227128.mp4",
+      "actual_duration": 6.24,
+      "actual_width": 1440,
+      "actual_height": 2560,
+      "downloaded_rendition": "medium",
+      "downloaded_at": "2026-10-28T17:22:01.329Z"
     }
   ],
   "notes": [

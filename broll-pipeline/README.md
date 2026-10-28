@@ -1,3 +1,9 @@
+# V1.1｜A1／B2／C2 的540預覽已完成
+
+[目前進度與畫面檢查](docs/v11/README.md)｜[預覽規格紀錄](docs/v11/preview-report.json)
+
+正在等待使用者驗收畫面，尚未輸出1080正式影片。
+
 # V1.1 混合視覺敘事｜階段一待選片
 
 [分鏡、候選與階段狀態](docs/v11/README.md)｜[重建與核准後流程](docs/v11/REBUILD.md)

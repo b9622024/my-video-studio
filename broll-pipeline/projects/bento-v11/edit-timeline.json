@@ -1,14 +1,89 @@
 {
   "schema_version": "1.1",
   "project_id": "bento-v11",
-  "status": "awaiting_user_selection",
+  "revision_id": "57346f05e49a29e72e4776617cd3ee812b60afc3d9de2265e0409c4d683aa703",
+  "status": "approved_for_preview",
   "fps": 30,
-  "duration_frames": 360,
   "dimensions": [
     540,
     960
   ],
-  "clips": [],
+  "duration_frames": 360,
+  "clips": [
+    {
+      "scene_id": "A",
+      "option_id": "A1",
+      "mode": "contextual_broll",
+      "layout": "full_frame",
+      "frames": [
+        0,
+        120
+      ],
+      "narration": "外食先看看餐點的組成。",
+      "heading": null,
+      "graphic": null,
+      "crop_parameters": {
+        "aspect_ratio": "9:16",
+        "object_position_x": 0.5,
+        "object_position_y": 0.5,
+        "verified": false
+      },
+      "asset_id": "pixabay-227128",
+      "local_path": "media/pixabay-227128.mp4",
+      "source_sha256": "be2a43ecbcf4ddf5cd3dfce81035db0001be589f446239f25f3453205be9409c",
+      "source_seconds": [
+        1,
+        5
+      ],
+      "source_url": "https://pixabay.com/videos/id-227128/",
+      "author": "kurt_BID",
+      "license_url": "https://pixabay.com/service/license-summary/"
+    },
+    {
+      "scene_id": "B",
+      "option_id": "B2",
+      "mode": "information_motion_graphics",
+      "layout": "pure_motion",
+      "frames": [
+        120,
+        240
+      ],
+      "narration": "配菜也看看蔬菜的搭配。",
+      "heading": null,
+      "graphic": {
+        "kind": "category_groups",
+        "labels": [
+          "蔬菜",
+          "其他配菜",
+          "餐點搭配"
+        ],
+        "caption": "種類與搭配概念，不是營養評估"
+      },
+      "crop_parameters": null
+    },
+    {
+      "scene_id": "C",
+      "option_id": "C2",
+      "mode": "information_motion_graphics",
+      "layout": "pure_motion",
+      "frames": [
+        240,
+        360
+      ],
+      "narration": "主食份量，依自己的需求調整。",
+      "heading": null,
+      "graphic": {
+        "kind": "portion_concept",
+        "labels": [
+          "觀察",
+          "依需求",
+          "調整"
+        ],
+        "caption": "概念示意，沒有建議克數或固定比例"
+      },
+      "crop_parameters": null
+    }
+  ],
   "narration": null,
   "captions": []
 }
