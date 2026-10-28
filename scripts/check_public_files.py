@@ -4,7 +4,7 @@ import re
 import subprocess
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
-ALLOWED = {'.gitignore', 'README.md', 'config/voice-test.template.json',
+ALLOWED = {'docs/recovery-v2.4.md', 'config/model-assets.v2.4.json', 'config/voice-test.v2.4.template.json', '.gitignore', 'README.md', 'config/voice-test.template.json',
            'config/voice-test.v2.3.template.json', 'docs/voice-recovery.md',
            'docs/recovery-v2.3.md', 'scripts/private_assets.py',
            'scripts/private_zip.py', 'scripts/check_public_files.py'}
