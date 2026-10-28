@@ -48,8 +48,9 @@
         42.35
       ],
       "reference_duration_seconds": 8.15,
-      "human_transcript_verification": false,
-      "ASR_support": true
+      "human_transcript_verification": true,
+      "ASR_support": true,
+      "human_confirmation_scope": "User confirmed exact reference transcript and start/end after generation; output quality remains pending."
     }
   },
   "retained_not_primary_delivery": "A1 sentence_split: cut3/0.22s. ASR raised possible word substitution; preserved privately, not treated as a proven defect or as an improvement.",
