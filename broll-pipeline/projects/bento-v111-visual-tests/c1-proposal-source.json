@@ -1,0 +1,10 @@
+{
+  "status": "proposal_only_not_approved",
+  "option_id": "C1",
+  "source_url": "https://pixabay.com/videos/id-11626/",
+  "author": "XiaosKitchen",
+  "license_url": "https://pixabay.com/service/license-summary/",
+  "image_url": "https://cdn.pixabay.com/video/2017/08/29/11626-231571949_large.jpg",
+  "http_status": 200,
+  "sha256": "2a8dbfc678be1eaacb6d37dce1022a3ffda950c5b71e01508146538b59c89dc5"
+}

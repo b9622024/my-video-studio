@@ -1,0 +1,63 @@
+{
+  "version": "1.1.1",
+  "status": "visual_tests_pending_user_review",
+  "media": [
+    {
+      "id": "B2",
+      "sha256": "a2139f413680457c34fb35ad020325645b38a5d6649418497efaf374ad525b14",
+      "bytes": 400080,
+      "dimensions": [
+        540,
+        960
+      ],
+      "fps": 30,
+      "frames": 120,
+      "seconds": 4,
+      "codec": "h264"
+    },
+    {
+      "id": "C2A",
+      "sha256": "c017dc917a82bbef12b1bea634a298115eb8fdf156bceb7ec273336221976514",
+      "bytes": 163745,
+      "dimensions": [
+        540,
+        960
+      ],
+      "fps": 30,
+      "frames": 120,
+      "seconds": 4,
+      "codec": "h264"
+    },
+    {
+      "id": "C2B",
+      "sha256": "eacca99d7273965bd6f395d71f35a3a5b6309632b6f8cc8e66a1f2bb2329c4b8",
+      "bytes": 241414,
+      "dimensions": [
+        540,
+        960
+      ],
+      "fps": 30,
+      "frames": 120,
+      "seconds": 4,
+      "codec": "h264"
+    }
+  ],
+  "no_new_12_second_film": true,
+  "no_subtitles_or_voice": true,
+  "visible_text": "editorial object labels only; separate text-off stills provided",
+  "original_approval_manifest_plan_timeline_and_preview_unchanged": true,
+  "original_hashes": {
+    "approved-assets.json": "d832eb51e343089daaa4cacf77a9bfab4ecb4e1cb6b907175542b80a3dd5bbce",
+    "asset-manifest.json": "82f5725602af15b727b99e9a19bf0accab62e57cf88645a2653d7127758fdd3e",
+    "edit-timeline.json": "53b737fa22196aaa9c2c7f3e5d89b17db5f70d7f8b8f70cf02826a1460b0c6a0",
+    "scene-plan.json": "287e232d99307692d8e6879facb284b62838ea17a1d8cf53a778d0d5d151954c",
+    "outputs/preview-540.mp4": "4f3f38b2950b1b155ebb12c9f4d67acf406c0f410bad0087bbb0e2195bc3b82e"
+  },
+  "deterministic_frame_90_duplicate_jpeg_bytes": "PASS all three, nonsequential frame requests",
+  "typecheck": "PASS using V2.5 Remotion4.0.539 runtime",
+  "schema_backward_compatibility": "PASS V1.0/V1.1 and optional visual_design",
+  "c1_new_usage_approval_required": true,
+  "c1_status": "prototype image only, not added to approved-assets",
+  "paid_services": 0,
+  "gpu_used": false
+}

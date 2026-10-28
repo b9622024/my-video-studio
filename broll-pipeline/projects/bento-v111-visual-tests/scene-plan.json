@@ -1,0 +1,312 @@
+{
+  "schema_version": "1.0",
+  "project_id": "bento-v111-visual-tests",
+  "title": "外食族的便當，怎麼安排比較均衡？",
+  "fps": 30,
+  "source_script": "外食先看看餐點的組成。配菜也看看蔬菜的搭配。主食份量，依自己的需求調整。",
+  "script_provenance": "Codex自行撰寫並依現有候選調整的12秒測試口白；非使用者正式逐字稿。",
+  "analysis_origin": "Codex-assisted semantic analysis; not a paid LLM service or automatic backend semantic engine",
+  "scenes": [
+    {
+      "id": "A",
+      "name": "外食餐點情境",
+      "narration": "外食先看看餐點的組成。",
+      "viewer_takeaway": "看見真實可食用餐點，帶入觀察餐點組成的概念。",
+      "event": "本段為概念輔助，不宣稱實際裝餐／盛飯事件。",
+      "required_objects": [
+        "prepared meal"
+      ],
+      "required_actions": [],
+      "visual_mode": "contextual_broll",
+      "duration_seconds": 4,
+      "search_queries": [
+        "prepared meal",
+        "lunch food plate"
+      ],
+      "misleading_risks": [
+        "不可將情境畫面當成營養均衡、份量量測、減重成果或人物背書。"
+      ],
+      "animation_refs": [],
+      "semantic_requirements": {
+        "primary_objects": [
+          "prepared meal"
+        ],
+        "object_state": "prepared edible meal",
+        "specific_action": "context support; no exact event claimed",
+        "context": "everyday meal or meal preparation",
+        "excluded_contexts": [
+          "unrelated farming",
+          "unmeasured health or nutrition claims"
+        ],
+        "negative_patterns": [
+          "paddy",
+          "agriculture",
+          "harvest"
+        ],
+        "alternative": "餐點特寫即可支援概念，不聲稱裝便當。"
+      },
+      "visual_role": "context_support",
+      "visual_intent": "看見真實可食用餐點，帶入觀察餐點組成的概念。",
+      "required_evidence": {
+        "event_mandatory": false,
+        "objects": [
+          "prepared meal"
+        ],
+        "object_state": "prepared edible meal",
+        "action": null,
+        "context": "meal preparation or everyday dining"
+      },
+      "fallback_modes": [
+        "contextual_broll",
+        "information_motion_graphics",
+        "user_provided_footage"
+      ],
+      "fallback_reason": "餐點特寫即可支援概念，不聲稱裝便當。",
+      "human_review_required": true,
+      "visual_design": {
+        "main_object": "A1已核准餐盤中的食物",
+        "attention_priority": "延續原實拍主體，沒有重做A1",
+        "moving_object": "沿用原片",
+        "visible_change": "本輪不變更A1",
+        "viewer_takeaway": "維持餐點情境",
+        "continuity": "A1最後一格餐盤接到B2同源影像"
+      }
+    },
+    {
+      "id": "B",
+      "name": "蔬菜與配菜",
+      "narration": "配菜也看看蔬菜的搭配。",
+      "viewer_takeaway": "以實際烹調的蔬菜呈現配菜觀察，不聲稱裝盒完成。",
+      "event": "本段為概念輔助，不宣稱實際裝餐／盛飯事件。",
+      "required_objects": [
+        "cooked vegetables"
+      ],
+      "required_actions": [],
+      "visual_mode": "contextual_broll",
+      "duration_seconds": 4,
+      "search_queries": [
+        "cooking vegetables",
+        "cooked leafy vegetables"
+      ],
+      "misleading_risks": [
+        "不可將情境畫面當成營養均衡、份量量測、減重成果或人物背書。"
+      ],
+      "animation_refs": [],
+      "semantic_requirements": {
+        "primary_objects": [
+          "cooked vegetables"
+        ],
+        "object_state": "cooked or being cooked",
+        "specific_action": "context support; no exact event claimed",
+        "context": "everyday meal or meal preparation",
+        "excluded_contexts": [
+          "unrelated farming",
+          "unmeasured health or nutrition claims"
+        ],
+        "negative_patterns": [
+          "paddy",
+          "agriculture",
+          "harvest"
+        ],
+        "alternative": "不要求夾入便當的完整動作；準備蔬菜可支援概念。"
+      },
+      "visual_role": "context_support",
+      "visual_intent": "以實際烹調的蔬菜呈現配菜觀察，不聲稱裝盒完成。",
+      "required_evidence": {
+        "event_mandatory": false,
+        "objects": [
+          "cooked vegetables"
+        ],
+        "object_state": "cooked or being cooked",
+        "action": null,
+        "context": "meal preparation or everyday dining"
+      },
+      "fallback_modes": [
+        "contextual_broll",
+        "information_motion_graphics",
+        "user_provided_footage"
+      ],
+      "fallback_reason": "不要求夾入便當的完整動作；準備蔬菜可支援概念。",
+      "human_review_required": true,
+      "visual_design": {
+        "main_object": "A1同一餐盤的蔬菜局部與餐盤脈絡小圖",
+        "attention_priority": "先整盤，後綠葉菜",
+        "moving_object": "同源餐盤影像縮入脈絡小圖，蔬菜裁切遮罩揭示",
+        "visible_change": "整盤主體變成兩個有來源對照的觀察位置",
+        "viewer_takeaway": "配菜觀察應回到畫面裡真正存在的蔬菜與其他食物",
+        "continuity": "首格使用A1原片4.95秒影格；收尾以食物照片、米白紙面和深藍排版連到C",
+        "component": "PhotoFocus",
+        "source_option": "A1",
+        "timeline": [
+          {
+            "seconds": [
+              0,
+              0.6
+            ],
+            "action": "原餐盤全畫面停格銜接"
+          },
+          {
+            "seconds": [
+              0.6,
+              1.73
+            ],
+            "action": "整盤縮入脈絡小圖，同時揭示下方蔬菜局部"
+          },
+          {
+            "seconds": [
+              1.73,
+              4
+            ],
+            "action": "保留兩圖可對照的結果，標註貼近食物邊緣"
+          }
+        ]
+      }
+    },
+    {
+      "id": "C",
+      "name": "主食份量",
+      "narration": "主食份量，依自己的需求調整。",
+      "viewer_takeaway": "用熟白飯特寫與非量化資訊圖說明觀察與調整。",
+      "event": "本段為概念輔助，不宣稱實際裝餐／盛飯事件。",
+      "required_objects": [
+        "cooked rice"
+      ],
+      "required_actions": [],
+      "visual_mode": "contextual_broll",
+      "duration_seconds": 4,
+      "search_queries": [
+        "cooked white rice",
+        "rice meal close up"
+      ],
+      "misleading_risks": [
+        "不可將情境畫面當成營養均衡、份量量測、減重成果或人物背書。"
+      ],
+      "animation_refs": [
+        "portion_concept"
+      ],
+      "semantic_requirements": {
+        "primary_objects": [
+          "cooked rice"
+        ],
+        "object_state": "cooked edible rice",
+        "specific_action": "context support; no exact event claimed",
+        "context": "everyday meal or meal preparation",
+        "excluded_contexts": [
+          "unrelated farming",
+          "unmeasured health or nutrition claims"
+        ],
+        "negative_patterns": [
+          "paddy",
+          "agriculture",
+          "harvest"
+        ],
+        "alternative": "份量是解說概念；無測量不能顯示克數或熱量。"
+      },
+      "visual_role": "concept_explanation",
+      "visual_intent": "用熟白飯特寫與非量化資訊圖說明觀察與調整。",
+      "required_evidence": {
+        "event_mandatory": false,
+        "objects": [
+          "cooked rice"
+        ],
+        "object_state": "cooked edible rice",
+        "action": null,
+        "context": "meal preparation or everyday dining"
+      },
+      "fallback_modes": [
+        "contextual_broll",
+        "information_motion_graphics",
+        "user_provided_footage"
+      ],
+      "fallback_reason": "份量是解說概念；無測量不能顯示克數或熱量。",
+      "human_review_required": true,
+      "visual_design": {
+        "main_object": "餐盤與不同空碗；方案B另有真實白飯照片",
+        "attention_priority": "先辨認食物／餐具，再觀察容器與盤面空間",
+        "moving_object": "不同空碗在餐盤上交換位置，白飯照片只改觀察裁切",
+        "visible_change": "不同容器占用不同盤面空間；沒有更改或推算食物量",
+        "viewer_takeaway": "以實體容器作非量化參照，回到實際需求判斷；不提供固定份量",
+        "continuity": "沿用B2的米白、深藍、柔黃與照片／物件層次",
+        "component": "PortionExplanation",
+        "alternatives": [
+          {
+            "id": "C2A",
+            "source": "pure_remotion_vessels_only",
+            "additional_footage_approval_required": false
+          },
+          {
+            "id": "C2B",
+            "source_option": "C1",
+            "additional_footage_approval_required": true,
+            "status": "proposal_only_not_approved"
+          }
+        ],
+        "timeline": [
+          {
+            "seconds": [
+              0,
+              0.33
+            ],
+            "action": "看見餐盤、不同空碗與餐具，B另展示原白飯照片"
+          },
+          {
+            "seconds": [
+              0.33,
+              1.6
+            ],
+            "action": "大碗移入餐盤，建立容器參照"
+          },
+          {
+            "seconds": [
+              2,
+              3.5
+            ],
+            "action": "大碗回到桌面，小碗移入盤面，顯示空間關係改變"
+          },
+          {
+            "seconds": [
+              3.5,
+              4
+            ],
+            "action": "保留兩種容器及餐盤結果；不宣稱任何食物量已改變"
+          }
+        ]
+      }
+    }
+  ],
+  "version": "1.1.1",
+  "duration_seconds": 12,
+  "stage": "visual_design_studies_only",
+  "test_outputs": [
+    {
+      "id": "B2",
+      "duration_seconds": 4,
+      "dimensions": [
+        540,
+        960
+      ],
+      "fps": 30,
+      "status": "design_proposal"
+    },
+    {
+      "id": "C2A",
+      "duration_seconds": 4,
+      "dimensions": [
+        540,
+        960
+      ],
+      "fps": 30,
+      "status": "design_proposal"
+    },
+    {
+      "id": "C2B",
+      "duration_seconds": 4,
+      "dimensions": [
+        540,
+        960
+      ],
+      "fps": 30,
+      "status": "design_proposal"
+    }
+  ]
+}
