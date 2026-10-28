@@ -1,0 +1,187 @@
+{
+  "schema_version": "1.0",
+  "project_id": "bento-v11",
+  "title": "外食族的便當，怎麼安排比較均衡？",
+  "fps": 30,
+  "source_script": "外食先看看餐點的組成。配菜也看看蔬菜的搭配。主食份量，依自己的需求調整。",
+  "script_provenance": "Codex自行撰寫並依現有候選調整的12秒測試口白；非使用者正式逐字稿。",
+  "analysis_origin": "Codex-assisted semantic analysis; not a paid LLM service or automatic backend semantic engine",
+  "scenes": [
+    {
+      "id": "A",
+      "name": "外食餐點情境",
+      "narration": "外食先看看餐點的組成。",
+      "viewer_takeaway": "看見真實可食用餐點，帶入觀察餐點組成的概念。",
+      "event": "本段為概念輔助，不宣稱實際裝餐／盛飯事件。",
+      "required_objects": [
+        "prepared meal"
+      ],
+      "required_actions": [],
+      "visual_mode": "contextual_broll",
+      "duration_seconds": 4,
+      "search_queries": [
+        "prepared meal",
+        "lunch food plate"
+      ],
+      "misleading_risks": [
+        "不可將情境畫面當成營養均衡、份量量測、減重成果或人物背書。"
+      ],
+      "animation_refs": [],
+      "semantic_requirements": {
+        "primary_objects": [
+          "prepared meal"
+        ],
+        "object_state": "prepared edible meal",
+        "specific_action": "context support; no exact event claimed",
+        "context": "everyday meal or meal preparation",
+        "excluded_contexts": [
+          "unrelated farming",
+          "unmeasured health or nutrition claims"
+        ],
+        "negative_patterns": [
+          "paddy",
+          "agriculture",
+          "harvest"
+        ],
+        "alternative": "餐點特寫即可支援概念，不聲稱裝便當。"
+      },
+      "visual_role": "context_support",
+      "visual_intent": "看見真實可食用餐點，帶入觀察餐點組成的概念。",
+      "required_evidence": {
+        "event_mandatory": false,
+        "objects": [
+          "prepared meal"
+        ],
+        "object_state": "prepared edible meal",
+        "action": null,
+        "context": "meal preparation or everyday dining"
+      },
+      "fallback_modes": [
+        "contextual_broll",
+        "information_motion_graphics",
+        "user_provided_footage"
+      ],
+      "fallback_reason": "餐點特寫即可支援概念，不聲稱裝便當。",
+      "human_review_required": true
+    },
+    {
+      "id": "B",
+      "name": "蔬菜與配菜",
+      "narration": "配菜也看看蔬菜的搭配。",
+      "viewer_takeaway": "以實際烹調的蔬菜呈現配菜觀察，不聲稱裝盒完成。",
+      "event": "本段為概念輔助，不宣稱實際裝餐／盛飯事件。",
+      "required_objects": [
+        "cooked vegetables"
+      ],
+      "required_actions": [],
+      "visual_mode": "contextual_broll",
+      "duration_seconds": 4,
+      "search_queries": [
+        "cooking vegetables",
+        "cooked leafy vegetables"
+      ],
+      "misleading_risks": [
+        "不可將情境畫面當成營養均衡、份量量測、減重成果或人物背書。"
+      ],
+      "animation_refs": [],
+      "semantic_requirements": {
+        "primary_objects": [
+          "cooked vegetables"
+        ],
+        "object_state": "cooked or being cooked",
+        "specific_action": "context support; no exact event claimed",
+        "context": "everyday meal or meal preparation",
+        "excluded_contexts": [
+          "unrelated farming",
+          "unmeasured health or nutrition claims"
+        ],
+        "negative_patterns": [
+          "paddy",
+          "agriculture",
+          "harvest"
+        ],
+        "alternative": "不要求夾入便當的完整動作；準備蔬菜可支援概念。"
+      },
+      "visual_role": "context_support",
+      "visual_intent": "以實際烹調的蔬菜呈現配菜觀察，不聲稱裝盒完成。",
+      "required_evidence": {
+        "event_mandatory": false,
+        "objects": [
+          "cooked vegetables"
+        ],
+        "object_state": "cooked or being cooked",
+        "action": null,
+        "context": "meal preparation or everyday dining"
+      },
+      "fallback_modes": [
+        "contextual_broll",
+        "information_motion_graphics",
+        "user_provided_footage"
+      ],
+      "fallback_reason": "不要求夾入便當的完整動作；準備蔬菜可支援概念。",
+      "human_review_required": true
+    },
+    {
+      "id": "C",
+      "name": "主食份量",
+      "narration": "主食份量，依自己的需求調整。",
+      "viewer_takeaway": "用熟白飯特寫與非量化資訊圖說明觀察與調整。",
+      "event": "本段為概念輔助，不宣稱實際裝餐／盛飯事件。",
+      "required_objects": [
+        "cooked rice"
+      ],
+      "required_actions": [],
+      "visual_mode": "contextual_broll",
+      "duration_seconds": 4,
+      "search_queries": [
+        "cooked white rice",
+        "rice meal close up"
+      ],
+      "misleading_risks": [
+        "不可將情境畫面當成營養均衡、份量量測、減重成果或人物背書。"
+      ],
+      "animation_refs": [
+        "portion_concept"
+      ],
+      "semantic_requirements": {
+        "primary_objects": [
+          "cooked rice"
+        ],
+        "object_state": "cooked edible rice",
+        "specific_action": "context support; no exact event claimed",
+        "context": "everyday meal or meal preparation",
+        "excluded_contexts": [
+          "unrelated farming",
+          "unmeasured health or nutrition claims"
+        ],
+        "negative_patterns": [
+          "paddy",
+          "agriculture",
+          "harvest"
+        ],
+        "alternative": "份量是解說概念；無測量不能顯示克數或熱量。"
+      },
+      "visual_role": "concept_explanation",
+      "visual_intent": "用熟白飯特寫與非量化資訊圖說明觀察與調整。",
+      "required_evidence": {
+        "event_mandatory": false,
+        "objects": [
+          "cooked rice"
+        ],
+        "object_state": "cooked edible rice",
+        "action": null,
+        "context": "meal preparation or everyday dining"
+      },
+      "fallback_modes": [
+        "contextual_broll",
+        "information_motion_graphics",
+        "user_provided_footage"
+      ],
+      "fallback_reason": "份量是解說概念；無測量不能顯示克數或熱量。",
+      "human_review_required": true
+    }
+  ],
+  "version": "1.1",
+  "duration_seconds": 12,
+  "stage": "awaiting_user_selection"
+}

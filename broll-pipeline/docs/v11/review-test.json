@@ -1,0 +1,33 @@
+{
+  "status": "PASS",
+  "real_candidate_media": [
+    {
+      "id": "A1",
+      "duration": 4.0,
+      "codec": "h264"
+    },
+    {
+      "id": "A2",
+      "duration": 4.0,
+      "codec": "h264"
+    },
+    {
+      "id": "B1",
+      "duration": 4.0,
+      "codec": "h264"
+    },
+    {
+      "id": "C1",
+      "duration": 4.0,
+      "codec": "h264"
+    }
+  ],
+  "file_uri_playback_verified": false,
+  "file_uri_limitation": "managed Chromium policy ERR_BLOCKED_BY_ADMINISTRATOR; not bypassed",
+  "local_http_media_playback_verified": true,
+  "html_request_export": "PASS",
+  "formal_approval_created": false,
+  "physical_iPhone_Safari_tested": false,
+  "engine": "Chromium 393x852 touch, private local HTTP for QA only; user may reply with IDs directly",
+  "rendered_12_second_film": false
+}

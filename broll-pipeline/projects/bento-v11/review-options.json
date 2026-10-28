@@ -1,0 +1,466 @@
+{
+  "schema_version": "1.1",
+  "project_id": "bento-v11",
+  "revision_id": "57346f05e49a29e72e4776617cd3ee812b60afc3d9de2265e0409c4d683aa703",
+  "status": "awaiting_user_selection",
+  "options": [
+    {
+      "option_id": "A1",
+      "scene_id": "A",
+      "number": 1,
+      "mode": "contextual_broll",
+      "match_status": "contextual_match",
+      "title": "餐盤肉與沙拉：外食情境，不代表均衡已驗證。",
+      "asset_id": "pixabay-227128",
+      "candidate_id": "pixabay-227128",
+      "layout": "full_frame",
+      "reason": "餐盤肉與沙拉：外食情境，不代表均衡已驗證。",
+      "not_claimed": "不聲稱裝便當、盛飯或營養量測事件。",
+      "review_status": "pending",
+      "action_verified": false,
+      "visual_check": {
+        "status": "frames_reviewed_contextual",
+        "basis": "V1.0.1實際影格紀錄；改以概念情境需求評估，仍須使用者核准。",
+        "objects_and_state": true,
+        "exact_action_verified": false,
+        "source_review_hash": "c1a95ed09f86e4073082f036ce4562153aec39d18c42b3ef7c5d0b42762c2cd9"
+      },
+      "source_url": "https://pixabay.com/videos/id-227128/",
+      "author": "kurt_BID",
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "license_checked_at": "2026-10-28T15:52:00.484Z",
+      "variants": [
+        {
+          "name": "large",
+          "url": "https://cdn.pixabay.com/video/2024/08/18/227128_large.mp4",
+          "width": 2160,
+          "height": 3840,
+          "size": 11009637,
+          "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_large.jpg"
+        },
+        {
+          "name": "medium",
+          "url": "https://cdn.pixabay.com/video/2024/08/18/227128_medium.mp4",
+          "width": 1440,
+          "height": 2560,
+          "size": 7146718,
+          "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_medium.jpg"
+        },
+        {
+          "name": "small",
+          "url": "https://cdn.pixabay.com/video/2024/08/18/227128_small.mp4",
+          "width": 1080,
+          "height": 1920,
+          "size": 4417723,
+          "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_small.jpg"
+        },
+        {
+          "name": "tiny",
+          "url": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.mp4",
+          "width": 720,
+          "height": 1280,
+          "size": 1649492,
+          "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.jpg"
+        }
+      ],
+      "duration": 6,
+      "width": 2160,
+      "height": 3840,
+      "selected_trim": {
+        "start": 1,
+        "end": 5
+      },
+      "crop_parameters": {
+        "aspect_ratio": "9:16",
+        "object_position_x": 0.5,
+        "object_position_y": 0.5,
+        "verified": false
+      },
+      "preview": {
+        "video": "previews/pixabay-227128.mp4",
+        "poster": "previews/pixabay-227128-frame-2.jpg",
+        "frames": [
+          {
+            "time_seconds": 0.9359999999999999,
+            "path": "previews/pixabay-227128-frame-1.jpg"
+          },
+          {
+            "time_seconds": 3.12,
+            "path": "previews/pixabay-227128-frame-2.jpg"
+          },
+          {
+            "time_seconds": 5.304,
+            "path": "previews/pixabay-227128-frame-3.jpg"
+          }
+        ],
+        "duration": 6.24,
+        "sha256": "c1a95ed09f86e4073082f036ce4562153aec39d18c42b3ef7c5d0b42762c2cd9",
+        "bytes": 318345,
+        "source_variant_url": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.mp4",
+        "source_sha256": "eafe501f6fcaddd720a81597ec9634d416287f4050da55d4ca80615fec418d11",
+        "temporary_review_only": true
+      },
+      "source_sha256": null,
+      "graphic": null
+    },
+    {
+      "option_id": "A2",
+      "scene_id": "A",
+      "number": 2,
+      "mode": "contextual_broll",
+      "match_status": "contextual_match",
+      "title": "牛肉與白飯特寫，搭配觀察餐點組成提示。",
+      "asset_id": "pixabay-11623",
+      "candidate_id": "pixabay-11623",
+      "layout": "split_screen",
+      "reason": "牛肉與白飯特寫，搭配觀察餐點組成提示。",
+      "not_claimed": "不聲稱裝便當、盛飯或營養量測事件。",
+      "review_status": "pending",
+      "action_verified": false,
+      "visual_check": {
+        "status": "frames_reviewed_contextual",
+        "basis": "V1.0.1實際影格紀錄；改以概念情境需求評估，仍須使用者核准。",
+        "objects_and_state": true,
+        "exact_action_verified": false,
+        "source_review_hash": "2c9e563ec1a3334c57a82d8b4f4c68d34886eeb25cc0c102c2209e61cf94f6a9"
+      },
+      "source_url": "https://pixabay.com/videos/id-11623/",
+      "author": "XiaosKitchen",
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "license_checked_at": "2026-10-28T15:52:05.389Z",
+      "variants": [
+        {
+          "name": "large",
+          "url": "https://cdn.pixabay.com/video/2017/08/29/11623-231571937_large.mp4",
+          "width": 1920,
+          "height": 1080,
+          "size": 11010090,
+          "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11623-231571937_large.jpg"
+        },
+        {
+          "name": "medium",
+          "url": "https://cdn.pixabay.com/video/2017/08/29/11623-231571937_medium.mp4",
+          "width": 1280,
+          "height": 720,
+          "size": 5432426,
+          "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11623-231571937_medium.jpg"
+        },
+        {
+          "name": "small",
+          "url": "https://cdn.pixabay.com/video/2017/08/29/11623-231571937_small.mp4",
+          "width": 960,
+          "height": 540,
+          "size": 3458006,
+          "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11623-231571937_small.jpg"
+        },
+        {
+          "name": "tiny",
+          "url": "https://cdn.pixabay.com/video/2017/08/29/11623-231571937_tiny.mp4",
+          "width": 640,
+          "height": 360,
+          "size": 1248297,
+          "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11623-231571937_tiny.jpg"
+        }
+      ],
+      "duration": 20,
+      "width": 1920,
+      "height": 1080,
+      "selected_trim": {
+        "start": 2,
+        "end": 6
+      },
+      "crop_parameters": {
+        "aspect_ratio": "9:16",
+        "object_position_x": 0.5,
+        "object_position_y": 0.5,
+        "verified": false
+      },
+      "preview": {
+        "video": "previews/pixabay-11623.mp4",
+        "poster": "previews/pixabay-11623-frame-2.jpg",
+        "frames": [
+          {
+            "time_seconds": 3.02500005,
+            "path": "previews/pixabay-11623-frame-1.jpg"
+          },
+          {
+            "time_seconds": 10.0833335,
+            "path": "previews/pixabay-11623-frame-2.jpg"
+          },
+          {
+            "time_seconds": 17.14166695,
+            "path": "previews/pixabay-11623-frame-3.jpg"
+          }
+        ],
+        "duration": 20.166667,
+        "sha256": "2c9e563ec1a3334c57a82d8b4f4c68d34886eeb25cc0c102c2209e61cf94f6a9",
+        "bytes": 251182,
+        "source_variant_url": "https://cdn.pixabay.com/video/2017/08/29/11623-231571937_tiny.mp4",
+        "source_sha256": "c86b80942f5445f792bddff9c58ddc9d1602e40a2eb31782cc80fb207e67325c",
+        "temporary_review_only": true
+      },
+      "source_sha256": null,
+      "graphic": {
+        "kind": "category_groups",
+        "labels": [
+          "餐點",
+          "組成",
+          "搭配"
+        ],
+        "caption": "先觀察，再選擇"
+      }
+    },
+    {
+      "option_id": "B1",
+      "scene_id": "B",
+      "number": 1,
+      "mode": "contextual_broll",
+      "match_status": "contextual_match",
+      "title": "實際烹調綠葉菜，作配菜情境，不冒稱放入餐盒。",
+      "asset_id": "pixabay-11605",
+      "candidate_id": "pixabay-11605",
+      "layout": "full_frame",
+      "reason": "實際烹調綠葉菜，作配菜情境，不冒稱放入餐盒。",
+      "not_claimed": "不聲稱裝便當、盛飯或營養量測事件。",
+      "review_status": "pending",
+      "action_verified": false,
+      "visual_check": {
+        "status": "frames_reviewed_contextual",
+        "basis": "V1.0.1實際影格紀錄；改以概念情境需求評估，仍須使用者核准。",
+        "objects_and_state": true,
+        "exact_action_verified": false,
+        "source_review_hash": "746025de305ed53263f6396deab127bc45c62d30941d8906237e97f8241cd4cb"
+      },
+      "source_url": "https://pixabay.com/videos/id-11605/",
+      "author": "XiaosKitchen",
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "license_checked_at": "2026-10-28T15:52:05.180Z",
+      "variants": [
+        {
+          "name": "large",
+          "url": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_large.mp4",
+          "width": 1920,
+          "height": 1080,
+          "size": 33337733,
+          "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_large.jpg"
+        },
+        {
+          "name": "medium",
+          "url": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_medium.mp4",
+          "width": 1280,
+          "height": 720,
+          "size": 16702573,
+          "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_medium.jpg"
+        },
+        {
+          "name": "small",
+          "url": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_small.mp4",
+          "width": 960,
+          "height": 540,
+          "size": 10079574,
+          "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_small.jpg"
+        },
+        {
+          "name": "tiny",
+          "url": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_tiny.mp4",
+          "width": 640,
+          "height": 360,
+          "size": 3371352,
+          "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_tiny.jpg"
+        }
+      ],
+      "duration": 54,
+      "width": 1920,
+      "height": 1080,
+      "selected_trim": {
+        "start": 34,
+        "end": 38
+      },
+      "crop_parameters": {
+        "aspect_ratio": "9:16",
+        "object_position_x": 0.5,
+        "object_position_y": 0.5,
+        "verified": false
+      },
+      "preview": {
+        "video": "previews/pixabay-11605.mp4",
+        "poster": "previews/pixabay-11605-frame-2.jpg",
+        "frames": [
+          {
+            "time_seconds": 8.14000005,
+            "path": "previews/pixabay-11605-frame-1.jpg"
+          },
+          {
+            "time_seconds": 27.1333335,
+            "path": "previews/pixabay-11605-frame-2.jpg"
+          },
+          {
+            "time_seconds": 46.12666695,
+            "path": "previews/pixabay-11605-frame-3.jpg"
+          }
+        ],
+        "duration": 54.266667,
+        "sha256": "746025de305ed53263f6396deab127bc45c62d30941d8906237e97f8241cd4cb",
+        "bytes": 2032686,
+        "source_variant_url": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_tiny.mp4",
+        "source_sha256": "28643ee98e120ce9153c94e742b9b3462e48c0b897a6566a3e198f8bd0a20122",
+        "temporary_review_only": true
+      },
+      "source_sha256": null,
+      "graphic": null
+    },
+    {
+      "option_id": "B2",
+      "scene_id": "B",
+      "number": 2,
+      "mode": "information_motion_graphics",
+      "match_status": "motion_graphics_fallback",
+      "title": "蔬菜與其他配菜的搭配關係圖",
+      "layout": "pure_motion",
+      "reason": "逐步連結的角色關係圖，不用食物插畫或定量比例。",
+      "review_status": "pending",
+      "graphic": {
+        "kind": "category_groups",
+        "labels": [
+          "蔬菜",
+          "其他配菜",
+          "餐點搭配"
+        ],
+        "caption": "種類與搭配概念，不是營養評估"
+      }
+    },
+    {
+      "option_id": "C1",
+      "scene_id": "C",
+      "number": 1,
+      "mode": "contextual_broll",
+      "match_status": "contextual_match",
+      "title": "熟白飯特寫＋非量化份量概念圖，沒有盛飯或數字聲稱。",
+      "asset_id": "pixabay-11626",
+      "candidate_id": "pixabay-11626",
+      "layout": "contextual_annotation",
+      "reason": "熟白飯特寫＋非量化份量概念圖，沒有盛飯或數字聲稱。",
+      "not_claimed": "不聲稱裝便當、盛飯或營養量測事件。",
+      "review_status": "pending",
+      "action_verified": false,
+      "visual_check": {
+        "status": "frames_reviewed_contextual",
+        "basis": "V1.0.1實際影格紀錄；改以概念情境需求評估，仍須使用者核准。",
+        "objects_and_state": true,
+        "exact_action_verified": false,
+        "source_review_hash": "54b815a0453d70f2507e0a9f0f3dbacfb5315756308e5aa32358aa15128deb3d"
+      },
+      "source_url": "https://pixabay.com/videos/id-11626/",
+      "author": "XiaosKitchen",
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "license_checked_at": "2026-10-28T15:52:05.389Z",
+      "variants": [
+        {
+          "name": "large",
+          "url": "https://cdn.pixabay.com/video/2017/08/29/11626-231571949_large.mp4",
+          "width": 1920,
+          "height": 1080,
+          "size": 8806332,
+          "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11626-231571949_large.jpg"
+        },
+        {
+          "name": "medium",
+          "url": "https://cdn.pixabay.com/video/2017/08/29/11626-231571949_medium.mp4",
+          "width": 1280,
+          "height": 720,
+          "size": 3807355,
+          "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11626-231571949_medium.jpg"
+        },
+        {
+          "name": "small",
+          "url": "https://cdn.pixabay.com/video/2017/08/29/11626-231571949_small.mp4",
+          "width": 960,
+          "height": 540,
+          "size": 2511640,
+          "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11626-231571949_small.jpg"
+        },
+        {
+          "name": "tiny",
+          "url": "https://cdn.pixabay.com/video/2017/08/29/11626-231571949_tiny.mp4",
+          "width": 640,
+          "height": 360,
+          "size": 1237830,
+          "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11626-231571949_tiny.jpg"
+        }
+      ],
+      "duration": 19,
+      "width": 1920,
+      "height": 1080,
+      "selected_trim": {
+        "start": 4,
+        "end": 8
+      },
+      "crop_parameters": {
+        "aspect_ratio": "9:16",
+        "object_position_x": 0.5,
+        "object_position_y": 0.5,
+        "verified": false
+      },
+      "preview": {
+        "video": "previews/pixabay-11626.mp4",
+        "poster": "previews/pixabay-11626-frame-2.jpg",
+        "frames": [
+          {
+            "time_seconds": 2.895,
+            "path": "previews/pixabay-11626-frame-1.jpg"
+          },
+          {
+            "time_seconds": 9.65,
+            "path": "previews/pixabay-11626-frame-2.jpg"
+          },
+          {
+            "time_seconds": 16.405,
+            "path": "previews/pixabay-11626-frame-3.jpg"
+          }
+        ],
+        "duration": 19.3,
+        "sha256": "54b815a0453d70f2507e0a9f0f3dbacfb5315756308e5aa32358aa15128deb3d",
+        "bytes": 182327,
+        "source_variant_url": "https://cdn.pixabay.com/video/2017/08/29/11626-231571949_tiny.mp4",
+        "source_sha256": "69132acb031873d1a64e75458580b1b159ec5d17f6e04f55039ed33b8ddea6ab",
+        "temporary_review_only": true
+      },
+      "source_sha256": null,
+      "graphic": {
+        "kind": "portion_concept",
+        "labels": [
+          "觀察",
+          "依需求",
+          "調整"
+        ],
+        "caption": "概念示意，沒有建議克數或固定比例"
+      }
+    },
+    {
+      "option_id": "C2",
+      "scene_id": "C",
+      "number": 2,
+      "mode": "information_motion_graphics",
+      "match_status": "motion_graphics_fallback",
+      "title": "觀察主食份量，再依需求調整",
+      "layout": "pure_motion",
+      "reason": "抽象範圍帶與游標呈現觀察到調整的過程，不模擬食物、不顯示數字。",
+      "review_status": "pending",
+      "graphic": {
+        "kind": "portion_concept",
+        "labels": [
+          "觀察",
+          "依需求",
+          "調整"
+        ],
+        "caption": "概念示意，沒有建議克數或固定比例"
+      }
+    }
+  ],
+  "user_shooting_suggestions": {
+    "A": "自己的餐點或餐盒全景，避免他人臉部與商標。",
+    "B": "蔬菜烹調或夾菜，保留工具與食物。",
+    "C": "熟白飯與調整份量；未量測不能標克數。"
+  },
+  "reply_format": "例如 A：候選1；B：資訊動畫（B2）；C：候選1。請明確選擇每場景。"
+}

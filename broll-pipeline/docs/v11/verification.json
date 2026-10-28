@@ -1,0 +1,20 @@
+{
+  "version": "1.1",
+  "stage": "one_waiting_user_selection",
+  "original_backend_tests_passed": 24,
+  "hybrid_tests_passed": 5,
+  "composition_typecheck": "PASS, V2.5 lockfile Remotion4.0.539/React19.3.1/TypeScript5.9.3 in isolated .runtime host",
+  "schema_checks": "PASS, four real V1.1 documents + old V1.0 scene-plan",
+  "render_before_approval": "blocked APPROVAL_REQUIRED before renderer startup",
+  "new_api_requests": 0,
+  "official_candidate_videos": 4,
+  "keyframes": 12,
+  "motion_graphic_proposals": 2,
+  "formal_approval_created": false,
+  "preview_12_seconds_rendered": false,
+  "final_1080_rendered": false,
+  "user_iphone_MOV_tested": false,
+  "composition_visual_quality": "not yet assessed; rendering requires user approval",
+  "different_topic_unit_test": "PASS; stage-five full film acceptance remains pending",
+  "old_engines_and_data_unchanged": true
+}

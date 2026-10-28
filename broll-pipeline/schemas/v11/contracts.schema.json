@@ -1,0 +1,637 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/keleji/v1.1/contracts.schema.json",
+  "$defs": {
+    "scene_plan": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "enum": [
+            "1.0",
+            "1.1"
+          ]
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "title": {
+          "type": "string"
+        },
+        "fps": {
+          "const": 30
+        },
+        "scenes": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "narration": {
+                "type": "string"
+              },
+              "event": {
+                "type": "string"
+              },
+              "viewer_takeaway": {
+                "type": "string"
+              },
+              "duration_seconds": {
+                "type": "number",
+                "exclusiveMinimum": 0,
+                "maximum": 20
+              },
+              "search_queries": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                },
+                "minItems": 1,
+                "maxItems": 3
+              },
+              "visual_role": {
+                "enum": [
+                  "event_evidence",
+                  "context_support",
+                  "concept_explanation",
+                  "process_demonstration"
+                ]
+              },
+              "visual_intent": {
+                "type": "string"
+              },
+              "required_evidence": {
+                "type": "object",
+                "properties": {
+                  "event_mandatory": {
+                    "type": "boolean"
+                  },
+                  "objects": {
+                    "type": "array",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "object_state": {
+                    "type": "string"
+                  },
+                  "action": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "context": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "event_mandatory"
+                ],
+                "additionalProperties": true
+              },
+              "fallback_modes": {
+                "type": "array",
+                "items": {
+                  "enum": [
+                    "exact_action_footage",
+                    "contextual_broll",
+                    "information_motion_graphics",
+                    "user_provided_footage"
+                  ]
+                }
+              },
+              "fallback_reason": {
+                "type": "string"
+              },
+              "human_review_required": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "id",
+              "name",
+              "narration",
+              "event",
+              "viewer_takeaway",
+              "duration_seconds",
+              "search_queries"
+            ],
+            "additionalProperties": true
+          },
+          "minItems": 1,
+          "maxItems": 12
+        }
+      },
+      "required": [
+        "schema_version",
+        "project_id",
+        "fps",
+        "scenes"
+      ],
+      "additionalProperties": true
+    },
+    "review_options": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.1"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "revision_id": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "option_id": {
+                "type": "string"
+              },
+              "scene_id": {
+                "type": "string"
+              },
+              "mode": {
+                "enum": [
+                  "exact_action_footage",
+                  "contextual_broll",
+                  "information_motion_graphics",
+                  "user_provided_footage"
+                ]
+              },
+              "match_status": {
+                "enum": [
+                  "exact_match",
+                  "contextual_match",
+                  "motion_graphics_fallback",
+                  "user_footage_required",
+                  "no_acceptable_visual"
+                ]
+              },
+              "layout": {
+                "enum": [
+                  "full_frame",
+                  "split_screen",
+                  "contextual_annotation",
+                  "pure_motion",
+                  "user_footage"
+                ]
+              },
+              "review_status": {
+                "enum": [
+                  "pending",
+                  "approved",
+                  "rejected"
+                ]
+              },
+              "graphic": {
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "kind": {
+                        "enum": [
+                          "portion_concept",
+                          "category_groups",
+                          "process",
+                          "comparison"
+                        ]
+                      },
+                      "labels": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "minItems": 2,
+                        "maxItems": 3
+                      },
+                      "caption": {
+                        "type": "string"
+                      },
+                      "values": {
+                        "type": "array",
+                        "items": {
+                          "type": "number",
+                          "minimum": 0
+                        }
+                      },
+                      "source": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "kind",
+                      "labels",
+                      "caption"
+                    ],
+                    "additionalProperties": true
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "selected_trim": {
+                "type": "object",
+                "properties": {
+                  "start": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "end": {
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  }
+                },
+                "required": [
+                  "start",
+                  "end"
+                ],
+                "additionalProperties": true
+              }
+            },
+            "required": [
+              "option_id",
+              "scene_id",
+              "mode",
+              "match_status",
+              "layout",
+              "review_status"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      "required": [
+        "schema_version",
+        "project_id",
+        "revision_id",
+        "status",
+        "options"
+      ],
+      "additionalProperties": true
+    },
+    "approved_assets": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.1"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "revision_id": {
+          "type": "string"
+        },
+        "plan_sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        },
+        "status": {
+          "const": "approved"
+        },
+        "approval_evidence": {
+          "type": "object",
+          "properties": {
+            "channel": {
+              "const": "chat"
+            },
+            "message": {
+              "type": "string",
+              "minLength": 3
+            }
+          },
+          "required": [
+            "channel",
+            "message"
+          ],
+          "additionalProperties": true
+        },
+        "selections": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "option_id": {
+                "type": "string"
+              },
+              "scene_id": {
+                "type": "string"
+              },
+              "mode": {
+                "enum": [
+                  "exact_action_footage",
+                  "contextual_broll",
+                  "information_motion_graphics",
+                  "user_provided_footage"
+                ]
+              },
+              "match_status": {
+                "enum": [
+                  "exact_match",
+                  "contextual_match",
+                  "motion_graphics_fallback",
+                  "user_footage_required",
+                  "no_acceptable_visual"
+                ]
+              },
+              "layout": {
+                "enum": [
+                  "full_frame",
+                  "split_screen",
+                  "contextual_annotation",
+                  "pure_motion",
+                  "user_footage"
+                ]
+              },
+              "review_status": {
+                "enum": [
+                  "pending",
+                  "approved",
+                  "rejected"
+                ]
+              },
+              "graphic": {
+                "anyOf": [
+                  {
+                    "type": "object",
+                    "properties": {
+                      "kind": {
+                        "enum": [
+                          "portion_concept",
+                          "category_groups",
+                          "process",
+                          "comparison"
+                        ]
+                      },
+                      "labels": {
+                        "type": "array",
+                        "items": {
+                          "type": "string"
+                        },
+                        "minItems": 2,
+                        "maxItems": 3
+                      },
+                      "caption": {
+                        "type": "string"
+                      },
+                      "values": {
+                        "type": "array",
+                        "items": {
+                          "type": "number",
+                          "minimum": 0
+                        }
+                      },
+                      "source": {
+                        "type": "string"
+                      },
+                      "unit": {
+                        "type": "string"
+                      }
+                    },
+                    "required": [
+                      "kind",
+                      "labels",
+                      "caption"
+                    ],
+                    "additionalProperties": true
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "selected_trim": {
+                "type": "object",
+                "properties": {
+                  "start": {
+                    "type": "number",
+                    "minimum": 0
+                  },
+                  "end": {
+                    "type": "number",
+                    "exclusiveMinimum": 0
+                  }
+                },
+                "required": [
+                  "start",
+                  "end"
+                ],
+                "additionalProperties": true
+              }
+            },
+            "required": [
+              "option_id",
+              "scene_id",
+              "mode",
+              "match_status",
+              "layout",
+              "review_status"
+            ],
+            "additionalProperties": true
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "schema_version",
+        "project_id",
+        "revision_id",
+        "plan_sha256",
+        "status",
+        "approval_evidence",
+        "selections"
+      ],
+      "additionalProperties": true
+    },
+    "edit_timeline": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.1"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "awaiting_user_selection",
+            "approved_for_preview"
+          ]
+        },
+        "fps": {
+          "const": 30
+        },
+        "duration_frames": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "dimensions": {
+          "enum": [
+            [
+              540,
+              960
+            ],
+            [
+              1080,
+              1920
+            ]
+          ]
+        },
+        "clips": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "scene_id": {
+                "type": "string"
+              },
+              "option_id": {
+                "type": "string"
+              },
+              "mode": {
+                "enum": [
+                  "exact_action_footage",
+                  "contextual_broll",
+                  "information_motion_graphics",
+                  "user_provided_footage"
+                ]
+              },
+              "layout": {
+                "type": "string"
+              },
+              "frames": {
+                "type": "array",
+                "prefixItems": [
+                  {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  {
+                    "type": "integer",
+                    "minimum": 1
+                  }
+                ],
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "source_seconds": {
+                "type": "array",
+                "items": {
+                  "type": "number"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              }
+            },
+            "required": [
+              "scene_id",
+              "option_id",
+              "mode",
+              "layout",
+              "frames"
+            ],
+            "additionalProperties": true
+          }
+        },
+        "narration": {
+          "type": [
+            "object",
+            "null"
+          ]
+        },
+        "captions": {
+          "type": "array"
+        }
+      },
+      "required": [
+        "schema_version",
+        "project_id",
+        "status",
+        "fps",
+        "duration_frames",
+        "dimensions",
+        "clips"
+      ],
+      "additionalProperties": true
+    },
+    "asset_manifest": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "const": "1.1"
+        },
+        "project_id": {
+          "type": "string"
+        },
+        "assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "asset_id": {
+                "type": "string"
+              },
+              "provider": {
+                "type": "string"
+              },
+              "source_url": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "author": {
+                "type": "string"
+              },
+              "license_url": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "source_sha256": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "pattern": "^[a-f0-9]{64}$"
+              },
+              "local_path": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "asset_id",
+              "author",
+              "source_url",
+              "license_url",
+              "source_sha256"
+            ],
+            "additionalProperties": true
+          }
+        }
+      },
+      "required": [
+        "schema_version",
+        "project_id",
+        "assets"
+      ],
+      "additionalProperties": true
+    }
+  },
+  "$comment": "可選新欄位維持V1.0 scene-plan相容；事件符合、hash、trim、核准與時間連續性另由hybrid.mjs驗證。"
+}

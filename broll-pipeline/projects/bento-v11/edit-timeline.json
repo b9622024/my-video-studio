@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.1",
+  "project_id": "bento-v11",
+  "status": "awaiting_user_selection",
+  "fps": 30,
+  "duration_frames": 360,
+  "dimensions": [
+    540,
+    960
+  ],
+  "clips": [],
+  "narration": null,
+  "captions": []
+}

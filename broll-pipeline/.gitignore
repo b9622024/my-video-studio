@@ -19,3 +19,13 @@ projects/*/remotion-input.json
 
 # Private temporary review media
 projects/*/previews/
+
+# User uploads, narration, approval records and private generated outputs
+projects/*/user-input/
+projects/*/audio/
+projects/*/outputs/
+projects/*/approved-assets.json
+projects/*/quality-approval.json
+projects/*/preview-artifact.json
+projects/*/final-artifact.json
+projects/*/hybrid-render-input.json

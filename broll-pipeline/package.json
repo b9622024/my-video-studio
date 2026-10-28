@@ -1,6 +1,6 @@
 {
   "name": "keleji-broll-pipeline",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "engines": {
@@ -12,6 +12,8 @@
     "review": "node src/cli.mjs review",
     "serve": "node src/cli.mjs serve",
     "search:v101": "node --use-env-proxy tools/search-v101.mjs",
-    "review:v101": "node tools/apply-visual-review.mjs && node src/cli.mjs review --project projects/bento-v101"
+    "review:v101": "node tools/apply-visual-review.mjs && node src/cli.mjs review --project projects/bento-v101",
+    "test:hybrid": "node tests/hybrid.test.mjs",
+    "review:hybrid": "python tools/package-v11-review.py"
   }
 }
