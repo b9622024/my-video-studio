@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "composition": "MilkBrollV25",
+  "fps": 30,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "duration_frames": 360,
+  "clips": [
+    {
+      "asset": "v25-pour.mp4",
+      "frames": [
+        0,
+        120
+      ],
+      "source_seconds": [
+        4,
+        8
+      ],
+      "layout": "full portrait; gentle3.5% push only here"
+    },
+    {
+      "asset": "v25-compare-left.mp4",
+      "frames": [
+        120,
+        240
+      ],
+      "source_seconds": [
+        11,
+        15
+      ],
+      "layout": {
+        "left": 72,
+        "top": 420,
+        "width": 450,
+        "height": 740
+      }
+    },
+    {
+      "asset": "v25-compare-portion.mp4",
+      "frames": [
+        120,
+        360
+      ],
+      "source_seconds": [
+        27,
+        35
+      ],
+      "layout": {
+        "compare": [
+          558,
+          420,
+          450,
+          740
+        ],
+        "portion": [
+          72,
+          590,
+          936,
+          1053
+        ]
+      },
+      "continuous_across_frame": 240,
+      "object_position": "64% center",
+      "grade": "saturate.18 sepia.12 brightness.98 contrast.98"
+    }
+  ],
+  "transitions": [
+    {
+      "frame": 120,
+      "type": "hard editorial cut to two real panels"
+    },
+    {
+      "frames": [
+        240,
+        248
+      ],
+      "type": "continuous right-panel expansion; same footage time progresses; left/data leave at240"
+    }
+  ],
+  "overlays": {
+    "compare_data_frames": [
+      120,
+      240
+    ],
+    "portion_data_frames": [
+      240,
+      360
+    ],
+    "portion_data_enter_local_frames": [
+      8,
+      24
+    ],
+    "ruler": "unitless illustrative scale, approximate observation line y1140; no mL measurement"
+  },
+  "narration": null,
+  "loops": false,
+  "end_freeze": false
+}

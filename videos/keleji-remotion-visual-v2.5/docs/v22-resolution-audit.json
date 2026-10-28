@@ -1,0 +1,300 @@
+{
+  "observed_files": [
+    {
+      "path": "/workspace/videos/keleji-remotion-visual/out/milk-pour-4s-1080x1920.mp4",
+      "sha256": "e37c50e20f810624b153c66859434aa66dfb12ece7a67d94cddb1b338b135e81",
+      "ffprobe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "width": 1080,
+            "height": 1920,
+            "coded_width": 1080,
+            "coded_height": 1920,
+            "closed_captions": 0,
+            "film_grain": 0,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "9:16",
+            "pix_fmt": "yuvj420p",
+            "level": 40,
+            "color_range": "pc",
+            "color_space": "bt470bg",
+            "chroma_location": "center",
+            "field_order": "progressive",
+            "refs": 1,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "time_base": "1/90000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 360000,
+            "duration": "4.000000",
+            "bit_rate": "2516952",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "120",
+            "extradata_size": 51,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "vendor_id": "[0][0][0][0]"
+            },
+            "side_data_list": [
+              {
+                "side_data_type": "ICC Profile"
+              }
+            ]
+          }
+        ],
+        "format": {
+          "filename": "/workspace/videos/keleji-remotion-visual/out/milk-pour-4s-1080x1920.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "4.000000",
+          "size": "1261273",
+          "bit_rate": "2522546",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf61.7.100",
+            "comment": "Made with Remotion 4.0.539"
+          }
+        }
+      }
+    },
+    {
+      "path": "/workspace/outputs/visual-v2.2/keleji-milk-pour-4s.mp4",
+      "sha256": "e37c50e20f810624b153c66859434aa66dfb12ece7a67d94cddb1b338b135e81",
+      "ffprobe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "width": 1080,
+            "height": 1920,
+            "coded_width": 1080,
+            "coded_height": 1920,
+            "closed_captions": 0,
+            "film_grain": 0,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "9:16",
+            "pix_fmt": "yuvj420p",
+            "level": 40,
+            "color_range": "pc",
+            "color_space": "bt470bg",
+            "chroma_location": "center",
+            "field_order": "progressive",
+            "refs": 1,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "time_base": "1/90000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 360000,
+            "duration": "4.000000",
+            "bit_rate": "2516952",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "120",
+            "extradata_size": 51,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "vendor_id": "[0][0][0][0]"
+            },
+            "side_data_list": [
+              {
+                "side_data_type": "ICC Profile"
+              }
+            ]
+          }
+        ],
+        "format": {
+          "filename": "/workspace/outputs/visual-v2.2/keleji-milk-pour-4s.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "4.000000",
+          "size": "1261273",
+          "bit_rate": "2522546",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf61.7.100",
+            "comment": "Made with Remotion 4.0.539"
+          }
+        }
+      }
+    },
+    {
+      "path": "/workspace/outputs/visual-v2.2/keleji-milk-pour-preview-540p.mp4",
+      "sha256": "9f98eed22c9c89becb36ff9f048a9adb6dee0a4c3e2f3ecc120162a361090e8d",
+      "ffprobe": {
+        "streams": [
+          {
+            "index": 0,
+            "codec_name": "h264",
+            "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+            "profile": "High",
+            "codec_type": "video",
+            "codec_tag_string": "avc1",
+            "codec_tag": "0x31637661",
+            "width": 540,
+            "height": 960,
+            "coded_width": 540,
+            "coded_height": 960,
+            "closed_captions": 0,
+            "film_grain": 0,
+            "has_b_frames": 2,
+            "sample_aspect_ratio": "1:1",
+            "display_aspect_ratio": "9:16",
+            "pix_fmt": "yuvj420p",
+            "level": 31,
+            "color_range": "pc",
+            "color_space": "bt470bg",
+            "chroma_location": "center",
+            "field_order": "progressive",
+            "refs": 1,
+            "is_avc": "true",
+            "nal_length_size": "4",
+            "id": "0x1",
+            "r_frame_rate": "30/1",
+            "avg_frame_rate": "30/1",
+            "time_base": "1/90000",
+            "start_pts": 0,
+            "start_time": "0.000000",
+            "duration_ts": 360000,
+            "duration": "4.000000",
+            "bit_rate": "414240",
+            "bits_per_raw_sample": "8",
+            "nb_frames": "120",
+            "extradata_size": 51,
+            "disposition": {
+              "default": 1,
+              "dub": 0,
+              "original": 0,
+              "comment": 0,
+              "lyrics": 0,
+              "karaoke": 0,
+              "forced": 0,
+              "hearing_impaired": 0,
+              "visual_impaired": 0,
+              "clean_effects": 0,
+              "attached_pic": 0,
+              "timed_thumbnails": 0,
+              "non_diegetic": 0,
+              "captions": 0,
+              "descriptions": 0,
+              "metadata": 0,
+              "dependent": 0,
+              "still_image": 0,
+              "multilayer": 0
+            },
+            "tags": {
+              "language": "und",
+              "handler_name": "VideoHandler",
+              "vendor_id": "[0][0][0][0]"
+            },
+            "side_data_list": [
+              {
+                "side_data_type": "ICC Profile"
+              }
+            ]
+          }
+        ],
+        "format": {
+          "filename": "/workspace/outputs/visual-v2.2/keleji-milk-pour-preview-540p.mp4",
+          "nb_streams": 1,
+          "nb_programs": 0,
+          "nb_stream_groups": 0,
+          "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+          "format_long_name": "QuickTime / MOV",
+          "start_time": "0.000000",
+          "duration": "4.000000",
+          "size": "209941",
+          "bit_rate": "419882",
+          "probe_score": 100,
+          "tags": {
+            "major_brand": "isom",
+            "minor_version": "512",
+            "compatible_brands": "isomiso2avc1mp41",
+            "encoder": "Lavf61.7.100",
+            "comment": "Made with Remotion 4.0.539"
+          }
+        }
+      }
+    }
+  ],
+  "user_reported_copy": "512x910; bytes not available for inspection",
+  "cause": "Unconfirmed; existing master and delivery are identical 1080x1920; explicit preview is 540x960."
+}

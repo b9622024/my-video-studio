@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "theme": "減脂不能喝全脂牛奶嗎？",
+  "fps": 30,
+  "duration_frames": 360,
+  "scenes": [
+    {
+      "id": "pour",
+      "frames": [
+        0,
+        120
+      ],
+      "need": "liquid pours, attention",
+      "selected": "6535488",
+      "event": "pour into glass",
+      "text": "減脂不能喝全脂牛奶嗎？"
+    },
+    {
+      "id": "compare",
+      "frames": [
+        120,
+        240
+      ],
+      "need": "compare same-serving data with visibly different drink compositions",
+      "selected": "two-source-split",
+      "event": "two actual glass/stream views juxtaposed",
+      "text": "同樣200mL，脂肪不同",
+      "nutrient_source": "docs/nutrition-v24.json"
+    },
+    {
+      "id": "portion",
+      "frames": [
+        240,
+        360
+      ],
+      "need": "serving closeup with actual flow ending",
+      "selected": "11158788",
+      "event": "right pane expands, pouring stops, surface settles",
+      "text": "重點是份量與整體飲食安排",
+      "measurement": "illustrative only; no capacity inferred"
+    }
+  ],
+  "candidate_record": "broll-candidates.json",
+  "asset_record": "asset-manifest.json",
+  "edit_record": "edit-timeline.json"
+}

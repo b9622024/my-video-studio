@@ -1,0 +1,9 @@
+{
+ "checked_date":"2026-10-28","basis_ml":100,"display_serving_ml":200,"display_metric":"fat_g",
+ "products":[
+  {"label":"全脂","name":"福樂一番鮮特極全脂鮮乳 1830ml","barcode":"4710043020144","retailer_sku":"21210049","source":"https://shop.pxgo.com.tw/hourArrive/goods/237841-21210049-4710043020144","source_definition":"原料生乳；乳脂肪3.0%以上未滿3.8%","fat_g_per_100ml":3.7,"energy_kcal_per_100ml":65,"fat_g_per_200ml":7.4},
+  {"label":"低脂","name":"福樂一番鮮優質低脂鮮乳 1830ml","barcode":"4710043020595","retailer_sku":"21210052","source":"https://shop.pxgo.com.tw/hourArrive/goods/237842-21210052-4710043020595","source_definition":"原料生乳；乳脂肪0.5%以上未滿1.5%","fat_g_per_100ml":1.4,"energy_kcal_per_100ml":44,"fat_g_per_200ml":2.8}
+ ],
+ "calculation":"fat_g_per_200ml = fat_g_per_100ml * 200 / 100",
+ "limitations":["Retailer product-label transcription checked against product identity, not an independent lab measurement","Values apply only to named SKUs, not every whole/low-fat milk","Real footage is illustrative and not verified to be either named product","Glass capacity unknown; no mL measurement inferred from footage","Actual package label prevails if reformulated"]
+}

@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0",
+  "workflow": "manual curation; no Pexels API key, no scraping, no paid service",
+  "checked_date": "2026-10-28",
+  "sources": [
+    {
+      "url": "https://www.pexels.com/video/a-person-pouring-a-milk-inside-the-glass-6535488/",
+      "author": "ROMAN ODINTSOV",
+      "id": "6535488",
+      "license_url": "https://www.pexels.com/license/",
+      "license_checked_date": "2026-10-28",
+      "dimensions": [
+        2160,
+        4096
+      ],
+      "duration_seconds": 15.466667,
+      "fps": "30000/1001",
+      "sha256": "1c6f5c78faec5eae03114b9afbf0e554fc944e17a0de169e79c81acb50b56037",
+      "availability": "cached legal source; locally reviewed"
+    },
+    {
+      "url": "https://www.pexels.com/video/pouring-milk-to-empty-glass-11158788/",
+      "author": "Towfiqu barbhuiya",
+      "id": "11158788",
+      "license_url": "https://www.pexels.com/license/",
+      "license_checked_date": "2026-10-28",
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "duration_seconds": 44.377667,
+      "fps": "24000/1001",
+      "sha256": "7ebe66b72859250ee1ea170960c09be64a6901b8d58b632e19fdba7eac663a86",
+      "availability": "cached legal source; locally reviewed"
+    },
+    {
+      "url": "https://www.pexels.com/video/pouring-milk-on-a-glass-cup-7121318/",
+      "author": "Ivan S",
+      "page_dimensions": [
+        1920,
+        1080
+      ],
+      "page_duration_approx_seconds": 8,
+      "availability": "official download HTTP403; not viewed locally",
+      "id": "7121318",
+      "license_url": "https://www.pexels.com/license/",
+      "license_checked_date": "2026-10-28"
+    },
+    {
+      "url": "https://www.pexels.com/video/a-bottle-of-milk-being-placed-on-a-table-8492937/",
+      "author": "ArtHouse Studio",
+      "page_dimensions": [
+        2160,
+        4096
+      ],
+      "page_duration_approx_seconds": 11,
+      "availability": "official download HTTP403; not viewed locally",
+      "id": "8492937",
+      "license_url": "https://www.pexels.com/license/",
+      "license_checked_date": "2026-10-28"
+    },
+    {
+      "url": "https://www.pexels.com/video/a-person-using-a-milk-frother-8004756/",
+      "author": "Darina Belonogova",
+      "page_dimensions": [
+        1080,
+        1920
+      ],
+      "page_duration_approx_seconds": 16,
+      "availability": "official download HTTP403; not viewed locally",
+      "id": "8004756",
+      "license_url": "https://www.pexels.com/license/",
+      "license_checked_date": "2026-10-28"
+    }
+  ],
+  "scenes": [
+    {
+      "scene_id": "pour",
+      "query": "milk pouring into glass close up",
+      "candidates": [
+        {
+          "source_id": "6535488",
+          "suggested_source_seconds": [
+            4,
+            8
+          ],
+          "crop_subject": "full portrait; glass below center, stream right of heading",
+          "selection_reason": "Selected: V2.4-approved warm natural glass/stream, clear negative space",
+          "status": "selected"
+        },
+        {
+          "source_id": "11158788",
+          "suggested_source_seconds": [
+            8,
+            12
+          ],
+          "crop_subject": "portrait crop x~760–1420 from1920 wide; glass centered",
+          "selection_reason": "Alternative real onset of pouring; weaker blue background match",
+          "status": "available"
+        },
+        {
+          "source_id": "7121318",
+          "suggested_source_seconds": null,
+          "crop_subject": null,
+          "selection_reason": "Breakfast context potentially good; cannot approve crop or trim without original",
+          "status": "blocked_403"
+        }
+      ]
+    },
+    {
+      "scene_id": "compare",
+      "query": "two glasses of milk side by side; milk bottle placed on table",
+      "candidates": [
+        {
+          "id": "two-source-split",
+          "sources": [
+            {
+              "source_id": "6535488",
+              "suggested_source_seconds": [
+                11,
+                15
+              ],
+              "crop_subject": "source crop1700x2800 at350,800; left450x740 viewport",
+              "selection_reason": "Selected left real drink shot",
+              "status": "available"
+            },
+            {
+              "source_id": "11158788",
+              "suggested_source_seconds": [
+                27,
+                31
+              ],
+              "crop_subject": "right450x740 portrait viewport; objectPosition64% center",
+              "selection_reason": "Selected right source, continuous into next scene",
+              "status": "available"
+            }
+          ],
+          "status": "selected",
+          "selection_reason": "Two different actual recordings in clearly separate editorial panels; no fake shared table or fat identification"
+        },
+        {
+          "source_id": "11158788",
+          "suggested_source_seconds": [
+            36,
+            40
+          ],
+          "crop_subject": "single filled-glass crop",
+          "selection_reason": "Available alternate still-life composition; rejected because less useful for two-way comparison",
+          "status": "not_selected"
+        },
+        {
+          "source_id": "8492937",
+          "suggested_source_seconds": null,
+          "crop_subject": null,
+          "selection_reason": "Bottle selection action potentially useful; official binary unavailable",
+          "status": "blocked_403"
+        }
+      ]
+    },
+    {
+      "scene_id": "portion",
+      "query": "milk measuring cup close up; milk pouring stops glass settles",
+      "candidates": [
+        {
+          "source_id": "11158788",
+          "suggested_source_seconds": [
+            31,
+            35
+          ],
+          "crop_subject": "expand right pane into936x1053 viewport at72,590; glass centered, outline remains visible",
+          "selection_reason": "Selected: actual flow stops and surface settles; 27–35s normalized as one continuous asset",
+          "status": "selected"
+        },
+        {
+          "source_id": "6535488",
+          "suggested_source_seconds": [
+            11,
+            15
+          ],
+          "crop_subject": "original warm glass closeup",
+          "selection_reason": "Available fallback portion view, but stream does not visibly stop",
+          "status": "not_selected"
+        },
+        {
+          "source_id": "8004756",
+          "suggested_source_seconds": null,
+          "crop_subject": null,
+          "selection_reason": "Measuring jug may show real graduations; metadata describes frothing, not capacity measurement; cannot assess without file",
+          "status": "blocked_403"
+        }
+      ]
+    }
+  ],
+  "screened_out": [
+    {
+      "id": "4110201",
+      "url": "https://www.pexels.com/video/a-person-getting-one-glass-of-milk-4110201/",
+      "author": "Polina Tankilevitch",
+      "license_url": "https://www.pexels.com/license/",
+      "license_checked_date": "2026-10-28",
+      "duration_seconds": null,
+      "dimensions": null,
+      "reason": "Official tags include plant/almond/oat/non-dairy; reject for cow-milk comparison. No download or made-up technical metadata."
+    }
+  ],
+  "unknown_policy": "Null means not verified, not zero. Blocked candidates are research leads, not approved recommendations."
+}

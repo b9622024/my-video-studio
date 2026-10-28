@@ -1,0 +1,165 @@
+{
+  "assets": [
+    {
+      "path": "public/assets/FONT-OFL.txt",
+      "bytes": 4350,
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+    },
+    {
+      "path": "public/assets/milk-objects-atlas.png",
+      "bytes": 1965902,
+      "sha256": "cebc3d1b75dfdb2f6f6b5af7d0eedea4fe078f709e49899ed29fb74c568b5024"
+    },
+    {
+      "path": "public/assets/noto-serif-tc-subset.ttf",
+      "bytes": 17200,
+      "sha256": "1d56cf7999fc4d07f160b2ca25c062efaf293ec81b0851d029039236af0b2469"
+    },
+    {
+      "path": "public/assets/milk-objects-refined-v23.png",
+      "sha256": "96af83f151d388567791cc3aecbeb747e122b481bb9b623661137a45a6bfe316",
+      "source": "OpenAI image_gen edit of original V2.2 atlas; original result retained in generated_images",
+      "rights": "OpenAI applicable Terms of Use; no third-party brand or person; not exclusive copyright guarantee"
+    },
+    {
+      "path": "public/assets/pexels-6535488-4to8-30fps.mp4",
+      "sha256": "b375b644cd591cd6199bb41fd2308b2f043a8c380ff1557ea2b11221ed686e89",
+      "source": "https://www.pexels.com/video/a-person-pouring-a-milk-inside-the-glass-6535488/",
+      "creator": "ROMAN ODINTSOV",
+      "license": "https://www.pexels.com/license/",
+      "official_cdn": "https://videos.pexels.com/video-files/6535488/6535488-uhd_2160_4096_30fps.mp4",
+      "source_sha256": "1c6f5c78faec5eae03114b9afbf0e554fc944e17a0de169e79c81acb50b56037",
+      "source_bytes": 9703183,
+      "source_dimensions": [
+        2160,
+        4096
+      ],
+      "source_fps": "30000/1001",
+      "trim_seconds": [
+        4,
+        8
+      ],
+      "trim_dimensions": [
+        1080,
+        2048
+      ],
+      "trim_fps": 30,
+      "playback_rate": 1,
+      "in_public_git": false,
+      "not_a_claim": "Actual fat content unknown. Carton absent from frame."
+    },
+    {
+      "path": "public/assets/noto-serif-tc-v24.ttf",
+      "sha256": "151aa0e5a5b553e6a036f127fdec825bbcd69167315f4a282fbce30d943f599a",
+      "source": "https://fonts.gstatic.com/l/font?kit=XLYzIZb5bJNDGYxLBibeHZ0BnHwmuanx8cUaGX-EN-pDIZoFgEu8uFdunpfLkdB3X7Ix1yNrEgHArs0WnOy1lzHVkR9LRbbjyui7A7ektS0enjqMYZP2uZHeGle-O9RJgf8VHtSpQpuAnldnrAr3Q3b2sGYY29lwOA4FHDT4wFX6mhmcNYtw8Hb6Q4epGtCwVSbcO61YveHF9WJin6zQvI_pXreD7SShW-oEb67aLttU4wq8VC4N6_EsPh9qmFPA5el_eZ5IkjXgCTSevsDa4UtqvJIqDnTS87b7xBQoCV4htFBZnI26qOmvoP1XPhydyZb_n_7oWaEXwwY87FA1Oor7ealu40UHMbVzVBz2gDrge9w6ZmnDvgY1g8E&skey=dafe25338141b30f&v=v37",
+      "license": "SIL OFL1.1; public/assets/FONT-OFL.txt"
+    },
+    {
+      "path": "public/assets/pexels-6535488-v24-12s.mp4",
+      "sha256": "0683b3fe0fcf3813ec0121947e718b7ee059edc968341d33811759e4859cbc35",
+      "source": "https://www.pexels.com/video/a-person-pouring-a-milk-inside-the-glass-6535488/",
+      "creator": "ROMAN ODINTSOV",
+      "license": "https://www.pexels.com/license/",
+      "official_cdn": "https://videos.pexels.com/video-files/6535488/6535488-uhd_2160_4096_30fps.mp4",
+      "source_sha256": "1c6f5c78faec5eae03114b9afbf0e554fc944e17a0de169e79c81acb50b56037",
+      "source_interval_seconds": [
+        4,
+        15.466667
+      ],
+      "output_seconds": 12,
+      "end_hold_seconds_approx": 0.533,
+      "work_dimensions": [
+        1080,
+        2048
+      ],
+      "output_fps": 30,
+      "in_public_git": false,
+      "limitation": "Unknown fat content and cup capacity; illustrative drink only"
+    },
+    {
+      "id": "v25-pour.mp4",
+      "path": "public/assets/v25-pour.mp4",
+      "source_id": "6535488",
+      "source_seconds": [
+        4,
+        8
+      ],
+      "duration_seconds": 4.0,
+      "dimensions": [
+        1080,
+        2048
+      ],
+      "fps": "30/1",
+      "sha256": "b375b644cd591cd6199bb41fd2308b2f043a8c380ff1557ea2b11221ed686e89",
+      "normalization": "fps30,scale1080:2048",
+      "audio": "removed",
+      "public_git": false
+    },
+    {
+      "id": "v25-compare-left.mp4",
+      "path": "public/assets/v25-compare-left.mp4",
+      "source_id": "6535488",
+      "source_seconds": [
+        11,
+        15
+      ],
+      "duration_seconds": 4.0,
+      "dimensions": [
+        900,
+        1482
+      ],
+      "fps": "30/1",
+      "sha256": "49ee3a9627ad202cda1885431c3ed22da3924343a8227cecccd5f42786ffaa09",
+      "normalization": "fps30,crop1700:2800:350:800,scale900:1482",
+      "audio": "removed",
+      "public_git": false
+    },
+    {
+      "id": "v25-compare-portion.mp4",
+      "path": "public/assets/v25-compare-portion.mp4",
+      "source_id": "11158788",
+      "source_seconds": [
+        27,
+        35
+      ],
+      "duration_seconds": 7.966667,
+      "dimensions": [
+        1920,
+        1080
+      ],
+      "fps": "30/1",
+      "sha256": "ced52b2d384ce54b2f9670f6287e5e49835ebc7bcd35c180e40d3911129afc67",
+      "normalization": "fps30,scale1920:1080",
+      "audio": "removed",
+      "public_git": false
+    }
+  ],
+  "generated_atlas": {
+    "source": "OpenAI image_gen, original generation for this project",
+    "local_original": "/workspace/generated_images/exec-0d7d2c47-1709-4ffb-871f-484eb0fc899e.png",
+    "kind": "original paper-textured editorial product illustration, transparent atlas",
+    "commercial_use_basis": "OpenAI applicable terms assign output rights to user to extent permitted by law; no exclusive copyright claim",
+    "terms_url": "https://openai.com/policies/terms-of-use/",
+    "third_party_input_images": false,
+    "included_in_git": true
+  },
+  "font": {
+    "family": "Noto Serif TC",
+    "source_record": "docs/font-source.json",
+    "license_file": "public/assets/FONT-OFL.txt",
+    "license": "SIL OFL 1.1"
+  },
+  "stock_footage_used_in_final": false,
+  "rejected_research": [
+    {
+      "url": "https://www.pexels.com/video/a-person-pouring-a-milk-inside-the-glass-6535488/",
+      "reason": "Pouring container outside frame; does not satisfy complete carton action",
+      "license_url": "https://www.pexels.com/license/"
+    },
+    {
+      "url": "https://www.pexels.com/video/pouring-milk-to-empty-glass-11158788/",
+      "reason": "Pouring container outside frame",
+      "license_url": "https://www.pexels.com/license/"
+    }
+  ]
+}
