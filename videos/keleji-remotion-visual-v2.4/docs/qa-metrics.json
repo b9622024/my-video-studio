@@ -1,0 +1,57 @@
+{
+  "video": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 120,
+    "seconds": 4,
+    "codec": "h264",
+    "actual_pixel_format": "yuvj420p",
+    "audio_tracks": 0,
+    "bytes": 1261273,
+    "sha256": "e37c50e20f810624b153c66859434aa66dfb12ece7a67d94cddb1b338b135e81"
+  },
+  "all_120_frames_decoded": true,
+  "black_frame_test_pass": true,
+  "minimum_gray_mean": 228.97709297839506,
+  "max_adjacent_frame_gray_MAD_0_255": 6.34693287037037,
+  "max_change_frame": 90,
+  "keyframe_video_comparisons": [
+    {
+      "frame": 0,
+      "mean_absolute_RGB_error_0_255": 1.49806841563786
+    },
+    {
+      "frame": 26,
+      "mean_absolute_RGB_error_0_255": 1.5125475823045267
+    },
+    {
+      "frame": 44,
+      "mean_absolute_RGB_error_0_255": 1.5221976273148148
+    },
+    {
+      "frame": 65,
+      "mean_absolute_RGB_error_0_255": 1.5216796875
+    },
+    {
+      "frame": 90,
+      "mean_absolute_RGB_error_0_255": 1.5491833847736625
+    },
+    {
+      "frame": 119,
+      "mean_absolute_RGB_error_0_255": 1.4316796875
+    }
+  ],
+  "nonsequential_seek": {
+    "testedOrder": [
+      65,
+      119,
+      65
+    ],
+    "frame65ByteIdentical": false,
+    "max_RGB_delta": 1,
+    "mean_RGB_delta": 1.109182098765432e-05,
+    "pixel_tolerance_pass": true
+  },
+  "scope": "Pixel checks cannot replace subjective motion review; freeze holds at start/end are intentional."
+}

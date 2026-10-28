@@ -1,0 +1,492 @@
+{
+  "files": [
+    {
+      "kind": "preview-540p",
+      "files": [
+        {
+          "path": "/workspace/videos/keleji-remotion-visual-v2.4/out/MilkHybridV24-preview-540p.mp4",
+          "sha256": "379b0fdbf84edac812f8cbca16e2749bed27bc12ef8649f606232283cbcca64a",
+          "ffprobe": {
+            "streams": [
+              {
+                "index": 0,
+                "codec_name": "h264",
+                "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+                "profile": "High",
+                "codec_type": "video",
+                "codec_tag_string": "avc1",
+                "codec_tag": "0x31637661",
+                "width": 540,
+                "height": 960,
+                "coded_width": 540,
+                "coded_height": 960,
+                "closed_captions": 0,
+                "film_grain": 0,
+                "has_b_frames": 2,
+                "sample_aspect_ratio": "1:1",
+                "display_aspect_ratio": "9:16",
+                "pix_fmt": "yuvj420p",
+                "level": 31,
+                "color_range": "pc",
+                "color_space": "bt470bg",
+                "chroma_location": "center",
+                "field_order": "progressive",
+                "refs": 1,
+                "is_avc": "true",
+                "nal_length_size": "4",
+                "id": "0x1",
+                "r_frame_rate": "30/1",
+                "avg_frame_rate": "30/1",
+                "time_base": "1/90000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 1080000,
+                "duration": "12.000000",
+                "bit_rate": "457626",
+                "bits_per_raw_sample": "8",
+                "nb_frames": "360",
+                "extradata_size": 51,
+                "disposition": {
+                  "default": 1,
+                  "dub": 0,
+                  "original": 0,
+                  "comment": 0,
+                  "lyrics": 0,
+                  "karaoke": 0,
+                  "forced": 0,
+                  "hearing_impaired": 0,
+                  "visual_impaired": 0,
+                  "clean_effects": 0,
+                  "attached_pic": 0,
+                  "timed_thumbnails": 0,
+                  "non_diegetic": 0,
+                  "captions": 0,
+                  "descriptions": 0,
+                  "metadata": 0,
+                  "dependent": 0,
+                  "still_image": 0,
+                  "multilayer": 0
+                },
+                "tags": {
+                  "language": "und",
+                  "handler_name": "VideoHandler",
+                  "vendor_id": "[0][0][0][0]"
+                },
+                "side_data_list": [
+                  {
+                    "side_data_type": "ICC Profile"
+                  }
+                ]
+              }
+            ],
+            "format": {
+              "filename": "/workspace/videos/keleji-remotion-visual-v2.4/out/MilkHybridV24-preview-540p.mp4",
+              "nb_streams": 1,
+              "nb_programs": 0,
+              "nb_stream_groups": 0,
+              "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+              "format_long_name": "QuickTime / MOV",
+              "start_time": "0.000000",
+              "duration": "12.000000",
+              "size": "692104",
+              "bit_rate": "461402",
+              "probe_score": 100,
+              "tags": {
+                "major_brand": "isom",
+                "minor_version": "512",
+                "compatible_brands": "isomiso2avc1mp41",
+                "encoder": "Lavf61.7.100",
+                "comment": "Made with Remotion 4.0.539"
+              }
+            }
+          }
+        },
+        {
+          "path": "/workspace/outputs/visual-v2.4/keleji-v24-12s-preview-540p.mp4",
+          "sha256": "379b0fdbf84edac812f8cbca16e2749bed27bc12ef8649f606232283cbcca64a",
+          "ffprobe": {
+            "streams": [
+              {
+                "index": 0,
+                "codec_name": "h264",
+                "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+                "profile": "High",
+                "codec_type": "video",
+                "codec_tag_string": "avc1",
+                "codec_tag": "0x31637661",
+                "width": 540,
+                "height": 960,
+                "coded_width": 540,
+                "coded_height": 960,
+                "closed_captions": 0,
+                "film_grain": 0,
+                "has_b_frames": 2,
+                "sample_aspect_ratio": "1:1",
+                "display_aspect_ratio": "9:16",
+                "pix_fmt": "yuvj420p",
+                "level": 31,
+                "color_range": "pc",
+                "color_space": "bt470bg",
+                "chroma_location": "center",
+                "field_order": "progressive",
+                "refs": 1,
+                "is_avc": "true",
+                "nal_length_size": "4",
+                "id": "0x1",
+                "r_frame_rate": "30/1",
+                "avg_frame_rate": "30/1",
+                "time_base": "1/90000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 1080000,
+                "duration": "12.000000",
+                "bit_rate": "457626",
+                "bits_per_raw_sample": "8",
+                "nb_frames": "360",
+                "extradata_size": 51,
+                "disposition": {
+                  "default": 1,
+                  "dub": 0,
+                  "original": 0,
+                  "comment": 0,
+                  "lyrics": 0,
+                  "karaoke": 0,
+                  "forced": 0,
+                  "hearing_impaired": 0,
+                  "visual_impaired": 0,
+                  "clean_effects": 0,
+                  "attached_pic": 0,
+                  "timed_thumbnails": 0,
+                  "non_diegetic": 0,
+                  "captions": 0,
+                  "descriptions": 0,
+                  "metadata": 0,
+                  "dependent": 0,
+                  "still_image": 0,
+                  "multilayer": 0
+                },
+                "tags": {
+                  "language": "und",
+                  "handler_name": "VideoHandler",
+                  "vendor_id": "[0][0][0][0]"
+                },
+                "side_data_list": [
+                  {
+                    "side_data_type": "ICC Profile"
+                  }
+                ]
+              }
+            ],
+            "format": {
+              "filename": "/workspace/outputs/visual-v2.4/keleji-v24-12s-preview-540p.mp4",
+              "nb_streams": 1,
+              "nb_programs": 0,
+              "nb_stream_groups": 0,
+              "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+              "format_long_name": "QuickTime / MOV",
+              "start_time": "0.000000",
+              "duration": "12.000000",
+              "size": "692104",
+              "bit_rate": "461402",
+              "probe_score": 100,
+              "tags": {
+                "major_brand": "isom",
+                "minor_version": "512",
+                "compatible_brands": "isomiso2avc1mp41",
+                "encoder": "Lavf61.7.100",
+                "comment": "Made with Remotion 4.0.539"
+              }
+            }
+          }
+        }
+      ],
+      "all_360_frames_decoded": true,
+      "minimum_gray_mean": 212.37987075617283,
+      "maximum_adjacent_frame_gray_MAD": 0.44285300925925924,
+      "maximum_change_frame": 10,
+      "scene_boundary_MAD": {
+        "119_to_120": 0.27179783950617287,
+        "239_to_240": 0.32822145061728397
+      }
+    },
+    {
+      "kind": "master-1080x1920",
+      "files": [
+        {
+          "path": "/workspace/videos/keleji-remotion-visual-v2.4/out/MilkHybridV24-master-1080x1920.mp4",
+          "sha256": "4f090e12bd00c685ccb4f941899bff4dd60ff1701b82e6460a5a75804b6777b4",
+          "ffprobe": {
+            "streams": [
+              {
+                "index": 0,
+                "codec_name": "h264",
+                "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+                "profile": "High",
+                "codec_type": "video",
+                "codec_tag_string": "avc1",
+                "codec_tag": "0x31637661",
+                "width": 1080,
+                "height": 1920,
+                "coded_width": 1080,
+                "coded_height": 1920,
+                "closed_captions": 0,
+                "film_grain": 0,
+                "has_b_frames": 2,
+                "sample_aspect_ratio": "1:1",
+                "display_aspect_ratio": "9:16",
+                "pix_fmt": "yuvj420p",
+                "level": 40,
+                "color_range": "pc",
+                "color_space": "bt470bg",
+                "chroma_location": "center",
+                "field_order": "progressive",
+                "refs": 1,
+                "is_avc": "true",
+                "nal_length_size": "4",
+                "id": "0x1",
+                "r_frame_rate": "30/1",
+                "avg_frame_rate": "30/1",
+                "time_base": "1/90000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 1080000,
+                "duration": "12.000000",
+                "bit_rate": "2745472",
+                "bits_per_raw_sample": "8",
+                "nb_frames": "360",
+                "extradata_size": 51,
+                "disposition": {
+                  "default": 1,
+                  "dub": 0,
+                  "original": 0,
+                  "comment": 0,
+                  "lyrics": 0,
+                  "karaoke": 0,
+                  "forced": 0,
+                  "hearing_impaired": 0,
+                  "visual_impaired": 0,
+                  "clean_effects": 0,
+                  "attached_pic": 0,
+                  "timed_thumbnails": 0,
+                  "non_diegetic": 0,
+                  "captions": 0,
+                  "descriptions": 0,
+                  "metadata": 0,
+                  "dependent": 0,
+                  "still_image": 0,
+                  "multilayer": 0
+                },
+                "tags": {
+                  "language": "und",
+                  "handler_name": "VideoHandler",
+                  "vendor_id": "[0][0][0][0]"
+                },
+                "side_data_list": [
+                  {
+                    "side_data_type": "ICC Profile"
+                  }
+                ]
+              }
+            ],
+            "format": {
+              "filename": "/workspace/videos/keleji-remotion-visual-v2.4/out/MilkHybridV24-master-1080x1920.mp4",
+              "nb_streams": 1,
+              "nb_programs": 0,
+              "nb_stream_groups": 0,
+              "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+              "format_long_name": "QuickTime / MOV",
+              "start_time": "0.000000",
+              "duration": "12.000000",
+              "size": "4123933",
+              "bit_rate": "2749288",
+              "probe_score": 100,
+              "tags": {
+                "major_brand": "isom",
+                "minor_version": "512",
+                "compatible_brands": "isomiso2avc1mp41",
+                "encoder": "Lavf61.7.100",
+                "comment": "Made with Remotion 4.0.539"
+              }
+            }
+          }
+        },
+        {
+          "path": "/workspace/outputs/visual-v2.4/keleji-v24-12s-master-1080x1920.mp4",
+          "sha256": "4f090e12bd00c685ccb4f941899bff4dd60ff1701b82e6460a5a75804b6777b4",
+          "ffprobe": {
+            "streams": [
+              {
+                "index": 0,
+                "codec_name": "h264",
+                "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+                "profile": "High",
+                "codec_type": "video",
+                "codec_tag_string": "avc1",
+                "codec_tag": "0x31637661",
+                "width": 1080,
+                "height": 1920,
+                "coded_width": 1080,
+                "coded_height": 1920,
+                "closed_captions": 0,
+                "film_grain": 0,
+                "has_b_frames": 2,
+                "sample_aspect_ratio": "1:1",
+                "display_aspect_ratio": "9:16",
+                "pix_fmt": "yuvj420p",
+                "level": 40,
+                "color_range": "pc",
+                "color_space": "bt470bg",
+                "chroma_location": "center",
+                "field_order": "progressive",
+                "refs": 1,
+                "is_avc": "true",
+                "nal_length_size": "4",
+                "id": "0x1",
+                "r_frame_rate": "30/1",
+                "avg_frame_rate": "30/1",
+                "time_base": "1/90000",
+                "start_pts": 0,
+                "start_time": "0.000000",
+                "duration_ts": 1080000,
+                "duration": "12.000000",
+                "bit_rate": "2745472",
+                "bits_per_raw_sample": "8",
+                "nb_frames": "360",
+                "extradata_size": 51,
+                "disposition": {
+                  "default": 1,
+                  "dub": 0,
+                  "original": 0,
+                  "comment": 0,
+                  "lyrics": 0,
+                  "karaoke": 0,
+                  "forced": 0,
+                  "hearing_impaired": 0,
+                  "visual_impaired": 0,
+                  "clean_effects": 0,
+                  "attached_pic": 0,
+                  "timed_thumbnails": 0,
+                  "non_diegetic": 0,
+                  "captions": 0,
+                  "descriptions": 0,
+                  "metadata": 0,
+                  "dependent": 0,
+                  "still_image": 0,
+                  "multilayer": 0
+                },
+                "tags": {
+                  "language": "und",
+                  "handler_name": "VideoHandler",
+                  "vendor_id": "[0][0][0][0]"
+                },
+                "side_data_list": [
+                  {
+                    "side_data_type": "ICC Profile"
+                  }
+                ]
+              }
+            ],
+            "format": {
+              "filename": "/workspace/outputs/visual-v2.4/keleji-v24-12s-master-1080x1920.mp4",
+              "nb_streams": 1,
+              "nb_programs": 0,
+              "nb_stream_groups": 0,
+              "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+              "format_long_name": "QuickTime / MOV",
+              "start_time": "0.000000",
+              "duration": "12.000000",
+              "size": "4123933",
+              "bit_rate": "2749288",
+              "probe_score": 100,
+              "tags": {
+                "major_brand": "isom",
+                "minor_version": "512",
+                "compatible_brands": "isomiso2avc1mp41",
+                "encoder": "Lavf61.7.100",
+                "comment": "Made with Remotion 4.0.539"
+              }
+            }
+          }
+        }
+      ],
+      "all_360_frames_decoded": true,
+      "minimum_gray_mean": 212.2466724537037,
+      "maximum_adjacent_frame_gray_MAD": 0.47038966049382713,
+      "maximum_change_frame": 127,
+      "scene_boundary_MAD": {
+        "119_to_120": 0.29398148148148145,
+        "239_to_240": 0.3637152777777778
+      }
+    }
+  ],
+  "direct_still_to_MP4_keyframes": [
+    {
+      "frame": 30,
+      "mean_RGB_error": 0.963904642489712
+    },
+    {
+      "frame": 105,
+      "mean_RGB_error": 0.9494139017489712
+    },
+    {
+      "frame": 125,
+      "mean_RGB_error": 0.9313850308641975
+    },
+    {
+      "frame": 165,
+      "mean_RGB_error": 1.06099408436214
+    },
+    {
+      "frame": 225,
+      "mean_RGB_error": 1.0546863747427984
+    },
+    {
+      "frame": 245,
+      "mean_RGB_error": 0.8230782214506173
+    },
+    {
+      "frame": 285,
+      "mean_RGB_error": 0.9873834555041152
+    },
+    {
+      "frame": 330,
+      "mean_RGB_error": 0.9785021219135802
+    },
+    {
+      "frame": 359,
+      "mean_RGB_error": 0.9911424575617284
+    }
+  ],
+  "seek": {
+    "order": [
+      180,
+      359,
+      180
+    ],
+    "max_RGB_delta": 0,
+    "mean_RGB_delta": 0.0
+  },
+  "render_times": {
+    "preview": {
+      "composition": "MilkHybridV24",
+      "width": 540,
+      "height": 960,
+      "fps": 30,
+      "durationInFrames": 360,
+      "codec": "h264",
+      "muted": true,
+      "elapsedSeconds": 83.19242439499999
+    },
+    "final": {
+      "composition": "MilkHybridV24",
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "durationInFrames": 360,
+      "codec": "h264",
+      "muted": true,
+      "elapsedSeconds": 86.251528261
+    }
+  },
+  "scope": "Technical validation only. Final approx0.53s is an intentional end hold. No automatic aesthetic approval."
+}

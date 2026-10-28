@@ -1,0 +1,11 @@
+{
+ "composition":"MilkHybridV24","fps":30,"frames":360,"dimensions":[1080,1920],
+ "scenes":[
+  {"id":"pour","start_frame":0,"end_frame_exclusive":120,"source_seconds":[4,8],"actions":["actual pouring and rising surface","title entrance frames0–16; exits106–123"]},
+  {"id":"compare","start_frame":120,"end_frame_exclusive":240,"source_seconds":[8,12],"actions":["same glass continues pouring","same 200mL: fat7.4g vs2.8g","whole-fat line136–169; low-fat line146–179, same 0–8g scale","source/illustrative-footage note"]},
+  {"id":"portion","start_frame":240,"end_frame_exclusive":360,"source_seconds":[12,15.466667],"actions":["concept ruler enters242–268","liquid observation guide keyframes240/280/320/344 at y1095/1075/1056/1047; approximate visual alignment, not measurement","conclusion266–287, holds through359","last approx16 frames repeat last source frame for closing hold"]}
+ ],
+ "camera":"same shot; scale1→1.045 in0–119; scale1.045→1.07 in240–340, continuous",
+ "audio_tracks":0,
+ "source_of_truth":"src/MilkHybridV24.tsx; nutrition-v24.json drives displayed numbers"
+}
