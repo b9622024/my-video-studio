@@ -54,6 +54,9 @@ CPU 路徑有程式碼依據，但尚無模型、依賴或 smoke test；不能�
 
 ## 網路與費用
 
+V2.5／V2.6 更正：下列失敗是當時命令執行沙箱未取得正式網路權限，不能解讀為代理或模型下載來源故障。網路政策 unrestricted 已生效；在工具提供 network.enabled=true 權限後，現有 proxy:8080、GitHub、PyPI、Hugging Face 與 PyTorch 來源均成功。後續連網命令沿用代理與正式網路權限，不取消沙箱或繞過平台控制。
+
+
 2026-10-28 執行器 curl 小型 HEAD 檢查：HF 兩個 metadata URL、GitHub、PyTorch CPU wheel index 全部 return code 7，無法連上 proxy:8080，未進入來源站。
 GitHub 連線工具及網頁查詢可讀官方資料；這與執行器下載通道不同，不能當成模型下載成功。未繞過代理。
 上述公開權重來源可下載，不需付費 TTS API；CPU 本機推論也不需租 GPU。本輪未購買或新增資源。
