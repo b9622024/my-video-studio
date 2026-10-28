@@ -1,0 +1,10 @@
+{
+  "project_id": "bento-v101",
+  "version": "1.0.1",
+  "key_loaded": true,
+  "first_run_api_requests": 6,
+  "second_run_api_requests": 3,
+  "second_run_cache_hits": 6,
+  "search_errors": [],
+  "status": "awaiting_user_quality_acceptance"
+}

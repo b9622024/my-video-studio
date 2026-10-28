@@ -16,3 +16,6 @@ projects/*/remotion-input.json
 *.pth
 *.ckpt
 *.safetensors
+
+# Private temporary review media
+projects/*/previews/

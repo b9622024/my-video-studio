@@ -32,12 +32,13 @@ async function persist(dir,plan,result){
  await writeJSON(path.join(dir,'asset-manifest.json'),{schema_version:'1.0',project_id:plan.project_id,provider:'pixabay',legacy_reference:'../../compat/v25/asset-manifest.json',assets:result.scenes.flatMap(s=>s.candidates).map(c=>({...c})),notes:['未下載素材的source_sha256保持null。','所有候選pending；人工核准前不能進入正式剪輯。']});
  await writeJSON(path.join(dir,'api-test-result.json'),{checked_at:result.generated_at,key_loaded:Boolean(process.env.PIXABAY_API_KEY?.trim()),status:result.status,api_requests:result.api_requests,cache_hours:24,errors:result.errors});
 }
-export function candidateIndex(dataset){return new Map(dataset.scenes.flatMap(s=>s.candidates.map(c=>[s.scene_id+'::'+c.candidate_id,c])));}
+export function candidateIndex(dataset){return new Map(dataset.scenes.flatMap(s=>[...s.candidates,...(s.excluded_previews??[])].map(c=>[s.scene_id+'::'+c.candidate_id,c])));}
 export function validateReview(review,plan,dataset){
  if(review.schema_version!=='1.0'||review.project_id!==plan.project_id||review.candidate_set_id!==dataset.revision_id||!Array.isArray(review.decisions)||!Array.isArray(review.search_again))throw new PipelineError('INVALID_REVIEW','審核專案或資料結構不符。');
  const index=candidateIndex(dataset),seen=new Set(),approvedScenes=new Set();
  for(const d of review.decisions){const key=d.scene_id+'::'+d.candidate_id,c=index.get(key);if(!c||seen.has(key)||!['approved','rejected','pending'].includes(d.status))throw new PipelineError('INVALID_REVIEW','未知、重複候選或狀態不合法。');seen.add(key);
   if(d.status==='approved'){
+   if(c.visual_check?.verdict==='excluded'||c.metadata_screen?.status==='excluded'||c.availability?.status==='unavailable')throw new PipelineError('EXCLUDED_CANDIDATE','已排除或無法取得的素材不能核准。');
    const t=d.selected_trim,cp=d.crop_parameters;
    if(approvedScenes.has(d.scene_id)||d.action_verified!==true||d.risk_reviewed!==true||typeof d.actual_action_description!=='string'||d.actual_action_description.trim().length<2||!t||!Number.isFinite(t.start)||!Number.isFinite(t.end)||t.start<0||t.end<=t.start||t.end>c.duration||!cp||cp.verified!==true||cp.aspect_ratio!=='9:16'||![cp.object_position_x,cp.object_position_y].every(v=>Number.isFinite(v)&&v>=0&&v<=1))throw new PipelineError('INVALID_APPROVAL','每場景僅採用一支；須核對動作、風險、裁切及有效起訖。');approvedScenes.add(d.scene_id);
   }

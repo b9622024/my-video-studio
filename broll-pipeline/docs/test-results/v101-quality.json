@@ -1,0 +1,140 @@
+{
+  "version": "1.0.1",
+  "old_candidate_count": 9,
+  "new_metadata_records": 89,
+  "new_metadata_excluded": 52,
+  "review_previews": 6,
+  "frames_in_review": 18,
+  "exact_action_matches": 0,
+  "partial_candidates": 1,
+  "visual_excluded_preview_count": 5,
+  "production_approvals": 0,
+  "comparisons": [
+    {
+      "scene": "A",
+      "id": "pixabay-227128",
+      "tags": "lunch, food, dinner, meal, cooking, restaurant, breakfast, sandwich, delicious, dish",
+      "old_status": "metadata_candidate_no_visual_confirmation",
+      "new_metadata_status": "metadata_only",
+      "reasons": [
+        "物件詞可能符合；動作及物件狀態須看影片確認。"
+      ],
+      "new_visual_status": {
+        "verdict": "excluded",
+        "summary": "抽樣影格顯示刀叉切餐盤中的肉與沙拉，沒有便當容器或裝餐證據。",
+        "observed_action": "刀叉切取餐盤食物",
+        "object_present": false,
+        "object_state_correct": true,
+        "action_match": false,
+        "crop_assessment": "原生直式，可裁切，但情境錯誤。",
+        "content_risk": "可見手與餐具；未見明顯品牌。",
+        "reviewer": "Codex，依本輪實際讀取的本機影格作保守判斷；非後端自動視覺辨識",
+        "evidence_scope": "three_sampled_frames",
+        "human_approved": false,
+        "evidence_frames": [
+          {
+            "time_seconds": 0.9359999999999999,
+            "path": "previews/pixabay-227128-frame-1.jpg"
+          },
+          {
+            "time_seconds": 3.12,
+            "path": "previews/pixabay-227128-frame-2.jpg"
+          },
+          {
+            "time_seconds": 5.304,
+            "path": "previews/pixabay-227128-frame-3.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "scene": "A",
+      "id": "pixabay-11613",
+      "tags": "wantons, making, asian, chinese, cuisine, dumpling, food, china, preparing, cooking, dinner, lunch, traditional, culture, raw, healthy, east, flour, indigenous, yummy, meal, stuffed, appetizer, pork, oriental, delicious, stack, chopsticks, wanton",
+      "old_status": "metadata_candidate_no_visual_confirmation",
+      "new_metadata_status": "excluded",
+      "reasons": [
+        "排除情境標籤：wanton, dumpling"
+      ],
+      "new_visual_status": "not_viewed_metadata_only"
+    },
+    {
+      "scene": "A",
+      "id": "pixabay-2339",
+      "tags": "lunch, meal, people, tea cup, tea, couple, table, restaurant, diner, service, food, snack, eating",
+      "old_status": "metadata_candidate_no_visual_confirmation",
+      "new_metadata_status": "excluded",
+      "reasons": [
+        "排除情境標籤：dining_not_meal_packing"
+      ],
+      "new_visual_status": "not_viewed_metadata_only"
+    },
+    {
+      "scene": "B",
+      "id": "pixabay-11677",
+      "tags": "spicy, fish, food, meal, dish, chili, sauce, delicious, fresh, healthy, white, vegetable, red, traditional, spice, curry, cooking, thailand, green, egg, asia, culture, powder, served, sliced, basil, ingredient, lemongrass, cuisine, femented, fermented, boiled, bean",
+      "old_status": "metadata_candidate_no_visual_confirmation",
+      "new_metadata_status": "metadata_only",
+      "reasons": [
+        "物件詞可能符合；動作及物件狀態須看影片確認。"
+      ],
+      "new_visual_status": "not_viewed_metadata_only"
+    },
+    {
+      "scene": "B",
+      "id": "pixabay-11610",
+      "tags": "slice, chinese, cabbage, food, cuisine, vegetable, healthy, meal, asian, dish, restaurant, delicious, meat, china, dinner, crispy, sweet, oriental, beijing, peking, herb, fried",
+      "old_status": "metadata_candidate_no_visual_confirmation",
+      "new_metadata_status": "metadata_only",
+      "reasons": [
+        "物件詞可能符合；動作及物件狀態須看影片確認。"
+      ],
+      "new_visual_status": "not_viewed_metadata_only"
+    },
+    {
+      "scene": "B",
+      "id": "pixabay-223334",
+      "tags": "tomatoes, rainy weather, weather, rain, vegetables",
+      "old_status": "metadata_candidate_no_visual_confirmation",
+      "new_metadata_status": "excluded",
+      "reasons": [
+        "排除情境標籤：rain"
+      ],
+      "new_visual_status": "not_viewed_metadata_only"
+    },
+    {
+      "scene": "C",
+      "id": "pixabay-283431",
+      "tags": "night view, yamada's rice fields, rice farming, rice terraces, starry sky, milky way, reflection on the water surface, japan",
+      "old_status": "metadata_candidate_no_visual_confirmation",
+      "new_metadata_status": "excluded",
+      "reasons": [
+        "排除情境標籤：field, farming, terrace, rice_field_not_cooked_rice"
+      ],
+      "new_visual_status": "not_viewed_metadata_only"
+    },
+    {
+      "scene": "C",
+      "id": "pixabay-307864",
+      "tags": "wind, electricity, windpower, rice, vietnam, nature, farming, green, sunset",
+      "old_status": "metadata_candidate_no_visual_confirmation",
+      "new_metadata_status": "excluded",
+      "reasons": [
+        "排除情境標籤：farming"
+      ],
+      "new_visual_status": "not_viewed_metadata_only"
+    },
+    {
+      "scene": "C",
+      "id": "pixabay-380106",
+      "tags": "rice, grain, before harvest, yamada's rice fields, agriculture, countryside, wind, partly cloudy",
+      "old_status": "metadata_candidate_no_visual_confirmation",
+      "new_metadata_status": "excluded",
+      "reasons": [
+        "排除情境標籤：field, agriculture, harvest, grain, rice_field_not_cooked_rice"
+      ],
+      "new_visual_status": "not_viewed_metadata_only"
+    }
+  ],
+  "limits": "同scene去重，不同scene可重複。不是完整人工標註資料集，不能宣稱通用precision/recall。"
+}

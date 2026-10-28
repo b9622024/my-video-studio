@@ -1,0 +1,57 @@
+{
+  "status": "PASS",
+  "engine": "Chromium 393x852 touch",
+  "physical_iPhone_Safari_tested": false,
+  "checks": [
+    "all six local mp4 files decoded and played; all posters and 18 evidence images decoded",
+    "Approve, Reject, required checks, crop, invalidation, persistence, Search Again and JSON export verified"
+  ],
+  "playback": [
+    {
+      "url": "previews/pixabay-227128.mp4",
+      "width": 480,
+      "height": 854,
+      "duration": 6.24,
+      "time": 0.119356
+    },
+    {
+      "url": "previews/pixabay-45101.mp4",
+      "width": 480,
+      "height": 270,
+      "duration": 18.393375,
+      "time": 0.123977
+    },
+    {
+      "url": "previews/pixabay-11605.mp4",
+      "width": 480,
+      "height": 270,
+      "duration": 54.266667,
+      "time": 0.120416
+    },
+    {
+      "url": "previews/pixabay-11661.mp4",
+      "width": 480,
+      "height": 270,
+      "duration": 23.556867,
+      "time": 0.115153
+    },
+    {
+      "url": "previews/pixabay-11626.mp4",
+      "width": 480,
+      "height": 270,
+      "duration": 19.3,
+      "time": 0.122906
+    },
+    {
+      "url": "previews/pixabay-11623.mp4",
+      "width": 480,
+      "height": 270,
+      "duration": 20.166667,
+      "time": 0.109696
+    }
+  ],
+  "page_errors": [],
+  "real_pixabay_media": true,
+  "automated_decisions_discarded": true,
+  "production_approval_performed": false
+}

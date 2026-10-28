@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "project_id": "bento-v101",
+  "title": "外食族的便當，怎麼安排比較均衡？",
+  "fps": 30,
+  "source_script": "外食族的便當，怎麼安排比較均衡？先看看餐盒裡有哪些食物。夾取幾樣蔬菜，搭配不同的配菜。主食也要留意份量，再依自己的需求調整。",
+  "script_provenance": "Codex為本輪主題撰寫的示範口白，非使用者提供的完整逐字稿。",
+  "analysis_origin": "Codex-assisted semantic analysis; not a paid LLM service or automatic backend semantic engine",
+  "scenes": [
+    {
+      "id": "A",
+      "name": "外食便當",
+      "narration": "外食族的便當，怎麼安排比較均衡？先看看餐盒裡有哪些食物。",
+      "viewer_takeaway": "先觀察餐盒內容，畫面不代表營養評估已完成。",
+      "event": "真實餐盒被準備、打開或裝入餐點。",
+      "required_objects": [
+        "lunch box",
+        "prepared meal"
+      ],
+      "required_actions": [
+        "packing or preparing a lunch box"
+      ],
+      "visual_mode": "broll",
+      "duration_seconds": 6,
+      "search_queries": [
+        "packing lunch box",
+        "preparing bento",
+        "meal prep container"
+      ],
+      "misleading_risks": [
+        "不得把餐盒外觀當成份量或營養均衡證明。"
+      ],
+      "animation_refs": [
+        "brief title"
+      ],
+      "semantic_requirements": {
+        "primary_objects": [
+          "lunch box",
+          "meal container"
+        ],
+        "object_state": "prepared food in a portable meal container",
+        "specific_action": "packing or placing food into lunch box",
+        "context": "meal preparation",
+        "excluded_contexts": [
+          "wonton or dumpling making",
+          "restaurant dining",
+          "farming"
+        ],
+        "negative_patterns": [
+          "wanton",
+          "wonton",
+          "dumpling",
+          "restaurant",
+          "dining",
+          "harvest",
+          "paddy"
+        ],
+        "alternative": "以自行拍攝的空餐盒與裝餐手部示範，搭配食物分類示意。"
+      }
+    },
+    {
+      "id": "B",
+      "name": "蔬菜與配菜",
+      "narration": "夾取幾樣蔬菜，搭配不同的配菜。",
+      "viewer_takeaway": "看見蔬菜／配菜加入餐點的實際動作。",
+      "event": "用夾子、湯匙或手把蔬菜放入盤子或餐盒。",
+      "required_objects": [
+        "vegetables",
+        "food container"
+      ],
+      "required_actions": [
+        "serving or placing vegetables"
+      ],
+      "visual_mode": "broll",
+      "duration_seconds": 6,
+      "search_queries": [
+        "placing vegetables in lunch box",
+        "serving cooked vegetables",
+        "chopping vegetables for meal"
+      ],
+      "misleading_risks": [
+        "不可由顏色推定營養數字；有人物不代表學員案例。"
+      ],
+      "animation_refs": [
+        "optional short food label"
+      ],
+      "semantic_requirements": {
+        "primary_objects": [
+          "vegetables",
+          "plate or lunch box"
+        ],
+        "object_state": "prepared or cooked vegetables ready to serve",
+        "specific_action": "placing or serving vegetables into meal container",
+        "context": "meal preparation",
+        "excluded_contexts": [
+          "rain on tomatoes",
+          "growing crops",
+          "still life with no serving"
+        ],
+        "negative_patterns": [
+          "rain",
+          "raindrop",
+          "garden",
+          "plantation",
+          "growing",
+          "harvest"
+        ],
+        "alternative": "自行拍攝夾熟蔬菜進便當；找不到時使用明確標示的動作示意動畫。"
+      }
+    },
+    {
+      "id": "C",
+      "name": "主食與份量",
+      "narration": "主食也要留意份量，再依自己的需求調整。",
+      "viewer_takeaway": "辨認盛飯或調整份量的動作，不宣告固定份量適合所有人。",
+      "event": "用飯匙把飯盛進碗或餐盒，完成一次裝餐。",
+      "required_objects": [
+        "cooked rice",
+        "rice spoon",
+        "bowl or lunch box"
+      ],
+      "required_actions": [
+        "scooping or serving rice"
+      ],
+      "visual_mode": "broll_with_optional_information",
+      "duration_seconds": 6,
+      "search_queries": [
+        "scooping cooked rice",
+        "serving rice into bowl",
+        "putting cooked rice into lunch box"
+      ],
+      "misleading_risks": [
+        "沒有測量不能標示克數、熱量或減重效果。"
+      ],
+      "animation_refs": [
+        "unitless portion concept only"
+      ],
+      "semantic_requirements": {
+        "primary_objects": [
+          "cooked rice",
+          "spoon",
+          "bowl or lunch box"
+        ],
+        "object_state": "cooked edible rice, not raw grain or plants",
+        "specific_action": "scooping cooked rice into bowl or lunch box",
+        "context": "meal preparation",
+        "excluded_contexts": [
+          "rice field",
+          "agriculture",
+          "harvest",
+          "raw grain"
+        ],
+        "negative_patterns": [
+          "paddy",
+          "field",
+          "agriculture",
+          "farming",
+          "harvest",
+          "plantation",
+          "grain",
+          "terrace"
+        ],
+        "alternative": "自行拍攝飯匙盛熟白飯進碗；以無數值份量動畫補充，不用稻田代替。"
+      }
+    }
+  ],
+  "version": "1.0.1"
+}

@@ -1,0 +1,66 @@
+{
+  "results": [
+    {
+      "candidate_id": "pixabay-227128",
+      "kind": "source_page",
+      "method": "HEAD",
+      "url": "https://pixabay.com/videos/id-227128/",
+      "at": "2026-10-28T15:53:33.981Z",
+      "status": 301,
+      "location": "/videos/lunch-food-dinner-meal-cooking-227128/",
+      "content_type": "text/html; charset=utf-8",
+      "canonical_url": "https://pixabay.com/videos/lunch-food-dinner-meal-cooking-227128/",
+      "canonical_status": 200
+    },
+    {
+      "candidate_id": "pixabay-227128",
+      "kind": "source_page",
+      "method": "GET",
+      "url": "https://pixabay.com/videos/id-227128/",
+      "at": "2026-10-28T15:53:34.162Z",
+      "status": 301,
+      "location": "/videos/lunch-food-dinner-meal-cooking-227128/",
+      "content_type": "text/html; charset=utf-8",
+      "canonical_url": "https://pixabay.com/videos/lunch-food-dinner-meal-cooking-227128/",
+      "canonical_status": 200
+    },
+    {
+      "candidate_id": "pixabay-227128",
+      "kind": "api_thumbnail",
+      "method": "HEAD",
+      "url": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.jpg",
+      "at": "2026-10-28T15:53:34.317Z",
+      "status": 200,
+      "content_type": "image/jpeg"
+    },
+    {
+      "candidate_id": "pixabay-227128",
+      "kind": "api_thumbnail",
+      "method": "GET",
+      "url": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.jpg",
+      "at": "2026-10-28T15:53:34.563Z",
+      "status": 200,
+      "content_type": "image/jpeg",
+      "bytes": 170755
+    },
+    {
+      "candidate_id": "pixabay-227128",
+      "kind": "api_tiny_video",
+      "method": "HEAD",
+      "url": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.mp4",
+      "at": "2026-10-28T15:53:34.667Z",
+      "status": 200,
+      "content_type": "video/mp4"
+    },
+    {
+      "candidate_id": "pixabay-227128",
+      "kind": "api_tiny_video",
+      "method": "GET",
+      "url": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.mp4",
+      "at": "2026-10-28T15:53:34.798Z",
+      "status": 200,
+      "content_type": "video/mp4"
+    }
+  ],
+  "interpretation": "HEAD only diagnoses that endpoint. GET video success is independent from source page or API thumbnail restrictions. Never retry or bypass a GET403."
+}

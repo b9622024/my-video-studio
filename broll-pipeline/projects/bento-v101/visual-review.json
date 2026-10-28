@@ -1,0 +1,120 @@
+{
+  "version": "1.0.1",
+  "entries": {
+    "pixabay-227128": {
+      "verdict": "excluded",
+      "summary": "抽樣影格顯示刀叉切餐盤中的肉與沙拉，沒有便當容器或裝餐證據。",
+      "observed_action": "刀叉切取餐盤食物",
+      "object_present": false,
+      "object_state_correct": true,
+      "action_match": false,
+      "crop_assessment": "原生直式，可裁切，但情境錯誤。",
+      "content_risk": "可見手與餐具；未見明顯品牌。",
+      "reviewer": "Codex，依本輪實際讀取的本機影格作保守判斷；非後端自動視覺辨識",
+      "evidence_scope": "three_sampled_frames",
+      "human_approved": false,
+      "evidence_video_sha256": "c1a95ed09f86e4073082f036ce4562153aec39d18c42b3ef7c5d0b42762c2cd9",
+      "evidence_frame_sha256": {
+        "previews/pixabay-227128-frame-1.jpg": "334278c7f7ff892a40cc119341b83a44fb4236c036b8544c31a5042f02f4c94d",
+        "previews/pixabay-227128-frame-2.jpg": "93f001159ed3327669247d672c0669023b87697945cee6ab196c3e1a4291d4af",
+        "previews/pixabay-227128-frame-3.jpg": "a640c763d40635617986db18510d609905944d26af19a6077be9236a44f53ea7"
+      }
+    },
+    "pixabay-45101": {
+      "verdict": "excluded",
+      "summary": "畫面是替小黃瓜削皮，沒有裝入便當或準備餐盒的動作。可作蔬菜處理替代方案，不能冒稱裝便當。",
+      "observed_action": "手持削皮刀處理小黃瓜",
+      "object_present": false,
+      "object_state_correct": false,
+      "action_match": false,
+      "crop_assessment": "橫幅；中心裁切可能切掉手與蔬菜兩端，需人工核對。",
+      "content_risk": "手、刀具；未見明顯品牌。",
+      "reviewer": "Codex，依本輪實際讀取的本機影格作保守判斷；非後端自動視覺辨識",
+      "evidence_scope": "three_sampled_frames",
+      "human_approved": false,
+      "evidence_video_sha256": "6d998af2817f2c6319b4068b1fa94a2bd06c64b3ac647b57cb5e919a042461d5",
+      "evidence_frame_sha256": {
+        "previews/pixabay-45101-frame-1.jpg": "fa5d7157986778db98f9735fb6cf2beef1f7dfef7732c3da8217f01824e8876d",
+        "previews/pixabay-45101-frame-2.jpg": "5fea905cb7db0601da3f1c372d5168cb8c9e46ace2dbc767ab0b48bbe0669f3c",
+        "previews/pixabay-45101-frame-3.jpg": "2b596d3f67506a50c04fe8d42baf289c944a39a8b4f80541bd39771f69321fd7"
+      }
+    },
+    "pixabay-11605": {
+      "verdict": "needs_human_confirmation",
+      "summary": "可見熟綠葉菜、筷子攪動及鍋鏟撈起；可作夾菜近似方案，但沒有連續證據顯示放入便當，不能當成精確裝盒動作。",
+      "observed_action": "煮熟綠葉菜，約36–39秒以鍋鏟撈起，之後切到完成盤菜",
+      "object_present": true,
+      "object_state_correct": true,
+      "action_match": null,
+      "crop_assessment": "橫幅中心裁切會損失鍋與工具邊緣；建議手動調整中心或保留橫幅於版面。",
+      "content_risk": "手、熱鍋與工具；未見明顯品牌。",
+      "reviewer": "Codex，依本輪實際讀取的本機影格作保守判斷；非後端自動視覺辨識",
+      "evidence_scope": "three_sampled_frames plus sequences at 0,2,...52 seconds; transfer into container not established",
+      "human_approved": false,
+      "evidence_video_sha256": "746025de305ed53263f6396deab127bc45c62d30941d8906237e97f8241cd4cb",
+      "evidence_frame_sha256": {
+        "previews/pixabay-11605-frame-1.jpg": "02549ffb0814ce356cc71ffeb9094e658497f9ca0bff14b26e26dd626e390084",
+        "previews/pixabay-11605-frame-2.jpg": "4a8dbfec4a584c815096c4737c24de27c010064a18b34ae7c0a8101fd0c67147",
+        "previews/pixabay-11605-frame-3.jpg": "2e532f393aafae5b0a49ca8740f404852a2e6184d5f030b224312dbd8688dd27"
+      }
+    },
+    "pixabay-11661": {
+      "verdict": "excluded",
+      "summary": "抽樣畫面為羊肉燉胡蘿蔔成品，沒有夾取或裝入配菜的證據。",
+      "observed_action": "成品餐點近景",
+      "object_present": true,
+      "object_state_correct": true,
+      "action_match": false,
+      "crop_assessment": "中心能保留部分餐點，但不能補出缺失動作。",
+      "content_risk": "抽樣未見人物或明顯品牌。",
+      "reviewer": "Codex，依本輪實際讀取的本機影格作保守判斷；非後端自動視覺辨識",
+      "evidence_scope": "three_sampled_frames",
+      "human_approved": false,
+      "evidence_video_sha256": "69fb539158106d3e36528bab84ed195d8f0c37046bc3363ca1e4ded7755fffa8",
+      "evidence_frame_sha256": {
+        "previews/pixabay-11661-frame-1.jpg": "4e297f13b807c1edc1e026a0e700d73a06accd6af5c2ee231cce84b95a63f2f6",
+        "previews/pixabay-11661-frame-2.jpg": "c01496e15829276ebe8268db94bd02d821dc2ef63dcf11d2a3e5f34c69d67726",
+        "previews/pixabay-11661-frame-3.jpg": "665f5402c7b6d42dfbf856f2b88e0d7b3253b1518075fa6dc90cb222de5885aa"
+      }
+    },
+    "pixabay-11626": {
+      "verdict": "excluded",
+      "summary": "熟白飯物件與狀態正確，但抽樣僅為盤中成品，沒有飯匙盛飯；保留為「白飯成品特寫」替代方案。",
+      "observed_action": "熟白飯成品近景",
+      "object_present": true,
+      "object_state_correct": true,
+      "action_match": false,
+      "crop_assessment": "中心可留白飯，但左右盤邊會裁切。",
+      "content_risk": "旁有裝飾花，不能把外觀當成營養證明；未見明顯品牌。",
+      "reviewer": "Codex，依本輪實際讀取的本機影格作保守判斷；非後端自動視覺辨識",
+      "evidence_scope": "three_sampled_frames",
+      "human_approved": false,
+      "evidence_video_sha256": "54b815a0453d70f2507e0a9f0f3dbacfb5315756308e5aa32358aa15128deb3d",
+      "evidence_frame_sha256": {
+        "previews/pixabay-11626-frame-1.jpg": "f59db5ee97f15ec35b41303db6b1628723d7add155120846063b9ce7f77da050",
+        "previews/pixabay-11626-frame-2.jpg": "3aced91d582273b0c7e617deb1305cfcbb72449accf6e4bd992f2f865b6b23aa",
+        "previews/pixabay-11626-frame-3.jpg": "616ba57ef6e687f8d68c08ffa28b7d02d7bb268b5af5799463724d80f2d841fc"
+      }
+    },
+    "pixabay-11623": {
+      "verdict": "excluded",
+      "summary": "盤中牛肉與飯的成品特寫，沒有盛飯動作證據。",
+      "observed_action": "牛肉蓋飯成品近景",
+      "object_present": true,
+      "object_state_correct": true,
+      "action_match": false,
+      "crop_assessment": "中心保留部分菜與飯；無法補出盛飯動作。",
+      "content_risk": "抽樣未見人物或明顯品牌。",
+      "reviewer": "Codex，依本輪實際讀取的本機影格作保守判斷；非後端自動視覺辨識",
+      "evidence_scope": "three_sampled_frames",
+      "human_approved": false,
+      "evidence_video_sha256": "2c9e563ec1a3334c57a82d8b4f4c68d34886eeb25cc0c102c2209e61cf94f6a9",
+      "evidence_frame_sha256": {
+        "previews/pixabay-11623-frame-1.jpg": "bab690cfb9db92687f1a9a42222d74238e3a03e730d32773a80810586ea62abd",
+        "previews/pixabay-11623-frame-2.jpg": "cc3879f66b9b5113edefb0703c85d9ec866b96712ed3636c12368969d23b69fc",
+        "previews/pixabay-11623-frame-3.jpg": "ae839a545aedf28edd1a2544fab8560c55e47d6acbedc6e57caabf4aed9a3979"
+      }
+    }
+  },
+  "limitations": "抽樣影格不能證明全片完全沒有某動作；排除是目前缺少符合證據，不是全片動作標註。任何採用仍須使用者看片確認。"
+}

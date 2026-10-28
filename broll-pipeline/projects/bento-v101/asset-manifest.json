@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0",
+  "version": "1.0.1",
+  "project_id": "bento-v101",
+  "assets": [
+    {
+      "candidate_id": "pixabay-11605",
+      "asset_id": "pixabay-11605",
+      "provider": "pixabay",
+      "pixabay_id": 11605,
+      "pageURL": "https://pixabay.com/videos/id-11605/",
+      "source_url": "https://pixabay.com/videos/id-11605/",
+      "author": "XiaosKitchen",
+      "author_url": "https://pixabay.com/users/XiaosKitchen-1319509/",
+      "video_type": "film",
+      "tags": "fry, cabbage, food, fried, meal, delicious, wooden, vegetable, cooked, dinner, lunch, cuisine, traditional, dish, restaurant, healthy, salad, asian, appetizing, chopping, crisp",
+      "visual_tags": [],
+      "duration": 54,
+      "width": 1920,
+      "height": 1080,
+      "variants": [
+        {
+          "name": "large",
+          "url": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_large.mp4",
+          "width": 1920,
+          "height": 1080,
+          "size": 33337733,
+          "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_large.jpg"
+        },
+        {
+          "name": "medium",
+          "url": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_medium.mp4",
+          "width": 1280,
+          "height": 720,
+          "size": 16702573,
+          "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_medium.jpg"
+        },
+        {
+          "name": "small",
+          "url": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_small.mp4",
+          "width": 960,
+          "height": 540,
+          "size": 10079574,
+          "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_small.jpg"
+        },
+        {
+          "name": "tiny",
+          "url": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_tiny.mp4",
+          "width": 640,
+          "height": 360,
+          "size": 3371352,
+          "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_tiny.jpg"
+        }
+      ],
+      "preview_url": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_tiny.mp4",
+      "thumbnail_url": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_tiny.jpg",
+      "selected_rendition": "large",
+      "selected_trim": null,
+      "crop_parameters": {
+        "aspect_ratio": "9:16",
+        "object_position_x": 0.5,
+        "object_position_y": 0.5,
+        "verified": false
+      },
+      "crop_estimate": {
+        "retained_area_fraction": 0.316,
+        "effectiveWidth": 608,
+        "effectiveHeight": 1080,
+        "object_location": "unknown; requires visual confirmation"
+      },
+      "actual_action_description": null,
+      "action_verified": false,
+      "visual_verification": "frames_reviewed_needs_human_confirmation",
+      "score": {
+        "total": 66.9,
+        "weights": {
+          "relevance": 0.3,
+          "action": 0.25,
+          "crop": 0.2,
+          "quality": 0.15,
+          "duration": 0.1
+        },
+        "components": {
+          "relevance": 100,
+          "action": 55,
+          "crop": 32,
+          "quality": 45,
+          "duration": 100
+        },
+        "status": "metadata_score_only",
+        "reasons": [
+          "標籤僅供相關性初篩，不能證明動作。",
+          "裁切比例只估算幾何保留範圍，主體位置未確認。",
+          "畫質依尺寸初估；色調／美術尚未視覺核對。"
+        ]
+      },
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "license_checked_at": "2026-10-28T15:52:05.180Z",
+      "source_sha256": null,
+      "review_status": "pending",
+      "project_id": "bento-v101",
+      "scene_id": "B",
+      "query": "placing vegetables in lunch box",
+      "availability": {
+        "status": "local_preview_ready",
+        "http_status": 200
+      },
+      "risk_notes": [
+        "不可由顏色推定營養數字；有人物不代表學員案例。",
+        "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+      ],
+      "metadata_screen": {
+        "stage": "metadata",
+        "status": "metadata_only",
+        "reasons": [
+          "物件詞可能符合；動作及物件狀態須看影片確認。"
+        ],
+        "conflicts": [],
+        "object_hint": true,
+        "action_hint": true,
+        "action_verified": false,
+        "ranking_hint": 30
+      },
+      "local_preview": {
+        "video": "previews/pixabay-11605.mp4",
+        "poster": "previews/pixabay-11605-frame-2.jpg",
+        "frames": [
+          {
+            "time_seconds": 8.14000005,
+            "path": "previews/pixabay-11605-frame-1.jpg"
+          },
+          {
+            "time_seconds": 27.1333335,
+            "path": "previews/pixabay-11605-frame-2.jpg"
+          },
+          {
+            "time_seconds": 46.12666695,
+            "path": "previews/pixabay-11605-frame-3.jpg"
+          }
+        ],
+        "duration": 54.266667,
+        "sha256": "746025de305ed53263f6396deab127bc45c62d30941d8906237e97f8241cd4cb",
+        "bytes": 2032686,
+        "source_variant_url": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_tiny.mp4",
+        "source_sha256": "28643ee98e120ce9153c94e742b9b3462e48c0b897a6566a3e198f8bd0a20122",
+        "temporary_review_only": true
+      },
+      "preview_probe": {
+        "url": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_tiny.mp4",
+        "variant": "tiny",
+        "checked_at": "2026-10-28T15:50:43.750Z",
+        "method": "GET",
+        "head_status": 200,
+        "get_status": 200,
+        "content_type": "video/mp4",
+        "bytes": 3371352
+      },
+      "visual_check": {
+        "verdict": "needs_human_confirmation",
+        "summary": "可見熟綠葉菜、筷子攪動及鍋鏟撈起；可作夾菜近似方案，但沒有連續證據顯示放入便當，不能當成精確裝盒動作。",
+        "observed_action": "煮熟綠葉菜，約36–39秒以鍋鏟撈起，之後切到完成盤菜",
+        "object_present": true,
+        "object_state_correct": true,
+        "action_match": null,
+        "crop_assessment": "橫幅中心裁切會損失鍋與工具邊緣；建議手動調整中心或保留橫幅於版面。",
+        "content_risk": "手、熱鍋與工具；未見明顯品牌。",
+        "reviewer": "Codex，依本輪實際讀取的本機影格作保守判斷；非後端自動視覺辨識",
+        "evidence_scope": "three_sampled_frames plus sequences at 0,2,...52 seconds; transfer into container not established",
+        "human_approved": false,
+        "evidence_video_sha256": "746025de305ed53263f6396deab127bc45c62d30941d8906237e97f8241cd4cb",
+        "evidence_frame_sha256": {
+          "previews/pixabay-11605-frame-1.jpg": "02549ffb0814ce356cc71ffeb9094e658497f9ca0bff14b26e26dd626e390084",
+          "previews/pixabay-11605-frame-2.jpg": "4a8dbfec4a584c815096c4737c24de27c010064a18b34ae7c0a8101fd0c67147",
+          "previews/pixabay-11605-frame-3.jpg": "2e532f393aafae5b0a49ca8740f404852a2e6184d5f030b224312dbd8688dd27"
+        },
+        "evidence_frames": [
+          {
+            "time_seconds": 8.14000005,
+            "path": "previews/pixabay-11605-frame-1.jpg"
+          },
+          {
+            "time_seconds": 27.1333335,
+            "path": "previews/pixabay-11605-frame-2.jpg"
+          },
+          {
+            "time_seconds": 46.12666695,
+            "path": "previews/pixabay-11605-frame-3.jpg"
+          }
+        ]
+      }
+    }
+  ],
+  "notes": [
+    "僅本機低解析度審核預覽；source_sha256仍為null。預覽hash記於local_preview；不能當成正式下載hash。",
+    "近似方案未人工核准，不能自動剪輯。"
+  ]
+}

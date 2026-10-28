@@ -1,0 +1,13 @@
+{
+  "version": "1.0.1",
+  "backend_tests_passed": 24,
+  "http_server_test_passed": true,
+  "local_preview_mp4_jpg_range_tests_passed": true,
+  "private_paths_hidden": true,
+  "real_media_ui": "PASS",
+  "real_media_interface": "PASS",
+  "old_bento_v1_data_unchanged": true,
+  "existing_remotion_adapter_and_contract_unchanged": true,
+  "production_approval_performed": false,
+  "automatic_edit_performed": false
+}

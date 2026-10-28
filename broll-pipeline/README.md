@@ -1,3 +1,12 @@
+# V1.0.1 修正版
+
+本分支 broll-pipeline-v1.0.1 保留 projects/bento-v1，新增 projects/bento-v101。本機影片／縮圖已實播驗證；精確動作匹配0支、近似方案1支，不強行選片。
+
+- [品質與HEAD/GET報告](docs/V101-QUALITY.md)
+- [iPhone使用、測試與重建](docs/V101-REBUILD.md)
+
+以下為保留的V1.0文件，V1.0.1狀態以上述兩份報告為準。
+
 # 可樂吉 B-roll Pipeline V1.0｜Pixabay Edition
 
 **目前狀態：真實Pixabay搜尋成功，3場景共9支候選及可操作審核頁已產生；人工選片尚待完成。** 操作與JSON匯出已測；來源頁及縮圖HEAD回403，未宣稱影像顯示驗收通過。詳見docs/STATUS.md。
