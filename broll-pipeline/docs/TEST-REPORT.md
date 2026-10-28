@@ -12,3 +12,8 @@ mock／紅片／TEST-ONLY UI不是Pixabay搜尋結果，也不是使用者對素
 真實Pixabay API：因運行程序沒有PIXABAY_API_KEY，尚未發出請求。便當每scene2–3支真實候選、視覺確認及真實人工核准尚未驗收，不宣稱V1.0完整成功。
 
 結構化報告在test-results；重新執行方式見README。
+
+
+## 2026-10-28 接續驗證
+
+以docs/STATUS.md及test-results/live-review-test.json為本輪結果。24項後端與1項HTTP測試重新通過；3次官方API搜尋取得9支候選。真實候選UI測試通過，來源／縮圖HEAD均403，遠端顯示未驗收。舊空候選測試為前輪紀錄，非本輪狀態。

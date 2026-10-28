@@ -1,10 +1,14 @@
-# 本輪實際狀態
+# 2026-10-28 接續驗證
 
-1. 金鑰：運行中Node程序與正式network權限命令皆未讀到PIXABAY_API_KEY；比對變數名稱也沒有Pixabay相關名稱。使用者已在設定介面新增，但本任務的雲端觀察仍是revision1／無runtime_variables或secrets。因此是**目前程序未取得金鑰**，不是已測到金鑰無效，也不是Pixabay403。
-2. API：真實/api/videos/請求0；沒有正式搜尋成功或HTTP認證結果。已讀官方文件與授權頁。
-3. 場景：便當A/B/C的Codex輔助語意分析已保存。候選與asset清單為空，edit-timeline狀態awaiting_live_search_and_human_review。
-4. 審核頁：靜態HTML已建立，空狀態明示沒有候選。Approve/Reject/Search Again/JSON匯出以標示TEST FIXTURE ONLY的獨立暫存資料驗證，沒有塞入真實專案。
-5. Remotion：以合成紅色測試片驗證人工審核JSON→下載驗證→compile→既有V2.5 Remotion讀取，沒有更改舊Composition。真實Pixabay素材仍未核准或下載。
-6. 環境：不具備把新設定強行注入目前程序的工具；需讓運行中任務套用含變數的環境版本。金鑰不要貼在聊天或HTML。
+PIXABAY_API_KEY：true。執行環境變數 ready，observations_current=true；spec_revision=observed_spec_revision=1。
+綁定設定版本：232626bd-b54c-4336-8a71-10fdb4c877b8~cecfgver_6ae20706a1788195910ed91794ebb02e。
+設定ID：232626bd-b54c-4336-8a71-10fdb4c877b8~cecfg_6ae036833bbc8195852a197a800d3a42。
+工具未提供最新發布版本清單／環境顯示名稱，故僅確認目前綁定版本及變數可用，不冒稱已獨立比對最新發布版。
 
-重新套用環境前，先保存Git／下載備份；恢復後依README的diagnose、search、review命令接續。無需重建影片引擎、訓練模型或購買服務。
+沿用「外食族的便當，怎麼安排比較均衡？」場景與口白。官方 /api/videos/ 搜尋3次成功，A/B/C各3支真實候選，全部pending。候選及asset-manifest已更新；無人工核准、無正式素材下載或剪輯。
+
+24項後端測試及1項HTTP Range/敏感路徑測試通過。真實候選393×852 Chromium審核頁操作、來源href、poster URL、Approve/Reject、設定變更失效、Search Again及JSON下載／複製通過。自動測試狀態已清除，未寫入人工核准資料。
+
+限制：9支影片availability HEAD為200/video/mp4；來源頁與縮圖的獨立Python HEAD全部403，不能宣稱來源網頁可瀏覽、縮圖可載入或遠端影像顯示已通過。來源URL及縮圖均使用API原值，沒有捏造替代網址。實體iPhone Safari未測；尚需人工看片判斷相關性及裁切。
+
+初次未授予network權限的Git/API命令無法連線代理；改用正式network權限後官方搜尋成功。GitHub以連接工具讀寫。未修改Remotion、HyperFrames或GPT-SoVITS。

@@ -1,0 +1,24 @@
+{
+  "backend_tests": {
+    "passed": 24,
+    "failed": 0
+  },
+  "http_tests": {
+    "passed": 1,
+    "failed": 0
+  },
+  "api": {
+    "checked_at": "2026-10-28T15:32:57.717Z",
+    "key_loaded": true,
+    "status": "ready_for_visual_review",
+    "api_requests": 3,
+    "cache_hours": 24,
+    "errors": []
+  },
+  "environment_version": "232626bd-b54c-4336-8a71-10fdb4c877b8~cecfgver_6ae20706a1788195910ed91794ebb02e",
+  "latest_published_version_verified": false,
+  "key_loaded": true,
+  "revision": "1",
+  "runtime_variable_state": "ready",
+  "human_approval_performed": false
+}

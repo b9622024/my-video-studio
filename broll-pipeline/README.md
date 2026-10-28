@@ -1,6 +1,6 @@
 # 可樂吉 B-roll Pipeline V1.0｜Pixabay Edition
 
-**目前狀態：程式、人工審核及接口測試已完成，真實API搜尋與選片品質尚未驗收。** 本任務Node程序未取得PIXABAY_API_KEY，官方雲端狀態仍是revision1且無綁定變數；不等於使用者未在設定介面儲存。實際API請求0，便當候選0，沒有偽造影片或使用牛奶資料冒充。詳見docs/STATUS.md。
+**目前狀態：真實Pixabay搜尋成功，3場景共9支候選及可操作審核頁已產生；人工選片尚待完成。** 操作與JSON匯出已測；來源頁及縮圖HEAD回403，未宣稱影像顯示驗收通過。詳見docs/STATUS.md。
 
 獨立於既有引擎，基於visual-remotion-v2.5（abc828dbffe50b1ad0dad4c6a053f1a259f46e46）。四份V2.5原JSON保存compat/v25，不修改原Composition、HyperFrames或GPT-SoVITS。
 
@@ -73,4 +73,5 @@ node src/cli.mjs compile --project projects/bento-v1
 
 .gitignore排除.runtime快取、下載影片、金鑰、審核個人結果及node_modules。不要大量抓素材建公開庫或用作AI訓練。素材用途須核對人物、商標及授權，不冒稱學員案例、健康／減重效果、背書或影像營養實測。官方來源與查核見docs/PIXABAY-SOURCES.md。
 
-原始碼及空的真實專案資料可存Git；工作備份另存私有持久位置，Codex暫存工作區不是永久保存。真實便當API搜尋、2–3支/scene視覺選片及人工核准尚待環境金鑰注入後完成；本版不宣稱全流程驗收通過。
+原始碼及空的真實專案資料可存Git；工作備份另存私有持久位置，Codex暫存工作區不是永久保存。真實便當API搜尋已完成；2–3支/scene視覺選片及人工核准尚待完成；本版不宣稱全流程驗收通過。
+

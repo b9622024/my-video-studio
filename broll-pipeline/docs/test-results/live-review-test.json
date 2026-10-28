@@ -1,0 +1,125 @@
+{
+  "candidate_set_id": "d9d82b5ffadbfb1a5a6a723e46de1325337f137a57d3db7ab11829784d905d0c",
+  "ui_status": "PASS",
+  "checks": [
+    "nine real candidates; all source hrefs and poster URLs match API metadata",
+    "incomplete approval blocked; Reject, Approve, crop toggle and invalidation work",
+    "review JSON download and copy fallback preserve current revision, status and crop",
+    "Search Again exports actionable scene A request"
+  ],
+  "page_errors": [],
+  "links": [
+    {
+      "candidate_id": "pixabay-227128",
+      "field": "source_url",
+      "url": "https://pixabay.com/videos/id-227128/",
+      "status": 403
+    },
+    {
+      "candidate_id": "pixabay-227128",
+      "field": "thumbnail_url",
+      "url": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.jpg",
+      "status": 403
+    },
+    {
+      "candidate_id": "pixabay-11613",
+      "field": "source_url",
+      "url": "https://pixabay.com/videos/id-11613/",
+      "status": 403
+    },
+    {
+      "candidate_id": "pixabay-11613",
+      "field": "thumbnail_url",
+      "url": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_tiny.jpg",
+      "status": 403
+    },
+    {
+      "candidate_id": "pixabay-2339",
+      "field": "source_url",
+      "url": "https://pixabay.com/videos/id-2339/",
+      "status": 403
+    },
+    {
+      "candidate_id": "pixabay-2339",
+      "field": "thumbnail_url",
+      "url": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_tiny.jpg",
+      "status": 403
+    },
+    {
+      "candidate_id": "pixabay-11677",
+      "field": "source_url",
+      "url": "https://pixabay.com/videos/id-11677/",
+      "status": 403
+    },
+    {
+      "candidate_id": "pixabay-11677",
+      "field": "thumbnail_url",
+      "url": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_tiny.jpg",
+      "status": 403
+    },
+    {
+      "candidate_id": "pixabay-11610",
+      "field": "source_url",
+      "url": "https://pixabay.com/videos/id-11610/",
+      "status": 403
+    },
+    {
+      "candidate_id": "pixabay-11610",
+      "field": "thumbnail_url",
+      "url": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_tiny.jpg",
+      "status": 403
+    },
+    {
+      "candidate_id": "pixabay-223334",
+      "field": "source_url",
+      "url": "https://pixabay.com/videos/id-223334/",
+      "status": 403
+    },
+    {
+      "candidate_id": "pixabay-223334",
+      "field": "thumbnail_url",
+      "url": "https://cdn.pixabay.com/video/2024/07/26/223334_tiny.jpg",
+      "status": 403
+    },
+    {
+      "candidate_id": "pixabay-283431",
+      "field": "source_url",
+      "url": "https://pixabay.com/videos/id-283431/",
+      "status": 403
+    },
+    {
+      "candidate_id": "pixabay-283431",
+      "field": "thumbnail_url",
+      "url": "https://cdn.pixabay.com/video/2025/06/03/283431_tiny.jpg",
+      "status": 403
+    },
+    {
+      "candidate_id": "pixabay-307864",
+      "field": "source_url",
+      "url": "https://pixabay.com/videos/id-307864/",
+      "status": 403
+    },
+    {
+      "candidate_id": "pixabay-307864",
+      "field": "thumbnail_url",
+      "url": "https://cdn.pixabay.com/video/2025/10/04/307864_tiny.jpg",
+      "status": 403
+    },
+    {
+      "candidate_id": "pixabay-380106",
+      "field": "source_url",
+      "url": "https://pixabay.com/videos/id-380106/",
+      "status": 403
+    },
+    {
+      "candidate_id": "pixabay-380106",
+      "field": "thumbnail_url",
+      "url": "https://cdn.pixabay.com/video/2026/10/01/380106_small.jpg",
+      "status": 403
+    }
+  ],
+  "physical_iPhone_Safari_tested": false,
+  "remote_media_rendering_tested": false,
+  "automated_decisions_discarded": true,
+  "visual_approval_performed": false
+}

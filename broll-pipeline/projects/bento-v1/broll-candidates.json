@@ -2,39 +2,2022 @@
   "schema_version": "1.0",
   "project_id": "bento-v1",
   "provider": "pixabay",
-  "generated_at": "2026-10-28T14:47:20.455Z",
-  "status": "blocked",
+  "generated_at": "2026-10-28T15:32:57.717Z",
+  "status": "ready_for_visual_review",
   "scenes": [
     {
       "scene_id": "A",
-      "candidates": [],
-      "screened_candidates": [],
-      "queries": [],
-      "status": "MISSING_API_KEY"
+      "candidates": [
+        {
+          "candidate_id": "pixabay-227128",
+          "asset_id": "pixabay-227128",
+          "provider": "pixabay",
+          "pixabay_id": 227128,
+          "pageURL": "https://pixabay.com/videos/id-227128/",
+          "source_url": "https://pixabay.com/videos/id-227128/",
+          "author": "kurt_BID",
+          "author_url": "https://pixabay.com/users/kurt_BID-45319899/",
+          "video_type": "film",
+          "tags": "lunch, food, dinner, meal, cooking, restaurant, breakfast, sandwich, delicious, dish",
+          "visual_tags": [],
+          "duration": 6,
+          "width": 2160,
+          "height": 3840,
+          "variants": [
+            {
+              "name": "large",
+              "url": "https://cdn.pixabay.com/video/2024/08/18/227128_large.mp4",
+              "width": 2160,
+              "height": 3840,
+              "size": 11009637,
+              "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_large.jpg"
+            },
+            {
+              "name": "medium",
+              "url": "https://cdn.pixabay.com/video/2024/08/18/227128_medium.mp4",
+              "width": 1440,
+              "height": 2560,
+              "size": 7146718,
+              "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_medium.jpg"
+            },
+            {
+              "name": "small",
+              "url": "https://cdn.pixabay.com/video/2024/08/18/227128_small.mp4",
+              "width": 1080,
+              "height": 1920,
+              "size": 4417723,
+              "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_small.jpg"
+            },
+            {
+              "name": "tiny",
+              "url": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.mp4",
+              "width": 720,
+              "height": 1280,
+              "size": 1649492,
+              "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.jpg"
+            }
+          ],
+          "preview_url": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.mp4",
+          "thumbnail_url": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.jpg",
+          "selected_rendition": "large",
+          "selected_trim": null,
+          "crop_parameters": {
+            "aspect_ratio": "9:16",
+            "object_position_x": 0.5,
+            "object_position_y": 0.5,
+            "verified": false
+          },
+          "crop_estimate": {
+            "retained_area_fraction": 1,
+            "effectiveWidth": 2160,
+            "effectiveHeight": 3840,
+            "object_location": "unknown; requires visual confirmation"
+          },
+          "actual_action_description": null,
+          "action_verified": false,
+          "visual_verification": "not_reviewed",
+          "score": {
+            "total": 81.5,
+            "weights": {
+              "relevance": 0.3,
+              "action": 0.25,
+              "crop": 0.2,
+              "quality": 0.15,
+              "duration": 0.1
+            },
+            "components": {
+              "relevance": 84,
+              "action": 55,
+              "crop": 100,
+              "quality": 100,
+              "duration": 75
+            },
+            "status": "provisional_metadata_only",
+            "reasons": [
+              "標籤僅供相關性初篩，不能證明動作。",
+              "裁切比例只估算幾何保留範圍，主體位置未確認。",
+              "畫質依尺寸初估；色調／美術尚未視覺核對。"
+            ]
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "license_checked_at": "2026-10-28T15:32:58.239Z",
+          "source_sha256": null,
+          "review_status": "pending",
+          "project_id": "bento-v1",
+          "scene_id": "A",
+          "query": "preparing lunch box",
+          "availability": {
+            "status": "reachable",
+            "content_type": "video/mp4",
+            "http_status": 200,
+            "checked_at": "2026-10-28T15:32:58.437Z"
+          },
+          "risk_notes": [
+            "不得把餐盒外觀當成份量或營養均衡證明。",
+            "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+          ]
+        },
+        {
+          "candidate_id": "pixabay-11613",
+          "asset_id": "pixabay-11613",
+          "provider": "pixabay",
+          "pixabay_id": 11613,
+          "pageURL": "https://pixabay.com/videos/id-11613/",
+          "source_url": "https://pixabay.com/videos/id-11613/",
+          "author": "XiaosKitchen",
+          "author_url": "https://pixabay.com/users/XiaosKitchen-1319509/",
+          "video_type": "film",
+          "tags": "wantons, making, asian, chinese, cuisine, dumpling, food, china, preparing, cooking, dinner, lunch, traditional, culture, raw, healthy, east, flour, indigenous, yummy, meal, stuffed, appetizer, pork, oriental, delicious, stack, chopsticks, wanton",
+          "visual_tags": [],
+          "duration": 38,
+          "width": 1920,
+          "height": 1080,
+          "variants": [
+            {
+              "name": "large",
+              "url": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_large.mp4",
+              "width": 1920,
+              "height": 1080,
+              "size": 21654828,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_large.jpg"
+            },
+            {
+              "name": "medium",
+              "url": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_medium.mp4",
+              "width": 1280,
+              "height": 720,
+              "size": 9843708,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_medium.jpg"
+            },
+            {
+              "name": "small",
+              "url": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_small.mp4",
+              "width": 960,
+              "height": 540,
+              "size": 6087768,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_small.jpg"
+            },
+            {
+              "name": "tiny",
+              "url": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_tiny.mp4",
+              "width": 640,
+              "height": 360,
+              "size": 2373039,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_tiny.jpg"
+            }
+          ],
+          "preview_url": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_tiny.mp4",
+          "thumbnail_url": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_tiny.jpg",
+          "selected_rendition": "large",
+          "selected_trim": null,
+          "crop_parameters": {
+            "aspect_ratio": "9:16",
+            "object_position_x": 0.5,
+            "object_position_y": 0.5,
+            "verified": false
+          },
+          "crop_estimate": {
+            "retained_area_fraction": 0.316,
+            "effectiveWidth": 608,
+            "effectiveHeight": 1080,
+            "object_location": "unknown; requires visual confirmation"
+          },
+          "actual_action_description": null,
+          "action_verified": false,
+          "visual_verification": "not_reviewed",
+          "score": {
+            "total": 66.9,
+            "weights": {
+              "relevance": 0.3,
+              "action": 0.25,
+              "crop": 0.2,
+              "quality": 0.15,
+              "duration": 0.1
+            },
+            "components": {
+              "relevance": 100,
+              "action": 55,
+              "crop": 32,
+              "quality": 45,
+              "duration": 100
+            },
+            "status": "provisional_metadata_only",
+            "reasons": [
+              "標籤僅供相關性初篩，不能證明動作。",
+              "裁切比例只估算幾何保留範圍，主體位置未確認。",
+              "畫質依尺寸初估；色調／美術尚未視覺核對。"
+            ]
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "license_checked_at": "2026-10-28T15:32:58.238Z",
+          "source_sha256": null,
+          "review_status": "pending",
+          "project_id": "bento-v1",
+          "scene_id": "A",
+          "query": "preparing lunch box",
+          "availability": {
+            "status": "reachable",
+            "content_type": "video/mp4",
+            "http_status": 200,
+            "checked_at": "2026-10-28T15:32:58.735Z"
+          },
+          "risk_notes": [
+            "不得把餐盒外觀當成份量或營養均衡證明。",
+            "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+          ]
+        },
+        {
+          "candidate_id": "pixabay-2339",
+          "asset_id": "pixabay-2339",
+          "provider": "pixabay",
+          "pixabay_id": 2339,
+          "pageURL": "https://pixabay.com/videos/id-2339/",
+          "source_url": "https://pixabay.com/videos/id-2339/",
+          "author": "Life-Of-Vids",
+          "author_url": "https://pixabay.com/users/Life-Of-Vids-1282862/",
+          "video_type": "film",
+          "tags": "lunch, meal, people, tea cup, tea, couple, table, restaurant, diner, service, food, snack, eating",
+          "visual_tags": [],
+          "duration": 35,
+          "width": 1920,
+          "height": 1080,
+          "variants": [
+            {
+              "name": "large",
+              "url": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_large.mp4",
+              "width": 1920,
+              "height": 1080,
+              "size": 21025751,
+              "thumbnail": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_large.jpg"
+            },
+            {
+              "name": "medium",
+              "url": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_medium.mp4",
+              "width": 1280,
+              "height": 720,
+              "size": 10919085,
+              "thumbnail": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_medium.jpg"
+            },
+            {
+              "name": "small",
+              "url": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_small.mp4",
+              "width": 960,
+              "height": 540,
+              "size": 6194732,
+              "thumbnail": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_small.jpg"
+            },
+            {
+              "name": "tiny",
+              "url": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_tiny.mp4",
+              "width": 640,
+              "height": 360,
+              "size": 2727801,
+              "thumbnail": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_tiny.jpg"
+            }
+          ],
+          "preview_url": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_tiny.mp4",
+          "thumbnail_url": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_tiny.jpg",
+          "selected_rendition": "large",
+          "selected_trim": null,
+          "crop_parameters": {
+            "aspect_ratio": "9:16",
+            "object_position_x": 0.5,
+            "object_position_y": 0.5,
+            "verified": false
+          },
+          "crop_estimate": {
+            "retained_area_fraction": 0.316,
+            "effectiveWidth": 608,
+            "effectiveHeight": 1080,
+            "object_location": "unknown; requires visual confirmation"
+          },
+          "actual_action_description": null,
+          "action_verified": false,
+          "visual_verification": "not_reviewed",
+          "score": {
+            "total": 62.1,
+            "weights": {
+              "relevance": 0.3,
+              "action": 0.25,
+              "crop": 0.2,
+              "quality": 0.15,
+              "duration": 0.1
+            },
+            "components": {
+              "relevance": 84,
+              "action": 55,
+              "crop": 32,
+              "quality": 45,
+              "duration": 100
+            },
+            "status": "provisional_metadata_only",
+            "reasons": [
+              "標籤僅供相關性初篩，不能證明動作。",
+              "裁切比例只估算幾何保留範圍，主體位置未確認。",
+              "畫質依尺寸初估；色調／美術尚未視覺核對。"
+            ]
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "license_checked_at": "2026-10-28T15:32:58.238Z",
+          "source_sha256": null,
+          "review_status": "pending",
+          "project_id": "bento-v1",
+          "scene_id": "A",
+          "query": "preparing lunch box",
+          "availability": {
+            "status": "reachable",
+            "content_type": "video/mp4",
+            "http_status": 200,
+            "checked_at": "2026-10-28T15:32:59.011Z"
+          },
+          "risk_notes": [
+            "不得把餐盒外觀當成份量或營養均衡證明。",
+            "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+          ]
+        }
+      ],
+      "screened_candidates": [
+        {
+          "candidate_id": "pixabay-227128",
+          "asset_id": "pixabay-227128",
+          "provider": "pixabay",
+          "pixabay_id": 227128,
+          "pageURL": "https://pixabay.com/videos/id-227128/",
+          "source_url": "https://pixabay.com/videos/id-227128/",
+          "author": "kurt_BID",
+          "author_url": "https://pixabay.com/users/kurt_BID-45319899/",
+          "video_type": "film",
+          "tags": "lunch, food, dinner, meal, cooking, restaurant, breakfast, sandwich, delicious, dish",
+          "visual_tags": [],
+          "duration": 6,
+          "width": 2160,
+          "height": 3840,
+          "variants": [
+            {
+              "name": "large",
+              "url": "https://cdn.pixabay.com/video/2024/08/18/227128_large.mp4",
+              "width": 2160,
+              "height": 3840,
+              "size": 11009637,
+              "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_large.jpg"
+            },
+            {
+              "name": "medium",
+              "url": "https://cdn.pixabay.com/video/2024/08/18/227128_medium.mp4",
+              "width": 1440,
+              "height": 2560,
+              "size": 7146718,
+              "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_medium.jpg"
+            },
+            {
+              "name": "small",
+              "url": "https://cdn.pixabay.com/video/2024/08/18/227128_small.mp4",
+              "width": 1080,
+              "height": 1920,
+              "size": 4417723,
+              "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_small.jpg"
+            },
+            {
+              "name": "tiny",
+              "url": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.mp4",
+              "width": 720,
+              "height": 1280,
+              "size": 1649492,
+              "thumbnail": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.jpg"
+            }
+          ],
+          "preview_url": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.mp4",
+          "thumbnail_url": "https://cdn.pixabay.com/video/2024/08/18/227128_tiny.jpg",
+          "selected_rendition": "large",
+          "selected_trim": null,
+          "crop_parameters": {
+            "aspect_ratio": "9:16",
+            "object_position_x": 0.5,
+            "object_position_y": 0.5,
+            "verified": false
+          },
+          "crop_estimate": {
+            "retained_area_fraction": 1,
+            "effectiveWidth": 2160,
+            "effectiveHeight": 3840,
+            "object_location": "unknown; requires visual confirmation"
+          },
+          "actual_action_description": null,
+          "action_verified": false,
+          "visual_verification": "not_reviewed",
+          "score": {
+            "total": 81.5,
+            "weights": {
+              "relevance": 0.3,
+              "action": 0.25,
+              "crop": 0.2,
+              "quality": 0.15,
+              "duration": 0.1
+            },
+            "components": {
+              "relevance": 84,
+              "action": 55,
+              "crop": 100,
+              "quality": 100,
+              "duration": 75
+            },
+            "status": "provisional_metadata_only",
+            "reasons": [
+              "標籤僅供相關性初篩，不能證明動作。",
+              "裁切比例只估算幾何保留範圍，主體位置未確認。",
+              "畫質依尺寸初估；色調／美術尚未視覺核對。"
+            ]
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "license_checked_at": "2026-10-28T15:32:58.239Z",
+          "source_sha256": null,
+          "review_status": "pending",
+          "project_id": "bento-v1",
+          "scene_id": "A",
+          "query": "preparing lunch box",
+          "availability": {
+            "status": "reachable",
+            "content_type": "video/mp4",
+            "http_status": 200,
+            "checked_at": "2026-10-28T15:32:58.437Z"
+          },
+          "risk_notes": [
+            "不得把餐盒外觀當成份量或營養均衡證明。",
+            "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+          ]
+        },
+        {
+          "candidate_id": "pixabay-11613",
+          "asset_id": "pixabay-11613",
+          "provider": "pixabay",
+          "pixabay_id": 11613,
+          "pageURL": "https://pixabay.com/videos/id-11613/",
+          "source_url": "https://pixabay.com/videos/id-11613/",
+          "author": "XiaosKitchen",
+          "author_url": "https://pixabay.com/users/XiaosKitchen-1319509/",
+          "video_type": "film",
+          "tags": "wantons, making, asian, chinese, cuisine, dumpling, food, china, preparing, cooking, dinner, lunch, traditional, culture, raw, healthy, east, flour, indigenous, yummy, meal, stuffed, appetizer, pork, oriental, delicious, stack, chopsticks, wanton",
+          "visual_tags": [],
+          "duration": 38,
+          "width": 1920,
+          "height": 1080,
+          "variants": [
+            {
+              "name": "large",
+              "url": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_large.mp4",
+              "width": 1920,
+              "height": 1080,
+              "size": 21654828,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_large.jpg"
+            },
+            {
+              "name": "medium",
+              "url": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_medium.mp4",
+              "width": 1280,
+              "height": 720,
+              "size": 9843708,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_medium.jpg"
+            },
+            {
+              "name": "small",
+              "url": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_small.mp4",
+              "width": 960,
+              "height": 540,
+              "size": 6087768,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_small.jpg"
+            },
+            {
+              "name": "tiny",
+              "url": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_tiny.mp4",
+              "width": 640,
+              "height": 360,
+              "size": 2373039,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_tiny.jpg"
+            }
+          ],
+          "preview_url": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_tiny.mp4",
+          "thumbnail_url": "https://cdn.pixabay.com/video/2017/08/29/11613-231571892_tiny.jpg",
+          "selected_rendition": "large",
+          "selected_trim": null,
+          "crop_parameters": {
+            "aspect_ratio": "9:16",
+            "object_position_x": 0.5,
+            "object_position_y": 0.5,
+            "verified": false
+          },
+          "crop_estimate": {
+            "retained_area_fraction": 0.316,
+            "effectiveWidth": 608,
+            "effectiveHeight": 1080,
+            "object_location": "unknown; requires visual confirmation"
+          },
+          "actual_action_description": null,
+          "action_verified": false,
+          "visual_verification": "not_reviewed",
+          "score": {
+            "total": 66.9,
+            "weights": {
+              "relevance": 0.3,
+              "action": 0.25,
+              "crop": 0.2,
+              "quality": 0.15,
+              "duration": 0.1
+            },
+            "components": {
+              "relevance": 100,
+              "action": 55,
+              "crop": 32,
+              "quality": 45,
+              "duration": 100
+            },
+            "status": "provisional_metadata_only",
+            "reasons": [
+              "標籤僅供相關性初篩，不能證明動作。",
+              "裁切比例只估算幾何保留範圍，主體位置未確認。",
+              "畫質依尺寸初估；色調／美術尚未視覺核對。"
+            ]
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "license_checked_at": "2026-10-28T15:32:58.238Z",
+          "source_sha256": null,
+          "review_status": "pending",
+          "project_id": "bento-v1",
+          "scene_id": "A",
+          "query": "preparing lunch box",
+          "availability": {
+            "status": "reachable",
+            "content_type": "video/mp4",
+            "http_status": 200,
+            "checked_at": "2026-10-28T15:32:58.735Z"
+          },
+          "risk_notes": [
+            "不得把餐盒外觀當成份量或營養均衡證明。",
+            "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+          ]
+        },
+        {
+          "candidate_id": "pixabay-2339",
+          "asset_id": "pixabay-2339",
+          "provider": "pixabay",
+          "pixabay_id": 2339,
+          "pageURL": "https://pixabay.com/videos/id-2339/",
+          "source_url": "https://pixabay.com/videos/id-2339/",
+          "author": "Life-Of-Vids",
+          "author_url": "https://pixabay.com/users/Life-Of-Vids-1282862/",
+          "video_type": "film",
+          "tags": "lunch, meal, people, tea cup, tea, couple, table, restaurant, diner, service, food, snack, eating",
+          "visual_tags": [],
+          "duration": 35,
+          "width": 1920,
+          "height": 1080,
+          "variants": [
+            {
+              "name": "large",
+              "url": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_large.mp4",
+              "width": 1920,
+              "height": 1080,
+              "size": 21025751,
+              "thumbnail": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_large.jpg"
+            },
+            {
+              "name": "medium",
+              "url": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_medium.mp4",
+              "width": 1280,
+              "height": 720,
+              "size": 10919085,
+              "thumbnail": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_medium.jpg"
+            },
+            {
+              "name": "small",
+              "url": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_small.mp4",
+              "width": 960,
+              "height": 540,
+              "size": 6194732,
+              "thumbnail": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_small.jpg"
+            },
+            {
+              "name": "tiny",
+              "url": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_tiny.mp4",
+              "width": 640,
+              "height": 360,
+              "size": 2727801,
+              "thumbnail": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_tiny.jpg"
+            }
+          ],
+          "preview_url": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_tiny.mp4",
+          "thumbnail_url": "https://cdn.pixabay.com/video/2016/02/29/2339-157269920_tiny.jpg",
+          "selected_rendition": "large",
+          "selected_trim": null,
+          "crop_parameters": {
+            "aspect_ratio": "9:16",
+            "object_position_x": 0.5,
+            "object_position_y": 0.5,
+            "verified": false
+          },
+          "crop_estimate": {
+            "retained_area_fraction": 0.316,
+            "effectiveWidth": 608,
+            "effectiveHeight": 1080,
+            "object_location": "unknown; requires visual confirmation"
+          },
+          "actual_action_description": null,
+          "action_verified": false,
+          "visual_verification": "not_reviewed",
+          "score": {
+            "total": 62.1,
+            "weights": {
+              "relevance": 0.3,
+              "action": 0.25,
+              "crop": 0.2,
+              "quality": 0.15,
+              "duration": 0.1
+            },
+            "components": {
+              "relevance": 84,
+              "action": 55,
+              "crop": 32,
+              "quality": 45,
+              "duration": 100
+            },
+            "status": "provisional_metadata_only",
+            "reasons": [
+              "標籤僅供相關性初篩，不能證明動作。",
+              "裁切比例只估算幾何保留範圍，主體位置未確認。",
+              "畫質依尺寸初估；色調／美術尚未視覺核對。"
+            ]
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "license_checked_at": "2026-10-28T15:32:58.238Z",
+          "source_sha256": null,
+          "review_status": "pending",
+          "project_id": "bento-v1",
+          "scene_id": "A",
+          "query": "preparing lunch box",
+          "availability": {
+            "status": "reachable",
+            "content_type": "video/mp4",
+            "http_status": 200,
+            "checked_at": "2026-10-28T15:32:59.011Z"
+          },
+          "risk_notes": [
+            "不得把餐盒外觀當成份量或營養均衡證明。",
+            "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+          ]
+        }
+      ],
+      "queries": [
+        {
+          "q": "preparing lunch box",
+          "cache_hit": false,
+          "total": 496,
+          "totalHits": 496
+        }
+      ],
+      "status": "ready_for_visual_review"
     },
     {
       "scene_id": "B",
-      "candidates": [],
-      "screened_candidates": [],
-      "queries": [],
-      "status": "not_attempted_due_to_prior_error"
+      "candidates": [
+        {
+          "candidate_id": "pixabay-11677",
+          "asset_id": "pixabay-11677",
+          "provider": "pixabay",
+          "pixabay_id": 11677,
+          "pageURL": "https://pixabay.com/videos/id-11677/",
+          "source_url": "https://pixabay.com/videos/id-11677/",
+          "author": "XiaosKitchen",
+          "author_url": "https://pixabay.com/users/XiaosKitchen-1319509/",
+          "video_type": "film",
+          "tags": "spicy, fish, food, meal, dish, chili, sauce, delicious, fresh, healthy, white, vegetable, red, traditional, spice, curry, cooking, thailand, green, egg, asia, culture, powder, served, sliced, basil, ingredient, lemongrass, cuisine, femented, fermented, boiled, bean",
+          "visual_tags": [],
+          "duration": 23,
+          "width": 1920,
+          "height": 1080,
+          "variants": [
+            {
+              "name": "large",
+              "url": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_large.mp4",
+              "width": 1920,
+              "height": 1080,
+              "size": 14142935,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_large.jpg"
+            },
+            {
+              "name": "medium",
+              "url": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_medium.mp4",
+              "width": 1280,
+              "height": 720,
+              "size": 6191471,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_medium.jpg"
+            },
+            {
+              "name": "small",
+              "url": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_small.mp4",
+              "width": 960,
+              "height": 540,
+              "size": 3897344,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_small.jpg"
+            },
+            {
+              "name": "tiny",
+              "url": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_tiny.mp4",
+              "width": 640,
+              "height": 360,
+              "size": 1426977,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_tiny.jpg"
+            }
+          ],
+          "preview_url": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_tiny.mp4",
+          "thumbnail_url": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_tiny.jpg",
+          "selected_rendition": "large",
+          "selected_trim": null,
+          "crop_parameters": {
+            "aspect_ratio": "9:16",
+            "object_position_x": 0.5,
+            "object_position_y": 0.5,
+            "verified": false
+          },
+          "crop_estimate": {
+            "retained_area_fraction": 0.316,
+            "effectiveWidth": 608,
+            "effectiveHeight": 1080,
+            "object_location": "unknown; requires visual confirmation"
+          },
+          "actual_action_description": null,
+          "action_verified": false,
+          "visual_verification": "not_reviewed",
+          "score": {
+            "total": 62.1,
+            "weights": {
+              "relevance": 0.3,
+              "action": 0.25,
+              "crop": 0.2,
+              "quality": 0.15,
+              "duration": 0.1
+            },
+            "components": {
+              "relevance": 84,
+              "action": 55,
+              "crop": 32,
+              "quality": 45,
+              "duration": 100
+            },
+            "status": "provisional_metadata_only",
+            "reasons": [
+              "標籤僅供相關性初篩，不能證明動作。",
+              "裁切比例只估算幾何保留範圍，主體位置未確認。",
+              "畫質依尺寸初估；色調／美術尚未視覺核對。"
+            ]
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "license_checked_at": "2026-10-28T15:32:59.404Z",
+          "source_sha256": null,
+          "review_status": "pending",
+          "project_id": "bento-v1",
+          "scene_id": "B",
+          "query": "serving vegetables",
+          "availability": {
+            "status": "reachable",
+            "content_type": "video/mp4",
+            "http_status": 200,
+            "checked_at": "2026-10-28T15:32:59.584Z"
+          },
+          "risk_notes": [
+            "不可由顏色推定營養數字；有人物不代表學員案例。",
+            "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+          ]
+        },
+        {
+          "candidate_id": "pixabay-11610",
+          "asset_id": "pixabay-11610",
+          "provider": "pixabay",
+          "pixabay_id": 11610,
+          "pageURL": "https://pixabay.com/videos/id-11610/",
+          "source_url": "https://pixabay.com/videos/id-11610/",
+          "author": "XiaosKitchen",
+          "author_url": "https://pixabay.com/users/XiaosKitchen-1319509/",
+          "video_type": "film",
+          "tags": "slice, chinese, cabbage, food, cuisine, vegetable, healthy, meal, asian, dish, restaurant, delicious, meat, china, dinner, crispy, sweet, oriental, beijing, peking, herb, fried",
+          "visual_tags": [],
+          "duration": 19,
+          "width": 1920,
+          "height": 1080,
+          "variants": [
+            {
+              "name": "large",
+              "url": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_large.mp4",
+              "width": 1920,
+              "height": 1080,
+              "size": 11641120,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_large.jpg"
+            },
+            {
+              "name": "medium",
+              "url": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_medium.mp4",
+              "width": 1280,
+              "height": 720,
+              "size": 5625920,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_medium.jpg"
+            },
+            {
+              "name": "small",
+              "url": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_small.mp4",
+              "width": 960,
+              "height": 540,
+              "size": 3553637,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_small.jpg"
+            },
+            {
+              "name": "tiny",
+              "url": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_tiny.mp4",
+              "width": 640,
+              "height": 360,
+              "size": 1164181,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_tiny.jpg"
+            }
+          ],
+          "preview_url": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_tiny.mp4",
+          "thumbnail_url": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_tiny.jpg",
+          "selected_rendition": "large",
+          "selected_trim": null,
+          "crop_parameters": {
+            "aspect_ratio": "9:16",
+            "object_position_x": 0.5,
+            "object_position_y": 0.5,
+            "verified": false
+          },
+          "crop_estimate": {
+            "retained_area_fraction": 0.316,
+            "effectiveWidth": 608,
+            "effectiveHeight": 1080,
+            "object_location": "unknown; requires visual confirmation"
+          },
+          "actual_action_description": null,
+          "action_verified": false,
+          "visual_verification": "not_reviewed",
+          "score": {
+            "total": 62.1,
+            "weights": {
+              "relevance": 0.3,
+              "action": 0.25,
+              "crop": 0.2,
+              "quality": 0.15,
+              "duration": 0.1
+            },
+            "components": {
+              "relevance": 84,
+              "action": 55,
+              "crop": 32,
+              "quality": 45,
+              "duration": 100
+            },
+            "status": "provisional_metadata_only",
+            "reasons": [
+              "標籤僅供相關性初篩，不能證明動作。",
+              "裁切比例只估算幾何保留範圍，主體位置未確認。",
+              "畫質依尺寸初估；色調／美術尚未視覺核對。"
+            ]
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "license_checked_at": "2026-10-28T15:32:59.405Z",
+          "source_sha256": null,
+          "review_status": "pending",
+          "project_id": "bento-v1",
+          "scene_id": "B",
+          "query": "serving vegetables",
+          "availability": {
+            "status": "reachable",
+            "content_type": "video/mp4",
+            "http_status": 200,
+            "checked_at": "2026-10-28T15:32:59.813Z"
+          },
+          "risk_notes": [
+            "不可由顏色推定營養數字；有人物不代表學員案例。",
+            "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+          ]
+        },
+        {
+          "candidate_id": "pixabay-223334",
+          "asset_id": "pixabay-223334",
+          "provider": "pixabay",
+          "pixabay_id": 223334,
+          "pageURL": "https://pixabay.com/videos/id-223334/",
+          "source_url": "https://pixabay.com/videos/id-223334/",
+          "author": "adege",
+          "author_url": "https://pixabay.com/users/adege-4994132/",
+          "video_type": "film",
+          "tags": "tomatoes, rainy weather, weather, rain, vegetables",
+          "visual_tags": [],
+          "duration": 22,
+          "width": 3840,
+          "height": 2160,
+          "variants": [
+            {
+              "name": "large",
+              "url": "https://cdn.pixabay.com/video/2024/07/26/223334_large.mp4",
+              "width": 3840,
+              "height": 2160,
+              "size": 63612776,
+              "thumbnail": "https://cdn.pixabay.com/video/2024/07/26/223334_large.jpg"
+            },
+            {
+              "name": "medium",
+              "url": "https://cdn.pixabay.com/video/2024/07/26/223334_medium.mp4",
+              "width": 2560,
+              "height": 1440,
+              "size": 23118337,
+              "thumbnail": "https://cdn.pixabay.com/video/2024/07/26/223334_medium.jpg"
+            },
+            {
+              "name": "small",
+              "url": "https://cdn.pixabay.com/video/2024/07/26/223334_small.mp4",
+              "width": 1920,
+              "height": 1080,
+              "size": 12909934,
+              "thumbnail": "https://cdn.pixabay.com/video/2024/07/26/223334_small.jpg"
+            },
+            {
+              "name": "tiny",
+              "url": "https://cdn.pixabay.com/video/2024/07/26/223334_tiny.mp4",
+              "width": 1280,
+              "height": 720,
+              "size": 4015497,
+              "thumbnail": "https://cdn.pixabay.com/video/2024/07/26/223334_tiny.jpg"
+            }
+          ],
+          "preview_url": "https://cdn.pixabay.com/video/2024/07/26/223334_tiny.mp4",
+          "thumbnail_url": "https://cdn.pixabay.com/video/2024/07/26/223334_tiny.jpg",
+          "selected_rendition": "large",
+          "selected_trim": null,
+          "crop_parameters": {
+            "aspect_ratio": "9:16",
+            "object_position_x": 0.5,
+            "object_position_y": 0.5,
+            "verified": false
+          },
+          "crop_estimate": {
+            "retained_area_fraction": 0.316,
+            "effectiveWidth": 1215,
+            "effectiveHeight": 2160,
+            "object_location": "unknown; requires visual confirmation"
+          },
+          "actual_action_description": null,
+          "action_verified": false,
+          "visual_verification": "not_reviewed",
+          "score": {
+            "total": 59.3,
+            "weights": {
+              "relevance": 0.3,
+              "action": 0.25,
+              "crop": 0.2,
+              "quality": 0.15,
+              "duration": 0.1
+            },
+            "components": {
+              "relevance": 52,
+              "action": 55,
+              "crop": 32,
+              "quality": 90,
+              "duration": 100
+            },
+            "status": "provisional_metadata_only",
+            "reasons": [
+              "標籤僅供相關性初篩，不能證明動作。",
+              "裁切比例只估算幾何保留範圍，主體位置未確認。",
+              "畫質依尺寸初估；色調／美術尚未視覺核對。"
+            ]
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "license_checked_at": "2026-10-28T15:32:59.405Z",
+          "source_sha256": null,
+          "review_status": "pending",
+          "project_id": "bento-v1",
+          "scene_id": "B",
+          "query": "serving vegetables",
+          "availability": {
+            "status": "reachable",
+            "content_type": "video/mp4",
+            "http_status": 200,
+            "checked_at": "2026-10-28T15:33:00.050Z"
+          },
+          "risk_notes": [
+            "不可由顏色推定營養數字；有人物不代表學員案例。",
+            "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+          ]
+        }
+      ],
+      "screened_candidates": [
+        {
+          "candidate_id": "pixabay-11677",
+          "asset_id": "pixabay-11677",
+          "provider": "pixabay",
+          "pixabay_id": 11677,
+          "pageURL": "https://pixabay.com/videos/id-11677/",
+          "source_url": "https://pixabay.com/videos/id-11677/",
+          "author": "XiaosKitchen",
+          "author_url": "https://pixabay.com/users/XiaosKitchen-1319509/",
+          "video_type": "film",
+          "tags": "spicy, fish, food, meal, dish, chili, sauce, delicious, fresh, healthy, white, vegetable, red, traditional, spice, curry, cooking, thailand, green, egg, asia, culture, powder, served, sliced, basil, ingredient, lemongrass, cuisine, femented, fermented, boiled, bean",
+          "visual_tags": [],
+          "duration": 23,
+          "width": 1920,
+          "height": 1080,
+          "variants": [
+            {
+              "name": "large",
+              "url": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_large.mp4",
+              "width": 1920,
+              "height": 1080,
+              "size": 14142935,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_large.jpg"
+            },
+            {
+              "name": "medium",
+              "url": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_medium.mp4",
+              "width": 1280,
+              "height": 720,
+              "size": 6191471,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_medium.jpg"
+            },
+            {
+              "name": "small",
+              "url": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_small.mp4",
+              "width": 960,
+              "height": 540,
+              "size": 3897344,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_small.jpg"
+            },
+            {
+              "name": "tiny",
+              "url": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_tiny.mp4",
+              "width": 640,
+              "height": 360,
+              "size": 1426977,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_tiny.jpg"
+            }
+          ],
+          "preview_url": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_tiny.mp4",
+          "thumbnail_url": "https://cdn.pixabay.com/video/2017/08/30/11677-231758845_tiny.jpg",
+          "selected_rendition": "large",
+          "selected_trim": null,
+          "crop_parameters": {
+            "aspect_ratio": "9:16",
+            "object_position_x": 0.5,
+            "object_position_y": 0.5,
+            "verified": false
+          },
+          "crop_estimate": {
+            "retained_area_fraction": 0.316,
+            "effectiveWidth": 608,
+            "effectiveHeight": 1080,
+            "object_location": "unknown; requires visual confirmation"
+          },
+          "actual_action_description": null,
+          "action_verified": false,
+          "visual_verification": "not_reviewed",
+          "score": {
+            "total": 62.1,
+            "weights": {
+              "relevance": 0.3,
+              "action": 0.25,
+              "crop": 0.2,
+              "quality": 0.15,
+              "duration": 0.1
+            },
+            "components": {
+              "relevance": 84,
+              "action": 55,
+              "crop": 32,
+              "quality": 45,
+              "duration": 100
+            },
+            "status": "provisional_metadata_only",
+            "reasons": [
+              "標籤僅供相關性初篩，不能證明動作。",
+              "裁切比例只估算幾何保留範圍，主體位置未確認。",
+              "畫質依尺寸初估；色調／美術尚未視覺核對。"
+            ]
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "license_checked_at": "2026-10-28T15:32:59.404Z",
+          "source_sha256": null,
+          "review_status": "pending",
+          "project_id": "bento-v1",
+          "scene_id": "B",
+          "query": "serving vegetables",
+          "availability": {
+            "status": "reachable",
+            "content_type": "video/mp4",
+            "http_status": 200,
+            "checked_at": "2026-10-28T15:32:59.584Z"
+          },
+          "risk_notes": [
+            "不可由顏色推定營養數字；有人物不代表學員案例。",
+            "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+          ]
+        },
+        {
+          "candidate_id": "pixabay-11610",
+          "asset_id": "pixabay-11610",
+          "provider": "pixabay",
+          "pixabay_id": 11610,
+          "pageURL": "https://pixabay.com/videos/id-11610/",
+          "source_url": "https://pixabay.com/videos/id-11610/",
+          "author": "XiaosKitchen",
+          "author_url": "https://pixabay.com/users/XiaosKitchen-1319509/",
+          "video_type": "film",
+          "tags": "slice, chinese, cabbage, food, cuisine, vegetable, healthy, meal, asian, dish, restaurant, delicious, meat, china, dinner, crispy, sweet, oriental, beijing, peking, herb, fried",
+          "visual_tags": [],
+          "duration": 19,
+          "width": 1920,
+          "height": 1080,
+          "variants": [
+            {
+              "name": "large",
+              "url": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_large.mp4",
+              "width": 1920,
+              "height": 1080,
+              "size": 11641120,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_large.jpg"
+            },
+            {
+              "name": "medium",
+              "url": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_medium.mp4",
+              "width": 1280,
+              "height": 720,
+              "size": 5625920,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_medium.jpg"
+            },
+            {
+              "name": "small",
+              "url": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_small.mp4",
+              "width": 960,
+              "height": 540,
+              "size": 3553637,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_small.jpg"
+            },
+            {
+              "name": "tiny",
+              "url": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_tiny.mp4",
+              "width": 640,
+              "height": 360,
+              "size": 1164181,
+              "thumbnail": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_tiny.jpg"
+            }
+          ],
+          "preview_url": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_tiny.mp4",
+          "thumbnail_url": "https://cdn.pixabay.com/video/2017/08/29/11610-231571879_tiny.jpg",
+          "selected_rendition": "large",
+          "selected_trim": null,
+          "crop_parameters": {
+            "aspect_ratio": "9:16",
+            "object_position_x": 0.5,
+            "object_position_y": 0.5,
+            "verified": false
+          },
+          "crop_estimate": {
+            "retained_area_fraction": 0.316,
+            "effectiveWidth": 608,
+            "effectiveHeight": 1080,
+            "object_location": "unknown; requires visual confirmation"
+          },
+          "actual_action_description": null,
+          "action_verified": false,
+          "visual_verification": "not_reviewed",
+          "score": {
+            "total": 62.1,
+            "weights": {
+              "relevance": 0.3,
+              "action": 0.25,
+              "crop": 0.2,
+              "quality": 0.15,
+              "duration": 0.1
+            },
+            "components": {
+              "relevance": 84,
+              "action": 55,
+              "crop": 32,
+              "quality": 45,
+              "duration": 100
+            },
+            "status": "provisional_metadata_only",
+            "reasons": [
+              "標籤僅供相關性初篩，不能證明動作。",
+              "裁切比例只估算幾何保留範圍，主體位置未確認。",
+              "畫質依尺寸初估；色調／美術尚未視覺核對。"
+            ]
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "license_checked_at": "2026-10-28T15:32:59.405Z",
+          "source_sha256": null,
+          "review_status": "pending",
+          "project_id": "bento-v1",
+          "scene_id": "B",
+          "query": "serving vegetables",
+          "availability": {
+            "status": "reachable",
+            "content_type": "video/mp4",
+            "http_status": 200,
+            "checked_at": "2026-10-28T15:32:59.813Z"
+          },
+          "risk_notes": [
+            "不可由顏色推定營養數字；有人物不代表學員案例。",
+            "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+          ]
+        },
+        {
+          "candidate_id": "pixabay-223334",
+          "asset_id": "pixabay-223334",
+          "provider": "pixabay",
+          "pixabay_id": 223334,
+          "pageURL": "https://pixabay.com/videos/id-223334/",
+          "source_url": "https://pixabay.com/videos/id-223334/",
+          "author": "adege",
+          "author_url": "https://pixabay.com/users/adege-4994132/",
+          "video_type": "film",
+          "tags": "tomatoes, rainy weather, weather, rain, vegetables",
+          "visual_tags": [],
+          "duration": 22,
+          "width": 3840,
+          "height": 2160,
+          "variants": [
+            {
+              "name": "large",
+              "url": "https://cdn.pixabay.com/video/2024/07/26/223334_large.mp4",
+              "width": 3840,
+              "height": 2160,
+              "size": 63612776,
+              "thumbnail": "https://cdn.pixabay.com/video/2024/07/26/223334_large.jpg"
+            },
+            {
+              "name": "medium",
+              "url": "https://cdn.pixabay.com/video/2024/07/26/223334_medium.mp4",
+              "width": 2560,
+              "height": 1440,
+              "size": 23118337,
+              "thumbnail": "https://cdn.pixabay.com/video/2024/07/26/223334_medium.jpg"
+            },
+            {
+              "name": "small",
+              "url": "https://cdn.pixabay.com/video/2024/07/26/223334_small.mp4",
+              "width": 1920,
+              "height": 1080,
+              "size": 12909934,
+              "thumbnail": "https://cdn.pixabay.com/video/2024/07/26/223334_small.jpg"
+            },
+            {
+              "name": "tiny",
+              "url": "https://cdn.pixabay.com/video/2024/07/26/223334_tiny.mp4",
+              "width": 1280,
+              "height": 720,
+              "size": 4015497,
+              "thumbnail": "https://cdn.pixabay.com/video/2024/07/26/223334_tiny.jpg"
+            }
+          ],
+          "preview_url": "https://cdn.pixabay.com/video/2024/07/26/223334_tiny.mp4",
+          "thumbnail_url": "https://cdn.pixabay.com/video/2024/07/26/223334_tiny.jpg",
+          "selected_rendition": "large",
+          "selected_trim": null,
+          "crop_parameters": {
+            "aspect_ratio": "9:16",
+            "object_position_x": 0.5,
+            "object_position_y": 0.5,
+            "verified": false
+          },
+          "crop_estimate": {
+            "retained_area_fraction": 0.316,
+            "effectiveWidth": 1215,
+            "effectiveHeight": 2160,
+            "object_location": "unknown; requires visual confirmation"
+          },
+          "actual_action_description": null,
+          "action_verified": false,
+          "visual_verification": "not_reviewed",
+          "score": {
+            "total": 59.3,
+            "weights": {
+              "relevance": 0.3,
+              "action": 0.25,
+              "crop": 0.2,
+              "quality": 0.15,
+              "duration": 0.1
+            },
+            "components": {
+              "relevance": 52,
+              "action": 55,
+              "crop": 32,
+              "quality": 90,
+              "duration": 100
+            },
+            "status": "provisional_metadata_only",
+            "reasons": [
+              "標籤僅供相關性初篩，不能證明動作。",
+              "裁切比例只估算幾何保留範圍，主體位置未確認。",
+              "畫質依尺寸初估；色調／美術尚未視覺核對。"
+            ]
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "license_checked_at": "2026-10-28T15:32:59.405Z",
+          "source_sha256": null,
+          "review_status": "pending",
+          "project_id": "bento-v1",
+          "scene_id": "B",
+          "query": "serving vegetables",
+          "availability": {
+            "status": "reachable",
+            "content_type": "video/mp4",
+            "http_status": 200,
+            "checked_at": "2026-10-28T15:33:00.050Z"
+          },
+          "risk_notes": [
+            "不可由顏色推定營養數字；有人物不代表學員案例。",
+            "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+          ]
+        }
+      ],
+      "queries": [
+        {
+          "q": "serving vegetables",
+          "cache_hit": false,
+          "total": 793,
+          "totalHits": 500
+        }
+      ],
+      "status": "ready_for_visual_review"
     },
     {
       "scene_id": "C",
-      "candidates": [],
-      "screened_candidates": [],
-      "queries": [],
-      "status": "not_attempted_due_to_prior_error"
+      "candidates": [
+        {
+          "candidate_id": "pixabay-283431",
+          "asset_id": "pixabay-283431",
+          "provider": "pixabay",
+          "pixabay_id": 283431,
+          "pageURL": "https://pixabay.com/videos/id-283431/",
+          "source_url": "https://pixabay.com/videos/id-283431/",
+          "author": "Kanenori",
+          "author_url": "https://pixabay.com/users/Kanenori-4749850/",
+          "video_type": "film",
+          "tags": "night view, yamada's rice fields, rice farming, rice terraces, starry sky, milky way, reflection on the water surface, japan",
+          "visual_tags": [],
+          "duration": 8,
+          "width": 2160,
+          "height": 3840,
+          "variants": [
+            {
+              "name": "large",
+              "url": "https://cdn.pixabay.com/video/2025/06/03/283431_large.mp4",
+              "width": 2160,
+              "height": 3840,
+              "size": 78075111,
+              "thumbnail": "https://cdn.pixabay.com/video/2025/06/03/283431_large.jpg"
+            },
+            {
+              "name": "medium",
+              "url": "https://cdn.pixabay.com/video/2025/06/03/283431_medium.mp4",
+              "width": 1440,
+              "height": 2560,
+              "size": 24992928,
+              "thumbnail": "https://cdn.pixabay.com/video/2025/06/03/283431_medium.jpg"
+            },
+            {
+              "name": "small",
+              "url": "https://cdn.pixabay.com/video/2025/06/03/283431_small.mp4",
+              "width": 1080,
+              "height": 1920,
+              "size": 10629341,
+              "thumbnail": "https://cdn.pixabay.com/video/2025/06/03/283431_small.jpg"
+            },
+            {
+              "name": "tiny",
+              "url": "https://cdn.pixabay.com/video/2025/06/03/283431_tiny.mp4",
+              "width": 720,
+              "height": 1280,
+              "size": 2385341,
+              "thumbnail": "https://cdn.pixabay.com/video/2025/06/03/283431_tiny.jpg"
+            }
+          ],
+          "preview_url": "https://cdn.pixabay.com/video/2025/06/03/283431_tiny.mp4",
+          "thumbnail_url": "https://cdn.pixabay.com/video/2025/06/03/283431_tiny.jpg",
+          "selected_rendition": "large",
+          "selected_trim": null,
+          "crop_parameters": {
+            "aspect_ratio": "9:16",
+            "object_position_x": 0.5,
+            "object_position_y": 0.5,
+            "verified": false
+          },
+          "crop_estimate": {
+            "retained_area_fraction": 1,
+            "effectiveWidth": 2160,
+            "effectiveHeight": 3840,
+            "object_location": "unknown; requires visual confirmation"
+          },
+          "actual_action_description": null,
+          "action_verified": false,
+          "visual_verification": "not_reviewed",
+          "score": {
+            "total": 76.8,
+            "weights": {
+              "relevance": 0.3,
+              "action": 0.25,
+              "crop": 0.2,
+              "quality": 0.15,
+              "duration": 0.1
+            },
+            "components": {
+              "relevance": 60,
+              "action": 55,
+              "crop": 100,
+              "quality": 100,
+              "duration": 100
+            },
+            "status": "provisional_metadata_only",
+            "reasons": [
+              "標籤僅供相關性初篩，不能證明動作。",
+              "裁切比例只估算幾何保留範圍，主體位置未確認。",
+              "畫質依尺寸初估；色調／美術尚未視覺核對。"
+            ]
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "license_checked_at": "2026-10-28T15:33:00.235Z",
+          "source_sha256": null,
+          "review_status": "pending",
+          "project_id": "bento-v1",
+          "scene_id": "C",
+          "query": "serving rice",
+          "availability": {
+            "status": "reachable",
+            "content_type": "video/mp4",
+            "http_status": 200,
+            "checked_at": "2026-10-28T15:33:00.390Z"
+          },
+          "risk_notes": [
+            "沒有測量不能標示克數、熱量或減重效果。",
+            "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+          ]
+        },
+        {
+          "candidate_id": "pixabay-307864",
+          "asset_id": "pixabay-307864",
+          "provider": "pixabay",
+          "pixabay_id": 307864,
+          "pageURL": "https://pixabay.com/videos/id-307864/",
+          "source_url": "https://pixabay.com/videos/id-307864/",
+          "author": "Ponnguyenduy",
+          "author_url": "https://pixabay.com/users/Ponnguyenduy-38215211/",
+          "video_type": "film",
+          "tags": "wind, electricity, windpower, rice, vietnam, nature, farming, green, sunset",
+          "visual_tags": [],
+          "duration": 19,
+          "width": 2160,
+          "height": 3840,
+          "variants": [
+            {
+              "name": "large",
+              "url": "https://cdn.pixabay.com/video/2025/10/04/307864_large.mp4",
+              "width": 2160,
+              "height": 3840,
+              "size": 33310852,
+              "thumbnail": "https://cdn.pixabay.com/video/2025/10/04/307864_large.jpg"
+            },
+            {
+              "name": "medium",
+              "url": "https://cdn.pixabay.com/video/2025/10/04/307864_medium.mp4",
+              "width": 1440,
+              "height": 2560,
+              "size": 12281342,
+              "thumbnail": "https://cdn.pixabay.com/video/2025/10/04/307864_medium.jpg"
+            },
+            {
+              "name": "small",
+              "url": "https://cdn.pixabay.com/video/2025/10/04/307864_small.mp4",
+              "width": 1080,
+              "height": 1920,
+              "size": 7014036,
+              "thumbnail": "https://cdn.pixabay.com/video/2025/10/04/307864_small.jpg"
+            },
+            {
+              "name": "tiny",
+              "url": "https://cdn.pixabay.com/video/2025/10/04/307864_tiny.mp4",
+              "width": 720,
+              "height": 1280,
+              "size": 1963968,
+              "thumbnail": "https://cdn.pixabay.com/video/2025/10/04/307864_tiny.jpg"
+            }
+          ],
+          "preview_url": "https://cdn.pixabay.com/video/2025/10/04/307864_tiny.mp4",
+          "thumbnail_url": "https://cdn.pixabay.com/video/2025/10/04/307864_tiny.jpg",
+          "selected_rendition": "large",
+          "selected_trim": null,
+          "crop_parameters": {
+            "aspect_ratio": "9:16",
+            "object_position_x": 0.5,
+            "object_position_y": 0.5,
+            "verified": false
+          },
+          "crop_estimate": {
+            "retained_area_fraction": 1,
+            "effectiveWidth": 2160,
+            "effectiveHeight": 3840,
+            "object_location": "unknown; requires visual confirmation"
+          },
+          "actual_action_description": null,
+          "action_verified": false,
+          "visual_verification": "not_reviewed",
+          "score": {
+            "total": 76.8,
+            "weights": {
+              "relevance": 0.3,
+              "action": 0.25,
+              "crop": 0.2,
+              "quality": 0.15,
+              "duration": 0.1
+            },
+            "components": {
+              "relevance": 60,
+              "action": 55,
+              "crop": 100,
+              "quality": 100,
+              "duration": 100
+            },
+            "status": "provisional_metadata_only",
+            "reasons": [
+              "標籤僅供相關性初篩，不能證明動作。",
+              "裁切比例只估算幾何保留範圍，主體位置未確認。",
+              "畫質依尺寸初估；色調／美術尚未視覺核對。"
+            ]
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "license_checked_at": "2026-10-28T15:33:00.235Z",
+          "source_sha256": null,
+          "review_status": "pending",
+          "project_id": "bento-v1",
+          "scene_id": "C",
+          "query": "serving rice",
+          "availability": {
+            "status": "reachable",
+            "content_type": "video/mp4",
+            "http_status": 200,
+            "checked_at": "2026-10-28T15:33:00.558Z"
+          },
+          "risk_notes": [
+            "沒有測量不能標示克數、熱量或減重效果。",
+            "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+          ]
+        },
+        {
+          "candidate_id": "pixabay-380106",
+          "asset_id": "pixabay-380106",
+          "provider": "pixabay",
+          "pixabay_id": 380106,
+          "pageURL": "https://pixabay.com/videos/id-380106/",
+          "source_url": "https://pixabay.com/videos/id-380106/",
+          "author": "Kanenori",
+          "author_url": "https://pixabay.com/users/Kanenori-4749850/",
+          "video_type": "film",
+          "tags": "rice, grain, before harvest, yamada's rice fields, agriculture, countryside, wind, partly cloudy",
+          "visual_tags": [],
+          "duration": 63,
+          "width": 1080,
+          "height": 1920,
+          "variants": [
+            {
+              "name": "large",
+              "url": "https://cdn.pixabay.com/video/2026/10/01/380106_large.mp4",
+              "width": 1080,
+              "height": 1920,
+              "size": 129061639,
+              "thumbnail": "https://cdn.pixabay.com/video/2026/10/01/380106_large.jpg"
+            },
+            {
+              "name": "medium",
+              "url": "https://cdn.pixabay.com/video/2026/10/01/380106_medium.mp4",
+              "width": 720,
+              "height": 1280,
+              "size": 64454464,
+              "thumbnail": "https://cdn.pixabay.com/video/2026/10/01/380106_medium.jpg"
+            },
+            {
+              "name": "small",
+              "url": "https://cdn.pixabay.com/video/2026/10/01/380106_small.mp4",
+              "width": 540,
+              "height": 960,
+              "size": 38843240,
+              "thumbnail": "https://cdn.pixabay.com/video/2026/10/01/380106_small.jpg"
+            },
+            {
+              "name": "tiny",
+              "url": "https://cdn.pixabay.com/video/2026/10/01/380106_tiny.mp4",
+              "width": 360,
+              "height": 640,
+              "size": 18595391,
+              "thumbnail": "https://cdn.pixabay.com/video/2026/10/01/380106_tiny.jpg"
+            }
+          ],
+          "preview_url": "https://cdn.pixabay.com/video/2026/10/01/380106_small.mp4",
+          "thumbnail_url": "https://cdn.pixabay.com/video/2026/10/01/380106_small.jpg",
+          "selected_rendition": "large",
+          "selected_trim": null,
+          "crop_parameters": {
+            "aspect_ratio": "9:16",
+            "object_position_x": 0.5,
+            "object_position_y": 0.5,
+            "verified": false
+          },
+          "crop_estimate": {
+            "retained_area_fraction": 1,
+            "effectiveWidth": 1080,
+            "effectiveHeight": 1920,
+            "object_location": "unknown; requires visual confirmation"
+          },
+          "actual_action_description": null,
+          "action_verified": false,
+          "visual_verification": "not_reviewed",
+          "score": {
+            "total": 73.8,
+            "weights": {
+              "relevance": 0.3,
+              "action": 0.25,
+              "crop": 0.2,
+              "quality": 0.15,
+              "duration": 0.1
+            },
+            "components": {
+              "relevance": 60,
+              "action": 55,
+              "crop": 100,
+              "quality": 80,
+              "duration": 100
+            },
+            "status": "provisional_metadata_only",
+            "reasons": [
+              "標籤僅供相關性初篩，不能證明動作。",
+              "裁切比例只估算幾何保留範圍，主體位置未確認。",
+              "畫質依尺寸初估；色調／美術尚未視覺核對。"
+            ]
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "license_checked_at": "2026-10-28T15:33:00.235Z",
+          "source_sha256": null,
+          "review_status": "pending",
+          "project_id": "bento-v1",
+          "scene_id": "C",
+          "query": "serving rice",
+          "availability": {
+            "status": "reachable",
+            "content_type": "video/mp4",
+            "http_status": 200,
+            "checked_at": "2026-10-28T15:33:00.887Z"
+          },
+          "risk_notes": [
+            "沒有測量不能標示克數、熱量或減重效果。",
+            "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+          ]
+        }
+      ],
+      "screened_candidates": [
+        {
+          "candidate_id": "pixabay-283431",
+          "asset_id": "pixabay-283431",
+          "provider": "pixabay",
+          "pixabay_id": 283431,
+          "pageURL": "https://pixabay.com/videos/id-283431/",
+          "source_url": "https://pixabay.com/videos/id-283431/",
+          "author": "Kanenori",
+          "author_url": "https://pixabay.com/users/Kanenori-4749850/",
+          "video_type": "film",
+          "tags": "night view, yamada's rice fields, rice farming, rice terraces, starry sky, milky way, reflection on the water surface, japan",
+          "visual_tags": [],
+          "duration": 8,
+          "width": 2160,
+          "height": 3840,
+          "variants": [
+            {
+              "name": "large",
+              "url": "https://cdn.pixabay.com/video/2025/06/03/283431_large.mp4",
+              "width": 2160,
+              "height": 3840,
+              "size": 78075111,
+              "thumbnail": "https://cdn.pixabay.com/video/2025/06/03/283431_large.jpg"
+            },
+            {
+              "name": "medium",
+              "url": "https://cdn.pixabay.com/video/2025/06/03/283431_medium.mp4",
+              "width": 1440,
+              "height": 2560,
+              "size": 24992928,
+              "thumbnail": "https://cdn.pixabay.com/video/2025/06/03/283431_medium.jpg"
+            },
+            {
+              "name": "small",
+              "url": "https://cdn.pixabay.com/video/2025/06/03/283431_small.mp4",
+              "width": 1080,
+              "height": 1920,
+              "size": 10629341,
+              "thumbnail": "https://cdn.pixabay.com/video/2025/06/03/283431_small.jpg"
+            },
+            {
+              "name": "tiny",
+              "url": "https://cdn.pixabay.com/video/2025/06/03/283431_tiny.mp4",
+              "width": 720,
+              "height": 1280,
+              "size": 2385341,
+              "thumbnail": "https://cdn.pixabay.com/video/2025/06/03/283431_tiny.jpg"
+            }
+          ],
+          "preview_url": "https://cdn.pixabay.com/video/2025/06/03/283431_tiny.mp4",
+          "thumbnail_url": "https://cdn.pixabay.com/video/2025/06/03/283431_tiny.jpg",
+          "selected_rendition": "large",
+          "selected_trim": null,
+          "crop_parameters": {
+            "aspect_ratio": "9:16",
+            "object_position_x": 0.5,
+            "object_position_y": 0.5,
+            "verified": false
+          },
+          "crop_estimate": {
+            "retained_area_fraction": 1,
+            "effectiveWidth": 2160,
+            "effectiveHeight": 3840,
+            "object_location": "unknown; requires visual confirmation"
+          },
+          "actual_action_description": null,
+          "action_verified": false,
+          "visual_verification": "not_reviewed",
+          "score": {
+            "total": 76.8,
+            "weights": {
+              "relevance": 0.3,
+              "action": 0.25,
+              "crop": 0.2,
+              "quality": 0.15,
+              "duration": 0.1
+            },
+            "components": {
+              "relevance": 60,
+              "action": 55,
+              "crop": 100,
+              "quality": 100,
+              "duration": 100
+            },
+            "status": "provisional_metadata_only",
+            "reasons": [
+              "標籤僅供相關性初篩，不能證明動作。",
+              "裁切比例只估算幾何保留範圍，主體位置未確認。",
+              "畫質依尺寸初估；色調／美術尚未視覺核對。"
+            ]
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "license_checked_at": "2026-10-28T15:33:00.235Z",
+          "source_sha256": null,
+          "review_status": "pending",
+          "project_id": "bento-v1",
+          "scene_id": "C",
+          "query": "serving rice",
+          "availability": {
+            "status": "reachable",
+            "content_type": "video/mp4",
+            "http_status": 200,
+            "checked_at": "2026-10-28T15:33:00.390Z"
+          },
+          "risk_notes": [
+            "沒有測量不能標示克數、熱量或減重效果。",
+            "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+          ]
+        },
+        {
+          "candidate_id": "pixabay-307864",
+          "asset_id": "pixabay-307864",
+          "provider": "pixabay",
+          "pixabay_id": 307864,
+          "pageURL": "https://pixabay.com/videos/id-307864/",
+          "source_url": "https://pixabay.com/videos/id-307864/",
+          "author": "Ponnguyenduy",
+          "author_url": "https://pixabay.com/users/Ponnguyenduy-38215211/",
+          "video_type": "film",
+          "tags": "wind, electricity, windpower, rice, vietnam, nature, farming, green, sunset",
+          "visual_tags": [],
+          "duration": 19,
+          "width": 2160,
+          "height": 3840,
+          "variants": [
+            {
+              "name": "large",
+              "url": "https://cdn.pixabay.com/video/2025/10/04/307864_large.mp4",
+              "width": 2160,
+              "height": 3840,
+              "size": 33310852,
+              "thumbnail": "https://cdn.pixabay.com/video/2025/10/04/307864_large.jpg"
+            },
+            {
+              "name": "medium",
+              "url": "https://cdn.pixabay.com/video/2025/10/04/307864_medium.mp4",
+              "width": 1440,
+              "height": 2560,
+              "size": 12281342,
+              "thumbnail": "https://cdn.pixabay.com/video/2025/10/04/307864_medium.jpg"
+            },
+            {
+              "name": "small",
+              "url": "https://cdn.pixabay.com/video/2025/10/04/307864_small.mp4",
+              "width": 1080,
+              "height": 1920,
+              "size": 7014036,
+              "thumbnail": "https://cdn.pixabay.com/video/2025/10/04/307864_small.jpg"
+            },
+            {
+              "name": "tiny",
+              "url": "https://cdn.pixabay.com/video/2025/10/04/307864_tiny.mp4",
+              "width": 720,
+              "height": 1280,
+              "size": 1963968,
+              "thumbnail": "https://cdn.pixabay.com/video/2025/10/04/307864_tiny.jpg"
+            }
+          ],
+          "preview_url": "https://cdn.pixabay.com/video/2025/10/04/307864_tiny.mp4",
+          "thumbnail_url": "https://cdn.pixabay.com/video/2025/10/04/307864_tiny.jpg",
+          "selected_rendition": "large",
+          "selected_trim": null,
+          "crop_parameters": {
+            "aspect_ratio": "9:16",
+            "object_position_x": 0.5,
+            "object_position_y": 0.5,
+            "verified": false
+          },
+          "crop_estimate": {
+            "retained_area_fraction": 1,
+            "effectiveWidth": 2160,
+            "effectiveHeight": 3840,
+            "object_location": "unknown; requires visual confirmation"
+          },
+          "actual_action_description": null,
+          "action_verified": false,
+          "visual_verification": "not_reviewed",
+          "score": {
+            "total": 76.8,
+            "weights": {
+              "relevance": 0.3,
+              "action": 0.25,
+              "crop": 0.2,
+              "quality": 0.15,
+              "duration": 0.1
+            },
+            "components": {
+              "relevance": 60,
+              "action": 55,
+              "crop": 100,
+              "quality": 100,
+              "duration": 100
+            },
+            "status": "provisional_metadata_only",
+            "reasons": [
+              "標籤僅供相關性初篩，不能證明動作。",
+              "裁切比例只估算幾何保留範圍，主體位置未確認。",
+              "畫質依尺寸初估；色調／美術尚未視覺核對。"
+            ]
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "license_checked_at": "2026-10-28T15:33:00.235Z",
+          "source_sha256": null,
+          "review_status": "pending",
+          "project_id": "bento-v1",
+          "scene_id": "C",
+          "query": "serving rice",
+          "availability": {
+            "status": "reachable",
+            "content_type": "video/mp4",
+            "http_status": 200,
+            "checked_at": "2026-10-28T15:33:00.558Z"
+          },
+          "risk_notes": [
+            "沒有測量不能標示克數、熱量或減重效果。",
+            "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+          ]
+        },
+        {
+          "candidate_id": "pixabay-380106",
+          "asset_id": "pixabay-380106",
+          "provider": "pixabay",
+          "pixabay_id": 380106,
+          "pageURL": "https://pixabay.com/videos/id-380106/",
+          "source_url": "https://pixabay.com/videos/id-380106/",
+          "author": "Kanenori",
+          "author_url": "https://pixabay.com/users/Kanenori-4749850/",
+          "video_type": "film",
+          "tags": "rice, grain, before harvest, yamada's rice fields, agriculture, countryside, wind, partly cloudy",
+          "visual_tags": [],
+          "duration": 63,
+          "width": 1080,
+          "height": 1920,
+          "variants": [
+            {
+              "name": "large",
+              "url": "https://cdn.pixabay.com/video/2026/10/01/380106_large.mp4",
+              "width": 1080,
+              "height": 1920,
+              "size": 129061639,
+              "thumbnail": "https://cdn.pixabay.com/video/2026/10/01/380106_large.jpg"
+            },
+            {
+              "name": "medium",
+              "url": "https://cdn.pixabay.com/video/2026/10/01/380106_medium.mp4",
+              "width": 720,
+              "height": 1280,
+              "size": 64454464,
+              "thumbnail": "https://cdn.pixabay.com/video/2026/10/01/380106_medium.jpg"
+            },
+            {
+              "name": "small",
+              "url": "https://cdn.pixabay.com/video/2026/10/01/380106_small.mp4",
+              "width": 540,
+              "height": 960,
+              "size": 38843240,
+              "thumbnail": "https://cdn.pixabay.com/video/2026/10/01/380106_small.jpg"
+            },
+            {
+              "name": "tiny",
+              "url": "https://cdn.pixabay.com/video/2026/10/01/380106_tiny.mp4",
+              "width": 360,
+              "height": 640,
+              "size": 18595391,
+              "thumbnail": "https://cdn.pixabay.com/video/2026/10/01/380106_tiny.jpg"
+            }
+          ],
+          "preview_url": "https://cdn.pixabay.com/video/2026/10/01/380106_small.mp4",
+          "thumbnail_url": "https://cdn.pixabay.com/video/2026/10/01/380106_small.jpg",
+          "selected_rendition": "large",
+          "selected_trim": null,
+          "crop_parameters": {
+            "aspect_ratio": "9:16",
+            "object_position_x": 0.5,
+            "object_position_y": 0.5,
+            "verified": false
+          },
+          "crop_estimate": {
+            "retained_area_fraction": 1,
+            "effectiveWidth": 1080,
+            "effectiveHeight": 1920,
+            "object_location": "unknown; requires visual confirmation"
+          },
+          "actual_action_description": null,
+          "action_verified": false,
+          "visual_verification": "not_reviewed",
+          "score": {
+            "total": 73.8,
+            "weights": {
+              "relevance": 0.3,
+              "action": 0.25,
+              "crop": 0.2,
+              "quality": 0.15,
+              "duration": 0.1
+            },
+            "components": {
+              "relevance": 60,
+              "action": 55,
+              "crop": 100,
+              "quality": 80,
+              "duration": 100
+            },
+            "status": "provisional_metadata_only",
+            "reasons": [
+              "標籤僅供相關性初篩，不能證明動作。",
+              "裁切比例只估算幾何保留範圍，主體位置未確認。",
+              "畫質依尺寸初估；色調／美術尚未視覺核對。"
+            ]
+          },
+          "license_url": "https://pixabay.com/service/license-summary/",
+          "license_checked_at": "2026-10-28T15:33:00.235Z",
+          "source_sha256": null,
+          "review_status": "pending",
+          "project_id": "bento-v1",
+          "scene_id": "C",
+          "query": "serving rice",
+          "availability": {
+            "status": "reachable",
+            "content_type": "video/mp4",
+            "http_status": 200,
+            "checked_at": "2026-10-28T15:33:00.887Z"
+          },
+          "risk_notes": [
+            "沒有測量不能標示克數、熱量或減重效果。",
+            "不可冒稱學員案例、健康效果或品牌背書；營養值不可由畫面推定。"
+          ]
+        }
+      ],
+      "queries": [
+        {
+          "q": "serving rice",
+          "cache_hit": false,
+          "total": 401,
+          "totalHits": 401
+        }
+      ],
+      "status": "ready_for_visual_review"
     }
   ],
-  "errors": [
-    {
-      "scene_id": "A",
-      "code": "MISSING_API_KEY",
-      "message": "後端環境尚未設定PIXABAY_API_KEY；未發出API請求。"
-    }
-  ],
+  "errors": [],
   "request_budget": 6,
-  "api_requests": 0,
-  "revision_id": "47d5d5b4e71d01314f891530837636dc95dcd7240e32e5a74db27be20ab6180f"
+  "api_requests": 3,
+  "revision_id": "d9d82b5ffadbfb1a5a6a723e46de1325337f137a57d3db7ab11829784d905d0c"
 }
