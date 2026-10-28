@@ -1,0 +1,18 @@
+{
+  "fps":30,"width":1080,"height":1920,"duration_frames":120,
+  "compositions":[
+    {"id":"MilkEditorialA","asset":"milk-objects-refined-v23","events":[
+      {"object_id":"carton","action":"tilt_and_reposition","start_frame":3,"end_frame":24,"params":{"angle_degrees":67,"scale":0.65,"pivot_source":[604,146],"spout_rest":[344,740],"spout_pour":[644,644]}},
+      {"object_id":"milk","action":"emit_ballistic_volume_ribbon","start_frame":26,"end_frame":77,"params":{"gravity_px_s2":4400,"vx_px_s":82,"vy_px_s":52,"flux":"sin(pi*u)^0.85","quadrature_step_frame":0.25}},
+      {"object_id":"glass-liquid","action":"accumulate_arrived_mass","start_frame":43,"end_frame":93,"params":{"timing":"derived from each packet flight, approximate envelope only","target_height_px":287,"base_radius_px":134,"radius_slope":0.045}},
+      {"object_id":"camera","action":"push_and_reframe","start_frame":75,"end_frame":116,"params":{"scale":1.09,"translate_px":[-65,-55]}},
+      {"object_id":"carton","action":"return","start_frame":84,"end_frame":112,"params":{"angle_degrees":0}}
+    ]},
+    {"id":"MilkFootageB","asset":"pexels-6535488","events":[
+      {"object_id":"footage","action":"play_actual_capture","start_frame":0,"end_frame":119,"params":{"source_seconds":[4,8],"playback_rate":1,"source_fps":"30000/1001","output_fps":30,"source_audio":"removed"}},
+      {"object_id":"camera","action":"crop_and_push","start_frame":0,"end_frame":119,"params":{"scale":1.045,"translate_px":[-10,-8],"transform_origin":"61% 65%","object_fit":"cover"}}
+    ]}
+  ],
+  "shared_title":{"text":"減脂不能喝全脂牛奶嗎？","font":"Noto Serif TC 600","font_size_px":64,"position_px":[84,155],"enter_frames":[0,16],"settle_frames":[105,119]},
+  "source_of_truth":"src/MilkEditorialA.tsx, src/MilkFootageB.tsx, src/v23-shared.tsx; this JSON is a recorded timeline, not a second runtime configuration"
+}

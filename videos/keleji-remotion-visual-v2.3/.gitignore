@@ -1,0 +1,15 @@
+node_modules/
+out/
+vendor-skills/skills/
+docs/npm-install*.log
+.env
+.env.*
+*.wav
+*.mp3
+*.m4a
+*.ckpt
+*.pth
+*.safetensors
+.DS_Store
+*.mp4
+*.mov
