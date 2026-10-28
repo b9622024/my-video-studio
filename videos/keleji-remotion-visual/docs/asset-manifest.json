@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "path": "public/assets/FONT-OFL.txt",
+      "bytes": 4350,
+      "sha256": "5e0da210fb04058a8c0087985d2d456b931c2579811a49655721d3cf0c36b6d6"
+    },
+    {
+      "path": "public/assets/milk-objects-atlas.png",
+      "bytes": 1965902,
+      "sha256": "cebc3d1b75dfdb2f6f6b5af7d0eedea4fe078f709e49899ed29fb74c568b5024"
+    },
+    {
+      "path": "public/assets/noto-serif-tc-subset.ttf",
+      "bytes": 17200,
+      "sha256": "1d56cf7999fc4d07f160b2ca25c062efaf293ec81b0851d029039236af0b2469"
+    }
+  ],
+  "generated_atlas": {
+    "source": "OpenAI image_gen, original generation for this project",
+    "local_original": "/workspace/generated_images/exec-0d7d2c47-1709-4ffb-871f-484eb0fc899e.png",
+    "kind": "original paper-textured editorial product illustration, transparent atlas",
+    "commercial_use_basis": "OpenAI applicable terms assign output rights to user to extent permitted by law; no exclusive copyright claim",
+    "terms_url": "https://openai.com/policies/terms-of-use/",
+    "third_party_input_images": false,
+    "included_in_git": true
+  },
+  "font": {
+    "family": "Noto Serif TC",
+    "source_record": "docs/font-source.json",
+    "license_file": "public/assets/FONT-OFL.txt",
+    "license": "SIL OFL 1.1"
+  },
+  "stock_footage_used_in_final": false,
+  "rejected_research": [
+    {
+      "url": "https://www.pexels.com/video/a-person-pouring-a-milk-inside-the-glass-6535488/",
+      "reason": "Pouring container outside frame; does not satisfy complete carton action",
+      "license_url": "https://www.pexels.com/license/"
+    },
+    {
+      "url": "https://www.pexels.com/video/pouring-milk-to-empty-glass-11158788/",
+      "reason": "Pouring container outside frame",
+      "license_url": "https://www.pexels.com/license/"
+    }
+  ]
+}

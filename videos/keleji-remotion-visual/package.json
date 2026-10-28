@@ -1,0 +1,25 @@
+{
+  "name": "keleji-remotion-visual",
+  "private": true,
+  "version": "2.2.0",
+  "type": "module",
+  "scripts": {
+    "studio": "remotion studio src/index.ts --port=3100",
+    "typecheck": "tsc --noEmit",
+    "render": "node tools/render.mjs",
+    "frames": "node tools/render.mjs --stills"
+  },
+  "dependencies": {
+    "remotion": "4.0.539",
+    "@remotion/cli": "4.0.539",
+    "@remotion/renderer": "4.0.539",
+    "@remotion/bundler": "4.0.539",
+    "react": "19.3.1",
+    "react-dom": "19.3.1"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3"
+  }
+}
