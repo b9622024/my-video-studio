@@ -1,0 +1,74 @@
+{
+  "schema_version": "2.4",
+  "checked_date": "2026-10-28",
+  "upstream_commit": "b4570b876f5c086819ba84e3215472733c6a7b70",
+  "version": "v2",
+  "source": "HF Git LFS pointer metadata; some web results cached 2 days; sizes are payload byte counts, not local download measurements",
+  "assets": [
+    {
+      "role": "gpt",
+      "repository": "lj1995/GPT-SoVITS",
+      "path": "gsv-v2final-pretrained/s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+      "bytes": 155315150,
+      "expected_sha256": "732f94e63b148066e24c7f9d2637f3374083e637635f07fbdb695dee20ddbe1f",
+      "metadata_source": "https://huggingface.co/lj1995/GPT-SoVITS/raw/main/gsv-v2final-pretrained/s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+      "downloaded": false,
+      "local_sha256_verified": false,
+      "resolved_repository_commit": null
+    },
+    {
+      "role": "sovits",
+      "repository": "lj1995/GPT-SoVITS",
+      "path": "gsv-v2final-pretrained/s2G2333k.pth",
+      "bytes": 106035259,
+      "expected_sha256": "924fdccaa3c574bf139c25c9759aa1ed3b3f99e19a7c529ee996c2bc17663695",
+      "metadata_source": "https://huggingface.co/lj1995/GPT-SoVITS/raw/main/gsv-v2final-pretrained/s2G2333k.pth",
+      "downloaded": false,
+      "local_sha256_verified": false,
+      "resolved_repository_commit": null
+    },
+    {
+      "role": "bert",
+      "repository": "lj1995/GPT-SoVITS",
+      "path": "chinese-roberta-wwm-ext-large/pytorch_model.bin",
+      "bytes": 651225145,
+      "expected_sha256": "e53a693acc59ace251d143d068096ae0d7b79e4b1b503fa84c9dcf576448c1d8",
+      "metadata_source": "https://huggingface.co/lj1995/GPT-SoVITS/raw/main/chinese-roberta-wwm-ext-large/pytorch_model.bin",
+      "downloaded": false,
+      "local_sha256_verified": false,
+      "resolved_repository_commit": null
+    },
+    {
+      "role": "hubert",
+      "repository": "lj1995/GPT-SoVITS",
+      "path": "chinese-hubert-base/pytorch_model.bin",
+      "bytes": 188811417,
+      "expected_sha256": "24164f129c66499d1346e2aa55f183250c223161ec2770c0da3d3b08cf432d3c",
+      "metadata_source": "https://huggingface.co/lj1995/GPT-SoVITS/raw/main/chinese-hubert-base/pytorch_model.bin",
+      "downloaded": false,
+      "local_sha256_verified": false,
+      "resolved_repository_commit": null
+    },
+    {
+      "role": "g2pw_archive",
+      "repository": "XXXXRT/GPT-SoVITS-Pretrained",
+      "path": "G2PWModel.zip",
+      "bytes": 588856634,
+      "expected_sha256": "46292be0374a49308069233cd5c147ae4c41806558e4781a2467a31a4d8099da",
+      "metadata_source": "https://huggingface.co/XXXXRT/GPT-SoVITS-Pretrained/raw/main/G2PWModel.zip",
+      "downloaded": false,
+      "local_sha256_verified": false,
+      "resolved_repository_commit": null
+    }
+  ],
+  "known_large_payload_bytes": 1690243605,
+  "additional_small_files": [
+    "BERT config.json and tokenizer.json",
+    "HuBERT config.json and preprocessor_config.json"
+  ],
+  "small_files_total_bytes": null,
+  "g2pw_extracted_bytes": null,
+  "python_dependency_download_bytes": null,
+  "installed_environment_bytes": null,
+  "weights_download_allowed_this_round": false
+}
