@@ -1,0 +1,15 @@
+{
+  "name": "keleji-broll-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.5"
+  },
+  "scripts": {
+    "test": "node tests/pixabay.test.mjs && node tests/review.test.mjs && node tests/download.test.mjs",
+    "search": "node --use-env-proxy src/cli.mjs search",
+    "review": "node src/cli.mjs review",
+    "serve": "node src/cli.mjs serve"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "source_branch": "visual-remotion-v2.5",
+  "commit": "abc828dbffe50b1ad0dad4c6a053f1a259f46e46",
+  "files": [
+    {
+      "path": "scene-plan.json",
+      "sha256": "ec6a11cfef7296a23aa020aef77c420e59f3079d29d2e56a39f9c7e40c401700"
+    },
+    {
+      "path": "broll-candidates.json",
+      "sha256": "45c9d6f6a931acb8bb6e0e37c795b7d8577a30877acb56ecd8ea3f6a25f83808"
+    },
+    {
+      "path": "asset-manifest.json",
+      "sha256": "609bfed28a25e7d0bd36799c872aa12429027e59bf35789c8cda166e22d5dc1c"
+    },
+    {
+      "path": "edit-timeline.json",
+      "sha256": "e9216c1814ba0a65dd69124a5b5a14e9a48711d025f42ed6e8d271979431def5"
+    }
+  ]
+}

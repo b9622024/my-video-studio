@@ -1,0 +1,23 @@
+{
+  "engine": "Existing Chromium, iPhone-sized touch viewport393x852",
+  "physical_iPhone_Safari_tested": false,
+  "WebKit_available": false,
+  "fixtures": "Synthetic metadata only; not search results or real approvals",
+  "checks": [
+    "incomplete approval blocked",
+    "Reject changes state",
+    "Approve changes state",
+    "9:16 preview toggle",
+    "editing invalidates previous approval",
+    "review JSON download contains approved action/trim/crop",
+    "Safari copy fallback JSON",
+    "invalid search request blocked",
+    "Search Again exports an actionable request",
+    "global search export",
+    "localStorage retains current revision review",
+    "393px mobile viewport no horizontal overflow",
+    "real project shows empty blocked state, no fictional candidates"
+  ],
+  "page_errors": [],
+  "status": "PASS"
+}

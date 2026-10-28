@@ -1,0 +1,11 @@
+{
+ "schema_version":"1.0","project_id":"bento-v1","title":"外食族的便當，怎麼安排比較均衡？","fps":30,
+ "source_script":"外食族的便當，怎麼安排比較均衡？先看看餐盒裡有哪些食物。夾取幾樣蔬菜，搭配不同的配菜。主食也要留意份量，再依自己的需求調整。",
+ "script_provenance":"Codex為本輪主題撰寫的示範口白，非使用者提供的完整逐字稿。",
+ "analysis_origin":"Codex-assisted semantic analysis; not a paid LLM service or automatic backend semantic engine",
+ "scenes":[
+  {"id":"A","name":"外食便當","narration":"外食族的便當，怎麼安排比較均衡？先看看餐盒裡有哪些食物。","viewer_takeaway":"先觀察餐盒內容，畫面不代表營養評估已完成。","event":"真實餐盒被準備、打開或裝入餐點。","required_objects":["lunch box","prepared meal"],"required_actions":["packing or preparing a lunch box"],"visual_mode":"broll","duration_seconds":6,"search_queries":["preparing lunch box","packing meal"],"misleading_risks":["不得把餐盒外觀當成份量或營養均衡證明。"],"animation_refs":["brief title"]},
+  {"id":"B","name":"蔬菜與配菜","narration":"夾取幾樣蔬菜，搭配不同的配菜。","viewer_takeaway":"看見蔬菜／配菜加入餐點的實際動作。","event":"用夾子、湯匙或手把蔬菜放入盤子或餐盒。","required_objects":["vegetables","food container"],"required_actions":["serving or placing vegetables"],"visual_mode":"broll","duration_seconds":6,"search_queries":["serving vegetables","preparing side dishes"],"misleading_risks":["不可由顏色推定營養數字；有人物不代表學員案例。"],"animation_refs":["optional short food label"]},
+  {"id":"C","name":"主食與份量","narration":"主食也要留意份量，再依自己的需求調整。","viewer_takeaway":"辨認盛飯或調整份量的動作，不宣告固定份量適合所有人。","event":"用飯匙把飯盛進碗或餐盒，完成一次裝餐。","required_objects":["cooked rice","rice spoon","bowl or lunch box"],"required_actions":["scooping or serving rice"],"visual_mode":"broll_with_optional_information","duration_seconds":6,"search_queries":["serving rice","scooping rice bowl"],"misleading_risks":["沒有測量不能標示克數、熱量或減重效果。"],"animation_refs":["unitless portion concept only"]}
+ ]
+}

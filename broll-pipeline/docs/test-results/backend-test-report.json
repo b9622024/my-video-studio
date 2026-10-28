@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "test_cases": 24,
+  "test_groups": [
+    13,
+    7,
+    4
+  ],
+  "real_Pixabay_requests": 0,
+  "transport": "mocked, no actual key",
+  "scope": "Cache, limits, errors, redaction, dedup, approval gates, media download/ffprobe/hash, contract. Not live API validation."
+}

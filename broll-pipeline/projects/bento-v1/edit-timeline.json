@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "project_id": "bento-v1",
+  "composition": "ApprovedBrollInput",
+  "fps": 30,
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "duration_frames": 540,
+  "status": "awaiting_live_search_and_human_review",
+  "clips": []
+}

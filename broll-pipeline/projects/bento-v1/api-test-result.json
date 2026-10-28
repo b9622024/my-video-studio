@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-10-28T14:47:20.455Z",
+  "key_loaded": false,
+  "status": "blocked",
+  "api_requests": 0,
+  "cache_hours": 24,
+  "errors": [
+    {
+      "scene_id": "A",
+      "code": "MISSING_API_KEY",
+      "message": "後端環境尚未設定PIXABAY_API_KEY；未發出API請求。"
+    }
+  ]
+}

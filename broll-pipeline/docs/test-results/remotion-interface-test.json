@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "host": "/workspace/videos/keleji-remotion-visual-v2.5",
+  "remotion_version": "4.0.539",
+  "approved_fixture_clips": 1,
+  "input_frames": 30,
+  "rendered_frame": 15,
+  "verification": "Synthetic red video only; test import, approval gate, approved download, ffprobe, SHA-256, compile and existing Remotion adapter. Not a real Pixabay search/approval.",
+  "old_compositions_modified": false
+}

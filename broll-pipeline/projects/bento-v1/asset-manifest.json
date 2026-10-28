@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "project_id": "bento-v1",
+  "provider": "pixabay",
+  "legacy_reference": "../../compat/v25/asset-manifest.json",
+  "assets": [],
+  "notes": [
+    "未下載素材的source_sha256保持null。",
+    "所有候選pending；人工核准前不能進入正式剪輯。"
+  ]
+}
