@@ -1,0 +1,102 @@
+{
+  "status": "three_candidates_generated; subjective_acceptance_pending",
+  "A0_exact_reproduction": true,
+  "runs": [
+    {
+      "label": "A0",
+      "private_run_directory": "A0",
+      "output_duration_seconds": 7.22,
+      "inference_seconds": 22.169145629000013,
+      "cold_wall_seconds": 32.897032717,
+      "peak_main_process_rss_gib": 4.818901062011719,
+      "output_sha256": "f6bef8d39529fe1237952a31c3a5ea69a12b6398e833452e7cd2ac6ebf302e95",
+      "sample_rate_hz": 32000,
+      "channels": 1,
+      "bits": 16,
+      "digital_clipping_fraction": 0.0,
+      "low_energy_internal_intervals": [
+        {
+          "start_seconds": 1.36,
+          "end_seconds": 1.5,
+          "duration_seconds": 0.14
+        },
+        {
+          "start_seconds": 3.38,
+          "end_seconds": 3.86,
+          "duration_seconds": 0.48
+        },
+        {
+          "start_seconds": 4.86,
+          "end_seconds": 5.22,
+          "duration_seconds": 0.36
+        }
+      ],
+      "quality_status": "human_listening_pending; no automated Taiwan-accent or similarity score"
+    },
+    {
+      "label": "A1",
+      "private_run_directory": "A1-punctuation",
+      "output_duration_seconds": 8.38,
+      "inference_seconds": 25.061794323999493,
+      "cold_wall_seconds": 35.51510999999937,
+      "peak_main_process_rss_gib": 4.946025848388672,
+      "output_sha256": "1462c15c0aae2481b63cdac331ca9e43a3fc28118426b489f73ec9fef40fb298",
+      "sample_rate_hz": 32000,
+      "channels": 1,
+      "bits": 16,
+      "digital_clipping_fraction": 0.0,
+      "low_energy_internal_intervals": [
+        {
+          "start_seconds": 3.44,
+          "end_seconds": 3.86,
+          "duration_seconds": 0.42
+        },
+        {
+          "start_seconds": 4.9,
+          "end_seconds": 5.8,
+          "duration_seconds": 0.9
+        },
+        {
+          "start_seconds": 6.54,
+          "end_seconds": 6.92,
+          "duration_seconds": 0.38
+        }
+      ],
+      "quality_status": "human_listening_pending; no automated Taiwan-accent or similarity score"
+    },
+    {
+      "label": "A2",
+      "private_run_directory": "A2",
+      "output_duration_seconds": 6.86,
+      "inference_seconds": 24.938121286999376,
+      "cold_wall_seconds": 36.487106724000114,
+      "peak_main_process_rss_gib": 4.789863586425781,
+      "output_sha256": "b5cc5da2ceff28e870f2c5347a5ecc10385b1a18bfbd7249254600434e38e7d0",
+      "sample_rate_hz": 32000,
+      "channels": 1,
+      "bits": 16,
+      "digital_clipping_fraction": 0.0,
+      "low_energy_internal_intervals": [
+        {
+          "start_seconds": 1.34,
+          "end_seconds": 1.5,
+          "duration_seconds": 0.16
+        },
+        {
+          "start_seconds": 3.32,
+          "end_seconds": 4.04,
+          "duration_seconds": 0.72
+        },
+        {
+          "start_seconds": 4.98,
+          "end_seconds": 5.48,
+          "duration_seconds": 0.5
+        }
+      ],
+      "quality_status": "human_listening_pending; no automated Taiwan-accent or similarity score"
+    }
+  ],
+  "oom_events": 0,
+  "speech_rate_or_pitch_postprocessing": false,
+  "limitations": "Energy intervals are threshold observations, not linguistic pause boundaries. ASR spellings cannot objectively score pronunciation, accent or identity."
+}

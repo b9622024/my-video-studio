@@ -1,0 +1,63 @@
+{
+  "version": "2.7",
+  "upstream_commit": "b4570b876f5c086819ba84e3215472733c6a7b70",
+  "model_assets_lock": "config/model-assets.v2.6.lock.json",
+  "baseline_source": "V2.6 accepted A cut0 actual request and result",
+  "user_listening_feedback_v26": {
+    "A": "relatively natural, acceptable with residual mechanical quality",
+    "B": "some mainland Mandarin pronunciation and intonation; not preferred"
+  },
+  "baseline_parameters": {
+    "text_lang": "all_zh",
+    "aux_ref_audio_paths": [],
+    "prompt_lang": "all_zh",
+    "top_k": 15,
+    "top_p": 1.0,
+    "temperature": 1.0,
+    "text_split_method": "cut0",
+    "batch_size": 1,
+    "batch_threshold": 0.75,
+    "split_bucket": false,
+    "speed_factor": 1.0,
+    "return_fragment": false,
+    "fragment_interval": 0.3,
+    "seed": 20261028,
+    "parallel_infer": false,
+    "use_cuda_graph": false,
+    "use_flash_attention": false,
+    "repetition_penalty": 1.35,
+    "streaming_mode": false,
+    "gpt_streaming": false,
+    "super_sampling": false,
+    "sample_steps": 32,
+    "cfg_rate": 0.0
+  },
+  "A0_byte_identical_to_V26_accepted_A": true,
+  "trials": {
+    "A0": {
+      "change": "none"
+    },
+    "A1": {
+      "change": "punctuation only; teacher-clause comma becomes period and a comma is inserted after today; all lexical characters unchanged",
+      "same_sampling_and_cut0": true
+    },
+    "A2": {
+      "change": "reference audio and its matching transcript only",
+      "reference_source_seconds": [
+        34.2,
+        42.35
+      ],
+      "reference_duration_seconds": 8.15,
+      "human_transcript_verification": false,
+      "ASR_support": true
+    }
+  },
+  "retained_not_primary_delivery": "A1 sentence_split: cut3/0.22s. ASR raised possible word substitution; preserved privately, not treated as a proven defect or as an improvement.",
+  "automatic_accent_score": null,
+  "claim_of_improvement": false,
+  "requires_user_listening_to_select_winner": true,
+  "new_installs": false,
+  "downloads": false,
+  "training": false,
+  "paid_services": false
+}
