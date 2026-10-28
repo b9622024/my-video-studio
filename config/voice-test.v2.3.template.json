@@ -1,0 +1,90 @@
+{
+  "schema_version": "2.3",
+  "run_id": null,
+  "status": "planned_not_executed",
+  "historical_A_reproduced": false,
+  "model": {
+    "family": "GPT-SoVITS",
+    "version": "v2",
+    "upstream_repository": "https://github.com/RVC-Boss/GPT-SoVITS",
+    "candidate_upstream_commit": "b4570b876f5c086819ba84e3215472733c6a7b70",
+    "executed_upstream_commit": null,
+    "weights": [
+      {
+        "role": "gpt",
+        "source": "https://huggingface.co/lj1995/GPT-SoVITS/tree/main/gsv-v2final-pretrained",
+        "filename": "s1bert25hz-5kh-longer-epoch=12-step=369668.ckpt",
+        "revision": null,
+        "sha256": null,
+        "bytes": null
+      },
+      {
+        "role": "sovits",
+        "source": "https://huggingface.co/lj1995/GPT-SoVITS/tree/main/gsv-v2final-pretrained",
+        "filename": "s2G2333k.pth",
+        "revision": null,
+        "sha256": null,
+        "bytes": null
+      }
+    ],
+    "auxiliary_assets_required": [
+      "chinese-roberta-wwm-ext-large",
+      "chinese-hubert-base",
+      "G2PWModel"
+    ],
+    "auxiliary_asset_revisions_and_hashes": null
+  },
+  "environment": {
+    "device": "cpu",
+    "is_half": false,
+    "python_version": null,
+    "dependency_lock_sha256": null,
+    "hardware_record": null
+  },
+  "reference": {
+    "private_path": null,
+    "sha256": null,
+    "transcript": null,
+    "transcript_verified": false,
+    "start_seconds": null,
+    "end_seconds": null
+  },
+  "request": {
+    "text": null,
+    "text_lang": "zh",
+    "prompt_lang": "zh",
+    "seed": 20261028,
+    "temperature": 1.0,
+    "top_k": 15,
+    "top_p": 1.0,
+    "speed_factor": 1.0,
+    "text_split_method": "cut5",
+    "fragment_interval": 0.3,
+    "batch_size": 1,
+    "parallel_infer": false,
+    "streaming_mode": false,
+    "media_type": "wav",
+    "repetition_penalty": 1.35,
+    "other_effective_parameters": null
+  },
+  "output": {
+    "private_path": null,
+    "sha256": null,
+    "duration_seconds": null,
+    "sample_rate": null,
+    "elapsed_seconds": null
+  },
+  "evaluation": {
+    "pronunciation_errors": null,
+    "taiwan_mandarin_prosody": null,
+    "naturalness": null,
+    "speaker_similarity": null,
+    "reviewer": null
+  },
+  "provenance": "All populated sampling values are NEW proposed baseline settings, not recovered A parameters. Full request and loaded-model log must be retained privately.",
+  "constraints": {
+    "training": false,
+    "paid_services": false,
+    "automatic_model_download": false
+  }
+}
