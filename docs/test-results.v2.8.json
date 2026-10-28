@@ -1,0 +1,60 @@
+{
+  "runs": [
+    {
+      "segment": 1,
+      "duration_seconds": 6.66,
+      "inference_seconds": 21.79977444099859,
+      "cold_wall_seconds": 34.05475996699897,
+      "peak_main_process_rss_gib": 4.796226501464844,
+      "cpu_user_seconds": 40.322829,
+      "cpu_system_seconds": 4.311535,
+      "sha256": "13ddafbf953e6e74346c8a1d8cd1191b72a2a5b1e27255ad0785a06c870f179e",
+      "combined_start_seconds": 0.0,
+      "combined_end_seconds": 6.66
+    },
+    {
+      "segment": 2,
+      "duration_seconds": 5.26,
+      "inference_seconds": 19.409775469001033,
+      "cold_wall_seconds": 29.66394463299912,
+      "peak_main_process_rss_gib": 4.647823333740234,
+      "cpu_user_seconds": 36.050156,
+      "cpu_system_seconds": 2.122473,
+      "sha256": "4ada806cc2cf26563ba5dd00df14da95893be50e27b19e1f3b46177dc62db784",
+      "combined_start_seconds": 6.66,
+      "combined_end_seconds": 11.92
+    },
+    {
+      "segment": 3,
+      "duration_seconds": 6.46,
+      "inference_seconds": 23.905465502999505,
+      "cold_wall_seconds": 34.96650417900128,
+      "peak_main_process_rss_gib": 4.755405426025391,
+      "cpu_user_seconds": 42.522267,
+      "cpu_system_seconds": 2.466156,
+      "sha256": "0941f92fb7b7b4572feaa7262b71a01273302c4e11103323f5f226644844ee42",
+      "combined_start_seconds": 11.92,
+      "combined_end_seconds": 18.38
+    },
+    {
+      "segment": 4,
+      "duration_seconds": 7.66,
+      "inference_seconds": 24.296319920000315,
+      "cold_wall_seconds": 34.87706059300035,
+      "peak_main_process_rss_gib": 4.867179870605469,
+      "cpu_user_seconds": 42.926813,
+      "cpu_system_seconds": 2.510727,
+      "sha256": "7abfbae3eaed6269c0d2e0b154eb710de55c6d3e661cba49f8caa9e1a7a09fe5",
+      "combined_start_seconds": 18.38,
+      "combined_end_seconds": 26.04
+    }
+  ],
+  "full_duration_seconds": 26.04,
+  "combined_sha256": "96dace2f4e2c328637d4b528548292487b2560dbcc8c18961ee641e8eaeff1cb",
+  "all_wav_decode_pass": true,
+  "all_114_previous_private_files_unchanged": true,
+  "full_pcm_exactly_equals_concatenated_segments": true,
+  "quality_approved": false,
+  "subjective_voice_score": null,
+  "pronunciation_notes_location": "private pronunciation-review.json and DELIVERY_zh_TW.md"
+}
