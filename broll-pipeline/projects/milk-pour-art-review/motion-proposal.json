@@ -1,0 +1,48 @@
+{
+  "status": "proposal_only",
+  "duration_seconds": 3,
+  "fps": 30,
+  "frames": 90,
+  "human_art_approved": false,
+  "animation_rendered": false,
+  "old_object_art_reused": false,
+  "events": [
+    {
+      "frames": [
+        0,
+        5
+      ],
+      "action": "carton_tilt_start"
+    },
+    {
+      "frames": [
+        6,
+        11
+      ],
+      "action": "stream_front_arrives"
+    },
+    {
+      "frames": [
+        12,
+        53
+      ],
+      "action": "pour_and_surface_rise"
+    },
+    {
+      "frames": [
+        54,
+        65
+      ],
+      "action": "source_stops_tail_drains"
+    },
+    {
+      "frames": [
+        66,
+        89
+      ],
+      "action": "settle_and_hold"
+    }
+  ],
+  "camera": "fixed large close-up",
+  "layers_ready": false
+}

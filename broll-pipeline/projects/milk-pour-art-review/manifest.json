@@ -1,0 +1,24 @@
+{
+  "stage": "art_direction_review_only",
+  "branch": "milk-pour-art-review",
+  "human_art_approved": false,
+  "animation_rendered": false,
+  "new_art_source": "existing platform image generation and one corrective image edit",
+  "image_generation_calls": 2,
+  "new_paid_services": 0,
+  "original_size": [
+    941,
+    1672
+  ],
+  "original_file": "art-direction-original.png",
+  "original_sha256": "dde94242dbe765cb546e332ed55ee6c32c1748858efbff22ede01d2216356419",
+  "editable_layers_available": false,
+  "source_is_vector": false,
+  "old_art_imported": false,
+  "old_comparison": "V2.2 shot-2.png rendered at frame140, 540x960",
+  "comparison_viewports": [
+    540,
+    960
+  ],
+  "note": "The new still is a visual target, not proof of fluid motion, layered readiness or audience approval."
+}
