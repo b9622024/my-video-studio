@@ -1,0 +1,69 @@
+{
+  "id": "meal-observation",
+  "width": 540,
+  "height": 960,
+  "fps": 30,
+  "frames": 360,
+  "public_release_approved": false,
+  "theme": "外食先看整盤，再看主食",
+  "labels": [
+    "蔬菜",
+    "蛋白質",
+    "主食"
+  ],
+  "titles": [
+    "先看整盤。",
+    "不是只看白飯。",
+    "再看主食。",
+    "依需求調整。"
+  ],
+  "phases": [
+    {
+      "start": 0,
+      "end": 90,
+      "module": "BuildUp",
+      "event": "輪廓建立，三區域依序成形"
+    },
+    {
+      "start": 90,
+      "end": 180,
+      "module": "Portion",
+      "event": "依序觀察三區，最後回到整體"
+    },
+    {
+      "start": 180,
+      "end": 270,
+      "module": "Mechanism",
+      "event": "同一餐盤連續靠近主食；其他區域保留空間參照"
+    },
+    {
+      "start": 270,
+      "end": 360,
+      "module": "Comparison",
+      "event": "退回並展開三種主食區域；無標準答案"
+    }
+  ],
+  "portion_examples": [
+    0.18,
+    0.28,
+    0.38
+  ],
+  "disclaimer": "概念示意・非建議比例",
+  "camera": {
+    "overview": [
+      270,
+      475,
+      1
+    ],
+    "detail": [
+      315,
+      505,
+      1.22
+    ],
+    "compare": [
+      270,
+      475,
+      0.92
+    ]
+  }
+}

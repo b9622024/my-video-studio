@@ -1,0 +1,48 @@
+{
+  "BuildUp": {
+    "purpose": "描邊與區域建立",
+    "props": [
+      "progress",
+      "regions"
+    ]
+  },
+  "Comparison": {
+    "purpose": "同尺度參照比較",
+    "props": [
+      "progress",
+      "values",
+      "labels"
+    ]
+  },
+  "Flow": {
+    "purpose": "節點與方向順序",
+    "props": [
+      "progress",
+      "labels"
+    ]
+  },
+  "Portion": {
+    "purpose": "同容器區域分配",
+    "props": [
+      "progress",
+      "values",
+      "active"
+    ]
+  },
+  "Spectrum": {
+    "purpose": "程度區間，非標準答案",
+    "props": [
+      "progress",
+      "value",
+      "labels"
+    ]
+  },
+  "Mechanism": {
+    "purpose": "同物件局部聚焦",
+    "props": [
+      "progress",
+      "children",
+      "focus"
+    ]
+  }
+}

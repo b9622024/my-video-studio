@@ -1,0 +1,36 @@
+{
+  "colors": {
+    "paper": "#F3F0E7",
+    "ink": "#243D3A",
+    "muted": "#74827B",
+    "vegetable": "#9BAF91",
+    "protein": "#D4B995",
+    "staple": "#E3CE8F",
+    "line": "#C7CEC2"
+  },
+  "type": {
+    "eyebrow": 13,
+    "title": 38,
+    "body": 19,
+    "label": 17,
+    "font": "Noto Sans CJK TC, sans-serif"
+  },
+  "spacing": [
+    8,
+    16,
+    24,
+    32,
+    48
+  ],
+  "stroke": {
+    "primary": 2.4,
+    "secondary": 1.2
+  },
+  "shadow": "none; depth through occlusion and tonal contrast",
+  "motion": {
+    "easing": "quintic smootherstep",
+    "camera": "one continuous orthographic world; anchored focus",
+    "title": "masked vertical reveal, 14 frames",
+    "highlight": "tonal contrast, no glow"
+  }
+}

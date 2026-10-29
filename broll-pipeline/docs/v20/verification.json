@@ -1,0 +1,34 @@
+{
+  "version": "V2.0",
+  "technical_checks": {
+    "decode": "pass",
+    "duration": "12.000000",
+    "frames": "360",
+    "width": 540,
+    "height": 960,
+    "fps": "30/1",
+    "audio_tracks": 0,
+    "typescript": "strict tsc pass",
+    "legacy_source_unchanged": true
+  },
+  "sha256": "1fc6ddff1c505d23bac8df0d3f63a8f296bdf48a6d0e120b1d8bc017ffd7dac0",
+  "art_review": {
+    "human_approved": false,
+    "status": "style validation candidate",
+    "inspected_encoded_frames": [
+      45,
+      115,
+      205,
+      245,
+      290,
+      335
+    ],
+    "risks": [
+      "三區比例僅示意，不是飲食建議",
+      "末段三盤縮小為比較尺度，需要手機實看可讀性",
+      "幾何分區可能仍被感受為圖表；不是已通過美術驗收",
+      "Spectrum僅完成原型示範，未進主片",
+      "任意主題自動編排尚未實作"
+    ]
+  }
+}
