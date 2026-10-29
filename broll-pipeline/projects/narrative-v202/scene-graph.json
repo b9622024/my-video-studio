@@ -1,0 +1,133 @@
+{
+  "version": "2.0.2",
+  "stage": "storyboard_only",
+  "approval": {
+    "storyboard": false,
+    "animation_render_authorized": false
+  },
+  "canvas": {
+    "width": 540,
+    "height": 960,
+    "fps": 30,
+    "planned_frames": 240
+  },
+  "world": {
+    "coordinates": "540 logical units; original tower base at y747",
+    "tower": {
+      "center_x": 270,
+      "base_y": 747,
+      "spire_y": 105,
+      "max_static_top_shift_for_key_art": 7,
+      "units": "illustration coordinates only; not engineering displacement"
+    },
+    "chamber": {
+      "bounds": [
+        232,
+        246,
+        76,
+        108
+      ],
+      "ball_rest_center": [
+        270,
+        312
+      ],
+      "ball_radius": 17,
+      "anchors": [
+        [
+          258,
+          252
+        ],
+        [
+          282,
+          252
+        ]
+      ],
+      "frame_bottom_y": 350,
+      "placement": "upper tower; approximate not floor survey"
+    }
+  },
+  "layers": [
+    {
+      "id": "sky",
+      "role": "Background",
+      "depth": -3,
+      "parallax": 0.15,
+      "elements": [
+        "warm paper sky"
+      ]
+    },
+    {
+      "id": "city",
+      "role": "Background",
+      "depth": -2,
+      "parallax": 0.4,
+      "elements": [
+        "low-rise skyline",
+        "distant windows"
+      ]
+    },
+    {
+      "id": "tower",
+      "role": "Midground",
+      "depth": 0,
+      "parallax": 1,
+      "elements": [
+        "eight flared sections",
+        "crown",
+        "spire",
+        "fixed base"
+      ]
+    },
+    {
+      "id": "mechanism",
+      "role": "Interactive Objects",
+      "depth": 0.2,
+      "parent": "tower-local-chamber",
+      "elements": [
+        "suspended gold mass",
+        "support beam",
+        "two projected cable bundles",
+        "cradle",
+        "two projected viscous-damper links"
+      ],
+      "constraint": "anchors follow tower; ball relative displacement independent; damper ends stay connected"
+    },
+    {
+      "id": "structure-front",
+      "role": "Foreground",
+      "depth": 0.4,
+      "parent": "tower-local-chamber",
+      "parallax": 1.03,
+      "elements": [
+        "cut facade edges",
+        "front floor lip",
+        "foreground steel post"
+      ]
+    },
+    {
+      "id": "street",
+      "role": "Foreground",
+      "depth": 1,
+      "parallax": 1.08,
+      "elements": [
+        "street ledge",
+        "small planted edges"
+      ]
+    },
+    {
+      "id": "information",
+      "role": "Information",
+      "screen_space": true,
+      "elements": [
+        "comparison identities only in shot04",
+        "concept/nonmeasurement notice"
+      ],
+      "narration_subtitles": false
+    }
+  ],
+  "provenance": {
+    "tower": "original v201 geometry language; new deformable rendition",
+    "other_art": "new code-authored original vectors",
+    "reference_frames_used_as_art": false
+  }
+}

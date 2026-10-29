@@ -1,0 +1,87 @@
+{
+  "stage": "storyboard_only",
+  "source_sha256": "d7f52c8c380d773929ab3b562e6cc5f727210012616eead786d42e84b7053a94",
+  "technical_checks": {
+    "strict_typescript": "pass",
+    "key_art_count": 4,
+    "dimensions": [
+      540,
+      960
+    ],
+    "planned_frame_coverage": [
+      0,
+      240
+    ],
+    "camera_boundary_continuity": "pass",
+    "posed_hanger_length_check": "pass; static only",
+    "old_tracked_sources_unchanged": true,
+    "mp4_generated": false
+  },
+  "reference": {
+    "source_sha256": "6714544cba59a7cce9d51e2a018e01de554f821efe3bbed1ec6e02e909dd042c",
+    "analysis_completed": true,
+    "two_native_adjacent_frame_hard_cuts_verified": true,
+    "raw_reference_in_git": false,
+    "source_art_reused": false,
+    "private_evidence": [
+      {
+        "file": "reference-evidence-private/hard-cut-evidence.jpg",
+        "sha256": "003eb109e525282199d4f6661309d8e677260e44f6a5c73e8d16aec93df01410"
+      },
+      {
+        "file": "reference-evidence-private/overview-0.jpg",
+        "sha256": "afcf3826ccdab46db86535e3789e001dbb44036206788b590cc2949796bb37aa"
+      },
+      {
+        "file": "reference-evidence-private/overview-1.jpg",
+        "sha256": "384bc7e00f2f2b56c3fc40bd12d1e8ec80636a899ed98bbeb4a7d1b413956704"
+      },
+      {
+        "file": "reference-evidence-private/overview-2.jpg",
+        "sha256": "1d32a5344a6ba2baa3ff6e59785be717651d662de6d4595223d5addb60003b0d"
+      }
+    ]
+  },
+  "key_art": [
+    {
+      "file": "shot-01.png",
+      "sha256": "a9da4c7052683074bac212ee47fffd7aeb4794cdd6f5a54056a1fad829cca492",
+      "size": [
+        540,
+        960
+      ],
+      "kind": "posed original storyboard art; not an animated-frame extraction"
+    },
+    {
+      "file": "shot-02.png",
+      "sha256": "715c5a1cdb4b8a57388a23128cff11bdd808f4da3ff37eff35e9a25fe53e9374",
+      "size": [
+        540,
+        960
+      ],
+      "kind": "posed original storyboard art; not an animated-frame extraction"
+    },
+    {
+      "file": "shot-03.png",
+      "sha256": "656cc429ce7a3549fd0fb7a0470577ad1c508e6064b60b627f193040b5526424",
+      "size": [
+        540,
+        960
+      ],
+      "kind": "posed original storyboard art; not an animated-frame extraction"
+    },
+    {
+      "file": "shot-04.png",
+      "sha256": "d1c820af4ec67ee62f51cbf598f6743d22b6a777f5565c61e123ed7f69745e32",
+      "size": [
+        540,
+        960
+      ],
+      "kind": "posed original storyboard art; not an animated-frame extraction"
+    }
+  ],
+  "motion_implemented": false,
+  "human_storyboard_approved": false,
+  "human_art_approved": false,
+  "real_phone_test_completed": false
+}

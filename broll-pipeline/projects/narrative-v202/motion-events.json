@@ -1,0 +1,101 @@
+{
+  "stage": "planned_events_only",
+  "model": {
+    "kind": "proposed coupled two-degree-of-freedom illustrative oscillator",
+    "implemented": false,
+    "actual_taipei_parameters": false,
+    "rule": "solve building and mass together under the same input; never hardcode mass=-building",
+    "relative_coordinate": "r=mass_absolute-building_at_anchor",
+    "dissipation": "damper_force opposes relative velocity; ends constrained to cradle/frame",
+    "screen_gain": "art-directed and marked concept; no meters, seconds-of-real-oscillation, percent reduction"
+  },
+  "events": [
+    {
+      "frames": [
+        0,
+        9
+      ],
+      "phase": "Anticipation",
+      "event": "stable city and recognizable tower"
+    },
+    {
+      "frames": [
+        9,
+        18
+      ],
+      "phase": "Action",
+      "event": "a few wind streaks arrive at facade from left"
+    },
+    {
+      "frames": [
+        18,
+        54
+      ],
+      "phase": "Reaction",
+      "event": "small flexural sway develops after forcing; base stays fixed"
+    },
+    {
+      "frames": [
+        54,
+        80
+      ],
+      "phase": "Exploration",
+      "event": "camera approaches same upper section; city layers leave by parallax"
+    },
+    {
+      "frames": [
+        78,
+        105
+      ],
+      "phase": "Reveal",
+      "event": "facade aperture opens over existing chamber; beams/cables appear with their attachment"
+    },
+    {
+      "frames": [
+        105,
+        117
+      ],
+      "phase": "Exploration",
+      "event": "tighten framing to device and retained wall edges"
+    },
+    {
+      "frames": [
+        117,
+        165
+      ],
+      "phase": "Action/Reaction",
+      "event": "tower frame and mass have evolving relative phase; two projected hydraulic links change length"
+    },
+    {
+      "frames": [
+        165,
+        180
+      ],
+      "phase": "Settle",
+      "event": "leave enough time to read connected damping system, not freeze the ball in air"
+    },
+    {
+      "frames": [
+        180,
+        207
+      ],
+      "phase": "Result reveal",
+      "event": "return exterior and recompose matched-scale conceptual pair"
+    },
+    {
+      "frames": [
+        207,
+        240
+      ],
+      "phase": "Payoff",
+      "event": "same wind and common scale; reference response wider, damped response smaller but nonzero; camera holds"
+    }
+  ],
+  "stills_are_not_motion_evidence": true,
+  "required_before_animation": [
+    "human storyboard approval",
+    "choose illustrative coupled-model coefficients and validate stability/relative phase",
+    "cable lengths, cradle attachment and cylinder stroke checks",
+    "240-frame step-through plus blind review"
+  ]
+}

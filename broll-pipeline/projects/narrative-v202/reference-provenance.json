@@ -1,0 +1,36 @@
+{
+  "source_url": "https://drive.google.com/file/d/1z51_h8jue__9V5cDHKn5Z10ugebrIHpU/view?usp=drivesdk",
+  "file_name": "ScreenRecording_10-28-2026 17-38-12_1.mp4",
+  "bytes": 50246194,
+  "sha256": "6714544cba59a7cce9d51e2a018e01de554f821efe3bbed1ec6e02e909dd042c",
+  "format_duration_s": 58.712132,
+  "video_frames": 3523,
+  "video_codec": "hevc",
+  "size": [
+    1180,
+    2556
+  ],
+  "nominal_fps": 60,
+  "first_frame_pts": 0,
+  "last_frame_pts": 58.695,
+  "reference_analysis_completed": true,
+  "audio_analysis_completed": false,
+  "hard_cuts": [
+    {
+      "new_frame": 2009,
+      "pts": 33.49,
+      "previous_frame": 2008,
+      "previous_pts": 33.473333
+    },
+    {
+      "new_frame": 2301,
+      "pts": 38.358333,
+      "previous_frame": 2300,
+      "previous_pts": 38.341667
+    }
+  ],
+  "continuous_transition_precision_s": 0.2,
+  "source_art_reused": false,
+  "raw_reference_in_git": false,
+  "private_evidence": "original adjacent-frame cut proof and approximate sample boards"
+}

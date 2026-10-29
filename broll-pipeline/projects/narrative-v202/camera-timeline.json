@@ -1,0 +1,149 @@
+{
+  "status": "planned_not_animated",
+  "coordinate_system": "screen=(world-target)*scale+[270,480]; layer parallax about initial target",
+  "shots": [
+    {
+      "id": "S01",
+      "frames": [
+        0,
+        54
+      ],
+      "type": "environmental wide",
+      "start": {
+        "target": [
+          270,
+          435
+        ],
+        "scale": 0.93
+      },
+      "end": {
+        "target": [
+          270,
+          422
+        ],
+        "scale": 1.0
+      },
+      "purpose": "wind source and grounded flexible tower",
+      "key_art": {
+        "frame": 42,
+        "target": [
+          270,
+          435
+        ],
+        "scale": 0.96
+      }
+    },
+    {
+      "id": "S02",
+      "frames": [
+        54,
+        105
+      ],
+      "type": "continuous approach and cutaway",
+      "start": {
+        "target": [
+          270,
+          422
+        ],
+        "scale": 1.0
+      },
+      "end": {
+        "target": [
+          270,
+          301
+        ],
+        "scale": 2.65
+      },
+      "easing": "quintic monotone with matched endpoints",
+      "purpose": "same upper facade expands to expose anchored chamber",
+      "key_art": {
+        "frame": 93,
+        "target": [
+          270,
+          301
+        ],
+        "scale": 2.65
+      }
+    },
+    {
+      "id": "S03",
+      "frames": [
+        105,
+        180
+      ],
+      "type": "mechanism close shot",
+      "start": {
+        "target": [
+          270,
+          301
+        ],
+        "scale": 2.65
+      },
+      "end": {
+        "target": [
+          270,
+          305
+        ],
+        "scale": 4.4
+      },
+      "approach_frames": [
+        105,
+        117
+      ],
+      "hold_frames": [
+        117,
+        180
+      ],
+      "purpose": "resolve cable attachment and changing cylinder length",
+      "key_art": {
+        "frame": 144,
+        "target": [
+          270,
+          305
+        ],
+        "scale": 4.4
+      }
+    },
+    {
+      "id": "S04",
+      "frames": [
+        180,
+        240
+      ],
+      "type": "exterior result comparison",
+      "transition": "return to wide during180..192; comparison expands192..207; readable result207..240",
+      "start": {
+        "target": [
+          270,
+          305
+        ],
+        "scale": 4.4
+      },
+      "end": {
+        "target": [
+          270,
+          435
+        ],
+        "scale": 0.96
+      },
+      "key_art": {
+        "frame": 222,
+        "mode": "two matched-scale exterior instances",
+        "centers": [
+          142,
+          398
+        ],
+        "ground_y": 752,
+        "tower_scale": 0.76
+      },
+      "purpose": "same wind/input and same drawing scale, smaller but nonzero response with TMD"
+    }
+  ],
+  "continuity": [
+    "S01.end=S02.start",
+    "S02.end=S03.start",
+    "S03.end=S04.start",
+    "chamber remains parented to tower throughout",
+    "S04 comparison layout is a deliberate explanatory recomposition, not another physical neighboring tower"
+  ]
+}
