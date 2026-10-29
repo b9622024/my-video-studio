@@ -1,0 +1,88 @@
+{
+  "version": "1.2.1",
+  "review_id": "ee9a423df5cb3c23024d4f4401209fc34bdd37b71ef2f757dc739c9b78f17222",
+  "artifact_root": "/workspace/outputs/broll-v121-art-review",
+  "state_ids": [
+    "A",
+    "B",
+    "C"
+  ],
+  "artifacts": [
+    {
+      "file": "State-A.png",
+      "sha256": "ad7a2e94210d1a13f18e417f05d99b1f5f68b10a4d914ac28a26c18f6f99ac83"
+    },
+    {
+      "file": "State-B.png",
+      "sha256": "e17ac34a228b4644ce60e1281a6a90dc6c5a8d056ba42162e371d9fd402dc41d"
+    },
+    {
+      "file": "State-C.png",
+      "sha256": "827b5da41214911f739f2c84d7bac3804bf93c22b822aadc3d1e30218c642a68"
+    },
+    {
+      "file": "State-A-art-only.png",
+      "sha256": "03c6b7ce586402837ae76990aeccabde8823372db0eb4b16571de9db7d4f8e89"
+    },
+    {
+      "file": "State-B-art-only.png",
+      "sha256": "3bcb5aca1a7692bae2df4490dec57a418f1d34af5cd27b053e91f4e31b6a720b"
+    },
+    {
+      "file": "State-C-art-only.png",
+      "sha256": "e211854b322ad970985d636a29de2a73280a65af0e2275f472142e7fb59ee222"
+    },
+    {
+      "file": "assets/paddle-empty.png",
+      "sha256": "15320690d5fa144bc58f8a24116509e57403c6e5f1a2cdb0063818e6a4ca2cf6"
+    },
+    {
+      "file": "assets/paddle-loaded.png",
+      "sha256": "275c3f5c58a56fc5ba00be44850f00f2252e6f7eb319a1bf0e7b67731f4f6ebb"
+    },
+    {
+      "file": "assets/paddle-states-atlas.png",
+      "sha256": "b7efd6d3097ffb09f7e69dbe5deeea5d6b23080f20e31cd634fdc5ba551a84ed"
+    },
+    {
+      "file": "assets/plate-fixed-foods.png",
+      "sha256": "902fb2fe46684ff6f0dc6b3a019e81bdcffec30031856f86f3bec2552b20af47"
+    },
+    {
+      "file": "assets/rice-A.png",
+      "sha256": "34f60f4b9ca17e62dcc7d80c0abfff404e93016fb701e175d94e96b4cd3e1279"
+    },
+    {
+      "file": "assets/rice-B.png",
+      "sha256": "13b6bab904daa3b2478a3cb0d2b9a83bded266ee7530b629181dad55a05d62d7"
+    },
+    {
+      "file": "assets/rice-C.png",
+      "sha256": "8b4c50e1112d29d8c3b3b41162cdbfc655adb8376da2a025836570621d3f3b4f"
+    },
+    {
+      "file": "assets/rice-states-atlas.png",
+      "sha256": "b403f9f3f2ba6c18d1a967bd2d5634512a8f41e5ec4c5fe0f8aa0a0fbf15b0c8"
+    },
+    {
+      "file": "art-layout.json",
+      "sha256": "c36ade6774e634d9470925f5cd4005920a58c9f6a131bfbc9f13a7cef6f90529"
+    },
+    {
+      "file": "generation.json",
+      "sha256": "4262a33c94a3c5cdc04dd35153f0c8484d800f94538d70cd6173d2fc3c755777"
+    },
+    {
+      "file": "object-module-draft.json",
+      "sha256": "1791b449e4c1390b8cb2883ac08c023abba8afa66e36331a62ac7b07712575a0"
+    }
+  ],
+  "human_art_approved": false,
+  "motion_assets_ready": false,
+  "animation_allowed": false,
+  "missing_motion_assets": [
+    "separate spoon rice load",
+    "registered A-B and B-C contact/intermediate states",
+    "motion contact shadow and occlusion assets"
+  ]
+}

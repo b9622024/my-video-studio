@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Object-state module draft (no renderer implied)",
+  "type": "object",
+  "required": [
+    "version",
+    "status",
+    "id",
+    "base_layers",
+    "states",
+    "actions",
+    "camera",
+    "title",
+    "narration_cues",
+    "animation_allowed"
+  ],
+  "properties": {
+    "version": {
+      "const": "1.2.1"
+    },
+    "status": {
+      "const": "interface_proposal_not_implemented"
+    },
+    "id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "base_layers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "asset_id",
+          "z"
+        ],
+        "properties": {
+          "asset_id": {
+            "type": "string"
+          },
+          "z": {
+            "type": "integer"
+          }
+        }
+      }
+    },
+    "states": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "asset_id"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "asset_id": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "object_id",
+          "start_frame",
+          "end_frame"
+        ],
+        "properties": {
+          "object_id": {
+            "type": "string"
+          },
+          "start_frame": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "end_frame": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "camera": {
+      "type": "object",
+      "required": [
+        "x",
+        "y",
+        "width",
+        "height"
+      ],
+      "properties": {
+        "x": {
+          "type": "number",
+          "minimum": 0
+        },
+        "y": {
+          "type": "number",
+          "minimum": 0
+        },
+        "width": {
+          "type": "number",
+          "minimum": 1
+        },
+        "height": {
+          "type": "number",
+          "minimum": 1
+        }
+      }
+    },
+    "title": {
+      "type": "string"
+    },
+    "narration_cues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "cue_id",
+          "frame"
+        ],
+        "properties": {
+          "cue_id": {
+            "type": "string"
+          },
+          "frame": {
+            "type": "integer",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "animation_allowed": {
+      "const": false
+    }
+  }
+}

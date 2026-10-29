@@ -1,0 +1,45 @@
+{
+  "version": "1.2.1",
+  "stage": "static_art_review_only",
+  "human_art_approved": false,
+  "animation_ready": false,
+  "source_method": "built_in_image_gen.imagegen",
+  "model_version": "not_exposed",
+  "seed": "not_exposed",
+  "camera": "near-overhead 15-degree tilt requested, not a calibrated 3D camera",
+  "source_assets": [
+    {
+      "file": "assets/plate-fixed-foods.png",
+      "generated_original": "/workspace/generated_images/exec-2f58ffbf-0deb-4624-bd2c-ed3acf38b9cc.png",
+      "references": []
+    },
+    {
+      "file": "assets/rice-states-atlas.png",
+      "generated_original": "/workspace/generated_images/exec-af7c5113-e1e9-4533-9f5e-4752a0203f27.png",
+      "references": [
+        "assets/plate-fixed-foods.png"
+      ]
+    },
+    {
+      "file": "assets/paddle-states-atlas.png",
+      "generated_original": "/workspace/generated_images/exec-65c4c06c-38c1-4f44-8945-df612af89ba4.png",
+      "references": [
+        "assets/plate-fixed-foods.png",
+        "assets/rice-states-atlas.png"
+      ]
+    }
+  ],
+  "old_C1_pixels_used": false,
+  "old_M3_photo_mask_or_lighten_used": false,
+  "user_review_of_v12": {
+    "M1": "retain_with_source_fov_limit",
+    "M2": "retain",
+    "M3": "rejected"
+  },
+  "formal_asset_approval_records_changed": false,
+  "missing_for_motion": [
+    "separate spoon rice load",
+    "registered A-B and B-C contact/intermediate states",
+    "motion contact shadow and occlusion assets"
+  ]
+}

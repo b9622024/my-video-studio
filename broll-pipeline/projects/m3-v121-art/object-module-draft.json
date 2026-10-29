@@ -1,0 +1,35 @@
+{
+  "version": "1.2.1",
+  "status": "interface_proposal_not_implemented",
+  "id": "m3-object-state-study",
+  "base_layers": [
+    {
+      "asset_id": "plate-fixed-foods",
+      "z": 10
+    }
+  ],
+  "states": [
+    {
+      "id": "A",
+      "asset_id": "rice-A"
+    },
+    {
+      "id": "B",
+      "asset_id": "rice-B"
+    },
+    {
+      "id": "C",
+      "asset_id": "rice-C"
+    }
+  ],
+  "actions": [],
+  "camera": {
+    "x": 0,
+    "y": 0,
+    "width": 1080,
+    "height": 1920
+  },
+  "title": "主食份量，依需求調整。",
+  "narration_cues": [],
+  "animation_allowed": false
+}

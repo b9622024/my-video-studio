@@ -1,0 +1,149 @@
+{
+  "version": "1.2.1",
+  "stage": "static_original_art_pending_human_review",
+  "state_dimensions": [
+    1080,
+    1920
+  ],
+  "static_frames": 3,
+  "art_only_frames": 3,
+  "fixed_food_roi": [
+    40,
+    450,
+    1040,
+    1000
+  ],
+  "fixed_plate_vegetables_protein_pixels_identical": true,
+  "rice_change_bounds_vs_A": {
+    "B": [
+      360,
+      1107,
+      730,
+      1401
+    ],
+    "C": [
+      352,
+      1015,
+      753,
+      1401
+    ]
+  },
+  "original_art_assets": [
+    {
+      "file": "assets/paddle-empty.png",
+      "sha256": "15320690d5fa144bc58f8a24116509e57403c6e5f1a2cdb0063818e6a4ca2cf6",
+      "dimensions": [
+        983,
+        724
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/paddle-loaded.png",
+      "sha256": "275c3f5c58a56fc5ba00be44850f00f2252e6f7eb319a1bf0e7b67731f4f6ebb",
+      "dimensions": [
+        1189,
+        724
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/paddle-states-atlas.png",
+      "sha256": "b7efd6d3097ffb09f7e69dbe5deeea5d6b23080f20e31cd634fdc5ba551a84ed",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/plate-fixed-foods.png",
+      "sha256": "902fb2fe46684ff6f0dc6b3a019e81bdcffec30031856f86f3bec2552b20af47",
+      "dimensions": [
+        1254,
+        1254
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/rice-A.png",
+      "sha256": "34f60f4b9ca17e62dcc7d80c0abfff404e93016fb701e175d94e96b4cd3e1279",
+      "dimensions": [
+        672,
+        724
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/rice-B.png",
+      "sha256": "13b6bab904daa3b2478a3cb0d2b9a83bded266ee7530b629181dad55a05d62d7",
+      "dimensions": [
+        728,
+        724
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/rice-C.png",
+      "sha256": "8b4c50e1112d29d8c3b3b41162cdbfc655adb8376da2a025836570621d3f3b4f",
+      "dimensions": [
+        772,
+        724
+      ],
+      "alpha": true
+    },
+    {
+      "file": "assets/rice-states-atlas.png",
+      "sha256": "b403f9f3f2ba6c18d1a967bd2d5634512a8f41e5ec4c5fe0f8aa0a0fbf15b0c8",
+      "dimensions": [
+        2172,
+        724
+      ],
+      "alpha": true
+    }
+  ],
+  "single_native_scale_for_all_rice_states": 0.52,
+  "old_C1_photo_used": false,
+  "old_M3_mask_or_lighten_used": false,
+  "static_visual_review": "Three actual boards viewed: complete plate, identifiable rice and fixed foods, no obvious food interpenetration or old repeated-stamp seams; final art acceptance is human",
+  "human_art_approved": false,
+  "motion_assets_ready": false,
+  "animation_created": false,
+  "new_remotion_render_invocations": 0,
+  "new_video_files": 0,
+  "old_v12_media_hashes_unchanged": [
+    {
+      "file": "M1-540.mp4",
+      "sha256": "0bb166ec7093ddd62d867738c5a9add2de64a4e11fde89719c8f07e492bfa6c7"
+    },
+    {
+      "file": "M1-clean-review-540.mp4",
+      "sha256": "7abd175de81bcbb67c697756cc0fecda5e9d230248cd9403b9232e235350d3f0"
+    },
+    {
+      "file": "M2-540.mp4",
+      "sha256": "5a4d6d599e209022a618014904cf757b5acd961fec2080977bcb9cc2f09e9475"
+    },
+    {
+      "file": "M2-clean-review-540.mp4",
+      "sha256": "aa4c88e3921b146b93191f55f86da85230fad0354b22b8d8e05fa6ab5d47fac1"
+    },
+    {
+      "file": "M3-540.mp4",
+      "sha256": "ff02b32c9ae4527287c01bc368fb00c9cda7e0a3b6349a4091c37aa67d741630"
+    },
+    {
+      "file": "M3-clean-review-540.mp4",
+      "sha256": "3856d21ece1d157551902b17af8c429123db36bb221330a3c9ec4e941a609a1d"
+    }
+  ],
+  "contract_schema_validation": "PASS",
+  "model_version_and_seed": "not exposed by image tool",
+  "shadow_readiness": "baked static contact shadows present; independent moving shadow/occlusion not ready",
+  "risks": [
+    "grain scale and perspective require human confirmation",
+    "alpha edge and soft shadow review at full resolution",
+    "generated utensil shapes not registered",
+    "rice states are not topology-continuous motion assets"
+  ]
+}

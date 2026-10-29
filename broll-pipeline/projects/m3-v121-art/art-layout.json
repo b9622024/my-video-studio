@@ -1,0 +1,141 @@
+{
+  "version": "1.2.1",
+  "stage": "static_art_review_only",
+  "plate_base": {
+    "file": "assets/plate-fixed-foods.png",
+    "rect": [
+      40,
+      450,
+      1000,
+      1000
+    ],
+    "contains": [
+      "plate",
+      "fixed_vegetables",
+      "fixed_protein",
+      "baked_contact_shadows"
+    ],
+    "note": "固定食物暫為同一原創底層，未宣稱可獨立動畫；若需換菜色，先更換或拆分美術資產。"
+  },
+  "states": [
+    {
+      "id": "A",
+      "label": "較少白飯",
+      "source": "assets/rice-states-atlas.png",
+      "sprite_rect": [
+        0,
+        0,
+        672,
+        724
+      ],
+      "exported_asset": "assets/rice-A.png",
+      "opaque_bounds_in_sprite": [
+        79,
+        221,
+        615,
+        625
+      ],
+      "display": {
+        "scale": 0.52,
+        "left": 359.56,
+        "top": 1025.0,
+        "width": 349.44,
+        "height": 376.48
+      },
+      "status": "awaiting_human_art_approval"
+    },
+    {
+      "id": "B",
+      "label": "中間狀態",
+      "source": "assets/rice-states-atlas.png",
+      "sprite_rect": [
+        672,
+        0,
+        728,
+        724
+      ],
+      "exported_asset": "assets/rice-B.png",
+      "opaque_bounds_in_sprite": [
+        53,
+        167,
+        673,
+        630
+      ],
+      "display": {
+        "scale": 0.52,
+        "left": 351.24,
+        "top": 1022.4,
+        "width": 378.56,
+        "height": 376.48
+      },
+      "status": "awaiting_human_art_approval"
+    },
+    {
+      "id": "C",
+      "label": "較多白飯",
+      "source": "assets/rice-states-atlas.png",
+      "sprite_rect": [
+        1400,
+        0,
+        772,
+        724
+      ],
+      "exported_asset": "assets/rice-C.png",
+      "opaque_bounds_in_sprite": [
+        7,
+        93,
+        716,
+        653
+      ],
+      "display": {
+        "scale": 0.52,
+        "left": 352.02,
+        "top": 1010.44,
+        "width": 401.44,
+        "height": 376.48
+      },
+      "status": "awaiting_human_art_approval"
+    }
+  ],
+  "native_rice_atlas_dimensions": [
+    2172,
+    724
+  ],
+  "state_scaling": "one common native-pixel scale .52 for all three distinct generated mounds; no cloned rice stamps",
+  "paddle_atlas": {
+    "file": "assets/paddle-states-atlas.png",
+    "rects": {
+      "empty": [
+        0,
+        0,
+        983,
+        724
+      ],
+      "loaded": [
+        983,
+        0,
+        1189,
+        724
+      ]
+    },
+    "animation_ready": false,
+    "reason": "generated silhouettes differ; no registered release/intermediate frames or separate contact shadow"
+  },
+  "originals": [
+    {
+      "file": "assets/plate-fixed-foods.png",
+      "sha256": "902fb2fe46684ff6f0dc6b3a019e81bdcffec30031856f86f3bec2552b20af47"
+    },
+    {
+      "file": "assets/rice-states-atlas.png",
+      "sha256": "b403f9f3f2ba6c18d1a967bd2d5634512a8f41e5ec4c5fe0f8aa0a0fbf15b0c8"
+    },
+    {
+      "file": "assets/paddle-states-atlas.png",
+      "sha256": "b7efd6d3097ffb09f7e69dbe5deeea5d6b23080f20e31cd634fdc5ba551a84ed"
+    }
+  ],
+  "human_approved": false,
+  "animation_allowed": false,
+  "formal_asset_selection_changed": false
+}

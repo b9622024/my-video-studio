@@ -36,3 +36,6 @@ projects/*/material-approval.json
 
 # Explicit motion-shot approval evidence remains private.
 projects/*/shot-approval.json
+
+# Private user approval of original-art revisions.
+projects/*/art-approval.json
