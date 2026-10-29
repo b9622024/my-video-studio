@@ -1,0 +1,128 @@
+{
+  "version": "1.1.3",
+  "stage": "candidate_shot_review_only",
+  "full_12s_movie_created": false,
+  "remotion_invocations": 0,
+  "new_api_searches": 0,
+  "new_downloads": 0,
+  "separate_review_clips": 5,
+  "clip_durations_checked": true,
+  "clip_frame_counts_checked": true,
+  "all_clips_full_decode_errors": 0,
+  "all_clips_have_no_audio": true,
+  "native_fps": {
+    "A1": 25,
+    "B1": 30,
+    "C1": 30
+  },
+  "temporal_sampling": "5fps source-frame inspection, not a human playback-quality approval",
+  "visual_inspection": "source strips, portrait sequences and continuity sheet viewed; quality remains subject to user veto",
+  "C1_portion_change_evidence": false,
+  "B1_material_approved": false,
+  "C1_material_approved": false,
+  "static_designs_approved": false,
+  "formal_render_allowed": false,
+  "legacy_hashes_unchanged": {
+    "approved-assets.json": "d832eb51e343089daaa4cacf77a9bfab4ecb4e1cb6b907175542b80a3dd5bbce",
+    "asset-manifest.json": "82f5725602af15b727b99e9a19bf0accab62e57cf88645a2653d7127758fdd3e",
+    "edit-timeline.json": "53b737fa22196aaa9c2c7f3e5d89b17db5f70d7f8b8f70cf02826a1460b0c6a0",
+    "scene-plan.json": "287e232d99307692d8e6879facb284b62838ea17a1d8cf53a778d0d5d151954c",
+    "outputs/preview-540.mp4": "4f3f38b2950b1b155ebb12c9f4d67acf406c0f410bad0087bbb0e2195bc3b82e"
+  },
+  "source_download_hashes_match_history": true,
+  "tests": [
+    "shot-review bounds, timing and independent approval cases PASS",
+    "design-first original five tests PASS"
+  ],
+  "current_gate": "exit2: shot-design, human-quality and B1/C1 material approvals missing",
+  "stills": [
+    {
+      "file": "shot-continuity.jpg",
+      "sha256": "1759f805599bdbe2cc7032925cb33f1c8ad1cef04fc0bff208773ea12212170a"
+    },
+    {
+      "file": "A1-motion-evidence.jpg",
+      "sha256": "86da94fa5762387e45f78e65e07c727db529663f0d37338bb0f0d2af928e9e07"
+    },
+    {
+      "file": "A1-1-portrait.jpg",
+      "sha256": "250147bfbc2d8ca1abaa72b06f61c678f150bf78855f527b164b3ae52ac450af"
+    },
+    {
+      "file": "A1-1-source.jpg",
+      "sha256": "8ec0ec46582693629d932b8aceadb4ff997b49cba21124bc606c441fe56c6a76"
+    },
+    {
+      "file": "A1-2-portrait.jpg",
+      "sha256": "d6fbf131d88edd415d725c4f5cf529c9c67c318fee21c86d1a11c865236fa686"
+    },
+    {
+      "file": "A1-2-source.jpg",
+      "sha256": "bf46fb12387878157f8336d07e7ed89bcc1ce9d0d1b68693a4d76528022546aa"
+    },
+    {
+      "file": "A1-3-portrait.jpg",
+      "sha256": "8ee4831c8e0192390277ca742100f9653ef9f3771fdf27660f4fb40e59e0266f"
+    },
+    {
+      "file": "A1-3-source.jpg",
+      "sha256": "1b39df013a4871216c72256c7d62748dec1f3125e1d29e310bc6debfebffdfba"
+    },
+    {
+      "file": "B1-motion-evidence.jpg",
+      "sha256": "a0e2be26f2250ac2a9b0f4b70b7b865498ca2881977c58e5a720ebb6d918ecb3"
+    },
+    {
+      "file": "B1-1-portrait.jpg",
+      "sha256": "2b8d80a9c824fb6b52672aca165ca7ecc3119e4dd6b3346f7a8ce0de42818f0f"
+    },
+    {
+      "file": "B1-1-source.jpg",
+      "sha256": "9d8bf70f8f6f6a8c16694430d25ae593f9b248003b7200f81472b4ddd115bead"
+    },
+    {
+      "file": "B1-2-portrait.jpg",
+      "sha256": "43406d36fab2488d5f91ae7b8b41c351959778c125906b7c67a3df4804c336c1"
+    },
+    {
+      "file": "B1-2-source.jpg",
+      "sha256": "16b2ff537efd834826c0d6677488e2993f909cbf7507fc20d031ec660a31e840"
+    },
+    {
+      "file": "B1-3-portrait.jpg",
+      "sha256": "1bccd3098f17628593517c1748e33add4f48b4cdfd140f3d9b32a35d2ea3fcdc"
+    },
+    {
+      "file": "B1-3-source.jpg",
+      "sha256": "b097c3ed555db606f02ad48a69ceda0043b5ee9c43423f3c6584e6e73a6bf906"
+    },
+    {
+      "file": "C1-motion-evidence.jpg",
+      "sha256": "438fe390df7ec8e7970dee1b06e0757da56eb79a7c696a64e1e5a05981a3eaa3"
+    },
+    {
+      "file": "C1-1-portrait.jpg",
+      "sha256": "05b096202fe954bf9c34ac38f28557c898800404dd08a5b739f5d8ed5dfc2b7f"
+    },
+    {
+      "file": "C1-1-source.jpg",
+      "sha256": "cf069d419a6d328e35b21f23acbf601afb68b81cd5c0f9c7dbc7ae45cb62872d"
+    },
+    {
+      "file": "C1-2-portrait.jpg",
+      "sha256": "1732fcb1281d883c54fc988a50354ef660c220880630c6a6d815b9d24d410dc9"
+    },
+    {
+      "file": "C1-2-source.jpg",
+      "sha256": "d9595d09990e81fa970adaa3c5f8800588dc9d9ed5d8bd8359278bbb1b9f441f"
+    },
+    {
+      "file": "C1-3-portrait.jpg",
+      "sha256": "05fbabae4c6f8df53b7595aabe40e4c1b8f019c4f8c52bd420c3575128078245"
+    },
+    {
+      "file": "C1-3-source.jpg",
+      "sha256": "6e42a503460d7180c470042247fcd79c03ed1ea4a43b653271cf241ce7d6103d"
+    }
+  ]
+}

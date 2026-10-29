@@ -1,0 +1,154 @@
+{
+  "version": "1.1.3",
+  "project_id": "bento-v113-shots",
+  "status": "awaiting_shot_and_material_review",
+  "purpose": "12-second shot-order proposal, not a rendered film",
+  "duration_seconds": 12,
+  "target_fps": 30,
+  "review_clips_native_fps": {
+    "A1": 25,
+    "B1": 30,
+    "C1": 30
+  },
+  "no_voice_or_text_required_for_subject_identification": true,
+  "without_text_limit": "可辨認餐點、蔬菜、白飯；無法證明均衡或份量改變。",
+  "shots": [
+    {
+      "id": "S1",
+      "scene": "A",
+      "option_id": "A1",
+      "timeline": [
+        0,
+        4
+      ],
+      "source": [
+        1,
+        5
+      ],
+      "start": "刀叉接觸肉片；餐盤下方有生菜。",
+      "action": "刀叉切開肉片，切口逐漸展開。",
+      "climax": 3.0,
+      "end": "切開的肉片仍在餐盤；不宣稱完整進食。",
+      "next": "在切開後硬切到鍋內聚菜；由整體餐點轉向蔬菜準備，非同一餐的連續時空。",
+      "meaning": "先看眼前餐點的組成。",
+      "text": null,
+      "kind": "food_preparation_or_eating_action",
+      "crop": {
+        "source_rect": [
+          0,
+          0,
+          1440,
+          2560
+        ],
+        "output": [
+          540,
+          960
+        ]
+      },
+      "limit": "不是便當裝盒，也沒有營養均衡驗證。",
+      "speed": 1,
+      "status": "proposal_not_approved",
+      "evidence_frames": [
+        "A1-1-portrait.jpg",
+        "A1-2-portrait.jpg",
+        "A1-3-portrait.jpg"
+      ],
+      "source_interval_end_exclusive": true
+    },
+    {
+      "id": "S2",
+      "scene": "B",
+      "option_id": "B1",
+      "timeline": [
+        4,
+        9
+      ],
+      "source": [
+        35,
+        40
+      ],
+      "start": "綠葉菜仍在鍋內液體中，鍋鏟靠近菜底。",
+      "action": "筷子聚攏蔬菜，鍋鏟從下方托起，菜離開液體。",
+      "climax": 36.8,
+      "end": "鍋鏟托住蔬菜停在液體上方，仍未離開鍋面。",
+      "next": "托菜動作穩定後硬切白飯；由配菜轉到另一項餐點組成，不假裝盛入同一餐盒。",
+      "meaning": "辨認蔬菜，也看見真實準備動作。",
+      "text": null,
+      "kind": "complete_lift_to_hold_event",
+      "crop": {
+        "source_rect": [
+          820,
+          0,
+          608,
+          1080
+        ],
+        "output": [
+          540,
+          960
+        ]
+      },
+      "limit": "不是裝便當、減油證明、份量示範或連續出鍋上桌。",
+      "speed": 1,
+      "status": "proposal_not_approved",
+      "evidence_frames": [
+        "B1-1-portrait.jpg",
+        "B1-2-portrait.jpg",
+        "B1-3-portrait.jpg"
+      ],
+      "source_interval_end_exclusive": true
+    },
+    {
+      "id": "S3",
+      "scene": "C",
+      "option_id": "C1",
+      "timeline": [
+        9,
+        12
+      ],
+      "source": [
+        8,
+        11
+      ],
+      "start": "黑色餐盤上的熟白飯近景。",
+      "action": "原片攝影機緩慢移動，米粒與飯堆邊緣相對畫框位移；食物本身未變。",
+      "climax": null,
+      "end": "仍是同一份白飯；沒有添飯、減飯或前後比較。",
+      "next": "以可辨認白飯收尾；不加份量變化動畫。",
+      "meaning": "辨認餐點中的主食；無法只靠這段畫面解說份量調整。",
+      "text": null,
+      "kind": "contextual_camera_movement_only",
+      "crop": {
+        "source_rect": [
+          850,
+          0,
+          608,
+          1080
+        ],
+        "output": [
+          540,
+          960
+        ]
+      },
+      "limit": "裁切不含完整飯堆，不能用視覺大小推論實際份量。",
+      "speed": 1,
+      "status": "proposal_not_approved",
+      "evidence_frames": [
+        "C1-1-portrait.jpg",
+        "C1-2-portrait.jpg",
+        "C1-3-portrait.jpg"
+      ],
+      "source_interval_end_exclusive": true
+    }
+  ],
+  "candidate_narration_only": "先看餐點裡有什麼。蔬菜也是配菜的重點。主食，回到眼前的白飯。",
+  "narration_note": "僅重新撰寫示範意義，非正式逐字稿；不會改寫未來使用者正式旁白。若必須講份量調整，C需補拍。",
+  "formal_selection_changed": false,
+  "formal_render_allowed": false,
+  "legacy_static_designs_approved": false,
+  "required_material_approvals": [
+    "B1",
+    "C1"
+  ],
+  "human_quality_approval_required": true,
+  "artifact_root": "/workspace/outputs/broll-v113-shot-review"
+}

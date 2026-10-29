@@ -1,0 +1,147 @@
+{
+  "version": "1.1.3",
+  "scope": "independent_source_review_clips_not_a_12s_film",
+  "artifact_root": "/workspace/outputs/broll-v113-shot-review",
+  "artifacts": [
+    {
+      "file": "A1-portrait-review.mp4",
+      "sha256": "3276d0ebb4fc4544a753a0b0e3165fb52c5823e68aa17dfde40f21bdcce3a8a6",
+      "bytes": 1321918,
+      "source_option": "A1",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 540,
+            "height": 960,
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "r_frame_rate": "25/1",
+            "nb_frames": "100"
+          }
+        ],
+        "format": {
+          "duration": "4.000000"
+        }
+      },
+      "decode_errors": 0,
+      "review_only": true,
+      "audio": false
+    },
+    {
+      "file": "B1-portrait-review.mp4",
+      "sha256": "e3de01ce0eae5560a9de9c25e3d96d156b1f4a61837a5167d1a92b423098c412",
+      "bytes": 3612634,
+      "source_option": "B1",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 540,
+            "height": 960,
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "r_frame_rate": "30/1",
+            "nb_frames": "150"
+          }
+        ],
+        "format": {
+          "duration": "5.000000"
+        }
+      },
+      "decode_errors": 0,
+      "review_only": true,
+      "audio": false
+    },
+    {
+      "file": "B1-source-review.mp4",
+      "sha256": "c00cef7c88fe8c4910fa2b710fa6a97550404e7d0ab58dbdd2e048dbe3d46620",
+      "bytes": 6144730,
+      "source_option": "B1",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "r_frame_rate": "30/1",
+            "nb_frames": "150"
+          }
+        ],
+        "format": {
+          "duration": "5.000000"
+        }
+      },
+      "decode_errors": 0,
+      "review_only": true,
+      "audio": false
+    },
+    {
+      "file": "C1-portrait-review.mp4",
+      "sha256": "ade186c7e7ad63da5398d3dd8d0482300f7f45fec98802a54b38f5b875757472",
+      "bytes": 501538,
+      "source_option": "C1",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 540,
+            "height": 960,
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "r_frame_rate": "30/1",
+            "nb_frames": "90"
+          }
+        ],
+        "format": {
+          "duration": "3.000000"
+        }
+      },
+      "decode_errors": 0,
+      "review_only": true,
+      "audio": false
+    },
+    {
+      "file": "C1-source-review.mp4",
+      "sha256": "029204e6d39f022185ea9cda9c9b2c621cf8f4ff4ce66dbe276089cc39fb6f3d",
+      "bytes": 1681023,
+      "source_option": "C1",
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "r_frame_rate": "30/1",
+            "nb_frames": "90"
+          }
+        ],
+        "format": {
+          "duration": "3.000000"
+        }
+      },
+      "decode_errors": 0,
+      "review_only": true,
+      "audio": false
+    }
+  ]
+}

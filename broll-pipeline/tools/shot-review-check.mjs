@@ -1,0 +1,12 @@
+import fs from 'node:fs/promises';import path from 'node:path';import crypto from 'node:crypto';
+import {validateShotPlan,evaluateShotGate} from '../src/shot-review.mjs';
+const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
+const dir=path.resolve(process.argv[2]??'projects/bento-v113-shots');
+const read=async name=>JSON.parse(await fs.readFile(path.join(dir,name),'utf8'));
+const bytes=await fs.readFile(path.join(dir,'shot-plan.json')),plan=JSON.parse(bytes),sources=await read('sources.json');
+validateShotPlan(plan,sources);
+const media=await read('artifacts.json');
+for(const item of media.artifacts)if(hash(await fs.readFile(path.join(media.artifact_root,item.file)))!==item.sha256)throw Error('Review clip changed: '+item.file);
+const optional=async name=>{try{return await read(name);}catch(e){if(e.code==='ENOENT')return null;throw e;}};
+const gate=evaluateShotGate({...plan,review_sha256:hash(Buffer.concat([bytes,await fs.readFile(path.join(dir,'sources.json')),await fs.readFile(path.join(dir,'artifacts.json'))]))},await optional('shot-approval.json'),await optional('material-approval.json'));
+console.log(JSON.stringify({plan_valid:true,clip_hashes_valid:true,...gate},null,2));if(!gate.formal_render_allowed)process.exitCode=2;
