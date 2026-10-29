@@ -1,0 +1,17 @@
+{
+  "scope": "source compatibility review and architecture only",
+  "upstream_commit": "52467f99c602b76ba86d511d37acdfe93fa1e16e",
+  "upstream_version": "0.3.1",
+  "environment_observed_revision": "2",
+  "previous_failure_revision": "1",
+  "previous_test_evidence_reused": true,
+  "new_browser_attempts": 0,
+  "new_render_attempts": 0,
+  "supported_allowed_alternative_found": false,
+  "asset_hashes_unchanged": true,
+  "native_render_production_ready": false,
+  "remotion_design_translation_feasible": true,
+  "output_equivalence_guaranteed": false,
+  "new_milk_animation": false,
+  "environment_republished": false
+}
