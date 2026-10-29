@@ -1,0 +1,168 @@
+{
+  "version": "1.2",
+  "scope": "module_test_only",
+  "formal_asset_approvals_changed": false,
+  "sources": [
+    {
+      "option_id": "A1",
+      "source_url": "https://pixabay.com/videos/id-227128/",
+      "author": "kurt_BID",
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "license_checked_at": "2026-10-28T15:52:00.484Z",
+      "download_sha256": "be2a43ecbcf4ddf5cd3dfce81035db0001be589f446239f25f3453205be9409c",
+      "bytes": 7146718,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1440,
+            "height": 2560,
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "r_frame_rate": "25/1"
+          }
+        ],
+        "format": {
+          "duration": "6.240000"
+        }
+      },
+      "original_file_hint": "pixabay-227128.mp4",
+      "rendition": "medium",
+      "official_media_url": "https://cdn.pixabay.com/video/2024/08/18/227128_medium.mp4",
+      "historical_review_interval_seconds": [
+        1,
+        5
+      ],
+      "historical_formal_use_status": "existing_A1_approval_unchanged",
+      "use_status": "authorized_for_v12_module_test_only"
+    },
+    {
+      "option_id": "B1",
+      "source_url": "https://pixabay.com/videos/id-11605/",
+      "author": "XiaosKitchen",
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "license_checked_at": "2026-10-28T15:52:05.180Z",
+      "download_sha256": "0727bd8b30ad07878f2391bd001c77db0a28757462fce7111e95abe433b07346",
+      "bytes": 33337733,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "r_frame_rate": "30/1",
+            "nb_frames": "1628"
+          }
+        ],
+        "format": {
+          "duration": "54.266667"
+        }
+      },
+      "original_file_hint": "B1-large.mp4",
+      "rendition": "large",
+      "official_media_url": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_large.mp4",
+      "historical_review_interval_seconds": [
+        35,
+        40
+      ],
+      "historical_formal_use_status": "candidate_only_requires_explicit_material_approval",
+      "use_status": "authorized_for_v12_module_test_only"
+    },
+    {
+      "option_id": "C1",
+      "source_url": "https://pixabay.com/videos/id-11626/",
+      "author": "XiaosKitchen",
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "license_checked_at": "2026-10-28T15:52:05.389Z",
+      "download_sha256": "57450a706e0d597b9aa02611c69b6a5185ad0fbec5b62768da377f69da9bd3d2",
+      "bytes": 8806332,
+      "probe": {
+        "programs": [],
+        "stream_groups": [],
+        "streams": [
+          {
+            "codec_name": "h264",
+            "width": 1920,
+            "height": 1080,
+            "color_space": "bt709",
+            "color_transfer": "bt709",
+            "color_primaries": "bt709",
+            "r_frame_rate": "30/1",
+            "nb_frames": "579"
+          }
+        ],
+        "format": {
+          "duration": "19.300000"
+        }
+      },
+      "original_file_hint": "C1.mp4",
+      "rendition": "large",
+      "official_media_url": "https://cdn.pixabay.com/video/2017/08/29/11626-231571949_large.mp4",
+      "historical_review_interval_seconds": [
+        8,
+        11
+      ],
+      "historical_formal_use_status": "candidate_only_requires_explicit_material_approval",
+      "use_status": "authorized_for_v12_module_test_only"
+    }
+  ],
+  "derived_rice": {
+    "source": "C1",
+    "time_seconds": 9.5,
+    "photo_sha256": "d9595d09990e81fa970adaa3c5f8800588dc9d9ed5d8bd8359278bbb1b9f441f",
+    "matte_sha256": "4e1dea40d5290f1329751d452000c33f92274a2dcf7de9ce2702fbdbbcdbc938",
+    "method": "source RGB threshold and spatial mask; repeated same-scale photographic layers; no generated food",
+    "measurement": false
+  },
+  "new_downloads": 0,
+  "new_api_requests": 0,
+  "continuous_video_sequences": [
+    {
+      "module": "M1",
+      "frames": 75,
+      "fps": 30,
+      "source_start_seconds": 1.0,
+      "method": "continuous decoded video frames; native25fps A1 duplicated to30; no motion interpolation",
+      "aggregate_sha256": "c7c10b9cf1ea7668d4a7b6e0a28b6e71e9b5e699435162f2c81b46fb1713c2ed",
+      "unique_decoded_frames": 63,
+      "frame_dimensions": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "module": "M2",
+      "frames": 75,
+      "fps": 30,
+      "source_start_seconds": 35.1,
+      "method": "continuous decoded video frames; native25fps A1 duplicated to30; no motion interpolation",
+      "aggregate_sha256": "b4ffdc9aae21b220552613c62ab1430d79ffcdb1ae366a8fc80dccaed8341b97",
+      "unique_decoded_frames": 75,
+      "frame_dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "module": "M3",
+      "frames": 24,
+      "fps": 30,
+      "source_start_seconds": 8.0,
+      "method": "continuous decoded video frames; native25fps A1 duplicated to30; no motion interpolation",
+      "aggregate_sha256": "5cf050ba19fad20ce7b2048b5a80e4844a376f02320bf45b0071dc8acfbb0212",
+      "unique_decoded_frames": 24,
+      "frame_dimensions": [
+        1920,
+        1080
+      ]
+    }
+  ]
+}

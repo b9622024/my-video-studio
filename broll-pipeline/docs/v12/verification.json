@@ -1,0 +1,181 @@
+{
+  "version": "1.2",
+  "stage": "isolated_module_tests_pending_user_visual_review",
+  "media": [
+    {
+      "file": "M1-540.mp4",
+      "sha256": "0bb166ec7093ddd62d867738c5a9add2de64a4e11fde89719c8f07e492bfa6c7",
+      "bytes": 950722,
+      "frames": 75,
+      "duration": 2.5,
+      "dimensions": [
+        540,
+        960
+      ],
+      "fps": 30,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_range": "tv",
+      "color_space": "bt709",
+      "audio": false,
+      "decode_errors": 0
+    },
+    {
+      "file": "M1-clean-review-540.mp4",
+      "sha256": "7abd175de81bcbb67c697756cc0fecda5e9d230248cd9403b9232e235350d3f0",
+      "bytes": 937209,
+      "frames": 75,
+      "duration": 2.5,
+      "dimensions": [
+        540,
+        960
+      ],
+      "fps": 30,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_range": "tv",
+      "color_space": "bt709",
+      "audio": false,
+      "decode_errors": 0
+    },
+    {
+      "file": "M2-540.mp4",
+      "sha256": "5a4d6d599e209022a618014904cf757b5acd961fec2080977bcb9cc2f09e9475",
+      "bytes": 1698596,
+      "frames": 75,
+      "duration": 2.5,
+      "dimensions": [
+        540,
+        960
+      ],
+      "fps": 30,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_range": "tv",
+      "color_space": "bt709",
+      "audio": false,
+      "decode_errors": 0
+    },
+    {
+      "file": "M2-clean-review-540.mp4",
+      "sha256": "aa4c88e3921b146b93191f55f86da85230fad0354b22b8d8e05fa6ab5d47fac1",
+      "bytes": 1684047,
+      "frames": 75,
+      "duration": 2.5,
+      "dimensions": [
+        540,
+        960
+      ],
+      "fps": 30,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_range": "tv",
+      "color_space": "bt709",
+      "audio": false,
+      "decode_errors": 0
+    },
+    {
+      "file": "M3-540.mp4",
+      "sha256": "ff02b32c9ae4527287c01bc368fb00c9cda7e0a3b6349a4091c37aa67d741630",
+      "bytes": 149965,
+      "frames": 90,
+      "duration": 3.0,
+      "dimensions": [
+        540,
+        960
+      ],
+      "fps": 30,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_range": "tv",
+      "color_space": "bt709",
+      "audio": false,
+      "decode_errors": 0
+    },
+    {
+      "file": "M3-clean-review-540.mp4",
+      "sha256": "3856d21ece1d157551902b17af8c429123db36bb221330a3c9ec4e941a609a1d",
+      "bytes": 133134,
+      "frames": 90,
+      "duration": 3.0,
+      "dimensions": [
+        540,
+        960
+      ],
+      "fps": 30,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_range": "tv",
+      "color_space": "bt709",
+      "audio": false,
+      "decode_errors": 0
+    }
+  ],
+  "formal_1080_mp4_created": false,
+  "full_12s_movie_created": false,
+  "hd_keyframes_dimensions_checked": [
+    1080,
+    1920
+  ],
+  "frame_determinism": "PASS repeated nonsequential clean still requests in render script",
+  "typecheck": "PASS existing V2.5 runtime TypeScript strict",
+  "react_review": "hooks unconditional; no effect/timer/random; data props; stable layer keys; source image alt; no legacy adapter changes",
+  "old_hashes_unchanged": {
+    "approved-assets.json": "d832eb51e343089daaa4cacf77a9bfab4ecb4e1cb6b907175542b80a3dd5bbce",
+    "asset-manifest.json": "82f5725602af15b727b99e9a19bf0accab62e57cf88645a2653d7127758fdd3e",
+    "edit-timeline.json": "53b737fa22196aaa9c2c7f3e5d89b17db5f70d7f8b8f70cf02826a1460b0c6a0",
+    "scene-plan.json": "287e232d99307692d8e6879facb284b62838ea17a1d8cf53a778d0d5d151954c",
+    "outputs/preview-540.mp4": "4f3f38b2950b1b155ebb12c9f4d67acf406c0f410bad0087bbb0e2195bc3b82e"
+  },
+  "formal_asset_approval_changed": false,
+  "M1_full_plate_edges_visible": false,
+  "M1_limitation": "A1 is a close meal shot; complete plate view requires wider footage",
+  "M2_quality": "natural motion blur remains; human acceptance pending",
+  "M3_method": "explicit conceptual photographic layering on one stationary tray; not measured or filmed portion change",
+  "human_publication_quality_approved": false,
+  "continuous_source_frame_sequences": [
+    {
+      "module": "M1",
+      "frames": 75,
+      "fps": 30,
+      "source_start_seconds": 1.0,
+      "method": "continuous decoded video frames; native25fps A1 duplicated to30; no motion interpolation",
+      "aggregate_sha256": "c7c10b9cf1ea7668d4a7b6e0a28b6e71e9b5e699435162f2c81b46fb1713c2ed",
+      "unique_decoded_frames": 63,
+      "frame_dimensions": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "module": "M2",
+      "frames": 75,
+      "fps": 30,
+      "source_start_seconds": 35.1,
+      "method": "continuous decoded video frames; native25fps A1 duplicated to30; no motion interpolation",
+      "aggregate_sha256": "b4ffdc9aae21b220552613c62ab1430d79ffcdb1ae366a8fc80dccaed8341b97",
+      "unique_decoded_frames": 75,
+      "frame_dimensions": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "module": "M3",
+      "frames": 24,
+      "fps": 30,
+      "source_start_seconds": 8.0,
+      "method": "continuous decoded video frames; native25fps A1 duplicated to30; no motion interpolation",
+      "aggregate_sha256": "5cf050ba19fad20ce7b2048b5a80e4844a376f02320bf45b0071dc8acfbb0212",
+      "unique_decoded_frames": 24,
+      "frame_dimensions": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "local_decoder_fallback": "original OffthreadVideo bridge failed Request closed with free disk; standard continuous PNG source frames used in same Composition",
+  "new_paid_services": 0,
+  "new_api_searches": 0,
+  "new_downloads": 0
+}

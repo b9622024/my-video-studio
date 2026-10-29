@@ -1,0 +1,76 @@
+{
+  "version": "1.2",
+  "stage": "isolated_module_tests_not_formal_selection",
+  "fps": 30,
+  "preview": [
+    540,
+    960
+  ],
+  "formal": [
+    1080,
+    1920
+  ],
+  "formal_export_created": false,
+  "test_use_authorization": "本輪使用者明確指示使用 A1、B1、C1 製作三個模組測試；不是修改原 A1/B2/C2 正式選用。",
+  "modules": [
+    {
+      "id": "M1",
+      "title": "先看整盤。",
+      "subtitle": "先看一餐，再看細節。",
+      "asset": "assets/A1.mp4",
+      "startFrom": 30,
+      "frames": 75,
+      "frameSequence": "assets/M1-frames"
+    },
+    {
+      "id": "M2",
+      "title": "蔬菜，也要看見。",
+      "subtitle": "不是點綴，是配菜的一部分。",
+      "asset": "assets/B1.mp4",
+      "startFrom": 1053,
+      "frames": 75,
+      "frameSequence": "assets/M2-frames"
+    },
+    {
+      "id": "M3",
+      "title": "主食份量，依需求調整。",
+      "subtitle": "先看實際餐點，再回到自己的需求。",
+      "asset": "assets/C1.mp4",
+      "startFrom": 240,
+      "frames": 90,
+      "riceStudy": {
+        "photo": "assets/rice.jpg",
+        "layers": [
+          {
+            "left": 0,
+            "top": 80,
+            "width": 440,
+            "from": 24
+          },
+          {
+            "left": 80,
+            "top": 110,
+            "width": 440,
+            "from": 48
+          },
+          {
+            "left": 20,
+            "top": 170,
+            "width": 440,
+            "from": 60
+          }
+        ],
+        "labels": [
+          "少",
+          "中",
+          "多"
+        ],
+        "note": "同一份米飯照片的重疊合成，不是實際量測、添飯紀錄或飲食建議",
+        "maskSrc": "assets/rice-matte.svg",
+        "maskRegionPath": "M280 0 L500 0 L650 80 L750 220 L770 350 L750 540 L570 540 L470 470 L260 450 L120 370 L110 230 L210 140 Z",
+        "mask_method": "bright neutral rice RGB matte, spatial mask and morphological cleanup; manually reviewed"
+      },
+      "frameSequence": "assets/M3-frames"
+    }
+  ]
+}

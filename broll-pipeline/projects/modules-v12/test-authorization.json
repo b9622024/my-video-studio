@@ -1,0 +1,15 @@
+{
+  "version": "1.2",
+  "scope": "isolated_module_test_only",
+  "provenance": "user_explicit",
+  "instruction_reference": "Codex｜可樂吉 B-roll 智慧製片系統 V1.2：指定使用A1、B1、C1製作三個模組測試",
+  "test_use_allowed": [
+    "A1",
+    "B1",
+    "C1"
+  ],
+  "rice_concept_composite_requested": true,
+  "formal_selection_change_authorized": false,
+  "full_12s_render_authorized": false,
+  "publication_quality_approved": false
+}
