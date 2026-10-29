@@ -1,0 +1,49 @@
+{
+  "stage": "art_review_only",
+  "strict_typescript": "pass",
+  "same_asset_set_for_all_three_keys": true,
+  "native_scene": [
+    1024,
+    1536
+  ],
+  "review_output": [
+    1080,
+    1920
+  ],
+  "generated_subject_alpha_verified": true,
+  "five_layer_mattes_have_transparency": true,
+  "new_v21_mp4_generated": false,
+  "old_v203_reference_video_only": true,
+  "original_model_and_v203_unchanged": true,
+  "keyart": [
+    {
+      "file": "key-A-1080.png",
+      "sha256": "b1cd677b3c10e5dad95380b86c2b97ddd37111053e647f45e715f303885f8215",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "key-B-1080.png",
+      "sha256": "48065434e46fd9af7dc34c9094f7d2c4392bcfd6ae8a7318567d3a0f8c600496",
+      "size": [
+        1080,
+        1920
+      ]
+    },
+    {
+      "file": "key-C-1080.png",
+      "sha256": "2e7916ad02cd1496ff2f79b36598222de58c14f1d105281e6330497397ca10cb",
+      "size": [
+        1080,
+        1920
+      ]
+    }
+  ],
+  "human_art_approved": false,
+  "motion_rig_validated": false,
+  "real_phone_test_completed": false,
+  "art_style_risk": "more painterly/detail-rich than final recognizable-minimal brand may require",
+  "required_next": "human art approval and projected rig validation before any 3-second animation"
+}

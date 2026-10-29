@@ -1,0 +1,11 @@
+{
+ "version":"2.1-art-stage1","stage":"art_review_only","human_art_approved":false,"animation_authorized_after_art_approval":false,
+ "native_scene":[1024,1536],"output":[1080,1920],
+ "facade_polygon":[[163,510],[814,490],[822,1118],[153,1109]],
+ "foreground_polygons":[[[124,1127],[823,1147],[852,1184],[449,1210],[428,1190],[124,1168]],[[168,524],[184,523],[181,1098],[159,1092]],[[812,520],[839,519],[843,1114],[811,1112]]],
+ "objects":{"mass":{"file":"original/mass-gold.png","rect":[359.47,669.5,357.07,357.07],"native":[1254,1254],"pivot":[538,853],"local_pivot":[627,644.5]},"cradle":{"file":"original/cradle-front.png","rect":[335.6,855.1,404.75,215.93],"native":[1717,916],"rigid_parent":"mass","clevis_points":[[391,1019],[685,1019]]},"cylinder":{"file":"original/hydraulic-body.png","native":[2172,724],"local_mount":[175,354],"local_outlet":[2078,354],"world_axis_length":100}},
+ "anchors":{"ceiling_left":[409,628],"ceiling_right":[667,628],"mass_rig_left":[391,1019],"mass_rig_right":[685,1019],"base_left":[248,1094],"base_right":[830,1101]},
+ "layers":[{"id":"interior","z":0,"kind":"fixed illustration"},{"id":"mass-shadow","z":1,"kind":"controllable soft shadow"},{"id":"suspension","z":2,"kind":"controlled vector bundles"},{"id":"mass","z":3,"kind":"independent alpha PNG"},{"id":"cradle","z":4,"kind":"independent alpha PNG; follows mass"},{"id":"rods-and-bodies","z":5,"kind":"alpha casing sprites + controlled vector rods"},{"id":"outer-facade","z":6,"kind":"independent image with polygon alpha matte"},{"id":"foreground","z":7,"kind":"registered foreground matte"},{"id":"information","z":8,"kind":"concept notice only"}],
+ "key_art":[{"id":"A","camera":{"center":[520,768],"scale":1.25},"reveal":0},{"id":"B","camera":{"center":[534,820],"scale":1.4},"reveal":0.62},{"id":"C","camera":{"center":[538,850],"scale":1.6},"reveal":1}],
+ "kinematic_readiness":{"independent_assets":true,"anchor_registration":"creator visual placement, not engineering survey","projected_cable_constraints_verified":false,"old_model_unchanged":true,"requires_before_motion":["confirm art style with user","map original relative motion into new illustrated coordinate system","validate cable constraints and cradle attitude under new projection","check piston stroke and foreground collisions frame by frame"]}
+}

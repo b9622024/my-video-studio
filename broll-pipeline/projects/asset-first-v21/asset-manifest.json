@@ -1,0 +1,206 @@
+{
+  "version": "2.1-stage1",
+  "generator": "existing platform image_gen generation/edit tool; model and seed not exposed",
+  "assets": [
+    {
+      "file": "assets/derived/facade-layer.png",
+      "bytes": 834614,
+      "sha256": "c7f27cce736cc41a3b879fdd55c65fa1d6c5eace7c6e6b99c3a5415c69482d94",
+      "kind": "derived matte or controllable vector from registered source",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_bbox_128": [
+        153,
+        490,
+        822,
+        1118
+      ],
+      "corner_alpha": 0
+    },
+    {
+      "file": "assets/derived/facade-layer.svg",
+      "bytes": 367,
+      "sha256": "d6af29038ffaf8682620d936f31f9f341f0347efdeded44f3b488632f4ff2197",
+      "kind": "derived matte or controllable vector from registered source"
+    },
+    {
+      "file": "assets/derived/foreground-layer.png",
+      "bytes": 215934,
+      "sha256": "63efc45718e79d2781816e89459351f4a3ac1734941d3509f3c9c7831c58a55a",
+      "kind": "derived matte or controllable vector from registered source",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_bbox_128": [
+        124,
+        519,
+        852,
+        1210
+      ],
+      "corner_alpha": 0
+    },
+    {
+      "file": "assets/derived/foreground-layer.svg",
+      "bytes": 506,
+      "sha256": "4a2f09a1541540b0fc8594602f8b7e135fc26edd29e4589bd58a44c24264441e",
+      "kind": "derived matte or controllable vector from registered source"
+    },
+    {
+      "file": "assets/derived/rods-layer.png",
+      "bytes": 60674,
+      "sha256": "90007d90f6a62cabf22d82a4bf43d4557edf3dbe5edd8d3f3e1c8d9b7b14d951",
+      "kind": "derived matte or controllable vector from registered source",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_bbox_128": [
+        241,
+        1009,
+        837,
+        1107
+      ],
+      "corner_alpha": 0
+    },
+    {
+      "file": "assets/derived/rods-layer.svg",
+      "bytes": 1387,
+      "sha256": "99f243f925689b9b9ecf97d466f28ac1d98bc6576a275c1d3bf086116d572fe7",
+      "kind": "derived matte or controllable vector from registered source"
+    },
+    {
+      "file": "assets/derived/shadow-layer.png",
+      "bytes": 89117,
+      "sha256": "d07698daaeb0fdcc39fe152b15a2616d6b7a39b5868ee23197ba986cc1c3e4d6",
+      "kind": "derived matte or controllable vector from registered source",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_bbox_128": null,
+      "corner_alpha": 0
+    },
+    {
+      "file": "assets/derived/shadow-layer.svg",
+      "bytes": 348,
+      "sha256": "4a6d76667dd27996a2628d438854a0eedf1e874dba544c375039779a0cd5eb68",
+      "kind": "derived matte or controllable vector from registered source"
+    },
+    {
+      "file": "assets/derived/suspension-layer.png",
+      "bytes": 56480,
+      "sha256": "1d1828b73fe9c7dfcbb5b6edf93011669bea2c63467d3ce6540a5b342aad350e",
+      "kind": "derived matte or controllable vector from registered source",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGBA",
+      "alpha_bbox_128": [
+        385,
+        628,
+        691,
+        1019
+      ],
+      "corner_alpha": 0
+    },
+    {
+      "file": "assets/derived/suspension-layer.svg",
+      "bytes": 1033,
+      "sha256": "3472698039e280cdd7dbec8939430d7e6887b9d7a8f9c639775bd30d65fc577f",
+      "kind": "derived matte or controllable vector from registered source"
+    },
+    {
+      "file": "assets/original/cradle-front.png",
+      "bytes": 1075334,
+      "sha256": "b229f7f9c538af08bbe0730b845fb134a8fc3a2f2e627a323315c5aae9516f36",
+      "kind": "original generated illustration",
+      "native_size": [
+        1717,
+        916
+      ],
+      "mode": "RGBA",
+      "alpha_bbox_128": [
+        53,
+        108,
+        1665,
+        843
+      ],
+      "corner_alpha": 0,
+      "generation_file": "exec-bf001297-826c-42bf-ab91-92b6fe71a1dd.png"
+    },
+    {
+      "file": "assets/original/hydraulic-body.png",
+      "bytes": 1183923,
+      "sha256": "95bca5aad5b17051820aae1b4e55c8292424326e1dedd913abbbc9d9f5cf5caa",
+      "kind": "original generated illustration",
+      "native_size": [
+        2172,
+        724
+      ],
+      "mode": "RGBA",
+      "alpha_bbox_128": [
+        50,
+        184,
+        2123,
+        524
+      ],
+      "corner_alpha": 0,
+      "generation_file": "exec-1c4eed01-4c78-4452-8a00-8fd7c074bad9.png"
+    },
+    {
+      "file": "assets/original/mass-gold.png",
+      "bytes": 2052715,
+      "sha256": "3cae6c0472058fda1498dda43eae7d4139527e5d4210b8b4ca0930ead27b376e",
+      "kind": "original generated illustration",
+      "native_size": [
+        1254,
+        1254
+      ],
+      "mode": "RGBA",
+      "alpha_bbox_128": [
+        37,
+        72,
+        1217,
+        1213
+      ],
+      "corner_alpha": 0,
+      "generation_file": "exec-160b7f5c-db81-416a-81a6-9749ba920f34.png"
+    },
+    {
+      "file": "assets/original/outer-facade-source.png",
+      "bytes": 2285252,
+      "sha256": "5581c6ada6b98354f04cc6a2a6c50ebc17476d50eda0658cad52ec85dcc7ca30",
+      "kind": "original generated illustration",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "generation_file": "exec-8127e8b4-2fc0-49a0-a623-7d05042938ef.png"
+    },
+    {
+      "file": "assets/original/scene-interior.png",
+      "bytes": 2318201,
+      "sha256": "fab942ff177d7bd68e7729df7a27a422ce91b766790db0b5fdf4544ddd84ea8f",
+      "kind": "original generated illustration",
+      "native_size": [
+        1024,
+        1536
+      ],
+      "mode": "RGB",
+      "generation_file": "exec-739ad9dc-838b-4605-9f70-d120990971de.png"
+    }
+  ],
+  "external_source_art_reused": false,
+  "old_svg_hero_reused": false,
+  "paid_service_enabled": false,
+  "human_art_approved": false
+}
