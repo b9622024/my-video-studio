@@ -1,0 +1,25 @@
+{
+  "upstream": "https://github.com/alchaincyf/huashu-motion",
+  "commit": "52467f99c602b76ba86d511d37acdfe93fa1e16e",
+  "version": "0.3.1",
+  "install": "/workspace/huashu-environment/.runtime/huashu-motion",
+  "skill": "/workspace/huashu-environment/.agents/skills/huashu-motion",
+  "doctor_pass": true,
+  "setup_idempotent_pass": true,
+  "official_demo_copied": true,
+  "studio_local_http_status": 200,
+  "source_check_errors": 0,
+  "source_check_warnings": [
+    "no-real-material"
+  ],
+  "still_pass": false,
+  "still_error_standard": "SUID sandbox helper ownership/mode",
+  "still_error_formal_escalation": "net::ERR_BLOCKED_BY_ADMINISTRATOR",
+  "render_attempted": false,
+  "qa_attempted": false,
+  "browser_security_modified": false,
+  "cloud_environment_republished": false,
+  "fresh_task_tested": false,
+  "new_paid_services": false,
+  "milk_animation_started": false
+}

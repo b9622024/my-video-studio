@@ -1,0 +1,4 @@
+# Session-local complete Huashu checkout and generated Codex skill links
+/.runtime/
+/.agents/skills/huashu-motion
+/skills-lock.json
