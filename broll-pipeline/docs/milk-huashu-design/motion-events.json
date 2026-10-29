@@ -1,0 +1,46 @@
+{
+  "renderer": "Remotion",
+  "fps": 30,
+  "frames": 90,
+  "human_approved": false,
+  "events": [
+    {
+      "name": "anticipation",
+      "inclusive_frames": [
+        0,
+        10
+      ]
+    },
+    {
+      "name": "action",
+      "inclusive_frames": [
+        11,
+        53
+      ],
+      "source_open": [
+        11,
+        14
+      ],
+      "first_contact": 20
+    },
+    {
+      "name": "reaction",
+      "inclusive_frames": [
+        54,
+        71
+      ],
+      "source_shutoff": [
+        54,
+        62
+      ],
+      "last_tail_arrival": 71
+    },
+    {
+      "name": "settle",
+      "inclusive_frames": [
+        72,
+        89
+      ]
+    }
+  ]
+}

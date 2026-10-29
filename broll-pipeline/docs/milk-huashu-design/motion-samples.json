@@ -1,0 +1,902 @@
+[
+  {
+    "frame": 0,
+    "p": 0,
+    "surface": 1260,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 1,
+    "p": 0,
+    "surface": 1260,
+    "angle": -11.92168940273578,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 2,
+    "p": 0,
+    "surface": 1260,
+    "angle": -11.461139638996343,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 3,
+    "p": 0,
+    "surface": 1260,
+    "angle": -10.452937268318731,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 4,
+    "p": 0,
+    "surface": 1260,
+    "angle": -8.919435458333075,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 5,
+    "p": 0,
+    "surface": 1260,
+    "angle": -7.017106382450281,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 6,
+    "p": 0,
+    "surface": 1260,
+    "angle": -4.982893617549722,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 7,
+    "p": 0,
+    "surface": 1260,
+    "angle": -3.0805645416669267,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 8,
+    "p": 0,
+    "surface": 1260,
+    "angle": -1.5470627316812724,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 9,
+    "p": 0,
+    "surface": 1260,
+    "angle": -0.5388603610036506,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 10,
+    "p": 0,
+    "surface": 1260,
+    "angle": -0.07831059726423018,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 11,
+    "p": 0,
+    "surface": 1260,
+    "angle": 0,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 12,
+    "p": 0,
+    "surface": 1260,
+    "angle": 0,
+    "source": 0.20987654320987653,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 13,
+    "p": 0,
+    "surface": 1260,
+    "angle": 0,
+    "source": 0.7901234567901235,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 14,
+    "p": 0,
+    "surface": 1260,
+    "angle": 0,
+    "source": 1,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 15,
+    "p": 0,
+    "surface": 1260,
+    "angle": 0,
+    "source": 1,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 16,
+    "p": 0,
+    "surface": 1260,
+    "angle": 0,
+    "source": 1,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 17,
+    "p": 0,
+    "surface": 1260,
+    "angle": 0,
+    "source": 1,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 18,
+    "p": 0,
+    "surface": 1260,
+    "angle": 0,
+    "source": 1,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 19,
+    "p": 0,
+    "surface": 1260,
+    "angle": 0,
+    "source": 1,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 20,
+    "p": 0,
+    "surface": 1260,
+    "angle": 0,
+    "source": 1,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 21,
+    "p": 0.00016872779915753827,
+    "surface": 1259.8970760425138,
+    "angle": 0,
+    "source": 1,
+    "incoming": 0.04404816338972717,
+    "ripple": 0.04404816338972717,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 22,
+    "p": 0.0064860946455273715,
+    "surface": 1256.0434822662282,
+    "angle": 0,
+    "source": 1,
+    "incoming": 0.6242950769699742,
+    "ripple": 0.6242950769699742,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 23,
+    "p": 0.026525327667187956,
+    "surface": 1243.8195501230152,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 24,
+    "p": 0.04909383924080158,
+    "surface": 1230.052758063111,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 25,
+    "p": 0.0716623508144152,
+    "surface": 1216.2859660032068,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 26,
+    "p": 0.09423086238802882,
+    "surface": 1202.5191739433023,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 27,
+    "p": 0.11679937396164244,
+    "surface": 1188.7523818833981,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 28,
+    "p": 0.13936788553525606,
+    "surface": 1174.985589823494,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 29,
+    "p": 0.1619363971088697,
+    "surface": 1161.2187977635895,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 30,
+    "p": 0.18450490868248332,
+    "surface": 1147.4520057036852,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 31,
+    "p": 0.20707342025609693,
+    "surface": 1133.6852136437808,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 32,
+    "p": 0.22964193182971054,
+    "surface": 1119.9184215838766,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 33,
+    "p": 0.25221044340332416,
+    "surface": 1106.1516295239724,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 34,
+    "p": 0.27477895497693783,
+    "surface": 1092.384837464068,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 35,
+    "p": 0.29734746655055144,
+    "surface": 1078.6180454041637,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 36,
+    "p": 0.31991597812416506,
+    "surface": 1064.8512533442592,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 37,
+    "p": 0.34248448969777867,
+    "surface": 1051.084461284355,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 38,
+    "p": 0.36505300127139234,
+    "surface": 1037.3176692244506,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 39,
+    "p": 0.38762151284500596,
+    "surface": 1023.5508771645464,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 40,
+    "p": 0.41019002441861957,
+    "surface": 1009.784085104642,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 41,
+    "p": 0.4327585359922332,
+    "surface": 996.0172930447377,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 42,
+    "p": 0.4553270475658468,
+    "surface": 982.2505009848335,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 43,
+    "p": 0.47789555913946047,
+    "surface": 968.483708924929,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 44,
+    "p": 0.5004640707130741,
+    "surface": 954.7169168650248,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 45,
+    "p": 0.5230325822866877,
+    "surface": 940.9501248051205,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 46,
+    "p": 0.5456010938603013,
+    "surface": 927.1833327452161,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 47,
+    "p": 0.5681696054339149,
+    "surface": 913.4165406853119,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 48,
+    "p": 0.5907381170075285,
+    "surface": 899.6497486254076,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 49,
+    "p": 0.6133066285811422,
+    "surface": 885.8829565655033,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 50,
+    "p": 0.6358751401547558,
+    "surface": 872.116164505599,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 51,
+    "p": 0.6584436517283694,
+    "surface": 858.3493724456946,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 52,
+    "p": 0.681012163301983,
+    "surface": 844.5825803857904,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 53,
+    "p": 0.7035806748755967,
+    "surface": 830.8157883258859,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 54,
+    "p": 0.7261491864492103,
+    "surface": 817.0489962659817,
+    "angle": 0,
+    "source": 1,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 55,
+    "p": 0.748717698022824,
+    "surface": 803.2822042060774,
+    "angle": -0.02232055763362085,
+    "source": 0.98394775390625,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 56,
+    "p": 0.7712862095964376,
+    "surface": 789.515412146173,
+    "angle": -0.16254031215819623,
+    "source": 0.896484375,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 57,
+    "p": 0.7938547211700512,
+    "surface": 775.7486200862688,
+    "angle": -0.4972303548878515,
+    "source": 0.72479248046875,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 58,
+    "p": 0.8164232327436648,
+    "surface": 761.9818280263645,
+    "angle": -1.0634084981797463,
+    "source": 0.5,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 59,
+    "p": 0.8389917443172784,
+    "surface": 748.2150359664602,
+    "angle": -1.8646243952736086,
+    "source": 0.27520751953125,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 60,
+    "p": 0.861560255890892,
+    "surface": 734.4482439065558,
+    "angle": -2.877044660131267,
+    "source": 0.103515625,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 61,
+    "p": 0.8841287674645056,
+    "surface": 720.6814518466516,
+    "angle": -4.055537987276184,
+    "source": 0.01605224609375,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 62,
+    "p": 0.9066972790381193,
+    "surface": 706.9146597867473,
+    "angle": -5.339760271632988,
+    "source": 0,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 63,
+    "p": 0.9292657906117329,
+    "surface": 693.147867726843,
+    "angle": -6.660239728367012,
+    "source": 0,
+    "incoming": 1,
+    "ripple": 1,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 64,
+    "p": 0.9516460482587296,
+    "surface": 679.4959105621749,
+    "angle": -7.944462012723818,
+    "source": 0,
+    "incoming": 0.9681531824171543,
+    "ripple": 0.9702290854807117,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 65,
+    "p": 0.9719226712175562,
+    "surface": 667.1271705572907,
+    "angle": -9.122955339868733,
+    "source": 0,
+    "incoming": 0.8036842346191406,
+    "ripple": 0.8174382355336354,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 66,
+    "p": 0.9870375745243873,
+    "surface": 657.9070795401237,
+    "angle": -10.13537560472639,
+    "source": 0,
+    "incoming": 0.5253241397440434,
+    "ripple": 0.5631019175218211,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 67,
+    "p": 0.9956634967070441,
+    "surface": 652.6452670087031,
+    "angle": -10.936591501820253,
+    "source": 0,
+    "incoming": 0.25,
+    "ripple": 0.32140374942844074,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 68,
+    "p": 0.9991090112170491,
+    "surface": 650.5435031576001,
+    "angle": -11.502769645112156,
+    "source": 0,
+    "incoming": 0.07573917880654335,
+    "ripple": 0.18433542937810257,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 69,
+    "p": 0.9999223135626825,
+    "surface": 650.0473887267636,
+    "angle": -11.837459687841804,
+    "source": 0,
+    "incoming": 0.010715484619140625,
+    "ripple": 0.15293770684136285,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 70,
+    "p": 0.9999991182951506,
+    "surface": 650.0005378399582,
+    "angle": -11.97767944236638,
+    "source": 0,
+    "incoming": 0.00025767460465431213,
+    "ripple": 0.16650367369015964,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 71,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0.17792409693644248,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 72,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0.18,
+    "surfaceRy": 125
+  },
+  {
+    "frame": 73,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0.17966519163549569,
+    "surfaceRy": 126.47550693474113
+  },
+  {
+    "frame": 74,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0.17756189531762706,
+    "surfaceRy": 127.03305154593589
+  },
+  {
+    "frame": 75,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0.17254154467668223,
+    "surfaceRy": 126.7440266589244
+  },
+  {
+    "frame": 76,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0.1640488725273038,
+    "surfaceRy": 125.94629078435119
+  },
+  {
+    "frame": 77,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0.15203063407089587,
+    "surfaceRy": 125.05421264420613
+  },
+  {
+    "frame": 78,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0.136844330098031,
+    "surfaceRy": 124.39665080933216
+  },
+  {
+    "frame": 79,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0.11916693019085724,
+    "surfaceRy": 124.12982031762557
+  },
+  {
+    "frame": 80,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0.09990359592550517,
+    "surfaceRy": 124.23332717066835
+  },
+  {
+    "frame": 81,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0.08009640407449482,
+    "surfaceRy": 124.56713819581816
+  },
+  {
+    "frame": 82,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0.060833069809142735,
+    "surfaceRy": 124.9529193168603
+  },
+  {
+    "frame": 83,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0.043155669901969,
+    "surfaceRy": 125.24528814070845
+  },
+  {
+    "frame": 84,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0.027969365929104154,
+    "surfaceRy": 125.37170909054144
+  },
+  {
+    "frame": 85,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0.01595112747269622,
+    "surfaceRy": 125.33640886312457
+  },
+  {
+    "frame": 86,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0.007458455323317647,
+    "surfaceRy": 125.1767735352063
+  },
+  {
+    "frame": 87,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0.0024381046823729545,
+    "surfaceRy": 125.01532376177347
+  },
+  {
+    "frame": 88,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0.0003348083645042843,
+    "surfaceRy": 124.98974561363362
+  },
+  {
+    "frame": 89,
+    "p": 1,
+    "surface": 650,
+    "angle": -12,
+    "source": 0,
+    "incoming": 0,
+    "ripple": 0,
+    "surfaceRy": 125
+  }
+]

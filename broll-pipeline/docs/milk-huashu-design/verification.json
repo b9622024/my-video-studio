@@ -1,0 +1,25 @@
+{
+  "renderer": "Remotion 4.0.539",
+  "huashu_native_render": false,
+  "design_reference": "huashu-motion 0.3.1 director and rhythm, pinned upstream 52467f99c602b76ba86d511d37acdfe93fa1e16e",
+  "format": {
+    "width": 540,
+    "height": 960,
+    "fps": 30,
+    "frames": 90,
+    "seconds": "3.000000",
+    "codec": "h264",
+    "audio": false
+  },
+  "sha256": "f128ae5808a48df982ecad50b0169df765602686bf1f231348465d0cbfeb4005",
+  "baseline_sha256": "7ac4726a6adadb208a9efaa0080739392769b75140620cd99c7319769c0e01ca",
+  "assets_unchanged": true,
+  "typescript_pass": true,
+  "full_decode_pass": true,
+  "level_rises_only_after_arrival": true,
+  "source_closed_before_tail_arrives": true,
+  "frame_89_settled": true,
+  "human_approved": false,
+  "physical_fluid_simulation": false,
+  "visual_equivalence_to_huashu_unverified": true
+}
