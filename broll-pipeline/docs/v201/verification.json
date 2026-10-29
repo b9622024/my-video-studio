@@ -1,0 +1,134 @@
+{
+  "version": "V2.0.1",
+  "source_sha256": "563e4477edae2f44c9aa19b55edca9be8ec448a138f8ed5b3394f114e449ecc0",
+  "technical_checks": {
+    "strict_tsc": "pass",
+    "causal_motion_tests": "pass",
+    "all_six_previews_decode": "pass",
+    "stable_payoff_source_frames_63_74": "identical for A/B/C",
+    "legacy_tracked_sources_untouched": true
+  },
+  "media": [
+    {
+      "file": "A-540.mp4",
+      "sha256": "1eade7fd378509c4f752fc7dfcd9e2fc7857ae76701538259d9bee39fa9b8d5f",
+      "codec": "h264",
+      "frames": 75,
+      "fps": 30,
+      "duration": 2.5,
+      "width": 540,
+      "height": 960,
+      "audio_tracks": 0,
+      "decode": "pass",
+      "visible_text": true
+    },
+    {
+      "file": "A-no-text-540.mp4",
+      "sha256": "3a615fccaf56dceee48bac6380814b7789245ab153f15a40556f2d44cfdb20ff",
+      "codec": "h264",
+      "frames": 75,
+      "fps": 30,
+      "duration": 2.5,
+      "width": 540,
+      "height": 960,
+      "audio_tracks": 0,
+      "decode": "pass",
+      "visible_text": false
+    },
+    {
+      "file": "B-540.mp4",
+      "sha256": "80dc79ebedc79749a8a086fbf4fdfff28b025320e26a35ec8744ba86b20e5f3f",
+      "codec": "h264",
+      "frames": 75,
+      "fps": 30,
+      "duration": 2.5,
+      "width": 540,
+      "height": 960,
+      "audio_tracks": 0,
+      "decode": "pass",
+      "visible_text": true
+    },
+    {
+      "file": "B-no-text-540.mp4",
+      "sha256": "4238288a9256f5d564bd6488a26b822701c9042302bcc59b3234ebf5be917844",
+      "codec": "h264",
+      "frames": 75,
+      "fps": 30,
+      "duration": 2.5,
+      "width": 540,
+      "height": 960,
+      "audio_tracks": 0,
+      "decode": "pass",
+      "visible_text": false
+    },
+    {
+      "file": "C-540.mp4",
+      "sha256": "417724854b9f846e6622c630efc1579060ed6ad7f1acf1b4ce3dcd7cce2672c8",
+      "codec": "h264",
+      "frames": 75,
+      "fps": 30,
+      "duration": 2.5,
+      "width": 540,
+      "height": 960,
+      "audio_tracks": 0,
+      "decode": "pass",
+      "visible_text": true
+    },
+    {
+      "file": "C-no-text-540.mp4",
+      "sha256": "8f4f0ed98973536554fd6763469a3ee91e483b9c718dc3aee414771f55caa532",
+      "codec": "h264",
+      "frames": 75,
+      "fps": 30,
+      "duration": 2.5,
+      "width": 540,
+      "height": 960,
+      "audio_tracks": 0,
+      "decode": "pass",
+      "visible_text": false
+    }
+  ],
+  "human_test_completed": false,
+  "human_art_approved": false,
+  "real_phone_test_completed": false,
+  "object_gate": "creator_self_check_only",
+  "blind_answer_key": {
+    "A": "17",
+    "B": "42",
+    "C": "68"
+  },
+  "vector_assets": [
+    {
+      "file": "glass.svg",
+      "sha256": "69602c72f65dd1683c3403198301289a7e1d3dbd067fbc4201540a924a32e846"
+    },
+    {
+      "file": "meal-plate.svg",
+      "sha256": "1b8e8e56c84cafbdf22c9d4ff082ee89b81201db5abb6d6bcab31624fa15beb1"
+    },
+    {
+      "file": "milk-carton.svg",
+      "sha256": "7e8e7d01a79f43da552936412781aa0b848eefc36c36972d90b2bbe4920611b3"
+    },
+    {
+      "file": "milk-pour-complete.svg",
+      "sha256": "c70e5bb7e52941e8e50a6a75503d1639b743d5b83ef0d2de3a2a76b45cb816d7"
+    },
+    {
+      "file": "protein.svg",
+      "sha256": "d56f7509c27d7476f2c3e2216a32a90e5a530dc5d290a8feca3daf77cf802d42"
+    },
+    {
+      "file": "rice.svg",
+      "sha256": "9c24c5a191e977fb17012bc7cb6787f4c805ffc2cd51ee8b8958dd89a85b4ebd"
+    },
+    {
+      "file": "taipei-101.svg",
+      "sha256": "5ff3275a52464bec3d9416714a77e89f66b6e9e06cac649a1cad630790674da3"
+    },
+    {
+      "file": "vegetables.svg",
+      "sha256": "348f5490833d49a1d8bf2ee327112b85092c323efc60dcd69804c39e0abbe1a1"
+    }
+  ]
+}

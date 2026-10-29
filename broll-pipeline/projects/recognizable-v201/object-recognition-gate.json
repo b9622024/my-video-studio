@@ -1,0 +1,87 @@
+{
+  "scope": "creator_self_check_before_full_motion",
+  "source_sha256": "563e4477edae2f44c9aa19b55edca9be8ec448a138f8ed5b3394f114e449ecc0",
+  "creator_static_pass": true,
+  "human_test_completed": false,
+  "human_approved": false,
+  "reviewed_stills": [
+    {
+      "file": "A-40.png",
+      "sha256": "6e63c8409699f1e53941f4dae1f0d060a64eb7b738a0a2576eae9ec97c9c219a"
+    },
+    {
+      "file": "A-63.png",
+      "sha256": "f055a42a330b5358b4cef82b6786f09788fe5006feeb14e7156ea00d9a656523"
+    },
+    {
+      "file": "A-74.png",
+      "sha256": "f055a42a330b5358b4cef82b6786f09788fe5006feeb14e7156ea00d9a656523"
+    },
+    {
+      "file": "B-18.png",
+      "sha256": "be34f274ef56e3a32e998ed58eabe77205a407b0d70ee50820ad5e14e8311709"
+    },
+    {
+      "file": "B-32.png",
+      "sha256": "178ee2187b34dd2378a83557b207fd08a9b5652870da7882059bfcacae0f05e5"
+    },
+    {
+      "file": "B-48.png",
+      "sha256": "04296bfb7b87d5ae8dceeed82d5dff21aef195d834b8013860a2291d70d749bb"
+    },
+    {
+      "file": "B-63.png",
+      "sha256": "1f17bf2bdac955d80957bb5abbbc1c882c6b0c369462b8998d1673fadb089352"
+    },
+    {
+      "file": "B-74.png",
+      "sha256": "1f17bf2bdac955d80957bb5abbbc1c882c6b0c369462b8998d1673fadb089352"
+    },
+    {
+      "file": "C-18.png",
+      "sha256": "2f095cd18ecaf210d84f9e400c660a397cfec956dac1123d681cb8d0ca51b8e0"
+    },
+    {
+      "file": "C-32.png",
+      "sha256": "21067e58a3523456b86ed6c5368c2f0e6c7c7bebdf585597bbf9b2831e23b934"
+    },
+    {
+      "file": "C-48.png",
+      "sha256": "1da7b9f3373f753d64b4280de7e56e2424afb270c21a44ee9c1bb63283fc09a7"
+    },
+    {
+      "file": "C-63.png",
+      "sha256": "c04240c1355a4790705a56a381058d28a2f40162e00fc4f5f5dff0292baec50f"
+    },
+    {
+      "file": "C-74.png",
+      "sha256": "c04240c1355a4790705a56a381058d28a2f40162e00fc4f5f5dff0292baec50f"
+    }
+  ],
+  "creator_form_scores": {
+    "A": {
+      "recognizability": 4,
+      "feature_completeness": 4,
+      "style_consistency": 4,
+      "small_screen_readability": 4
+    },
+    "B": {
+      "recognizability": 4,
+      "feature_completeness": 4,
+      "style_consistency": 4,
+      "small_screen_readability": 4
+    },
+    "C": {
+      "recognizability": 4,
+      "feature_completeness": 4,
+      "style_consistency": 4,
+      "small_screen_readability": 3
+    }
+  },
+  "limits": [
+    "Scores are creator self-assessment, not viewer testing",
+    "Phone readability is estimated from 540 stills; no physical-phone test performed",
+    "Taipei101 identity needs independent human confirmation",
+    "Meat type and liquid identity cannot be proved from shape alone"
+  ]
+}

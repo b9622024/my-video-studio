@@ -1,0 +1,8 @@
+{
+  "colors": {"paper":"#F6F3EC","ink":"#182F40","sage":"#8FAA96","yellow":"#E3B35F","orange":"#E58C58","gray":"#7B8589"},
+  "stroke": {"outline":3.4,"detail":2,"auxiliary":1.3},
+  "type": {"font":"Noto Sans CJK TC, sans-serif","title":38,"subtitle":22,"label":16},
+  "canvas":{"width":540,"height":960,"fps":30,"frames":75},
+  "motion":{"easing":"quintic smootherstep","camera":"fixed; purpose-driven object actions only","payoff_min_frames":12},
+  "palette_rule":"paper + ink + sage; orange only for the protein object; white liquid and rice are unpigmented material surfaces"
+}

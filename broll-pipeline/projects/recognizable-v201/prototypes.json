@@ -1,0 +1,14 @@
+{
+  "version":"2.0.1",
+  "titles":{"A":"結構，讓輪廓被認出。","B":"倒入，看見液面改變。","C":"簡化細節，留下食物。"},
+  "objects":{"A":"台北 101","B":"牛奶杯","C":"多食物餐盤"},
+  "titles_enabled":true,
+  "timeline":{
+    "A":{"setup":[0,18],"tiers":[18,45],"spire":[45,60],"payoff":[60,75]},
+    "B":{"setup":[0,18],"tilt":[18,25],"flow":[25,48],"settle":[48,63],"payoff":[63,75]},
+    "C":{"plate":[0,18],"vegetable":[18,29],"protein":[28,39],"rice":[39,57],"payoff":[57,75]}
+  },
+  "milk":{"initial_surface_y":648,"final_surface_y":525,"interior_bottom_y":674,"stream_end_x":255,"spout":[341,390],"pour_angle":-48},
+  "gate":{"scope":"creator_self_check_before_motion","human_review_required":true,"human_recognition_test_completed":false,"human_approved":false},
+  "claims":{"nutrition_ratios":false,"medical_advice":false,"physical_simulation":false}
+}
