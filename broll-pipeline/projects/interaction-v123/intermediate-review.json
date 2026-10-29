@@ -1,0 +1,57 @@
+{
+  "version": "1.2.3",
+  "pass": true,
+  "scope": "private_interaction_research_only",
+  "reviewer": "assistant inspection of actual intermediate PNGs plus contact diagnostics; not human art acceptance",
+  "config_sha256": "68ddc1960779c729df7cd668b411e0f0676fb44dc1278cacf1061b31a6e29684",
+  "source_sha256": "7e10cec65456df21d0cffb3ed33e704551166a370e7b96c0598ec80c86fc5253",
+  "assets_sha256": "b18ff9ae6f1a7cd83981e0ef12ca8e030214b0a8507142de3552f093f2319bd9",
+  "reviewed_frames": [
+    {
+      "file": "frame-18.png",
+      "sha256": "5b45eb61568832fbd2f65a51fce5d52eed07e22bba8000c28f7d20d364d76be5"
+    },
+    {
+      "file": "frame-27.png",
+      "sha256": "548850dfb216859d2efd381952870b8014dd37797973ce116cd5ed41657da12a"
+    },
+    {
+      "file": "frame-36.png",
+      "sha256": "c82879a2e2d609e1230476426c37f3cc0c6a05a4323024bc6a1c3e94c6f1f03e"
+    },
+    {
+      "file": "frame-48.png",
+      "sha256": "05dfc335681515f0aa29f23b993313084ffbf8ca1e8852822d486fab2b611aa9"
+    },
+    {
+      "file": "frame-60.png",
+      "sha256": "d260ddfb25821945ffa25b6e1730b69c6e22a7c6436017aa90a602ad5b5f18a5"
+    },
+    {
+      "file": "frame-89.png",
+      "sha256": "349b72f632c5e908a68130bdd43c3cba7007da65b8754c5e4f567e0d042c649b"
+    }
+  ],
+  "criteria": {
+    "one_fixed_carrier_body": true,
+    "one_separate_conserved_payload": true,
+    "receiver_never_replaced": true,
+    "load_on_paddle_supported": true,
+    "contact_and_occlusion_visible": true,
+    "continuous_relative_slide": true,
+    "empty_paddle_visibly_separate_by_f60": true,
+    "payload_remains_on_receiver": true,
+    "no_whole_pile_swap_or_food_opacity_transition": true,
+    "grain_scale_registered_with_fixed_size": true,
+    "fixed_view_and_heading": true
+  },
+  "motion_model": "one cohesive sticky-rice clump, not granular pouring or soft-body simulation",
+  "remaining_art_risks": [
+    "grain-level material and join still require human viewing",
+    "screen-space shadows and depth order are illustrative, not calibrated 3D contact",
+    "no grain-level deformation or redistribution is claimed"
+  ],
+  "human_acceptance": false,
+  "public_use_approved": false,
+  "validation": "all contact/transfer/result samples inspected after final fixed-heading registration; TypeScript strict and continuity tests pass"
+}

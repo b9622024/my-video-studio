@@ -1,0 +1,44 @@
+{
+  "version": "1.2.3",
+  "scope": "private_interaction_research_only",
+  "initial_six_assets_sufficient_for_direct_unloading": false,
+  "checks": [
+    {
+      "requirement": "same carrier shape",
+      "raw_status": "loaded and empty are not registered and have different extents",
+      "solution": "use only one empty-paddle body for every frame",
+      "current": "ready"
+    },
+    {
+      "requirement": "separable carried rice",
+      "raw_status": "loaded PNG bakes rice and wood together",
+      "solution": "new independent generated payload-v2 RGBA layer",
+      "current": "ready_for_cohesive_unit"
+    },
+    {
+      "requirement": "additive A to result",
+      "raw_status": "rice-A/B/C independently generated, not additive grain-preserving states",
+      "solution": "retain original A unchanged, add one distinct new payload; final is not labelled original B",
+      "current": "ready"
+    },
+    {
+      "requirement": "contact, occlusion, shadow",
+      "raw_status": "no registered action depth/shadow layers",
+      "solution": "fixed receiver foreground, one carrier behind, payload above, alpha-derived contact shadows; intermediate contact checked",
+      "current": "illustrative_2.5D_not_physical_simulation"
+    },
+    {
+      "requirement": "intermediate poses",
+      "raw_status": "no aligned generated sequence",
+      "solution": "continuous layered rig from fixed source images; one cohesive-clump sliding unload",
+      "current": "private_intermediate_candidate_passed"
+    }
+  ],
+  "rejected_payload_revision": "v1 grains too fine; no video rendered for that material revision",
+  "active_payload": "v2, native grain scale registered at constant 67px footprint width; never scaled during action",
+  "carrier_heading": "constant camera/view and in-plane orientation throughout",
+  "granular_or_soft_body_unloading_supported": false,
+  "public_use_approved": false,
+  "human_art_acceptance": false,
+  "legacy_M1_M2_and_AB_not_modified": true
+}

@@ -1,0 +1,116 @@
+{
+  "version": "1.2.3",
+  "scope": "private_interaction_research_only",
+  "width": 540,
+  "height": 960,
+  "fps": 30,
+  "frames": 90,
+  "base": {
+    "asset": "assets/original/plate-fixed-foods.png",
+    "rect": [
+      0,
+      180,
+      540,
+      540
+    ]
+  },
+  "receiver": {
+    "asset": "assets/derived/rice-A.png",
+    "rect": [
+      172.56240000000003,
+      490.5,
+      188.69760000000002,
+      203.2992
+    ],
+    "contactPoint": [
+      300,
+      580
+    ]
+  },
+  "carrier": {
+    "asset": "assets/derived/paddle-empty.png",
+    "sourceSize": [
+      983,
+      724
+    ],
+    "anchor": [
+      315,
+      500
+    ],
+    "scale": 0.23
+  },
+  "payload": {
+    "asset": "assets/derived/payload.png",
+    "sourceSize": [
+      1518,
+      1036
+    ],
+    "anchor": [
+      797.5,
+      547.0
+    ],
+    "scale": 0.07258938244853738,
+    "attachOffset": [
+      0,
+      -3
+    ],
+    "rest": [
+      329,
+      582
+    ]
+  },
+  "timing": {
+    "enter": 6,
+    "touch": 27,
+    "release": 36,
+    "separate": 60,
+    "exit": 82
+  },
+  "path": {
+    "start": [
+      625,
+      280
+    ],
+    "approachControls": [
+      [
+        580,
+        360
+      ],
+      [
+        405,
+        445
+      ]
+    ],
+    "touch": [
+      337,
+      558
+    ],
+    "release": [
+      334,
+      565
+    ],
+    "separate": [
+      415,
+      515
+    ],
+    "exitControls": [
+      [
+        490,
+        470
+      ],
+      [
+        580,
+        340
+      ]
+    ],
+    "exit": [
+      650,
+      250
+    ]
+  },
+  "public_use_approved": false,
+  "motion_model": "one cohesive payload, continuously attached then slid off against receiver; no granular physics claim",
+  "food_opacity": 1,
+  "food_scale_changes": false,
+  "physical_measurement": false
+}

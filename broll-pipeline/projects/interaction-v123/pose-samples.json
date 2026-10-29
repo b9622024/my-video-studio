@@ -1,0 +1,1802 @@
+[
+  {
+    "frame": 0,
+    "seconds": 0,
+    "phase": "initial",
+    "carrier": {
+      "x": 625,
+      "y": 280,
+      "angle": 0,
+      "height": 12
+    },
+    "payload": {
+      "x": 625,
+      "y": 277,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 1,
+    "seconds": 0.03333333333333333,
+    "phase": "initial",
+    "carrier": {
+      "x": 625,
+      "y": 280,
+      "angle": 0,
+      "height": 12
+    },
+    "payload": {
+      "x": 625,
+      "y": 277,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 2,
+    "seconds": 0.06666666666666667,
+    "phase": "initial",
+    "carrier": {
+      "x": 625,
+      "y": 280,
+      "angle": 0,
+      "height": 12
+    },
+    "payload": {
+      "x": 625,
+      "y": 277,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 3,
+    "seconds": 0.1,
+    "phase": "initial",
+    "carrier": {
+      "x": 625,
+      "y": 280,
+      "angle": 0,
+      "height": 12
+    },
+    "payload": {
+      "x": 625,
+      "y": 277,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 4,
+    "seconds": 0.13333333333333333,
+    "phase": "initial",
+    "carrier": {
+      "x": 625,
+      "y": 280,
+      "angle": 0,
+      "height": 12
+    },
+    "payload": {
+      "x": 625,
+      "y": 277,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 5,
+    "seconds": 0.16666666666666666,
+    "phase": "initial",
+    "carrier": {
+      "x": 625,
+      "y": 280,
+      "angle": 0,
+      "height": 12
+    },
+    "payload": {
+      "x": 625,
+      "y": 277,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 6,
+    "seconds": 0.2,
+    "phase": "carrying",
+    "carrier": {
+      "x": 625,
+      "y": 280,
+      "angle": 0,
+      "height": 12
+    },
+    "payload": {
+      "x": 625,
+      "y": 277,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 7,
+    "seconds": 0.23333333333333334,
+    "phase": "carrying",
+    "carrier": {
+      "x": 624.8640484092133,
+      "y": 280.2410082083276,
+      "angle": 0,
+      "height": 11.989958622472853
+    },
+    "payload": {
+      "x": 624.8640484092133,
+      "y": 277.2410082083276,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 8,
+    "seconds": 0.26666666666666666,
+    "phase": "carrying",
+    "carrier": {
+      "x": 623.9725142551583,
+      "y": 281.78916247345074,
+      "angle": 0,
+      "height": 11.925486661568849
+    },
+    "payload": {
+      "x": 623.9725142551583,
+      "y": 278.78916247345074,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 9,
+    "seconds": 0.3,
+    "phase": "carrying",
+    "carrier": {
+      "x": 621.651252935076,
+      "y": 285.5917957532301,
+      "angle": 0,
+      "height": 11.767358838579163
+    },
+    "payload": {
+      "x": 621.651252935076,
+      "y": 282.5917957532301,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 10,
+    "seconds": 0.3333333333333333,
+    "phase": "carrying",
+    "carrier": {
+      "x": 617.1551249922658,
+      "y": 292.24980261531675,
+      "angle": 0,
+      "height": 11.491334812728677
+    },
+    "payload": {
+      "x": 617.1551249922658,
+      "y": 289.24980261531675,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 11,
+    "seconds": 0.36666666666666664,
+    "phase": "carrying",
+    "carrier": {
+      "x": 609.5918558075873,
+      "y": 302.0692297013049,
+      "angle": 0,
+      "height": 11.086396247301426
+    },
+    "payload": {
+      "x": 609.5918558075873,
+      "y": 299.0692297013049,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 12,
+    "seconds": 0.4,
+    "phase": "carrying",
+    "carrier": {
+      "x": 598.0173180030854,
+      "y": 315.1121517180523,
+      "angle": 0,
+      "height": 10.55298387576605
+    },
+    "payload": {
+      "x": 598.0173180030854,
+      "y": 312.1121517180523,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 13,
+    "seconds": 0.43333333333333335,
+    "phase": "carrying",
+    "carrier": {
+      "x": 581.6788712199472,
+      "y": 331.24372037535676,
+      "angle": 0,
+      "height": 9.901234567901234
+    },
+    "payload": {
+      "x": 581.6788712199472,
+      "y": 328.24372037535676,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 14,
+    "seconds": 0.4666666666666667,
+    "phase": "carrying",
+    "carrier": {
+      "x": 560.3101786065159,
+      "y": 350.17066990812083,
+      "angle": 0,
+      "height": 9.14921839592116
+    },
+    "payload": {
+      "x": 560.3101786065159,
+      "y": 347.17066990812083,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 15,
+    "seconds": 0.5,
+    "phase": "carrying",
+    "carrier": {
+      "x": 534.3540766722447,
+      "y": 371.4669759016645,
+      "angle": 0,
+      "height": 8.32117570060094
+    },
+    "payload": {
+      "x": 534.3540766722447,
+      "y": 368.4669759016645,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 16,
+    "seconds": 0.5333333333333333,
+    "phase": "carrying",
+    "carrier": {
+      "x": 505.01427166168384,
+      "y": 394.585660857357,
+      "angle": 0,
+      "height": 7.445754157402082
+    },
+    "payload": {
+      "x": 505.01427166168384,
+      "y": 391.585660857357,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 17,
+    "seconds": 0.5666666666666667,
+    "phase": "carrying",
+    "carrier": {
+      "x": 474.09862756781575,
+      "y": 418.8610489437959,
+      "angle": 0,
+      "height": 6.554245842597918
+    },
+    "payload": {
+      "x": 474.09862756781575,
+      "y": 415.8610489437959,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 18,
+    "seconds": 0.6,
+    "phase": "carrying",
+    "carrier": {
+      "x": 443.6915247177731,
+      "y": 443.5110742778754,
+      "angle": 0,
+      "height": 5.678824299399059
+    },
+    "payload": {
+      "x": 443.6915247177731,
+      "y": 440.5110742778754,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 19,
+    "seconds": 0.6333333333333333,
+    "phase": "carrying",
+    "carrier": {
+      "x": 415.7526149912617,
+      "y": 467.6522784081115,
+      "angle": 0,
+      "height": 4.85078160407884
+    },
+    "payload": {
+      "x": 415.7526149912617,
+      "y": 464.6522784081115,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 20,
+    "seconds": 0.6666666666666666,
+    "phase": "carrying",
+    "carrier": {
+      "x": 391.763286987643,
+      "y": 490.33927002244843,
+      "angle": 0,
+      "height": 4.098765432098765
+    },
+    "payload": {
+      "x": 391.763286987643,
+      "y": 487.33927002244843,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 21,
+    "seconds": 0.7,
+    "phase": "carrying",
+    "carrier": {
+      "x": 372.52233284611174,
+      "y": 510.6353057591866,
+      "angle": 0,
+      "height": 3.4470161242339525
+    },
+    "payload": {
+      "x": 372.52233284611174,
+      "y": 507.6353057591866,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 22,
+    "seconds": 0.7333333333333333,
+    "phase": "carrying",
+    "carrier": {
+      "x": 358.13608653234104,
+      "y": 527.7124182457546,
+      "angle": 0,
+      "height": 2.9136037526985756
+    },
+    "payload": {
+      "x": 358.13608653234104,
+      "y": 524.7124182457546,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 23,
+    "seconds": 0.7666666666666667,
+    "phase": "carrying",
+    "carrier": {
+      "x": 348.1761340117146,
+      "y": 540.9705649007116,
+      "angle": 0,
+      "height": 2.5086651872713226
+    },
+    "payload": {
+      "x": 348.1761340117146,
+      "y": 537.9705649007116,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 24,
+    "seconds": 0.8,
+    "phase": "carrying",
+    "carrier": {
+      "x": 341.91662696083654,
+      "y": 550.1586374395911,
+      "angle": 0,
+      "height": 2.2326411614208332
+    },
+    "payload": {
+      "x": 341.91662696083654,
+      "y": 547.1586374395911,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 25,
+    "seconds": 0.8333333333333334,
+    "phase": "carrying",
+    "carrier": {
+      "x": 338.53779673606965,
+      "y": 555.4786521913093,
+      "angle": 0,
+      "height": 2.074513338431144
+    },
+    "payload": {
+      "x": 338.53779673606965,
+      "y": 552.4786521913093,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 26,
+    "seconds": 0.8666666666666667,
+    "phase": "carrying",
+    "carrier": {
+      "x": 337.20516752353274,
+      "y": 557.6596819751235,
+      "angle": 0,
+      "height": 2.0100413775271484
+    },
+    "payload": {
+      "x": 337.20516752353274,
+      "y": 554.6596819751235,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 27,
+    "seconds": 0.9,
+    "phase": "contact",
+    "carrier": {
+      "x": 337,
+      "y": 558,
+      "angle": 0,
+      "height": 2
+    },
+    "payload": {
+      "x": 337,
+      "y": 555,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 28,
+    "seconds": 0.9333333333333333,
+    "phase": "contact",
+    "carrier": {
+      "x": 336.9654016156074,
+      "y": 558.0807295635827,
+      "angle": 0,
+      "height": 1.976934410404918
+    },
+    "payload": {
+      "x": 336.9654016156074,
+      "y": 555.0807295635827,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 29,
+    "seconds": 0.9666666666666667,
+    "phase": "contact",
+    "carrier": {
+      "x": 336.7707666514251,
+      "y": 558.5348778133415,
+      "angle": 0,
+      "height": 1.8471777676167251
+    },
+    "payload": {
+      "x": 336.7707666514251,
+      "y": 555.5348778133415,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 30,
+    "seconds": 1,
+    "phase": "contact",
+    "carrier": {
+      "x": 336.3703703703704,
+      "y": 559.4691358024692,
+      "angle": 0,
+      "height": 1.5802469135802468
+    },
+    "payload": {
+      "x": 336.3703703703704,
+      "y": 556.4691358024692,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 31,
+    "seconds": 1.0333333333333334,
+    "phase": "contact",
+    "carrier": {
+      "x": 335.809937509526,
+      "y": 560.7768124777728,
+      "angle": 0,
+      "height": 1.206625006350658
+    },
+    "payload": {
+      "x": 335.809937509526,
+      "y": 557.7768124777728,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 32,
+    "seconds": 1.0666666666666667,
+    "phase": "contact",
+    "carrier": {
+      "x": 335.190062490474,
+      "y": 562.2231875222272,
+      "angle": 0,
+      "height": 0.7933749936493419
+    },
+    "payload": {
+      "x": 335.190062490474,
+      "y": 559.2231875222272,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 33,
+    "seconds": 1.1,
+    "phase": "contact",
+    "carrier": {
+      "x": 334.6296296296296,
+      "y": 563.5308641975308,
+      "angle": 0,
+      "height": 0.41975308641975295
+    },
+    "payload": {
+      "x": 334.6296296296296,
+      "y": 560.5308641975308,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 34,
+    "seconds": 1.1333333333333333,
+    "phase": "contact",
+    "carrier": {
+      "x": 334.2292333485749,
+      "y": 564.4651221866585,
+      "angle": 0,
+      "height": 0.15282223238327397
+    },
+    "payload": {
+      "x": 334.2292333485749,
+      "y": 561.4651221866585,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 35,
+    "seconds": 1.1666666666666667,
+    "phase": "contact",
+    "carrier": {
+      "x": 334.0345983843926,
+      "y": 564.9192704364173,
+      "angle": 0,
+      "height": 0.023065589595083313
+    },
+    "payload": {
+      "x": 334.0345983843926,
+      "y": 561.9192704364173,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 36,
+    "seconds": 1.2,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 334,
+      "y": 565,
+      "angle": 0,
+      "height": 0
+    },
+    "payload": {
+      "x": 334,
+      "y": 562,
+      "angle": 0,
+      "height": 1.5
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 37,
+    "seconds": 1.2333333333333334,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 334.05499267578125,
+      "y": 564.9660539038388,
+      "angle": 0,
+      "height": 0.0027156876929012343
+    },
+    "payload": {
+      "x": 333.9966053903839,
+      "y": 562.0135784384645,
+      "angle": 0,
+      "height": 1.498981617115162
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 38,
+    "seconds": 1.2666666666666666,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 334.412109375,
+      "y": 564.7456114969136,
+      "angle": 0,
+      "height": 0.020351080246913577
+    },
+    "payload": {
+      "x": 333.97456114969134,
+      "y": 562.1017554012345,
+      "angle": 0,
+      "height": 1.4923683449074074
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 39,
+    "seconds": 1.3,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 335.30023193359375,
+      "y": 564.1973876953125,
+      "angle": 0,
+      "height": 0.064208984375
+    },
+    "payload": {
+      "x": 333.91973876953125,
+      "y": 562.321044921875,
+      "angle": 0,
+      "height": 1.475921630859375
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 40,
+    "seconds": 1.3333333333333333,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 336.875,
+      "y": 563.2253086419753,
+      "angle": 0,
+      "height": 0.1419753086419753
+    },
+    "payload": {
+      "x": 333.8225308641975,
+      "y": 562.7098765432099,
+      "angle": 0,
+      "height": 1.4467592592592593
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 41,
+    "seconds": 1.3666666666666667,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 339.22613525390625,
+      "y": 561.7739905840085,
+      "angle": 0,
+      "height": 0.258080753279321
+    },
+    "payload": {
+      "x": 333.67739905840085,
+      "y": 563.2904037663966,
+      "angle": 0,
+      "height": 1.4032197175202545
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 42,
+    "seconds": 1.4,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 342.384765625,
+      "y": 559.82421875,
+      "angle": 0,
+      "height": 0.4140625
+    },
+    "payload": {
+      "x": 333.482421875,
+      "y": 564.0703125,
+      "angle": 0,
+      "height": 1.3447265625
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 43,
+    "seconds": 1.4333333333333333,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 346.33074951171875,
+      "y": 557.3884262273341,
+      "angle": 0,
+      "height": 0.6089259018132718
+    },
+    "payload": {
+      "x": 333.2388426227334,
+      "y": 565.0446295090663,
+      "angle": 0,
+      "height": 1.2716527868200231
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 44,
+    "seconds": 1.4666666666666666,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 351,
+      "y": 554.5061728395061,
+      "angle": 0,
+      "height": 0.8395061728395061
+    },
+    "payload": {
+      "x": 332.95061728395063,
+      "y": 566.1975308641976,
+      "angle": 0,
+      "height": 1.1851851851851851
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 45,
+    "seconds": 1.5,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 356.29180908203125,
+      "y": 551.2396240234375,
+      "angle": 0,
+      "height": 1.100830078125
+    },
+    "payload": {
+      "x": 332.62396240234375,
+      "y": 567.504150390625,
+      "angle": 0,
+      "height": 1.087188720703125
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 46,
+    "seconds": 1.5333333333333334,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 362.076171875,
+      "y": 547.6690297067901,
+      "angle": 0,
+      "height": 1.3864776234567902
+    },
+    "payload": {
+      "x": 332.266902970679,
+      "y": 568.932388117284,
+      "angle": 0,
+      "height": 0.9800708912037037
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 47,
+    "seconds": 1.5666666666666667,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 368.20111083984375,
+      "y": 543.8882031852817,
+      "angle": 0,
+      "height": 1.6889437451774691
+    },
+    "payload": {
+      "x": 331.8888203185282,
+      "y": 570.4447187258874,
+      "angle": 0,
+      "height": 0.8666460955584491
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 48,
+    "seconds": 1.6,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 374.5,
+      "y": 540,
+      "angle": 0,
+      "height": 2
+    },
+    "payload": {
+      "x": 331.5,
+      "y": 572,
+      "angle": 0,
+      "height": 0.75
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 49,
+    "seconds": 1.6333333333333333,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 380.79888916015625,
+      "y": 536.1117968147183,
+      "angle": 0,
+      "height": 2.3110562548225304
+    },
+    "payload": {
+      "x": 331.1111796814718,
+      "y": 573.5552812741126,
+      "angle": 0,
+      "height": 0.633353904441551
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 50,
+    "seconds": 1.6666666666666667,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 386.923828125,
+      "y": 532.3309702932099,
+      "angle": 0,
+      "height": 2.61352237654321
+    },
+    "payload": {
+      "x": 330.733097029321,
+      "y": 575.067611882716,
+      "angle": 0,
+      "height": 0.5199291087962963
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 51,
+    "seconds": 1.7,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 392.70819091796875,
+      "y": 528.7603759765625,
+      "angle": 0,
+      "height": 2.899169921875
+    },
+    "payload": {
+      "x": 330.37603759765625,
+      "y": 576.495849609375,
+      "angle": 0,
+      "height": 0.412811279296875
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 52,
+    "seconds": 1.7333333333333334,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 398,
+      "y": 525.4938271604938,
+      "angle": 0,
+      "height": 3.160493827160494
+    },
+    "payload": {
+      "x": 330.04938271604937,
+      "y": 577.8024691358024,
+      "angle": 0,
+      "height": 0.31481481481481466
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 53,
+    "seconds": 1.7666666666666666,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 402.66925048828125,
+      "y": 522.6115737726659,
+      "angle": 0,
+      "height": 3.3910740981867282
+    },
+    "payload": {
+      "x": 329.7611573772666,
+      "y": 578.9553704909337,
+      "angle": 0,
+      "height": 0.22834721317997686
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 54,
+    "seconds": 1.8,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 406.615234375,
+      "y": 520.17578125,
+      "angle": 0,
+      "height": 3.5859375
+    },
+    "payload": {
+      "x": 329.517578125,
+      "y": 579.9296875,
+      "angle": 0,
+      "height": 0.1552734375
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 55,
+    "seconds": 1.8333333333333333,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 409.7738647460938,
+      "y": 518.2260094159915,
+      "angle": 0,
+      "height": 3.741919246720681
+    },
+    "payload": {
+      "x": 329.32260094159915,
+      "y": 580.7095962336034,
+      "angle": 0,
+      "height": 0.09678028247974457
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 56,
+    "seconds": 1.8666666666666667,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 412.125,
+      "y": 516.7746913580247,
+      "angle": 0,
+      "height": 3.858024691358024
+    },
+    "payload": {
+      "x": 329.1774691358025,
+      "y": 581.2901234567901,
+      "angle": 0,
+      "height": 0.05324074074074092
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 57,
+    "seconds": 1.9,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 413.69976806640625,
+      "y": 515.8026123046875,
+      "angle": 0,
+      "height": 3.935791015625
+    },
+    "payload": {
+      "x": 329.08026123046875,
+      "y": 581.678955078125,
+      "angle": 0,
+      "height": 0.024078369140625
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 58,
+    "seconds": 1.9333333333333333,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 414.58789062500006,
+      "y": 515.2543885030864,
+      "angle": 0,
+      "height": 3.9796489197530898
+    },
+    "payload": {
+      "x": 329.02543885030866,
+      "y": 581.8982445987655,
+      "angle": 0,
+      "height": 0.007631655092591227
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 59,
+    "seconds": 1.9666666666666666,
+    "phase": "sliding_transfer",
+    "carrier": {
+      "x": 414.94500732421875,
+      "y": 515.0339460961612,
+      "angle": 0,
+      "height": 3.9972843123070976
+    },
+    "payload": {
+      "x": 329.0033946096161,
+      "y": 581.9864215615355,
+      "angle": 0,
+      "height": 0.0010183828848384646
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 60,
+    "seconds": 2,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 415,
+      "y": 515,
+      "angle": 0,
+      "height": 4
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 61,
+    "seconds": 2.033333333333333,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 415.19719645393417,
+      "y": 514.8815071259339,
+      "angle": 0,
+      "height": 4.008762752171672
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 62,
+    "seconds": 2.066666666666667,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 416.4702303933111,
+      "y": 514.1081807972954,
+      "angle": 0,
+      "height": 4.065258831053518
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 63,
+    "seconds": 2.1,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 419.62048382668524,
+      "y": 512.1332200163796,
+      "angle": 0,
+      "height": 4.2045314838156855
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 64,
+    "seconds": 2.1333333333333333,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 425.19120332191744,
+      "y": 508.43494185768486,
+      "angle": 0,
+      "height": 4.449050300836381
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 65,
+    "seconds": 2.1666666666666665,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 433.5041525469368,
+      "y": 502.45649250404057,
+      "angle": 0,
+      "height": 4.810108288678741
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 66,
+    "seconds": 2.2,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 444.6803669633016,
+      "y": 493.62507529775246,
+      "angle": 0,
+      "height": 5.289218943067723
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 67,
+    "seconds": 2.2333333333333334,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 458.6463234345352,
+      "y": 481.4484549445245,
+      "angle": 0,
+      "height": 5.879513321866986
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 68,
+    "seconds": 2.2666666666666666,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 475.1340444828054,
+      "y": 465.65339792754696,
+      "angle": 0,
+      "height": 6.567137118055771
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 69,
+    "seconds": 2.3,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 493.68702080211625,
+      "y": 446.314349835052,
+      "angle": 0,
+      "height": 7.332647732705789
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 70,
+    "seconds": 2.3333333333333335,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 513.6824580798262,
+      "y": 423.9237752616056,
+      "angle": 0,
+      "height": 8.1524113479581
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 71,
+    "seconds": 2.3666666666666667,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 534.375,
+      "y": 399.375,
+      "angle": 0,
+      "height": 9
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 72,
+    "seconds": 2.4,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 554.9597809417132,
+      "y": 373.8563759322497,
+      "angle": 0,
+      "height": 9.8475886520419
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 73,
+    "seconds": 2.433333333333333,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 574.6459696603961,
+      "y": 348.68256432755885,
+      "angle": 0,
+      "height": 10.667352267294213
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 74,
+    "seconds": 2.466666666666667,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 592.7281322468434,
+      "y": 325.1061926392914,
+      "angle": 0,
+      "height": 11.432862881944228
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 75,
+    "seconds": 2.5,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 608.643060999204,
+      "y": 304.1560049591279,
+      "angle": 0,
+      "height": 12.120486678133013
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 76,
+    "seconds": 2.533333333333333,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 622.0041486288252,
+      "y": 286.53556503138947,
+      "angle": 0,
+      "height": 12.710781056932273
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 77,
+    "seconds": 2.566666666666667,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 632.6125685701735,
+      "y": 272.5939975499514,
+      "angle": 0,
+      "height": 13.189891711321259
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 78,
+    "seconds": 2.6,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 640.452125203435,
+      "y": 262.3550148704865,
+      "angle": 0,
+      "height": 13.550949699163624
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 79,
+    "seconds": 2.6333333333333333,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 645.6800384298576,
+      "y": 255.57148029250516,
+      "angle": 0,
+      "height": 13.795468516184316
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 80,
+    "seconds": 2.6666666666666665,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 648.6270190460144,
+      "y": 251.76706415663614,
+      "angle": 0,
+      "height": 13.934741168946475
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 81,
+    "seconds": 2.7,
+    "phase": "empty_retreat",
+    "carrier": {
+      "x": 649.8159361564493,
+      "y": 250.23668636751918,
+      "angle": 0,
+      "height": 13.991237247828321
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 82,
+    "seconds": 2.7333333333333334,
+    "phase": "result",
+    "carrier": {
+      "x": 650,
+      "y": 250,
+      "angle": 0,
+      "height": 14
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 83,
+    "seconds": 2.7666666666666666,
+    "phase": "result",
+    "carrier": {
+      "x": 650,
+      "y": 250,
+      "angle": 0,
+      "height": 14
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 84,
+    "seconds": 2.8,
+    "phase": "result",
+    "carrier": {
+      "x": 650,
+      "y": 250,
+      "angle": 0,
+      "height": 14
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 85,
+    "seconds": 2.8333333333333335,
+    "phase": "result",
+    "carrier": {
+      "x": 650,
+      "y": 250,
+      "angle": 0,
+      "height": 14
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 86,
+    "seconds": 2.8666666666666667,
+    "phase": "result",
+    "carrier": {
+      "x": 650,
+      "y": 250,
+      "angle": 0,
+      "height": 14
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 87,
+    "seconds": 2.9,
+    "phase": "result",
+    "carrier": {
+      "x": 650,
+      "y": 250,
+      "angle": 0,
+      "height": 14
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 88,
+    "seconds": 2.933333333333333,
+    "phase": "result",
+    "carrier": {
+      "x": 650,
+      "y": 250,
+      "angle": 0,
+      "height": 14
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  },
+  {
+    "frame": 89,
+    "seconds": 2.966666666666667,
+    "phase": "result",
+    "carrier": {
+      "x": 650,
+      "y": 250,
+      "angle": 0,
+      "height": 14
+    },
+    "payload": {
+      "x": 329,
+      "y": 582,
+      "angle": 0,
+      "height": 0
+    },
+    "payload_asset": "assets/derived/payload.png",
+    "payload_scale": 0.07258938244853738,
+    "payload_opacity": 1
+  }
+]

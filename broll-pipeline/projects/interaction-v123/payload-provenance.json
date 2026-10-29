@@ -1,0 +1,28 @@
+{
+  "active": "v2",
+  "candidates": [
+    {
+      "id": "v1",
+      "file": "assets/generated/payload-original.png",
+      "generated_original": "/workspace/generated_images/exec-9232a925-7c52-4c36-bd79-a45500bbda17.png",
+      "references": [
+        "V1.2.1 paddle-loaded.png",
+        "V1.2.1 paddle-empty.png",
+        "V1.2.1 rice-A.png"
+      ],
+      "status": "rejected_after_intermediate_review",
+      "reason": "carried rice grains appeared smaller than receiver grains and contact texture seam was visible"
+    },
+    {
+      "id": "v2",
+      "file": "assets/generated/payload-fewer-grains.png",
+      "generated_original": "/workspace/generated_images/exec-5e0927ca-17ab-494a-baee-83fd634758b6.png",
+      "references": [
+        "V1.2.1 rice-A.png",
+        "v1 payload-original.png"
+      ],
+      "status": "private_intermediate_candidate_after_fixed_grain_scale_registration",
+      "intent": "fewer larger plump grains in the same small payload footprint; no plate or tool redraw"
+    }
+  ]
+}

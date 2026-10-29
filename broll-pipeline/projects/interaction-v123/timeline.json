@@ -1,0 +1,64 @@
+{
+  "version": "1.2.3",
+  "scope": "private_interaction_research_only",
+  "frames": 90,
+  "fps": 30,
+  "duration_seconds": 3,
+  "camera": "fixed",
+  "events": [
+    {
+      "range": [
+        0,
+        6
+      ],
+      "phase": "initial",
+      "event": "unchanged receiver, carrier/payload outside frame"
+    },
+    {
+      "range": [
+        6,
+        27
+      ],
+      "phase": "carrying",
+      "event": "one payload rigidly attached to one fixed-shape empty-paddle image"
+    },
+    {
+      "range": [
+        27,
+        36
+      ],
+      "phase": "contact",
+      "event": "paddle nose presses against existing rice; receiver foreground supplies natural occlusion"
+    },
+    {
+      "range": [
+        36,
+        60
+      ],
+      "phase": "sliding_transfer",
+      "event": "same payload continuously moves from carrier-relative pose toward receiver-rest pose; paddle withdraws underneath"
+    },
+    {
+      "range": [
+        60,
+        82
+      ],
+      "phase": "empty_retreat",
+      "event": "payload pose locked on plate; empty paddle retreats"
+    },
+    {
+      "range": [
+        82,
+        90
+      ],
+      "phase": "result",
+      "event": "receiver plus one new distinct rice portion stays visible"
+    }
+  ],
+  "frame_ranges": "[start,end)",
+  "food_src_switches": 0,
+  "food_opacity_transitions": 0,
+  "food_scale_animation": false,
+  "whole_rice_state_replacement": false,
+  "real_filmed_or_measured_event": false
+}

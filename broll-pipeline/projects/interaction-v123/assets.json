@@ -1,0 +1,85 @@
+{
+  "version": "1.2.3",
+  "originals": [
+    {
+      "file": "assets/original/plate-fixed-foods.png",
+      "sha256": "902fb2fe46684ff6f0dc6b3a019e81bdcffec30031856f86f3bec2552b20af47"
+    },
+    {
+      "file": "assets/original/rice-A.png",
+      "sha256": "34f60f4b9ca17e62dcc7d80c0abfff404e93016fb701e175d94e96b4cd3e1279"
+    },
+    {
+      "file": "assets/original/rice-B.png",
+      "sha256": "13b6bab904daa3b2478a3cb0d2b9a83bded266ee7530b629181dad55a05d62d7"
+    },
+    {
+      "file": "assets/original/rice-C.png",
+      "sha256": "8b4c50e1112d29d8c3b3b41162cdbfc655adb8376da2a025836570621d3f3b4f"
+    },
+    {
+      "file": "assets/original/paddle-empty.png",
+      "sha256": "15320690d5fa144bc58f8a24116509e57403c6e5f1a2cdb0063818e6a4ca2cf6"
+    },
+    {
+      "file": "assets/original/paddle-loaded.png",
+      "sha256": "275c3f5c58a56fc5ba00be44850f00f2252e6f7eb319a1bf0e7b67731f4f6ebb"
+    }
+  ],
+  "new_generated_payload": {
+    "file": "assets/generated/payload-fewer-grains.png",
+    "sha256": "c99fc740108f940f4f45cdd2db6cc48cd30b5cdeac166a6b8e286883fbd3f33b",
+    "method": "built-in image_gen.imagegen edits; exact reference chain and rejected revision recorded in payload-provenance.json",
+    "original_saved_path": "/workspace/generated_images/exec-5e0927ca-17ab-494a-baee-83fd634758b6.png",
+    "model_and_seed": "not exposed",
+    "wood_in_payload": "no utensil or wood visible in isolated candidate"
+  },
+  "derived": [
+    {
+      "file": "assets/derived/rice-A.png",
+      "source": "assets/original/rice-A.png",
+      "source_sha256": "34f60f4b9ca17e62dcc7d80c0abfff404e93016fb701e175d94e96b4cd3e1279",
+      "sha256": "fcba985a6785138c085244ac763b07d16e840285ca1d05ee73389ce5f4bffd8b",
+      "dimensions": [
+        672,
+        724
+      ],
+      "high_alpha_alpha_preserved": true,
+      "high_alpha_max_RGBA_delta": 0,
+      "high_alpha_RGBA_exact": true,
+      "cleanup": "same low-alpha-only recipe as V1.2.2, no RGB painting or geometry edit"
+    },
+    {
+      "file": "assets/derived/paddle-empty.png",
+      "source": "assets/original/paddle-empty.png",
+      "source_sha256": "15320690d5fa144bc58f8a24116509e57403c6e5f1a2cdb0063818e6a4ca2cf6",
+      "sha256": "caab80b622f04b4d52967811cc2900e90c76205913c1b354e15019d8e649bbcd",
+      "dimensions": [
+        983,
+        724
+      ],
+      "high_alpha_alpha_preserved": true,
+      "high_alpha_max_RGBA_delta": 0,
+      "high_alpha_RGBA_exact": true,
+      "cleanup": "same low-alpha-only recipe as V1.2.2, no RGB painting or geometry edit"
+    },
+    {
+      "file": "assets/derived/payload.png",
+      "source": "assets/generated/payload-fewer-grains.png",
+      "source_sha256": "c99fc740108f940f4f45cdd2db6cc48cd30b5cdeac166a6b8e286883fbd3f33b",
+      "sha256": "9e14b90769bde3de984111ec891963519e19c59604f9ee963ac63e8c4928281f",
+      "dimensions": [
+        1518,
+        1036
+      ],
+      "high_alpha_alpha_preserved": true,
+      "high_alpha_max_RGBA_delta": 1,
+      "high_alpha_RGBA_exact": false,
+      "cleanup": "same low-alpha-only recipe as V1.2.2, no RGB painting or geometry edit"
+    }
+  ],
+  "old_art_overwritten": false,
+  "old_rice_B_C_used_for_replacement": false,
+  "old_loaded_paddle_used_in_animation": false,
+  "public_use_approved": false
+}

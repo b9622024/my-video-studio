@@ -1,0 +1,73 @@
+{
+  "version": "1.2.3",
+  "method": "nearest-sampled native alpha >=128 projection; contact aid only, not 3D collision/force or art validation",
+  "checks": [
+    {
+      "frame": 18,
+      "payload_visible_pixels": 2134,
+      "payload_carrier_overlap_pixels": 2134,
+      "payload_receiver_overlap_pixels": 0,
+      "carrier_receiver_overlap_pixels": 0,
+      "added_receiver_silhouette_pixels": 2134,
+      "payload_projection_over_carrier_fraction": 1.0
+    },
+    {
+      "frame": 27,
+      "payload_visible_pixels": 2126,
+      "payload_carrier_overlap_pixels": 2126,
+      "payload_receiver_overlap_pixels": 0,
+      "carrier_receiver_overlap_pixels": 1173,
+      "added_receiver_silhouette_pixels": 2126,
+      "payload_projection_over_carrier_fraction": 1.0
+    },
+    {
+      "frame": 36,
+      "payload_visible_pixels": 2126,
+      "payload_carrier_overlap_pixels": 2126,
+      "payload_receiver_overlap_pixels": 114,
+      "carrier_receiver_overlap_pixels": 1719,
+      "added_receiver_silhouette_pixels": 2012,
+      "payload_projection_over_carrier_fraction": 1.0
+    },
+    {
+      "frame": 48,
+      "payload_visible_pixels": 2124,
+      "payload_carrier_overlap_pixels": 854,
+      "payload_receiver_overlap_pixels": 422,
+      "carrier_receiver_overlap_pixels": 0,
+      "added_receiver_silhouette_pixels": 1702,
+      "payload_projection_over_carrier_fraction": 0.4020715630885122
+    },
+    {
+      "frame": 60,
+      "payload_visible_pixels": 2126,
+      "payload_carrier_overlap_pixels": 0,
+      "payload_receiver_overlap_pixels": 835,
+      "carrier_receiver_overlap_pixels": 0,
+      "added_receiver_silhouette_pixels": 1291,
+      "payload_projection_over_carrier_fraction": 0.0
+    },
+    {
+      "frame": 70,
+      "payload_visible_pixels": 2126,
+      "payload_carrier_overlap_pixels": 0,
+      "payload_receiver_overlap_pixels": 835,
+      "carrier_receiver_overlap_pixels": 0,
+      "added_receiver_silhouette_pixels": 1291,
+      "payload_projection_over_carrier_fraction": 0.0
+    },
+    {
+      "frame": 89,
+      "payload_visible_pixels": 2126,
+      "payload_carrier_overlap_pixels": 0,
+      "payload_receiver_overlap_pixels": 835,
+      "carrier_receiver_overlap_pixels": 0,
+      "added_receiver_silhouette_pixels": 1291,
+      "payload_projection_over_carrier_fraction": 0.0
+    }
+  ],
+  "receiver_silhouette_pixels": 11060,
+  "body_assets_constant": true,
+  "single_payload": true,
+  "human_art_approved": false
+}

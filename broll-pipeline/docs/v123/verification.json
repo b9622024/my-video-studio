@@ -1,0 +1,129 @@
+{
+  "version": "1.2.3",
+  "scope": "private_interaction_research_only",
+  "media": {
+    "file": "interaction-540.mp4",
+    "sha256": "569a2e4ce1a803286260adeda1df657f51ef22ea0aeb4514462508a0885df42a",
+    "bytes": 122648,
+    "dimensions": [
+      540,
+      960
+    ],
+    "fps": 30,
+    "frames": 90,
+    "duration_seconds": 3,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "color_space": "bt709",
+    "audio": false,
+    "full_decode_errors": 0
+  },
+  "source_revision": {
+    "config_sha256": "68ddc1960779c729df7cd668b411e0f0676fb44dc1278cacf1061b31a6e29684",
+    "source_sha256": "7e10cec65456df21d0cffb3ed33e704551166a370e7b96c0598ec80c86fc5253",
+    "scope": "private_interaction_research_only",
+    "last_operation": "render"
+  },
+  "matched_intermediate_review": true,
+  "same_carrier_source_all_frames": true,
+  "one_conserved_payload": true,
+  "food_opacity_animation": false,
+  "food_scale_animation": false,
+  "whole_rice_A_B_replacement": false,
+  "final_hold_frames_82_89_identical": true,
+  "fixed_meal_regions_unchanged_between_start_and_result": true,
+  "2d_contact_diagnostics": {
+    "version": "1.2.3",
+    "method": "nearest-sampled native alpha >=128 projection; contact aid only, not 3D collision/force or art validation",
+    "checks": [
+      {
+        "frame": 18,
+        "payload_visible_pixels": 2134,
+        "payload_carrier_overlap_pixels": 2134,
+        "payload_receiver_overlap_pixels": 0,
+        "carrier_receiver_overlap_pixels": 0,
+        "added_receiver_silhouette_pixels": 2134,
+        "payload_projection_over_carrier_fraction": 1.0
+      },
+      {
+        "frame": 27,
+        "payload_visible_pixels": 2126,
+        "payload_carrier_overlap_pixels": 2126,
+        "payload_receiver_overlap_pixels": 0,
+        "carrier_receiver_overlap_pixels": 1173,
+        "added_receiver_silhouette_pixels": 2126,
+        "payload_projection_over_carrier_fraction": 1.0
+      },
+      {
+        "frame": 36,
+        "payload_visible_pixels": 2126,
+        "payload_carrier_overlap_pixels": 2126,
+        "payload_receiver_overlap_pixels": 114,
+        "carrier_receiver_overlap_pixels": 1719,
+        "added_receiver_silhouette_pixels": 2012,
+        "payload_projection_over_carrier_fraction": 1.0
+      },
+      {
+        "frame": 48,
+        "payload_visible_pixels": 2124,
+        "payload_carrier_overlap_pixels": 854,
+        "payload_receiver_overlap_pixels": 422,
+        "carrier_receiver_overlap_pixels": 0,
+        "added_receiver_silhouette_pixels": 1702,
+        "payload_projection_over_carrier_fraction": 0.4020715630885122
+      },
+      {
+        "frame": 60,
+        "payload_visible_pixels": 2126,
+        "payload_carrier_overlap_pixels": 0,
+        "payload_receiver_overlap_pixels": 835,
+        "carrier_receiver_overlap_pixels": 0,
+        "added_receiver_silhouette_pixels": 1291,
+        "payload_projection_over_carrier_fraction": 0.0
+      },
+      {
+        "frame": 70,
+        "payload_visible_pixels": 2126,
+        "payload_carrier_overlap_pixels": 0,
+        "payload_receiver_overlap_pixels": 835,
+        "carrier_receiver_overlap_pixels": 0,
+        "added_receiver_silhouette_pixels": 1291,
+        "payload_projection_over_carrier_fraction": 0.0
+      },
+      {
+        "frame": 89,
+        "payload_visible_pixels": 2126,
+        "payload_carrier_overlap_pixels": 0,
+        "payload_receiver_overlap_pixels": 835,
+        "carrier_receiver_overlap_pixels": 0,
+        "added_receiver_silhouette_pixels": 1291,
+        "payload_projection_over_carrier_fraction": 0.0
+      }
+    ],
+    "receiver_silhouette_pixels": 11060,
+    "body_assets_constant": true,
+    "single_payload": true,
+    "human_art_approved": false
+  },
+  "typecheck": "PASS strict with runtime vector/timing boundary validation",
+  "continuity_unit_tests": "PASS attached load, handoff continuity, stable rest, finite paths and malformed JSON rejection",
+  "new_generated_payloads": 2,
+  "rejected_material_version": "v1",
+  "active_material_version": "v2 at a constant 67px opaque-bounds width",
+  "intermediate_inspection": "actual f18/27/36/48/60/89 samples reviewed before rendering",
+  "encoded_samples": "encoded/ contains actual MP4 action samples for additional visual inspection",
+  "old_V121_art_unchanged": true,
+  "old_V12_M1_M2_media_unchanged": true,
+  "old_V122_AB_media_unchanged": true,
+  "motion_model": "cohesive sticky-rice unit sliding off a single carrier against receiver stop; not granular/soft-body simulation",
+  "remaining_risks": [
+    "grain-level material/lighting join needs human review",
+    "screen-space shadows and layer occlusion are not calibrated 3D force/collision physics",
+    "no spoon pitch or grain redistribution assets are provided"
+  ],
+  "human_art_acceptance": false,
+  "public_use_approved": false,
+  "formal_12s_created": false,
+  "new_external_paid_service_added": false,
+  "voice_or_existing_engines_modified": false
+}
