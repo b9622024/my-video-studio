@@ -1,0 +1,10 @@
+{
+  "strict_typescript": "pass",
+  "original_physics_and_geometry": "preserved per reuse-checks.json",
+  "render_revision_matches": true,
+  "all_four_mp4_decode": "pass",
+  "matched_camera_and_timeline": true,
+  "human_art_approved": false,
+  "real_phone_test_completed": false,
+  "platform_transcode_status": "unknown"
+}

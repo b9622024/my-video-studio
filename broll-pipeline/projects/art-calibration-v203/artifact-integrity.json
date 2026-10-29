@@ -1,0 +1,95 @@
+{
+  "records": [
+    {
+      "file": "A-preview-540.mp4",
+      "size": [
+        540,
+        960
+      ],
+      "duration_s": 4,
+      "frames": 120,
+      "fps": 30,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_space": "bt709",
+      "sample_aspect_ratio": null,
+      "display_aspect_ratio": null,
+      "audio_tracks": 0,
+      "bytes": 336710,
+      "sha256": "ca691145a2c30b914e03f7b842a2f0a716d7dfd1eafdb30a5fcf901ae2144231",
+      "source": "native Remotion vector rasterization",
+      "scale": 1,
+      "decode": "pass"
+    },
+    {
+      "file": "A-master-1080.mp4",
+      "size": [
+        1080,
+        1920
+      ],
+      "duration_s": 4,
+      "frames": 120,
+      "fps": 30,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_space": "bt709",
+      "sample_aspect_ratio": null,
+      "display_aspect_ratio": null,
+      "audio_tracks": 0,
+      "bytes": 691715,
+      "sha256": "c17b5bcddf459aa361979a0b07f78304f93d48a3f6ec73958876fdfb648f47a3",
+      "source": "native Remotion vector rasterization",
+      "scale": 2,
+      "decode": "pass"
+    },
+    {
+      "file": "B-preview-540.mp4",
+      "size": [
+        540,
+        960
+      ],
+      "duration_s": 4,
+      "frames": 120,
+      "fps": 30,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_space": "bt709",
+      "sample_aspect_ratio": null,
+      "display_aspect_ratio": null,
+      "audio_tracks": 0,
+      "bytes": 422552,
+      "sha256": "5939d67c0f624f328677e5fca3a5b6543553bf77892811355c0cc0f2d211675e",
+      "source": "native Remotion vector rasterization",
+      "scale": 1,
+      "decode": "pass"
+    },
+    {
+      "file": "B-master-1080.mp4",
+      "size": [
+        1080,
+        1920
+      ],
+      "duration_s": 4,
+      "frames": 120,
+      "fps": 30,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_space": "bt709",
+      "sample_aspect_ratio": null,
+      "display_aspect_ratio": null,
+      "audio_tracks": 0,
+      "bytes": 923730,
+      "sha256": "b5875af3bf21f32bbe84e361725f577dbae8f8bf735d5d977b7bdd4ef7c7947d",
+      "source": "native Remotion vector rasterization",
+      "scale": 2,
+      "decode": "pass"
+    }
+  ],
+  "platform_transcode": {
+    "observed": false,
+    "status": "unknown",
+    "reason": "platform playback/transcoded binary not accessible; source file hashes do not establish platform behavior"
+  },
+  "master_is_test_not_publicly_approved": true,
+  "previews_are_not_upscaled_masters": true
+}

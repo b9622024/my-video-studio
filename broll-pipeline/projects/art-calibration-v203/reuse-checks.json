@@ -1,0 +1,13 @@
+{
+  "pass": true,
+  "checks": [
+    "original 241 motion samples identical",
+    "original model/config/geometry source unchanged",
+    "same global frame mapping for A and B",
+    "common camera locked after frame45",
+    "no per-version motion gain"
+  ],
+  "model_sha256": "d3521d82201464adf25b0e38ff4d8c9144b09295af6e496565be4efcf39b8531",
+  "config_sha256": "52cd209879859a2bf6f1b4d65b20915fa8d6bb960462573c54aec763dac1401b",
+  "human_art_approved": false
+}

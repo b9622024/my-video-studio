@@ -1,0 +1,62 @@
+{
+  "asset_type": "code-authored layered SVG; no full-frame raster assets",
+  "items": [
+    {
+      "id": "101",
+      "source": "adapters/remotion/v202-motion/SceneObjects.tsx",
+      "component": "Tower",
+      "sha256": "26492ef8743b76042b1cae475632dffe670df6100c8146114d694bc138e38fdf",
+      "use": [
+        "A",
+        "B"
+      ],
+      "modified": false
+    },
+    {
+      "id": "suspension-and-motion",
+      "source": "adapters/remotion/v202-motion/MotionModel.ts",
+      "component": "stateAt / geometryAt",
+      "sha256": "d3521d82201464adf25b0e38ff4d8c9144b09295af6e496565be4efcf39b8531",
+      "use": [
+        "A",
+        "B"
+      ],
+      "modified": false
+    },
+    {
+      "id": "A-room",
+      "source": "adapters/remotion/v203/ArtStudy.tsx",
+      "component": "ArtRoom style A",
+      "sha256": "bc68b5df5f1d391a32afbfb806631e1bbc6f566cc426da54f37a3131ae48f116",
+      "features": [
+        "light wall",
+        "single beam",
+        "dark cables",
+        "quiet facade"
+      ]
+    },
+    {
+      "id": "B-room",
+      "source": "adapters/remotion/v203/ArtStudy.tsx",
+      "component": "ArtRoom style B",
+      "sha256": "bc68b5df5f1d391a32afbfb806631e1bbc6f566cc426da54f37a3131ae48f116",
+      "features": [
+        "parallel side wall",
+        "back wall",
+        "foreground slab",
+        "one controlled cast shadow"
+      ]
+    },
+    {
+      "id": "mass-and-links",
+      "source": "adapters/remotion/v203/ArtStudy.tsx",
+      "component": "ArtRoom / Link",
+      "sha256": "bc68b5df5f1d391a32afbfb806631e1bbc6f566cc426da54f37a3131ae48f116",
+      "geometry": "unchanged original centers, radius, cradle and link endpoints",
+      "style_difference_only": true
+    }
+  ],
+  "external_stock_assets": [],
+  "image_generation_used": false,
+  "paid_services_added": false
+}

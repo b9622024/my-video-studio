@@ -1,0 +1,12 @@
+{
+ "version":"2.0.3","scope":"one controlled art-direction comparison; not full film",
+ "canvas":{"logical_width":540,"logical_height":960,"fps":30,"frames":120},
+ "source_frames":[54,174],
+ "camera":{"start_target":[270,288],"start_scale":1.55,"end_target":[270,306],"end_scale":5.5,"approach_frames":[6,45],"hold_frames":[45,120]},
+ "reveal_frames":[13,42],
+ "styles":{"A":"Refined Technical Illustration","B":"Editorial 2.5D Motion"},
+ "outputs":{"preview":{"scale":1,"size":[540,960]},"master":{"scale":2,"size":[1080,1920],"native_vector_rasterization":true}},
+ "physics":{"reuse":"../narrative-v202-motion/config.json and MotionModel.ts unchanged","time_warp":false,"per_style_gain":false},
+ "approval":{"private_art_test_authorized":true,"human_art_approved":false},
+ "platform_transcode":{"observed":false,"status":"unknown; platform playback copy not accessible"}
+}
