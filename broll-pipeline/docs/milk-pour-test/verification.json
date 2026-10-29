@@ -1,0 +1,54 @@
+{
+  "human_motion_approved": false,
+  "art_baseline_approved_by_user": true,
+  "outputs": [
+    {
+      "file": "milk-pour-test-1080.mp4",
+      "size": [
+        1080,
+        1920
+      ],
+      "frames": 90,
+      "fps": 30,
+      "seconds": "3.000000",
+      "codec": "h264",
+      "sha256": "1aa947f298b36cc1f272caa288118d4292c600d84d9ddf53d809495797b3d64a"
+    },
+    {
+      "file": "milk-pour-test-540.mp4",
+      "size": [
+        540,
+        960
+      ],
+      "frames": 90,
+      "fps": 30,
+      "seconds": "3.000000",
+      "codec": "h264",
+      "sha256": "7ac4726a6adadb208a9efaa0080739392769b75140620cd99c7319769c0e01ca"
+    }
+  ],
+  "art_method": "two AI-edited independent object layers based only on approved illustration; controlled liquid and geometric occlusion composited in Remotion",
+  "not_photoreal_fluid_simulation": true,
+  "upscale_note": "1080 native composition uses raster illustrated object assets, not all-native 1080 source artwork; 540 is Lanczos derivative of final 1080 MP4",
+  "platform_transcoding": "unknown",
+  "assets": [
+    {
+      "file": "glass-empty-original.png",
+      "dimensions": [
+        941,
+        1671
+      ],
+      "mode": "RGBA",
+      "sha256": "543bf6b13e846571b1926fe2cca79608d5827e971fa73f6662a31e985bd3478e"
+    },
+    {
+      "file": "carton-original.png",
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "mode": "RGBA",
+      "sha256": "e262e523ef975abe28ee1c3bea294492da9521a348754a2aee61fd9e093864e0"
+    }
+  ]
+}
