@@ -1,0 +1,126 @@
+{
+  "static_capture": "PASS",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "remotion_invoked": false,
+  "mp4_encoded": 0,
+  "checks": [
+    {
+      "id": "B-01",
+      "text_bounds": [
+        {
+          "class": "brand",
+          "x": 68,
+          "y": 69,
+          "width": 234.453125,
+          "height": 34
+        },
+        {
+          "class": "eyebrow",
+          "x": 68,
+          "y": 1458.625,
+          "width": 944,
+          "height": 39
+        },
+        {
+          "class": "headline",
+          "x": 68,
+          "y": 1524.625,
+          "width": 944,
+          "height": 191.78125
+        },
+        {
+          "class": "note",
+          "x": 68,
+          "y": 1742.40625,
+          "width": 944,
+          "height": 49.59375
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "id": "B-02",
+      "text_bounds": [
+        {
+          "class": "brand",
+          "x": 68,
+          "y": 69,
+          "width": 234.453125,
+          "height": 34
+        },
+        {
+          "class": "headline",
+          "x": 68,
+          "y": 139,
+          "width": 944,
+          "height": 83.5625
+        },
+        {
+          "class": "note",
+          "x": 68,
+          "y": 1735,
+          "width": 372,
+          "height": 49.59375
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "id": "C-01",
+      "text_bounds": [
+        {
+          "class": "brand",
+          "x": 68,
+          "y": 1541,
+          "width": 234.453125,
+          "height": 34
+        },
+        {
+          "class": "headline",
+          "x": 68,
+          "y": 1603,
+          "width": 944,
+          "height": 158.90625
+        },
+        {
+          "class": "note",
+          "x": 68,
+          "y": 1781.90625,
+          "width": 944,
+          "height": 46.390625
+        }
+      ],
+      "overflow": false
+    },
+    {
+      "id": "C-02",
+      "text_bounds": [
+        {
+          "class": "brand",
+          "x": 68,
+          "y": 69,
+          "width": 234.453125,
+          "height": 34
+        },
+        {
+          "class": "headline",
+          "x": 68,
+          "y": 145,
+          "width": 944,
+          "height": 164.375
+        },
+        {
+          "class": "note",
+          "x": 68,
+          "y": 1739,
+          "width": 310,
+          "height": 49.59375
+        }
+      ],
+      "overflow": false
+    }
+  ]
+}

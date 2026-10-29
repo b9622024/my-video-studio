@@ -1,0 +1,9 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {DESIGN_CRITERIA,evaluateDesignGate} from '../src/design-first.mjs';
+const checks=Object.fromEntries(DESIGN_CRITERIA.map(k=>[k,{status:'self_checked_pending_user'}]));
+const review={review_id:'test-revision',designs:[{id:'B-01',scene:'B',checks,required_materials:['B1'],material_status:'reviewable'},{id:'C-01',scene:'C',checks,required_materials:['C1'],material_status:'reviewable'}]};
+const approval={provenance:'user_explicit',static_composition_approved:true,message:'TEST ONLY: static approval',review_id:'test-revision',selected_design_ids:['B-01','C-01']};
+test('no static approval blocks planning and render',()=>assert.equal(evaluateDesignGate(review,null).animation_planning_allowed,false));
+test('old or incomplete review cannot unlock animation',()=>{assert.equal(evaluateDesignGate(review,{...approval,review_id:'old'}).render_allowed,false);assert.equal(evaluateDesignGate(review,{...approval,selected_design_ids:['B-01']}).animation_planning_allowed,false);});
+test('a quality failure or missing source vetoes even a claimed approval',()=>{for(const status of ['quality','source']){const copy=structuredClone(review);if(status==='quality')copy.designs[0].checks.subject_without_text.status='fail';else copy.designs[0].material_status='missing';assert.equal(evaluateDesignGate(copy,approval,['B1','C1']).animation_planning_allowed,false);}});
+test('static selection does not silently approve new B1 C1 material use',()=>{const r=evaluateDesignGate(review,approval,['A1']);assert.equal(r.animation_planning_allowed,true);assert.equal(r.render_allowed,false);assert.match(r.reasons[0],/B1,C1/);});
+test('both independent approvals are required for a future render',()=>assert.equal(evaluateDesignGate(review,approval,['B1','C1']).render_allowed,true));

@@ -1,0 +1,28 @@
+{
+  "version": "1.1.2",
+  "canvas": [
+    1080,
+    1920
+  ],
+  "static_designs": 4,
+  "no_text_designs": 4,
+  "review_id": "fc997c6c5e5a5a2d7060ffc572957500b078a13f447754d20c02fe3cb884d1bd",
+  "remotion_invoked": false,
+  "new_mp4_encoded": 0,
+  "animation_timeline_created": false,
+  "formal_selection_changed": false,
+  "original_approval_and_v11_preview_hashes_unchanged": true,
+  "original_hashes": {
+    "approved-assets.json": "d832eb51e343089daaa4cacf77a9bfab4ecb4e1cb6b907175542b80a3dd5bbce",
+    "asset-manifest.json": "82f5725602af15b727b99e9a19bf0accab62e57cf88645a2653d7127758fdd3e",
+    "edit-timeline.json": "53b737fa22196aaa9c2c7f3e5d89b17db5f70d7f8b8f70cf02826a1460b0c6a0",
+    "scene-plan.json": "287e232d99307692d8e6879facb284b62838ea17a1d8cf53a778d0d5d151954c",
+    "outputs/preview-540.mp4": "4f3f38b2950b1b155ebb12c9f4d67acf406c0f410bad0087bbb0e2195bc3b82e"
+  },
+  "quality_status": "self_checked_and_pending_human_static_design_review",
+  "material_approval_required": [
+    "B1",
+    "C1"
+  ],
+  "new_api_search_requests": 0
+}

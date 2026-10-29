@@ -1,0 +1,199 @@
+{
+  "version": "1.1.2",
+  "project_id": "bento-v112-design",
+  "required_scenes": [
+    "B",
+    "C"
+  ],
+  "artifact_root": "/workspace/outputs/broll-v112-design",
+  "status": "awaiting_human_static_approval",
+  "designs": [
+    {
+      "id": "B-01",
+      "scene": "B",
+      "file": "B-01.jpg",
+      "sha256": "3adc8b759612c90d4ee71f3f3929868ce4db7fb9a6e126e7d50d81bc928d031b",
+      "no_text_sha256": "44aed771d23289b3f9068bb8995dfa82372b69c5008761cd95c8684b2ed24d30",
+      "required_materials": [
+        "B1"
+      ],
+      "material_status": "reviewable",
+      "checks": {
+        "subject_without_text": {
+          "status": "self_checked_pending_user",
+          "evidence": "已查看無文字版本，可辨認真實綠葉菜與烹調工具。"
+        },
+        "subject_prominence": {
+          "status": "self_checked_pending_user",
+          "evidence": "照片構圖區占比約100%；不是食物語意分割測量。"
+        },
+        "no_fake_objects": {
+          "status": "self_checked_pending_user",
+          "evidence": "只使用原始影片影格，沒有合成餐具或食物。"
+        },
+        "no_decoration": {
+          "status": "self_checked_pending_user",
+          "evidence": "沒有弧線、圓點、量表或裝飾框。"
+        },
+        "visual_hierarchy": {
+          "status": "self_checked_pending_user",
+          "evidence": "下方鍋面暗部；避開中央綠葉菜與工具接觸處"
+        },
+        "not_slide_like": {
+          "status": "pending_user",
+          "evidence": "留待使用者判斷；未設計文字輪播或動態。"
+        },
+        "narration_fit": {
+          "status": "self_checked_pending_user",
+          "evidence": "配菜觀察概念。"
+        }
+      },
+      "human_approved": false,
+      "source_limitations": "B1原片有自然動態模糊，須由使用者判斷正式清晰度；不接受時應補拍，不生成食物補畫。"
+    },
+    {
+      "id": "B-02",
+      "scene": "B",
+      "file": "B-02.jpg",
+      "sha256": "1e36e018d30bedae4bc283f7977dd7c53b1e68b91fb48964dd69c789de71e021",
+      "no_text_sha256": "a2660b3aac28fe3c8bfd48721b438fec8466171fb0b28ed02bd8d6bd1cf646f0",
+      "required_materials": [
+        "B1"
+      ],
+      "material_status": "reviewable",
+      "checks": {
+        "subject_without_text": {
+          "status": "self_checked_pending_user",
+          "evidence": "已查看無文字版本，可辨認真實綠葉菜與烹調工具。"
+        },
+        "subject_prominence": {
+          "status": "self_checked_pending_user",
+          "evidence": "照片構圖區占比約71%；不是食物語意分割測量。"
+        },
+        "no_fake_objects": {
+          "status": "self_checked_pending_user",
+          "evidence": "只使用原始影片影格，沒有合成餐具或食物。"
+        },
+        "no_decoration": {
+          "status": "self_checked_pending_user",
+          "evidence": "沒有弧線、圓點、量表或裝飾框。"
+        },
+        "visual_hierarchy": {
+          "status": "self_checked_pending_user",
+          "evidence": "標題在上方紙面，單行說明在下方；照片不疊文字"
+        },
+        "not_slide_like": {
+          "status": "pending_user",
+          "evidence": "留待使用者判斷；未設計文字輪播或動態。"
+        },
+        "narration_fit": {
+          "status": "self_checked_pending_user",
+          "evidence": "配菜觀察概念。"
+        }
+      },
+      "human_approved": false,
+      "source_limitations": "原影片的真實影格；不推定營養量、食用量或人物背書。"
+    },
+    {
+      "id": "C-01",
+      "scene": "C",
+      "file": "C-01.jpg",
+      "sha256": "c3db4143ef6d043a6a7ecae61c836d721cd9478f5702e72e2001f6d01741f963",
+      "no_text_sha256": "119412acb0fb937a4a15d4e9af356b37b7bc11dfb6c1f3cfcb372672388a2262",
+      "required_materials": [
+        "C1"
+      ],
+      "material_status": "reviewable",
+      "checks": {
+        "subject_without_text": {
+          "status": "self_checked_pending_user",
+          "evidence": "已查看無文字版本，可辨認熟白飯與真實餐盤。"
+        },
+        "subject_prominence": {
+          "status": "self_checked_pending_user",
+          "evidence": "照片構圖區占比約79%；不是食物語意分割測量。"
+        },
+        "no_fake_objects": {
+          "status": "self_checked_pending_user",
+          "evidence": "只使用原始影片影格，沒有合成餐具或食物。"
+        },
+        "no_decoration": {
+          "status": "self_checked_pending_user",
+          "evidence": "沒有弧線、圓點、量表或裝飾框。"
+        },
+        "visual_hierarchy": {
+          "status": "self_checked_pending_user",
+          "evidence": "下方米白資訊區；不在白飯中央疊字"
+        },
+        "not_slide_like": {
+          "status": "pending_user",
+          "evidence": "留待使用者判斷；未設計文字輪播或動態。"
+        },
+        "narration_fit": {
+          "status": "self_checked_pending_user",
+          "evidence": "主食與需求概念；未量測、未比較份量。"
+        }
+      },
+      "human_approved": false,
+      "source_limitations": "原影片的真實影格；不推定營養量、食用量或人物背書。"
+    },
+    {
+      "id": "C-02",
+      "scene": "C",
+      "file": "C-02.jpg",
+      "sha256": "ea3ec4ae6bc7ffd5f579b2845a9985eb7f78435d91bccf79476f3bfa32dc46b6",
+      "no_text_sha256": "5e696f309bbaf92dc0430e3638d6ad31b6967b225bc9b32788dc0126e69c2380",
+      "required_materials": [
+        "C1"
+      ],
+      "material_status": "reviewable",
+      "checks": {
+        "subject_without_text": {
+          "status": "self_checked_pending_user",
+          "evidence": "已查看無文字版本，可辨認熟白飯與真實餐盤。"
+        },
+        "subject_prominence": {
+          "status": "self_checked_pending_user",
+          "evidence": "照片構圖區占比約69%；不是食物語意分割測量。"
+        },
+        "no_fake_objects": {
+          "status": "self_checked_pending_user",
+          "evidence": "只使用原始影片影格，沒有合成餐具或食物。"
+        },
+        "no_decoration": {
+          "status": "self_checked_pending_user",
+          "evidence": "沒有弧線、圓點、量表或裝飾框。"
+        },
+        "visual_hierarchy": {
+          "status": "self_checked_pending_user",
+          "evidence": "標題在上方紙面，照片下保留短句；沒有量表與比例圖"
+        },
+        "not_slide_like": {
+          "status": "pending_user",
+          "evidence": "留待使用者判斷；未設計文字輪播或動態。"
+        },
+        "narration_fit": {
+          "status": "self_checked_pending_user",
+          "evidence": "主食與需求概念；未量測、未比較份量。"
+        }
+      },
+      "human_approved": false,
+      "source_limitations": "原影片的真實影格；不推定營養量、食用量或人物背書。"
+    }
+  ],
+  "animation_allowed": false,
+  "render_allowed": false,
+  "rejected_preliminary_frames": [
+    {
+      "source": "B1",
+      "frame_seconds": 18,
+      "reason": "動態模糊，9:16放大後不接受"
+    },
+    {
+      "source": "B1",
+      "frame_seconds": 14,
+      "reason": "初稿攪拌畫面清晰度不足，不納入交付"
+    }
+  ],
+  "review_id": "fc997c6c5e5a5a2d7060ffc572957500b078a13f447754d20c02fe3cb884d1bd"
+}

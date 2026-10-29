@@ -1,0 +1,11 @@
+{
+  "source": "user_explicit",
+  "rejected_visual_tests": [
+    "B2",
+    "C2A",
+    "C2B"
+  ],
+  "version": "1.1.1",
+  "status": "not_adopted",
+  "formal_asset_approval_record_modified": false
+}

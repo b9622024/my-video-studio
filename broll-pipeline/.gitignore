@@ -29,3 +29,7 @@ projects/*/quality-approval.json
 projects/*/preview-artifact.json
 projects/*/final-artifact.json
 projects/*/hybrid-render-input.json
+
+# Static design approval contains the user's review evidence.
+projects/*/design-approval.json
+projects/*/material-approval.json

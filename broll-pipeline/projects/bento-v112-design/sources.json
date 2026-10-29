@@ -1,0 +1,36 @@
+{
+  "sources": [
+    {
+      "option_id": "B1",
+      "status": "review_proposal_only_not_approved",
+      "source_url": "https://pixabay.com/videos/id-11605/",
+      "author": "XiaosKitchen",
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "license_checked_at": "2026-10-28T15:52:05.180Z",
+      "official_media_url": "https://cdn.pixabay.com/video/2017/08/29/11605-231571859_large.mp4",
+      "rendition": "large",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 33337733,
+      "sha256": "0727bd8b30ad07878f2391bd001c77db0a28757462fce7111e95abe433b07346",
+      "http_status": 200
+    },
+    {
+      "option_id": "C1",
+      "status": "review_proposal_only_not_approved",
+      "source_url": "https://pixabay.com/videos/id-11626/",
+      "author": "XiaosKitchen",
+      "license_url": "https://pixabay.com/service/license-summary/",
+      "license_checked_at": "2026-10-28T15:52:05.389Z",
+      "official_media_url": "https://cdn.pixabay.com/video/2017/08/29/11626-231571949_large.mp4",
+      "rendition": "large",
+      "width": 1920,
+      "height": 1080,
+      "bytes": 8806332,
+      "sha256": "57450a706e0d597b9aa02611c69b6a5185ad0fbec5b62768da377f69da9bd3d2",
+      "http_status": 200
+    }
+  ],
+  "new_search_requests": 0,
+  "formal_selection_changed": false
+}
