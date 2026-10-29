@@ -1,0 +1,82 @@
+{
+  "version": "2.0.2-motion-stage2",
+  "duration_frames": 240,
+  "fps": 30,
+  "shots": [
+    {
+      "id": "S01",
+      "start_frame": 0,
+      "end_frame_exclusive": 54,
+      "start_s": 0.0,
+      "end_s": 1.8
+    },
+    {
+      "id": "S02",
+      "start_frame": 54,
+      "end_frame_exclusive": 105,
+      "start_s": 1.8,
+      "end_s": 3.5
+    },
+    {
+      "id": "S03",
+      "start_frame": 105,
+      "end_frame_exclusive": 180,
+      "start_s": 3.5,
+      "end_s": 6.0
+    },
+    {
+      "id": "S04",
+      "start_frame": 180,
+      "end_frame_exclusive": 240,
+      "start_s": 6.0,
+      "end_s": 8.0
+    }
+  ],
+  "camera": {
+    "wide_target": [
+      270,
+      435
+    ],
+    "wide_scale": 0.96,
+    "approach_target": [
+      270,
+      422
+    ],
+    "approach_scale": 1,
+    "detail_target": [
+      270,
+      305
+    ],
+    "detail_scale": 4.4,
+    "prepare_frames": [
+      36,
+      54
+    ],
+    "approach_frames": [
+      54,
+      105
+    ],
+    "hold_frames": [
+      105,
+      180
+    ],
+    "cut_frame": 180,
+    "comparison_centers": [
+      142,
+      398
+    ],
+    "comparison_scale": 0.76,
+    "comparison_base_y": 752
+  },
+  "facade_reveal_frames": [
+    72,
+    101
+  ],
+  "transition_179_to_180": "intentional direct cut; not continuous zoom",
+  "main_camera_hold_frames": [
+    105,
+    180
+  ],
+  "comparison_model_clock": "continue original t, no reset",
+  "human_motion_approved": false
+}

@@ -1,0 +1,135 @@
+{
+  "version": "V2.0.2 second-stage motion test",
+  "media": [
+    {
+      "file": "narrative-8s-540.mp4",
+      "sha256": "c1da6db72b57d782b2b32c9e8daabcb5d2c14b6f0b72b572b0a14c51e22388ad",
+      "frames": 240,
+      "fps": 30,
+      "duration_s": 8,
+      "size": [
+        540,
+        960
+      ],
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_space": "bt709",
+      "audio_tracks": 0,
+      "decode": "pass"
+    },
+    {
+      "file": "narrative-8s-no-labels-540.mp4",
+      "sha256": "9536105318a820852b590953c691dd58e94905f11932cf6e781b6ce39fed8a84",
+      "frames": 240,
+      "fps": 30,
+      "duration_s": 8,
+      "size": [
+        540,
+        960
+      ],
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_space": "bt709",
+      "audio_tracks": 0,
+      "decode": "pass"
+    }
+  ],
+  "checks": {
+    "strict_typescript": "pass",
+    "model_tests": [
+      "finite states",
+      "positive common force and delayed response",
+      "coupled energy identity",
+      "timestep convergence",
+      "nonconstant relative phase",
+      "hanger constraint and chamber clearance",
+      "fixed-body cylinder clearance",
+      "camera boundary continuity and shot03 hold",
+      "same-clock comparison difference with nonzero residual"
+    ],
+    "source_revision_matches_render": true,
+    "decoded_frames": 240,
+    "timestamps_match_30fps": true,
+    "intentional_cut_frame": 180,
+    "source_storyboard_unchanged": [
+      {
+        "file": "adapters/remotion/v202/StoryboardScenes.tsx",
+        "sha256": "d7f52c8c380d773929ab3b562e6cc5f727210012616eead786d42e84b7053a94"
+      },
+      {
+        "file": "projects/narrative-v202/camera-timeline.json",
+        "sha256": "e8ba9bf956332b0d6dc64e1256dc3094767f0a4ec0a2ecfd220f78463cc40491"
+      },
+      {
+        "file": "projects/narrative-v202/keyframes/shot-01.png",
+        "sha256": "a9da4c7052683074bac212ee47fffd7aeb4794cdd6f5a54056a1fad829cca492"
+      },
+      {
+        "file": "projects/narrative-v202/keyframes/shot-02.png",
+        "sha256": "715c5a1cdb4b8a57388a23128cff11bdd808f4da3ff37eff35e9a25fe53e9374"
+      },
+      {
+        "file": "projects/narrative-v202/keyframes/shot-03.png",
+        "sha256": "656cc429ce7a3549fd0fb7a0470577ad1c508e6064b60b627f193040b5526424"
+      },
+      {
+        "file": "projects/narrative-v202/keyframes/shot-04.png",
+        "sha256": "d1c820af4ec67ee62f51cbf598f6743d22b6a777f5565c61e123ed7f69745e32"
+      }
+    ]
+  },
+  "pixel_change_diagnostics": {
+    "joins": [
+      {
+        "frame": 54,
+        "mean_abs_rgb": 0.4962319958847736
+      },
+      {
+        "frame": 105,
+        "mean_abs_rgb": 2.9162551440329216
+      },
+      {
+        "frame": 180,
+        "mean_abs_rgb": 86.70674125514404
+      }
+    ],
+    "largest_changes": [
+      {
+        "frame": 180,
+        "mean_abs_rgb": 86.70674125514404
+      },
+      {
+        "frame": 96,
+        "mean_abs_rgb": 13.42804398148148
+      },
+      {
+        "frame": 93,
+        "mean_abs_rgb": 13.156864068930041
+      },
+      {
+        "frame": 92,
+        "mean_abs_rgb": 13.097295524691356
+      },
+      {
+        "frame": 94,
+        "mean_abs_rgb": 12.941091177983537
+      },
+      {
+        "frame": 95,
+        "mean_abs_rgb": 12.932665252057612
+      },
+      {
+        "frame": 91,
+        "mean_abs_rgb": 12.63514274691358
+      },
+      {
+        "frame": 87,
+        "mean_abs_rgb": 12.507179140946503
+      }
+    ],
+    "meaning": "Pixel difference is a diagnostic, not an aesthetic score or proof of no artifacts"
+  },
+  "human_visual_approved": false,
+  "real_phone_test_completed": false,
+  "review_method": "Actual encoded frame sequence and contact sheets; no independent audience test"
+}

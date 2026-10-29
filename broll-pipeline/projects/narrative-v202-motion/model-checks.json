@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "tests": [
+    "finite states",
+    "positive common force and delayed response",
+    "coupled energy identity",
+    "timestep convergence",
+    "nonconstant relative phase",
+    "hanger constraint and chamber clearance",
+    "fixed-body cylinder clearance",
+    "camera boundary continuity and shot03 hold",
+    "same-clock comparison difference with nonzero residual"
+  ],
+  "human_visual_approved": false
+}

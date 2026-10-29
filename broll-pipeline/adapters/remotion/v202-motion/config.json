@@ -1,0 +1,10 @@
+{
+ "version":"2.0.2-motion-stage2",
+ "canvas":{"width":540,"height":960,"fps":30,"frames":240},
+ "approval":{"storyboard_conditionally_approved_by_user":true,"motion_test_authorized":true,"human_motion_approved":false},
+ "shots":[{"id":"S01","frames":[0,54]},{"id":"S02","frames":[54,105]},{"id":"S03","frames":[105,180]},{"id":"S04","frames":[180,240]}],
+ "camera":{"wide_target":[270,435],"wide_scale":0.96,"approach_target":[270,422],"approach_scale":1,"detail_target":[270,305],"detail_scale":4.4,"prepare_frames":[36,54],"approach_frames":[54,105],"hold_frames":[105,180],"cut_frame":180,"comparison_centers":[142,398],"comparison_scale":0.76,"comparison_base_y":752},
+ "model":{"coordinate_system":"dimensionless illustrative; not measured Taipei101 parameters or real oscillation time","building_mass":1,"mass_ratio":0.08,"normalized_omega":4.4,"structural_damping_ratio":0.018,"absorber_damping_ratio":0.14,"step":0.0016666666666666668,"forcing_start":0.6,"forcing_ramp":0.25,"forcing_mean":0.8,"forcing_harmonic":0.6,"relative_display_limit":14,"anchor_mode_shape":0.4847803301598393},
+ "geometry":{"chamber_y":300,"hanger_length":48,"ball_radius":17,"cradle_attach_y":15.320508075688771,"cylinder_body_length":8.5,"section_reveal_frames":[72,101]},
+ "information":{"concept_notice":"概念示意，非實測・仍有晃動","left":"未設阻尼球","right":"設有阻尼球"}
+}

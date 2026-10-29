@@ -1,0 +1,16 @@
+import fs from 'node:fs/promises';import path from 'node:path';import crypto from 'node:crypto';import{createRequire}from'node:module';
+const mode=process.argv[2]??'--stills';if(!['--stills','--render'].includes(mode)||process.argv.length>3)throw Error('--stills or --render only');
+const host=process.env.REMOTION_HOST??'/workspace/broll-v11/broll-pipeline/.runtime/v11-host',stage=path.resolve('.runtime/v202-motion-stage'),out=process.env.OUTPUT_DIR??'/workspace/outputs/visual-language-v202-motion';
+const cfg=JSON.parse(await fs.readFile('projects/narrative-v202-motion/config.json','utf8'));if(!cfg.approval.motion_test_authorized)throw Error('Motion test not authorized');
+await fs.mkdir(stage+'/src',{recursive:true});await fs.mkdir(out,{recursive:true});try{await fs.symlink(host+'/node_modules',stage+'/node_modules')}catch(e){if(e.code!=='EEXIST')throw e}
+await fs.copyFile('projects/narrative-v202-motion/config.json','adapters/remotion/v202-motion/config.json');
+const files=['MotionModel.ts','SceneObjects.tsx','NarrativeFilm.tsx','config.json'];for(const f of files)await fs.copyFile('adapters/remotion/v202-motion/'+f,stage+'/src/'+f);
+await fs.writeFile(stage+'/tsconfig.json',JSON.stringify({compilerOptions:{target:'ES2020',module:'ESNext',moduleResolution:'Bundler',jsx:'react-jsx',lib:['ES2020','DOM'],strict:true,skipLibCheck:true,esModuleInterop:true,resolveJsonModule:true,noEmit:true},include:['src']}));
+await fs.writeFile(stage+'/src/index.tsx',`import React from'react';import{Composition,registerRoot}from'remotion';import{NarrativeFilm}from'./NarrativeFilm';registerRoot(()=> <>{[true,false].map(labels=><Composition key={String(labels)} id={labels?'Narrative':'Blind'} component={NarrativeFilm} defaultProps={{labels}} width={540} height={960} fps={30} durationInFrames={240}/>)}</>);`);
+const require=createRequire(host+'/package.json'),{bundle}=require('@remotion/bundler'),{openBrowser,selectComposition,renderStill,renderMedia}=require('@remotion/renderer');
+const serveUrl=await bundle({entryPoint:stage+'/src/index.tsx'}),browser=await openBrowser('chrome',{browserExecutable:'/usr/bin/chromium'});
+try{const common={serveUrl,puppeteerInstance:browser,browserExecutable:'/usr/bin/chromium',logLevel:'error'},composition=await selectComposition({...common,id:'Narrative'});
+for(const frame of [0,9,18,36,53,54,72,85,100,104,105,120,135,150,165,178,179,180,181,195,210,225,239])await renderStill({...common,composition,frame,output:path.join(out,`frame-${frame}.png`)});
+if(mode==='--render')for(const labels of [true,false]){const comp=await selectComposition({...common,id:labels?'Narrative':'Blind'});await renderMedia({...common,composition:comp,codec:'h264',pixelFormat:'yuv420p',colorSpace:'bt709',crf:18,concurrency:2,imageFormat:'png',outputLocation:path.join(out,labels?'narrative-8s-540.mp4':'narrative-8s-no-labels-540.mp4')});}
+}finally{await browser.close({silent:true})}
+const sha=b=>crypto.createHash('sha256').update(b).digest('hex');await fs.writeFile(out+'/render-receipt.json',JSON.stringify({mode,source_sha256:sha(Buffer.concat(await Promise.all(files.map(f=>fs.readFile('adapters/remotion/v202-motion/'+f))))),width:540,height:960,fps:30,frames:240,human_approved:false},null,2));console.log(mode==='--render'?'Two complete 8-second test variants rendered.':'Intermediate motion frames rendered.');
