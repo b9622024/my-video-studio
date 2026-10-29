@@ -1,0 +1,21 @@
+{
+  "verified_at": "2026-10-29T14:03:11.645Z",
+  "technical_pass": true,
+  "typescript": true,
+  "full_decode": true,
+  "liquid_monotonic": true,
+  "stream_drained": true,
+  "frame_count": "450",
+  "width": 540,
+  "height": 960,
+  "fps": "30/1",
+  "duration": "15.000000",
+  "codec": "h264",
+  "audio": false,
+  "sha256": "3b00498fb7f760ff8d40736fbc069eda87083716214196ec4c72599f1a1ce88a",
+  "human_approved": false,
+  "physical_phone_test": false,
+  "second_topic_rendered": false,
+  "platform_transcoding": "unknown",
+  "visual_self_review": "docs/v22/PRODUCTION.md"
+}

@@ -1,0 +1,37 @@
+{
+  "version": "2.2",
+  "product": "全脂",
+  "comparison_labels": [
+    "全脂牛奶",
+    "低脂牛奶"
+  ],
+  "opening": [
+    "減脂不能喝",
+    "全脂牛奶？"
+  ],
+  "comparison_title": "選擇，放回需求裡看。",
+  "conclusion": "全脂牛奶，也可以納入。",
+  "pour": {
+    "initial_surface_y": 648,
+    "final_surface_y": 525,
+    "pour_angle": -48
+  },
+  "timing": {
+    "setup": [
+      0,
+      1
+    ],
+    "tilt": [
+      90,
+      106
+    ],
+    "flow": [
+      109,
+      153
+    ],
+    "settle": [
+      153,
+      174
+    ]
+  }
+}
