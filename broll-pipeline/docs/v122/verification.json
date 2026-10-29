@@ -1,0 +1,184 @@
+{
+  "version": "1.2.2",
+  "scope": "private_comparison_research_only",
+  "media": [
+    {
+      "file": "A-540.mp4",
+      "sha256": "95af0d7aa27a0bd053ba54d84082d108de5e82420e34a0a4edf97848f3ae00b9",
+      "bytes": 113380,
+      "dimensions": [
+        540,
+        960
+      ],
+      "fps": 30,
+      "frames": 120,
+      "duration_seconds": 4,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_space": "bt709",
+      "audio": false,
+      "full_decode_errors": 0
+    },
+    {
+      "file": "B-540.mp4",
+      "sha256": "b3ae0973e0912e4227285675bfcabe127f4b7646096a57bcae8b2695923e9fc0",
+      "bytes": 968179,
+      "dimensions": [
+        540,
+        960
+      ],
+      "fps": 30,
+      "frames": 120,
+      "duration_seconds": 4,
+      "codec": "h264",
+      "pixel_format": "yuv420p",
+      "color_space": "bt709",
+      "audio": false,
+      "full_decode_errors": 0
+    }
+  ],
+  "source_originals_verified": [
+    {
+      "file": "assets/original/plate-fixed-foods.png",
+      "sha256": "902fb2fe46684ff6f0dc6b3a019e81bdcffec30031856f86f3bec2552b20af47"
+    },
+    {
+      "file": "assets/original/rice-A.png",
+      "sha256": "34f60f4b9ca17e62dcc7d80c0abfff404e93016fb701e175d94e96b4cd3e1279"
+    },
+    {
+      "file": "assets/original/rice-B.png",
+      "sha256": "13b6bab904daa3b2478a3cb0d2b9a83bded266ee7530b629181dad55a05d62d7"
+    },
+    {
+      "file": "assets/original/rice-C.png",
+      "sha256": "8b4c50e1112d29d8c3b3b41162cdbfc655adb8376da2a025836570621d3f3b4f"
+    }
+  ],
+  "derived_alpha_checks": [
+    {
+      "asset": "rice-A.png",
+      "original_sha256": "34f60f4b9ca17e62dcc7d80c0abfff404e93016fb701e175d94e96b4cd3e1279",
+      "derived_sha256": "fcba985a6785138c085244ac763b07d16e840285ca1d05ee73389ce5f4bffd8b",
+      "dimensions": [
+        672,
+        724
+      ],
+      "opaque_pixel_count": 133346,
+      "opaque_pixels_exactly_preserved": true,
+      "alpha_mass_retained": 0.990351579101536,
+      "method": "only alpha<.3 modified; alpha<=.1 suppressed, .2 maps to .18; no RGB operation; original alpha>=240 RGBA exactly preserved"
+    },
+    {
+      "asset": "rice-B.png",
+      "original_sha256": "13b6bab904daa3b2478a3cb0d2b9a83bded266ee7530b629181dad55a05d62d7",
+      "derived_sha256": "8825dcc38343a4220e8666b826bf85d3aae2bf79e3c341e164d3b07444e01ca1",
+      "dimensions": [
+        728,
+        724
+      ],
+      "opaque_pixel_count": 184070,
+      "opaque_pixels_exactly_preserved": true,
+      "alpha_mass_retained": 0.9916376462006091,
+      "method": "only alpha<.3 modified; alpha<=.1 suppressed, .2 maps to .18; no RGB operation; original alpha>=240 RGBA exactly preserved"
+    },
+    {
+      "asset": "rice-C.png",
+      "original_sha256": "8b4c50e1112d29d8c3b3b41162cdbfc655adb8376da2a025836570621d3f3b4f",
+      "derived_sha256": "c1dfa84246e0524f8b66bc5f971d59eca856650a642e6a4d46db97a893c9b094",
+      "dimensions": [
+        772,
+        724
+      ],
+      "opaque_pixel_count": 261860,
+      "opaque_pixels_exactly_preserved": true,
+      "alpha_mass_retained": 0.9929688946423922,
+      "method": "only alpha<.3 modified; alpha<=.1 suppressed, .2 maps to .18; no RGB operation; original alpha>=240 RGBA exactly preserved"
+    }
+  ],
+  "render_hold_frames_exactly_identical": {
+    "A": [
+      [
+        0,
+        20,
+        39
+      ],
+      [
+        40,
+        60,
+        79
+      ],
+      [
+        80,
+        100,
+        119
+      ]
+    ],
+    "B": [
+      [
+        0,
+        10,
+        18
+      ],
+      [
+        39,
+        45,
+        54
+      ],
+      [
+        75,
+        80,
+        88
+      ],
+      [
+        103,
+        110,
+        119
+      ]
+    ]
+  },
+  "A_fixed_regions_unchanged_outside_rice_roi": [
+    150,
+    470,
+    410,
+    710
+  ],
+  "A_transition_frames": [
+    40,
+    80
+  ],
+  "A_blend_frames": 0,
+  "A_equal_state_exposure_frames": [
+    40,
+    40,
+    40
+  ],
+  "B_fixed_object_size": 540,
+  "B_camera_model": "one orthographic 2.5D world transform, no individual object animation",
+  "B_focus_screen_plate_size": 453.59999999999997,
+  "B_overview_screen_plate_size": 232.2,
+  "B_partial_plate_labels_hidden": true,
+  "nonsequential_frame_determinism": "PASS both variants",
+  "typecheck": "PASS strict existing runtime",
+  "react_review": "frame hooks unconditional; no random/timer/effect; stable state-id keys; data-driven assets and positions; no legacy components changed",
+  "actual_encoded_frames_inspected": "A f39/40/79/80 and B f28/65 sampled visually; no obvious double contours in cut samples; playback comfort still needs human review",
+  "B_concept_footer_safe_zone": true,
+  "legacy_V121_art_hashes_unchanged": true,
+  "legacy_V12_media_hashes_unchanged": true,
+  "no_new_art_generation": true,
+  "spoon_or_physical_serving_animation": false,
+  "full_12s_created": false,
+  "paid_service_or_gpu_added": false,
+  "visual_self_review": {
+    "A": "comparison readable, fixed meal and explicit state cuts; private candidate, not public approval",
+    "B": "shared-table relation visible, but 4-second camera pacing and final detail size remain human-review risks; not recommended as a publication master"
+  },
+  "human_art_quality_pass": false,
+  "public_use_approved": false,
+  "remaining_risks": [
+    "native baked rice lighting cannot be fully reconstructed by alpha cleanup",
+    "2.5D drop shadows are not calibrated physical lighting",
+    "B movement resampling/grain shimmer and playback comfort need human inspection",
+    "A match cuts are intentional discontinuous comparisons, never evidence of actual serving"
+  ]
+}

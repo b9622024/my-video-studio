@@ -1,0 +1,319 @@
+{
+  "version": "1.2.2",
+  "scope": "private_comparison_research_only",
+  "fps": 30,
+  "frames": 120,
+  "duration_seconds": 4,
+  "frame_range_convention": "[start,end) for state/label ranges; camera keys are exact frame points",
+  "concept_label": {
+    "text": "概念示意",
+    "frame_range": [
+      0,
+      120
+    ]
+  },
+  "physical_rice_addition": false,
+  "A": {
+    "start_state": "A",
+    "end_state": "C",
+    "events": [
+      {
+        "state": "A",
+        "label": "較少",
+        "start_frame": 0,
+        "end_frame_exclusive": 40,
+        "start_seconds": 0,
+        "end_seconds": 1.3333333333333333,
+        "one_rice_asset_only": true,
+        "transition": "initial",
+        "camera": "fixed",
+        "plate_center": [
+          270,
+          450
+        ],
+        "plate_size": 540,
+        "label_visible_for_whole_interval": true
+      },
+      {
+        "state": "B",
+        "label": "中間",
+        "start_frame": 40,
+        "end_frame_exclusive": 80,
+        "start_seconds": 1.3333333333333333,
+        "end_seconds": 2.6666666666666665,
+        "one_rice_asset_only": true,
+        "transition": "match_cut",
+        "camera": "fixed",
+        "plate_center": [
+          270,
+          450
+        ],
+        "plate_size": 540,
+        "label_visible_for_whole_interval": true
+      },
+      {
+        "state": "C",
+        "label": "較多",
+        "start_frame": 80,
+        "end_frame_exclusive": 120,
+        "start_seconds": 2.6666666666666665,
+        "end_seconds": 4,
+        "one_rice_asset_only": true,
+        "transition": "match_cut",
+        "camera": "fixed",
+        "plate_center": [
+          270,
+          450
+        ],
+        "plate_size": 540,
+        "label_visible_for_whole_interval": true
+      }
+    ],
+    "camera_constant": true,
+    "blend_frames": 0
+  },
+  "B": {
+    "start_camera": {
+      "frame": 0,
+      "x": 0,
+      "y": 0,
+      "zoom": 0.84
+    },
+    "end_camera": {
+      "frame": 119,
+      "x": 290,
+      "y": 315,
+      "zoom": 0.43
+    },
+    "objects_fixed": [
+      {
+        "stateId": "A",
+        "center": [
+          0,
+          0
+        ],
+        "size": 540,
+        "orientation_degrees": 0
+      },
+      {
+        "stateId": "B",
+        "center": [
+          580,
+          100
+        ],
+        "size": 540,
+        "orientation_degrees": 0
+      },
+      {
+        "stateId": "C",
+        "center": [
+          290,
+          630
+        ],
+        "size": 540,
+        "orientation_degrees": 0
+      }
+    ],
+    "camera_keys": [
+      {
+        "frame": 0,
+        "x": 0,
+        "y": 0,
+        "zoom": 0.84
+      },
+      {
+        "frame": 18,
+        "x": 0,
+        "y": 0,
+        "zoom": 0.84
+      },
+      {
+        "frame": 39,
+        "x": 580,
+        "y": 100,
+        "zoom": 0.84
+      },
+      {
+        "frame": 54,
+        "x": 580,
+        "y": 100,
+        "zoom": 0.84
+      },
+      {
+        "frame": 75,
+        "x": 290,
+        "y": 630,
+        "zoom": 0.84
+      },
+      {
+        "frame": 88,
+        "x": 290,
+        "y": 630,
+        "zoom": 0.84
+      },
+      {
+        "frame": 103,
+        "x": 290,
+        "y": 315,
+        "zoom": 0.43
+      },
+      {
+        "frame": 119,
+        "x": 290,
+        "y": 315,
+        "zoom": 0.43
+      }
+    ],
+    "motion_segments": [
+      {
+        "start_frame": 0,
+        "end_frame": 18,
+        "start_seconds": 0,
+        "end_seconds": 0.6,
+        "kind": "hold",
+        "from": {
+          "x": 0,
+          "y": 0,
+          "zoom": 0.84
+        },
+        "to": {
+          "x": 0,
+          "y": 0,
+          "zoom": 0.84
+        }
+      },
+      {
+        "start_frame": 18,
+        "end_frame": 39,
+        "start_seconds": 0.6,
+        "end_seconds": 1.3,
+        "kind": "camera_move",
+        "from": {
+          "x": 0,
+          "y": 0,
+          "zoom": 0.84
+        },
+        "to": {
+          "x": 580,
+          "y": 100,
+          "zoom": 0.84
+        }
+      },
+      {
+        "start_frame": 39,
+        "end_frame": 54,
+        "start_seconds": 1.3,
+        "end_seconds": 1.8,
+        "kind": "hold",
+        "from": {
+          "x": 580,
+          "y": 100,
+          "zoom": 0.84
+        },
+        "to": {
+          "x": 580,
+          "y": 100,
+          "zoom": 0.84
+        }
+      },
+      {
+        "start_frame": 54,
+        "end_frame": 75,
+        "start_seconds": 1.8,
+        "end_seconds": 2.5,
+        "kind": "camera_move",
+        "from": {
+          "x": 580,
+          "y": 100,
+          "zoom": 0.84
+        },
+        "to": {
+          "x": 290,
+          "y": 630,
+          "zoom": 0.84
+        }
+      },
+      {
+        "start_frame": 75,
+        "end_frame": 88,
+        "start_seconds": 2.5,
+        "end_seconds": 2.933333333333333,
+        "kind": "hold",
+        "from": {
+          "x": 290,
+          "y": 630,
+          "zoom": 0.84
+        },
+        "to": {
+          "x": 290,
+          "y": 630,
+          "zoom": 0.84
+        }
+      },
+      {
+        "start_frame": 88,
+        "end_frame": 103,
+        "start_seconds": 2.933333333333333,
+        "end_seconds": 3.433333333333333,
+        "kind": "camera_move",
+        "from": {
+          "x": 290,
+          "y": 630,
+          "zoom": 0.84
+        },
+        "to": {
+          "x": 290,
+          "y": 315,
+          "zoom": 0.43
+        }
+      },
+      {
+        "start_frame": 103,
+        "end_frame": 119,
+        "start_seconds": 3.433333333333333,
+        "end_seconds": 3.966666666666667,
+        "kind": "hold",
+        "from": {
+          "x": 290,
+          "y": 315,
+          "zoom": 0.43
+        },
+        "to": {
+          "x": 290,
+          "y": 315,
+          "zoom": 0.43
+        }
+      }
+    ],
+    "label_visibility_frames": {
+      "A": [
+        [
+          0,
+          23
+        ],
+        [
+          100,
+          120
+        ]
+      ],
+      "B": [
+        [
+          35,
+          60
+        ],
+        [
+          100,
+          120
+        ]
+      ],
+      "C": [
+        [
+          70,
+          120
+        ]
+      ]
+    },
+    "end_frame": "three equal-size complete plates, no preferred or correct state",
+    "camera_model": "orthographic 2.5D, single world transform; no 3D mesh or physical serving claim"
+  }
+}

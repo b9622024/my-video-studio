@@ -1,0 +1,18 @@
+{
+  "version": "1.2.2",
+  "provenance": "user_explicit",
+  "scope": "private_comparison_research_only",
+  "authorized_inputs": [
+    "plate-fixed-foods.png",
+    "rice-A.png",
+    "rice-B.png",
+    "rice-C.png"
+  ],
+  "authorized_outputs": [
+    "A: 4 seconds, 540x960, 30fps",
+    "B: 4 seconds, 540x960, 30fps"
+  ],
+  "public_use_approved": false,
+  "spoon_serving_animation_authorized": false,
+  "original_art_approval_records_changed": false
+}

@@ -1,0 +1,144 @@
+{
+  "version": "1.2.2",
+  "scope": "private_comparison_research_only",
+  "fps": 30,
+  "frames": 120,
+  "width": 540,
+  "height": 960,
+  "baseAsset": "assets/original/plate-fixed-foods.png",
+  "states": [
+    {
+      "id": "A",
+      "label": "較少",
+      "asset": "assets/clean/rice-A.png",
+      "originalAsset": "assets/original/rice-A.png",
+      "rect": [
+        319.56,
+        575.0,
+        349.44,
+        376.48
+      ]
+    },
+    {
+      "id": "B",
+      "label": "中間",
+      "asset": "assets/clean/rice-B.png",
+      "originalAsset": "assets/original/rice-B.png",
+      "rect": [
+        311.24,
+        572.4,
+        378.56,
+        376.48
+      ]
+    },
+    {
+      "id": "C",
+      "label": "較多",
+      "asset": "assets/clean/rice-C.png",
+      "originalAsset": "assets/original/rice-C.png",
+      "rect": [
+        312.02,
+        560.44,
+        401.44,
+        376.48
+      ]
+    }
+  ],
+  "style": {
+    "paper": "#f3efe5",
+    "ink": "#1c3442",
+    "plateShadow": "drop-shadow(1px 3px 2px rgba(61,48,29,.14)) drop-shadow(4px 10px 13px rgba(61,48,29,.09))",
+    "riceShadow": "drop-shadow(1px 2px 2px rgba(76,60,40,.10))"
+  },
+  "matchCut": {
+    "stateFrames": 40,
+    "plateCenter": [
+      270,
+      450
+    ],
+    "plateSize": 540,
+    "labelY": 104
+  },
+  "table": {
+    "plateSize": 540,
+    "objects": [
+      {
+        "stateId": "A",
+        "center": [
+          0,
+          0
+        ]
+      },
+      {
+        "stateId": "B",
+        "center": [
+          580,
+          100
+        ]
+      },
+      {
+        "stateId": "C",
+        "center": [
+          290,
+          630
+        ]
+      }
+    ],
+    "screenCenter": [
+      270,
+      425
+    ],
+    "cameraKeys": [
+      {
+        "frame": 0,
+        "x": 0,
+        "y": 0,
+        "zoom": 0.84
+      },
+      {
+        "frame": 18,
+        "x": 0,
+        "y": 0,
+        "zoom": 0.84
+      },
+      {
+        "frame": 39,
+        "x": 580,
+        "y": 100,
+        "zoom": 0.84
+      },
+      {
+        "frame": 54,
+        "x": 580,
+        "y": 100,
+        "zoom": 0.84
+      },
+      {
+        "frame": 75,
+        "x": 290,
+        "y": 630,
+        "zoom": 0.84
+      },
+      {
+        "frame": 88,
+        "x": 290,
+        "y": 630,
+        "zoom": 0.84
+      },
+      {
+        "frame": 103,
+        "x": 290,
+        "y": 315,
+        "zoom": 0.43
+      },
+      {
+        "frame": 119,
+        "x": 290,
+        "y": 315,
+        "zoom": 0.43
+      }
+    ]
+  },
+  "publication_approved": false,
+  "full_12s_created": false
+}
