@@ -1,0 +1,90 @@
+{
+  "stage": "static_diagnostic_only",
+  "human_approved": false,
+  "world": [
+    941,
+    1672
+  ],
+  "scale_unchanged": 0.73,
+  "outlet_local": [
+    205,
+    748
+  ],
+  "grip_local": [
+    760,
+    530
+  ],
+  "poses": {
+    "A": {
+      "angle_degrees": 15,
+      "grip_world": [
+        909.38,
+        227.76
+      ],
+      "outlet_world": [
+        476.8466886413689,
+        276.61689987235604
+      ],
+      "body_reference_world": [
+        1334.8511485289437,
+        303.97707006610466
+      ],
+      "aperture_entry_world": [
+        400,
+        700
+      ]
+    },
+    "B": {
+      "angle_degrees": 0,
+      "grip_world": [
+        909.38,
+        227.76
+      ],
+      "outlet_world": [
+        504.23,
+        386.9
+      ],
+      "body_reference_world": [
+        1340.08,
+        191.26
+      ],
+      "aperture_entry_world": [
+        400,
+        700
+      ]
+    },
+    "C": {
+      "angle_degrees": 15,
+      "grip_world": [
+        909.38,
+        227.76
+      ],
+      "outlet_world": [
+        476.8466886413689,
+        276.61689987235604
+      ],
+      "body_reference_world": [
+        1334.8511485289437,
+        303.97707006610466
+      ],
+      "aperture_entry_world": [
+        400,
+        700
+      ]
+    }
+  },
+  "glass_cavity_fit": "single visual contour fit; not a verified authored layer mask",
+  "glass_inner_floor_native": {
+    "center": [
+      470,
+      1290
+    ],
+    "radius": [
+      275,
+      85
+    ]
+  },
+  "maximum_cavity_y": 1375,
+  "prior_cavity_bottom_y": 1465,
+  "new_mp4": false
+}

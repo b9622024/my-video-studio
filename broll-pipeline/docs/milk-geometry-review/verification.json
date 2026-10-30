@@ -1,0 +1,29 @@
+{
+  "stage": "static_review_only",
+  "geometry_numeric_checks": true,
+  "typescript": true,
+  "source_assets_unchanged": true,
+  "grip_distance_max_error": 1.1368683772161603e-13,
+  "outlet_drop_world_px": 110.28310012764393,
+  "mouth_entry_ellipse_value": 0.023523564057923368,
+  "glass_inner_floor_front_y": 1375,
+  "source_world": {
+    "start": [
+      476.8466886413689,
+      276.61689987235604
+    ],
+    "maximum_pour": [
+      504.23,
+      386.9
+    ],
+    "returned": [
+      476.8466886413689,
+      276.61689987235604
+    ]
+  },
+  "human_static_approved": false,
+  "glass_compositing_gate": "not_passed; flattened front/back/reflection layers remain ambiguous",
+  "full_video_rendered": false,
+  "new_image_generation": false,
+  "mask_fit_iterations": 1
+}
